@@ -167,4 +167,10 @@
 	"piece_woodgate_crystal_desc": "Wooden doors with crystal window"
 	"rae_hidden_door": "Hidden hatch"
 	"rae_hidden_door_desc": "Wooden hidden hatch"
+	"rae_bird_house": "Bird House"
+	"rae_bird_house_desc": "This bird house will give you some feathers"
+	"piece_rae_bird_name": "Bird House"
+	"piece_rae_bird_add": "Give worms"
+	"piece_rae_bird_empty": "Birds are hungry"
+	
 }
