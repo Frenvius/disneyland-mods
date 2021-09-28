@@ -1,0 +1,11 @@
+{
+  "item_cape_ironbackpack": "Rugged Backpack",
+  "item_cape_ironbackpack_description": "A Rugged backpack, complete with buckles and fine leather straps.",
+  "se_ruggedbackpackeffects_start": "Backpack equipped",
+  
+  "item_cape_silverbackpack": "Arctic Backpack",
+  "item_cape_silverbackpack_description": "An Arctic backpack, fit for long treks through the mountains.",
+  "se_arcticbackpackeffects_start": "Backpack equipped",
+  
+  "ui_backpack_inventoryname": "Backpack"
+}
