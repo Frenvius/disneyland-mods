@@ -1,0 +1,148 @@
+{
+   "sOriginalPrefabName" : "BlackSpider",
+   "sNewPrefabName" : "SmallBlackSpider_DoD",
+   "Category_Appearance" : {
+      "vScale" : {
+         "fX" : 1,
+         "fY" : 1,
+         "fZ" : 1
+      },
+      "cTintColor" : null,
+      "cTintItems" : null,
+      "cBodySmoke" : null,
+      "cBodyFlames" : null
+   },
+   "Category_Character" : {
+      "sName" : "Baby Black Spider",
+      "sFaction" : "PlainsMonsters",
+      "bBoss" : false,
+      "sBossEvent" : "",
+      "sDefeatSetGlobalKey" : "",
+      "fMoveSpeedMulti" : 1.1,
+      "bToleratesWater" : true,
+      "bToleratesFire" : false,
+      "bToleratesSmoke" : true,
+      "fHealth" : 100,
+      "dDamageTaken" : {
+         "m_blunt" : "Resistant",
+         "m_slash" : "Resistant",
+         "m_pierce" : "Resistant",
+         "m_chop" : "Ignore",
+         "m_pickaxe" : "Ignore",
+         "m_fire" : "Weak",
+         "m_frost" : "Weak",
+         "m_lightning" : "Weak",
+         "m_poison" : "Immune",
+         "m_spirit" : "Weak"
+      }
+   },
+   "Category_Humanoid" : {
+      "dtAttackDamageOverride" : null,
+      "fAttackDamageTotalOverride" : 75,
+      "sAttackProjectileOverride" : null,
+      "aDefaultItems" : [
+         "spider_attack"
+      ],
+      "aRandomWeapon" : [
+         
+      ],
+      "aRandomArmor" : [
+         
+      ],
+      "aRandomShield" : [
+         
+      ],
+      "aaRandomSets" : [
+         
+      ]
+   },
+   "Category_BaseAI" : {
+      "fViewRange" : 30,
+      "fViewAngle" : 90,
+      "fHearRange" : 9999,
+      "sPathAgentType" : "HumanoidNoSwim",
+      "fRandomCircleInterval" : 2,
+      "fRandomMoveInterval" : 10,
+      "fRandomMoveRange" : 5,
+      "bAvoidFire" : true,
+      "bAfraidOfFire" : true,
+      "bAvoidWater" : true,
+      "sSpawnMessage" : "",
+      "sDeathMessage" : ""
+   },
+   "Category_MonsterAI" : {
+      "fAlertRange" : 30,
+      "bFleeIfHurtWhenTargetCantBeReached" : true,
+      "bFleeIfNotAlerted" : false,
+      "fFleeIfLowHealth" : 0,
+      "bCirculateWhileCharging" : false,
+      "bCirculateWhileChargingFlying" : false,
+      "bEnableHuntPlayer" : false,
+      "bAttackPlayerObjects" : true,
+      "bAttackPlayerObjectsWhenAlerted" : true,
+      "fInterceptTimeMax" : 2,
+      "fInterceptTimeMin" : 0,
+      "fMaxChaseDistance" : 0,
+      "fMinAttackInterval" : 0,
+      "fCircleTargetInterval" : 0,
+      "fCircleTargetDuration" : 2,
+      "fCircleTargetDistance" : 4,
+      "aConsumeItems" : [
+         
+      ],
+      "fConsumeRange" : 2,
+      "fConsumeSearchRange" : 5,
+      "fConsumeSearchInterval" : 10,
+      "fConsumeHeal" : 0
+   },
+   "Category_CharacterDrop" : {
+      "bReplaceOriginalDrops" : true,
+      "drDrops" : [
+         {
+            "sPrefabName" : "SpiderChitin_DoD",
+            "iAmountMin" : 1,
+            "iAmountMax" : 1,
+            "fChance" : 0.33,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : false
+         },
+         {
+            "sPrefabName" : "AmberPearl",
+            "iAmountMin" : 1,
+            "iAmountMax" : 1,
+            "fChance" : 0.05,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : true
+         },
+         {
+            "sPrefabName" : "Ooze",
+            "iAmountMin" : 1,
+            "iAmountMax" : 2,
+            "fChance" : 1,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : false
+         },
+         {
+            "sPrefabName" : "Guck",
+            "iAmountMin" : 1,
+            "iAmountMax" : 1,
+            "fChance" : 0.05,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : false
+         }
+      ]
+   },
+   "Category_Special" : {
+      "bCanTame" : false,
+      "bAlwaysTame" : false,
+      "bCommandableWhenTame" : false,
+      "bCanProcreateWhenTame" : false,
+      "bFxNoTame" : false,
+      "bSfxNoAlert" : false,
+      "bSfxNoIdle" : false,
+      "bSfxNoHit" : false,
+      "bSfxNoDeath" : false
+   },
+   "Category_NpcOnly" : null,
+   "sConfigFormatVersion" : "0.2.0"
+}

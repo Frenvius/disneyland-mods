@@ -1,0 +1,188 @@
+{
+   "sOriginalPrefabName" : "Troll",
+   "sNewPrefabName" : "Troll_DoD",
+   "Category_Appearance" : {
+      "vScale" : {
+         "fX" : 1,
+         "fY" : 1,
+         "fZ" : 1
+      },
+      "cTintColor" : null,
+      "cTintItems" : null,
+      "cBodySmoke" : null,
+      "cBodyFlames" : null
+   },
+   "Category_Character" : {
+      "sName" : "Raging Troll",
+      "sFaction" : "ForestMonsters",
+      "bBoss" : false,
+      "sBossEvent" : "",
+      "sDefeatSetGlobalKey" : "KilledTroll",
+      "fMoveSpeedMulti" : 1,
+      "bToleratesWater" : true,
+      "bToleratesFire" : false,
+      "bToleratesSmoke" : false,
+      "fHealth" : 900,
+      "dDamageTaken" : {
+         "m_blunt" : "Resistant",
+         "m_slash" : "Normal",
+         "m_pierce" : "Weak",
+         "m_chop" : "Ignore",
+         "m_pickaxe" : "Ignore",
+         "m_fire" : "Normal",
+         "m_frost" : "Normal",
+         "m_lightning" : "Normal",
+         "m_poison" : "Normal",
+         "m_spirit" : "Immune"
+      }
+   },
+   "Category_Humanoid" : {
+      "dtAttackDamageOverride" : {
+         "fDamage" : 0,
+         "fBlunt" : 90,
+         "fSlash" : 0,
+         "fPierce" : 0,
+         "fChop" : 0,
+         "fPickaxe" : 0,
+         "fFire" : 0,
+         "fFrost" : 0,
+         "fLightning" : 0,
+         "fPoison" : 0,
+         "fSpirit" : 0
+      },
+      "fAttackDamageTotalOverride" : null,
+      "sAttackProjectileOverride" : null,
+      "aDefaultItems" : [
+         
+      ],
+      "aRandomWeapon" : [
+         
+      ],
+      "aRandomArmor" : [
+         
+      ],
+      "aRandomShield" : [
+         
+      ],
+      "aaRandomSets" : [
+         {
+            "aSetItems" : [
+               "troll_punch",
+               "troll_groundslam",
+               "troll_throw"
+            ]
+         },
+         {
+            "aSetItems" : [
+               "troll_log_swing_v",
+               "troll_log_swing_h"
+            ]
+         }
+      ]
+   },
+   "Category_BaseAI" : {
+      "fViewRange" : 30,
+      "fViewAngle" : 90,
+      "fHearRange" : 9999,
+      "sPathAgentType" : "TrollSize",
+      "fRandomCircleInterval" : 2,
+      "fRandomMoveInterval" : 30,
+      "fRandomMoveRange" : 10,
+      "bAvoidFire" : false,
+      "bAfraidOfFire" : false,
+      "bAvoidWater" : true,
+      "sSpawnMessage" : "",
+      "sDeathMessage" : ""
+   },
+   "Category_MonsterAI" : {
+      "fAlertRange" : 20,
+      "bFleeIfHurtWhenTargetCantBeReached" : true,
+      "bFleeIfNotAlerted" : false,
+      "fFleeIfLowHealth" : 0,
+      "bCirculateWhileCharging" : false,
+      "bCirculateWhileChargingFlying" : false,
+      "bEnableHuntPlayer" : false,
+      "bAttackPlayerObjects" : true,
+      "bAttackPlayerObjectsWhenAlerted" : true,
+      "fInterceptTimeMax" : 2,
+      "fInterceptTimeMin" : 1,
+      "fMaxChaseDistance" : 200,
+      "fMinAttackInterval" : 0,
+      "fCircleTargetInterval" : 0,
+      "fCircleTargetDuration" : 5,
+      "fCircleTargetDistance" : 10,
+      "aConsumeItems" : [
+         
+      ],
+      "fConsumeRange" : 2,
+      "fConsumeSearchRange" : 5,
+      "fConsumeSearchInterval" : 10,
+      "fConsumeHeal" : 0
+   },
+   "Category_CharacterDrop" : {
+      "bReplaceOriginalDrops" : true,
+      "drDrops" : [
+         {
+            "sPrefabName" : "Coins",
+            "iAmountMin" : 20,
+            "iAmountMax" : 30,
+            "fChance" : 1,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : true
+         },
+         {
+            "sPrefabName" : "Ruby",
+            "iAmountMin" : 1,
+            "iAmountMax" : 1,
+            "fChance" : 0.5,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : true
+         },
+         {
+            "sPrefabName" : "AmberPearl",
+            "iAmountMin" : 1,
+            "iAmountMax" : 1,
+            "fChance" : 0.7,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : true
+         },
+         {
+            "sPrefabName" : "Amber",
+            "iAmountMin" : 1,
+            "iAmountMax" : 2,
+            "fChance" : 1,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : true
+         },
+         {
+            "sPrefabName" : "TrophyFrostTroll",
+            "iAmountMin" : 1,
+            "iAmountMax" : 1,
+            "fChance" : 0.5,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : false
+         },
+         {
+            "sPrefabName" : "TrollHide",
+            "iAmountMin" : 5,
+            "iAmountMax" : 5,
+            "fChance" : 1,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : true
+         }
+      ]
+   },
+   "Category_Special" : {
+      "bCanTame" : false,
+      "bAlwaysTame" : false,
+      "bCommandableWhenTame" : false,
+      "bCanProcreateWhenTame" : false,
+      "bFxNoTame" : false,
+      "bSfxNoAlert" : false,
+      "bSfxNoIdle" : false,
+      "bSfxNoHit" : false,
+      "bSfxNoDeath" : false
+   },
+   "Category_NpcOnly" : null,
+   "sConfigFormatVersion" : "0.2.0"
+}

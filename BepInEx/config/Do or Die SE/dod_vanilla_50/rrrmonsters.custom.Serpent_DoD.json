@@ -1,0 +1,153 @@
+{
+   "sOriginalPrefabName" : "Serpent",
+   "sNewPrefabName" : "Serpent_DoD",
+   "Category_Appearance" : {
+      "vScale" : {
+         "fX" : 1,
+         "fY" : 1,
+         "fZ" : 1
+      },
+      "cTintColor" : null,
+      "cTintItems" : null,
+      "cBodySmoke" : null,
+      "cBodyFlames" : null
+   },
+   "Category_Character" : {
+      "sName" : "Crazy Serpent",
+      "sFaction" : "SeaMonsters",
+      "bBoss" : false,
+      "sBossEvent" : "",
+      "sDefeatSetGlobalKey" : "",
+      "fMoveSpeedMulti" : 1,
+      "bToleratesWater" : true,
+      "bToleratesFire" : false,
+      "bToleratesSmoke" : true,
+      "fHealth" : 600,
+      "dDamageTaken" : {
+         "m_blunt" : "Normal",
+         "m_slash" : "Normal",
+         "m_pierce" : "Normal",
+         "m_chop" : "Ignore",
+         "m_pickaxe" : "Ignore",
+         "m_fire" : "Immune",
+         "m_frost" : "Weak",
+         "m_lightning" : "Normal",
+         "m_poison" : "Resistant",
+         "m_spirit" : "Immune"
+      }
+   },
+   "Category_Humanoid" : {
+      "dtAttackDamageOverride" : {
+         "fDamage" : 0,
+         "fBlunt" : 0,
+         "fSlash" : 0,
+         "fPierce" : 120,
+         "fChop" : 0,
+         "fPickaxe" : 0,
+         "fFire" : 0,
+         "fFrost" : 0,
+         "fLightning" : 0,
+         "fPoison" : 0,
+         "fSpirit" : 0
+      },
+      "fAttackDamageTotalOverride" : null,
+      "sAttackProjectileOverride" : null,
+      "aDefaultItems" : [
+         "Serpent_attack",
+         "Serpent_taunt"
+      ],
+      "aRandomWeapon" : [
+         
+      ],
+      "aRandomArmor" : [
+         
+      ],
+      "aRandomShield" : [
+         
+      ],
+      "aaRandomSets" : [
+         
+      ]
+   },
+   "Category_BaseAI" : {
+      "fViewRange" : 50,
+      "fViewAngle" : 360,
+      "fHearRange" : 9999,
+      "sPathAgentType" : "BigFish",
+      "fRandomCircleInterval" : 10,
+      "fRandomMoveInterval" : 2,
+      "fRandomMoveRange" : 20,
+      "bAvoidFire" : false,
+      "bAfraidOfFire" : false,
+      "bAvoidWater" : false,
+      "sSpawnMessage" : "",
+      "sDeathMessage" : ""
+   },
+   "Category_MonsterAI" : {
+      "fAlertRange" : 20,
+      "bFleeIfHurtWhenTargetCantBeReached" : true,
+      "bFleeIfNotAlerted" : false,
+      "fFleeIfLowHealth" : 0.33,
+      "bCirculateWhileCharging" : true,
+      "bCirculateWhileChargingFlying" : false,
+      "bEnableHuntPlayer" : false,
+      "bAttackPlayerObjects" : true,
+      "bAttackPlayerObjectsWhenAlerted" : true,
+      "fInterceptTimeMax" : 1,
+      "fInterceptTimeMin" : 1,
+      "fMaxChaseDistance" : 300,
+      "fMinAttackInterval" : 0,
+      "fCircleTargetInterval" : 0,
+      "fCircleTargetDuration" : 5,
+      "fCircleTargetDistance" : 10,
+      "aConsumeItems" : [
+         
+      ],
+      "fConsumeRange" : 2,
+      "fConsumeSearchRange" : 5,
+      "fConsumeSearchInterval" : 10,
+      "fConsumeHeal" : 0
+   },
+   "Category_CharacterDrop" : {
+      "bReplaceOriginalDrops" : true,
+      "drDrops" : [
+         {
+            "sPrefabName" : "TrophySerpent",
+            "iAmountMin" : 1,
+            "iAmountMax" : 1,
+            "fChance" : 0.33,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : false
+         },
+         {
+            "sPrefabName" : "SerpentMeat",
+            "iAmountMin" : 6,
+            "iAmountMax" : 8,
+            "fChance" : 1,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : true
+         },
+         {
+            "sPrefabName" : "SerpentScale",
+            "iAmountMin" : 8,
+            "iAmountMax" : 10,
+            "fChance" : 1,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : true
+         }
+      ]
+   },
+   "Category_Special" : {
+      "bCanTame" : false,
+      "bAlwaysTame" : false,
+      "bCommandableWhenTame" : false,
+      "bCanProcreateWhenTame" : false,
+      "bFxNoTame" : false,
+      "bSfxNoAlert" : false,
+      "bSfxNoIdle" : false,
+      "bSfxNoHit" : false,
+      "bSfxNoDeath" : false
+   },
+   "Category_NpcOnly" : null,
+   "sConfigFormatVersion" : "0.2.0"
+}

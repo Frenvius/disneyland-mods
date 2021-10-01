@@ -1,0 +1,216 @@
+{
+   "sOriginalPrefabName" : "WendigoForest",
+   "sNewPrefabName" : "ExportedWendigoForest",
+   "Category_Appearance" : {
+      "vScale" : {
+         "fX" : 1,
+         "fY" : 1,
+         "fZ" : 1
+      },
+      "cTintColor" : null,
+      "cTintItems" : null,
+      "cBodySmoke" : null,
+      "cBodyFlames" : null,
+      "sCustomTexture" : null
+   },
+   "Category_Character" : {
+      "sName" : "Forest Wendigo",
+      "sFaction" : "ForestMonsters",
+      "bBoss" : false,
+      "sBossEvent" : "",
+      "sDefeatSetGlobalKey" : "KilledForesetWendigo",
+      "fMoveSpeedMulti" : 1,
+      "bToleratesWater" : true,
+      "bToleratesFire" : false,
+      "bToleratesSmoke" : false,
+      "fHealth" : 1850,
+      "dDamageTaken" : {
+         "m_blunt" : "Normal",
+         "m_slash" : "Normal",
+         "m_pierce" : "Normal",
+         "m_chop" : "Ignore",
+         "m_pickaxe" : "Ignore",
+         "m_fire" : "Weak",
+         "m_frost" : "Normal",
+         "m_lightning" : "Normal",
+         "m_poison" : "Resistant",
+         "m_spirit" : "Normal"
+      }
+   },
+   "Category_Humanoid" : {
+      "dtAttackDamageOverride" : null,
+      "fAttackDamageTotalOverride" : null,
+      "sAttackProjectileOverride" : null,
+      "aDefaultItems" : [
+
+      ],
+      "aRandomWeapon" : [
+         
+      ],
+      "aRandomArmor" : [
+         
+      ],
+      "aRandomShield" : [
+         
+      ],
+      "aaRandomSets" : [
+         
+      ],
+      "aHitEffects" : [
+         "vfx_fenring_hurt",
+         "sfx_greydwarf_hit"
+      ],
+      "aDeathEffects" : [
+         "vfx_troll_death",
+         "sfx_fenring_death"
+      ],
+      "aConsumeItemEffects" : [
+         
+      ],
+      "aAdvancedCustomAttacks" : [
+         {
+            "sOriginalPrefabName" : "Fenring_attack_claw",
+            "sTargetAnim" : "attack_claw0",
+            "fAIAttackInterval" : 4,
+            "bAIPrioritized" : true,
+            "dtAttackDamageOverride" : null,
+            "fAttackDamageTotalOverride" : 150,
+            "sAttackProjectileOverride" : null,
+            "aStartEffects" : null,
+            "aHitEffects" : null,
+            "aTriggerEffects" : null
+         },
+         {
+            "sOriginalPrefabName" : "Fenring_attack_claw",
+            "sTargetAnim" : "attack_claw1",
+            "fAIAttackInterval" : 5,
+            "bAIPrioritized" : true,
+            "dtAttackDamageOverride" : null,
+            "fAttackDamageTotalOverride" : 150,
+            "sAttackProjectileOverride" : null,
+            "aStartEffects" : null,
+            "aHitEffects" : null,
+            "aTriggerEffects" : null
+         },
+         {
+            "sOriginalPrefabName" : "Fenring_attack_claw",
+            "sTargetAnim" : "attack_claw2",
+            "fAIAttackInterval" : 6,
+            "bAIPrioritized" : true,
+            "dtAttackDamageOverride" : null,
+            "fAttackDamageTotalOverride" : 150,
+            "sAttackProjectileOverride" : null,
+            "aStartEffects" : null,
+            "aHitEffects" : null,
+            "aTriggerEffects" : null
+         },
+         {
+            "sOriginalPrefabName" : "Fenring_taunt",
+            "sTargetAnim" : "attack_taunt",
+            "fAIAttackInterval" : 10,
+            "bAIPrioritized" : true,
+            "dtAttackDamageOverride" : null,
+            "fAttackDamageTotalOverride" : 100,
+            "sAttackProjectileOverride" : null,
+            "aStartEffects" : null,
+            "aHitEffects" : null,
+            "aTriggerEffects" : null
+         },
+         {
+            "sOriginalPrefabName" : "gd_king_shoot",
+            "sTargetAnim" : "throw_snow",
+            "fAIAttackInterval" : 18,
+            "bAIPrioritized" : true,
+            "dtAttackDamageOverride" : null,
+            "fAttackDamageTotalOverride" : 75,
+            "sAttackProjectileOverride" : null,
+            "aStartEffects" : null,
+            "aHitEffects" : null,
+            "aTriggerEffects" : null
+         }
+      ]
+   },
+   "Category_BaseAI" : {
+      "fViewRange" : 30,
+      "fViewAngle" : 90,
+      "fHearRange" : 9999,
+      "aAlertedEffects" : [
+         "sfx_fenring_alerted"
+      ],
+      "aIdleEffects" : [
+         "sfx_fenring_idle"
+      ],
+      "fIdleEffectsInterval" : 10,
+      "fIdleEffectsChance" : 0.5,
+      "sPathAgentType" : "HumanoidAvoidWater",
+      "fRandomCircleInterval" : 2,
+      "fRandomMoveInterval" : 10,
+      "fRandomMoveRange" : 10,
+      "bRandomFly" : false,
+      "fChanceToTakeoff" : 1,
+      "fChanceToLand" : 1,
+      "fGroundDuration" : 10,
+      "fAirDuration" : 10,
+      "fMaxLandAltitude" : 5,
+      "fFlyAltitudeMin" : 3,
+      "fFlyAltitudeMax" : 10,
+      "fTakeoffTime" : 5,
+      "bAvoidFire" : false,
+      "bAfraidOfFire" : false,
+      "bAvoidWater" : true,
+      "sSpawnMessage" : "",
+      "sDeathMessage" : ""
+   },
+   "Category_MonsterAI" : {
+      "fAlertRange" : 50,
+      "bFleeIfHurtWhenTargetCantBeReached" : false,
+      "bFleeIfNotAlerted" : false,
+      "fFleeIfLowHealth" : 0,
+      "bCirculateWhileCharging" : true,
+      "bCirculateWhileChargingFlying" : true,
+      "bEnableHuntPlayer" : true,
+      "bAttackPlayerObjects" : true,
+      "bAttackPlayerObjectsWhenAlerted" : null,
+      "fInterceptTimeMax" : 5,
+      "fInterceptTimeMin" : 0,
+      "fMaxChaseDistance" : 50,
+      "fMinAttackInterval" : 0,
+      "fCircleTargetInterval" : 0,
+      "fCircleTargetDuration" : 5,
+      "fCircleTargetDistance" : 10,
+      "bSleeping" : false,
+      "bNoiseWakeup" : false,
+      "fNoiseRangeScale" : 1,
+      "fWakeupRange" : 5,
+      "aWakeupEffects" : [
+         
+      ],
+      "bAvoidLand" : false,
+      "aConsumeItems" : [
+         
+      ],
+      "fConsumeRange" : 2,
+      "fConsumeSearchRange" : 5,
+      "fConsumeSearchInterval" : 10,
+      "fConsumeHeal" : 0
+   },
+   "Category_CharacterDrop" : {
+      "bReplaceOriginalDrops" : true,
+      "drDrops" : [
+         
+      ]
+   },
+   "Category_Special" : {
+      "bCanTame" : false,
+      "bAlwaysTame" : false,
+      "bCommandableWhenTame" : false,
+      "bCanProcreateWhenTame" : false,
+      "bFxNoTame" : false,
+      "bSfxNoAlert" : false,
+      "bSfxNoIdle" : false,
+      "bSfxNoHit" : false,
+      "bSfxNoDeath" : false
+   },
+   "Category_NpcOnly" : null,
+   "sConfigFormatVersion" : "0.2.0"
+}

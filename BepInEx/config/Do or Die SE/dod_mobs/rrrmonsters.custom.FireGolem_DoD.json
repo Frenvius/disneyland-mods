@@ -1,0 +1,135 @@
+{
+   "sOriginalPrefabName" : "FireGolem",
+   "sNewPrefabName" : "FireGolem_DoD",
+   "Category_Appearance" : {
+      "vScale" : {
+         "fX" : 1,
+         "fY" : 1,
+         "fZ" : 1
+      },
+      "cTintColor" : null,
+      "cTintItems" : null,
+      "cBodySmoke" : null,
+      "cBodyFlames" : null
+   },
+   "Category_Character" : {
+      "sName" : "Fire Elemental",
+      "sFaction" : "Demon",
+      "bBoss" : false,
+      "sBossEvent" : "",
+      "sDefeatSetGlobalKey" : "killed_firegolem",
+      "fMoveSpeedMulti" : 1,
+      "bToleratesWater" : false,
+      "bToleratesFire" : true,
+      "bToleratesSmoke" : true,
+      "fHealth" : 1800,
+      "dDamageTaken" : {
+         "m_blunt" : "Normal",
+         "m_slash" : "Resistant",
+         "m_pierce" : "Resistant",
+         "m_chop" : "Ignore",
+         "m_pickaxe" : "VeryWeak",
+         "m_fire" : "Immune",
+         "m_frost" : "Weak",
+         "m_lightning" : "Normal",
+         "m_poison" : "Immune",
+         "m_spirit" : "Immune"
+      }
+   },
+   "Category_Humanoid" : {
+      "dtAttackDamageOverride" : null,
+      "fAttackDamageTotalOverride" : 275,
+      "sAttackProjectileOverride" : null,
+      "aDefaultItems" : [
+         "firegolem_groundslam",
+		 "firegolem_kick1",
+		 "firegolem_melee1",
+         "firegolem_fireball"
+      ],
+      "aRandomWeapon" : [
+         
+      ],
+      "aRandomArmor" : [
+         
+      ],
+      "aRandomShield" : [
+         
+      ],
+      "aaRandomSets" : [
+         
+      ]
+   },
+   "Category_BaseAI" : {
+      "fViewRange" : 30,
+      "fViewAngle" : 90,
+      "fHearRange" : 9999,
+      "sPathAgentType" : "HumanoidAvoidWater",
+      "fRandomCircleInterval" : 2,
+      "fRandomMoveInterval" : 20,
+      "fRandomMoveRange" : 10,
+      "bAvoidFire" : false,
+      "bAfraidOfFire" : false,
+      "bAvoidWater" : true,
+      "sSpawnMessage" : "",
+      "sDeathMessage" : ""
+   },
+   "Category_MonsterAI" : {
+      "fAlertRange" : 20,
+      "bFleeIfHurtWhenTargetCantBeReached" : true,
+      "bFleeIfNotAlerted" : false,
+      "fFleeIfLowHealth" : 0,
+      "bCirculateWhileCharging" : false,
+      "bCirculateWhileChargingFlying" : false,
+      "bEnableHuntPlayer" : false,
+      "bAttackPlayerObjects" : true,
+      "bAttackPlayerObjectsWhenAlerted" : true,
+      "fInterceptTimeMax" : 2,
+      "fInterceptTimeMin" : 0,
+      "fMaxChaseDistance" : 0,
+      "fMinAttackInterval" : 0,
+      "fCircleTargetInterval" : 0,
+      "fCircleTargetDuration" : 2,
+      "fCircleTargetDistance" : 4,
+      "aConsumeItems" : [
+         
+      ],
+      "fConsumeRange" : 2,
+      "fConsumeSearchRange" : 5,
+      "fConsumeSearchInterval" : 10,
+      "fConsumeHeal" : 0
+   },
+   "Category_CharacterDrop" : {
+      "bReplaceOriginalDrops" : true,
+      "drDrops" : [
+         {
+            "sPrefabName" : "FlametalOre",
+            "iAmountMin" : 4,
+            "iAmountMax" : 5,
+            "fChance" : 1,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : true
+         },
+         {
+            "sPrefabName" : "SurtlingCore",
+            "iAmountMin" : 3,
+            "iAmountMax" : 4,
+            "fChance" : 1,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : true
+         }
+      ]
+   },
+   "Category_Special" : {
+      "bCanTame" : false,
+      "bAlwaysTame" : false,
+      "bCommandableWhenTame" : false,
+      "bCanProcreateWhenTame" : false,
+      "bFxNoTame" : false,
+      "bSfxNoAlert" : false,
+      "bSfxNoIdle" : false,
+      "bSfxNoHit" : false,
+      "bSfxNoDeath" : false
+   },
+   "Category_NpcOnly" : null,
+   "sConfigFormatVersion" : "0.2.0"
+}

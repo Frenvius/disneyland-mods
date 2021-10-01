@@ -1,0 +1,200 @@
+{
+   "sOriginalPrefabName" : "GoblinBrute",
+   "sNewPrefabName" : "GoblinBrute_DoD",
+   "Category_Appearance" : {
+      "vScale" : {
+         "fX" : 1,
+         "fY" : 1,
+         "fZ" : 1
+      },
+      "cTintColor" : null,
+      "cTintItems" : null,
+      "cBodySmoke" : null,
+      "cBodyFlames" : null
+   },
+   "Category_Character" : {
+      "sName" : "Raging Fuling Brute",
+      "sFaction" : "PlainsMonsters",
+      "bBoss" : false,
+      "sBossEvent" : "",
+      "sDefeatSetGlobalKey" : "",
+      "fMoveSpeedMulti" : 1,
+      "bToleratesWater" : true,
+      "bToleratesFire" : false,
+      "bToleratesSmoke" : false,
+      "fHealth" : 1200,
+      "dDamageTaken" : {
+         "m_blunt" : "Normal",
+         "m_slash" : "Normal",
+         "m_pierce" : "Normal",
+         "m_chop" : "Ignore",
+         "m_pickaxe" : "Ignore",
+         "m_fire" : "Normal",
+         "m_frost" : "Normal",
+         "m_lightning" : "Normal",
+         "m_poison" : "Normal",
+         "m_spirit" : "Immune"
+      }
+   },
+   "Category_Humanoid" : {
+      "dtAttackDamageOverride" : {
+         "fDamage" : 0,
+         "fBlunt" : 180,
+         "fSlash" : 0,
+         "fPierce" : 0,
+         "fChop" : 0,
+         "fPickaxe" : 0,
+         "fFire" : 0,
+         "fFrost" : 0,
+         "fLightning" : 0,
+         "fPoison" : 0,
+         "fSpirit" : 0
+      },
+      "fAttackDamageTotalOverride" : null,
+      "sAttackProjectileOverride" : null,
+      "aDefaultItems" : [
+         "GoblinBrute_Attack",
+         "GoblinBrute_RageAttack",
+         "GoblinBrute_Taunt"
+      ],
+      "aRandomWeapon" : [
+         
+      ],
+      "aRandomArmor" : [
+         
+      ],
+      "aRandomShield" : [
+         
+      ],
+      "aaRandomSets" : [
+         {
+            "aSetItems" : [
+               "GoblinBrute_ArmGuard",
+               "GoblinBrute_Backbones",
+               "GoblinBrute_HipCloth",
+               "GoblinBrute_ShoulderGuard",
+               "GoblinBrute_LegBones"
+            ]
+         },
+         {
+            "aSetItems" : [
+               "GoblinBrute_ExecutionerCap",
+               "GoblinBrute_ArmGuard",
+               "GoblinBrute_HipCloth",
+               "GoblinBrute_ShoulderGuard",
+               "GoblinBrute_LegBones"
+            ]
+         },
+         {
+            "aSetItems" : [
+               "GoblinBrute_HipCloth"
+            ]
+         },
+         {
+            "aSetItems" : [
+               "GoblinBrute_HipCloth",
+               "GoblinBrute_ArmGuard",
+               "GoblinBrute_ShoulderGuard",
+               "GoblinBrute_LegBones"
+            ]
+         }
+      ]
+   },
+   "Category_BaseAI" : {
+      "fViewRange" : 30,
+      "fViewAngle" : 90,
+      "fHearRange" : 9999,
+      "sPathAgentType" : "GoblinBruteSize",
+      "fRandomCircleInterval" : 2,
+      "fRandomMoveInterval" : 40,
+      "fRandomMoveRange" : 10,
+      "bAvoidFire" : false,
+      "bAfraidOfFire" : false,
+      "bAvoidWater" : true,
+      "sSpawnMessage" : "",
+      "sDeathMessage" : ""
+   },
+   "Category_MonsterAI" : {
+      "fAlertRange" : 20,
+      "bFleeIfHurtWhenTargetCantBeReached" : true,
+      "bFleeIfNotAlerted" : false,
+      "fFleeIfLowHealth" : 0,
+      "bCirculateWhileCharging" : false,
+      "bCirculateWhileChargingFlying" : false,
+      "bEnableHuntPlayer" : false,
+      "bAttackPlayerObjects" : true,
+      "bAttackPlayerObjectsWhenAlerted" : true,
+      "fInterceptTimeMax" : 1,
+      "fInterceptTimeMin" : 0,
+      "fMaxChaseDistance" : 300,
+      "fMinAttackInterval" : 0,
+      "fCircleTargetInterval" : 0,
+      "fCircleTargetDuration" : 10,
+      "fCircleTargetDistance" : 10,
+      "aConsumeItems" : [
+         
+      ],
+      "fConsumeRange" : 2,
+      "fConsumeSearchRange" : 5,
+      "fConsumeSearchInterval" : 10,
+      "fConsumeHeal" : 0
+   },
+   "Category_CharacterDrop" : {
+      "bReplaceOriginalDrops" : true,
+      "drDrops" : [
+         {
+            "sPrefabName" : "Coins",
+            "iAmountMin" : 5,
+            "iAmountMax" : 20,
+            "fChance" : 1,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : true
+         },
+         {
+            "sPrefabName" : "Ruby",
+            "iAmountMin" : 1,
+            "iAmountMax" : 4,
+            "fChance" : 0.3,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : true
+         },
+         {
+            "sPrefabName" : "BlackMetalScrap",
+            "iAmountMin" : 3,
+            "iAmountMax" : 5,
+            "fChance" : 1,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : true
+         },
+         {
+            "sPrefabName" : "GoblinTotem",
+            "iAmountMin" : 1,
+            "iAmountMax" : 1,
+            "fChance" : 0.2,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : false
+         },
+         {
+            "sPrefabName" : "TrophyGoblinBrute",
+            "iAmountMin" : 1,
+            "iAmountMax" : 1,
+            "fChance" : 0.05,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : false
+         }
+      ]
+   },
+   "Category_Special" : {
+      "bCanTame" : false,
+      "bAlwaysTame" : false,
+      "bCommandableWhenTame" : false,
+      "bCanProcreateWhenTame" : false,
+      "bFxNoTame" : false,
+      "bSfxNoAlert" : false,
+      "bSfxNoIdle" : false,
+      "bSfxNoHit" : false,
+      "bSfxNoDeath" : false
+   },
+   "Category_NpcOnly" : null,
+   "sConfigFormatVersion" : "0.2.0"
+}

@@ -1,0 +1,192 @@
+{
+   "sOriginalPrefabName" : "DireWolf_DoD",
+   "sNewPrefabName" : "DireWolf_DoD",
+   "Category_Appearance" : {
+      "vScale" : {
+         "fX" : 1,
+         "fY" : 1,
+         "fZ" : 1
+      },
+      "cTintColor" : null,
+      "cBodySmoke" : null,
+      "cBodyFlames" : null,
+	  "sCustomTexture" : null
+   },
+   "Category_Character" : {
+      "sName" : "Dire Wolf",
+      "sFaction" : "MountainMonsters",
+      "bBoss" : false,
+      "sBossEvent" : "",
+      "sDefeatSetGlobalKey" : "",
+      "fMoveSpeedMulti" : 1,
+      "bToleratesWater" : true,
+      "bToleratesFire" : false,
+      "bToleratesSmoke" : false,
+      "fHealth" : 500,
+      "dDamageTaken" : {
+         "m_blunt" : "Normal",
+         "m_slash" : "Normal",
+         "m_pierce" : "Normal",
+         "m_chop" : "Ignore",
+         "m_pickaxe" : "Ignore",
+         "m_fire" : "Normal",
+         "m_frost" : "Immune",
+         "m_lightning" : "Normal",
+         "m_poison" : "Normal",
+         "m_spirit" : "Immune"
+      }
+   },
+   "Category_Humanoid" : {
+      "dtAttackDamageOverride" : {
+         "fDamage" : 0,
+         "fBlunt" : 0,
+         "fSlash" : 50,
+         "fPierce" : 50,
+         "fChop" : 0,
+         "fPickaxe" : 0,
+         "fFire" : 0,
+         "fFrost" : 0,
+         "fLightning" : 0,
+         "fPoison" : 100,
+         "fSpirit" : 0
+      },
+      "fAttackDamageTotalOverride" : null,
+      "sAttackProjectileOverride" : null,
+      "aDefaultItems" : [
+         "DireWolf_Attack1_DoD",
+         "DireWolf_Attack2_DoD"
+      ],
+      "aRandomWeapon" : [
+         
+      ],
+      "aRandomArmor" : [
+         
+      ],
+      "aRandomShield" : [
+         
+      ],
+      "aaRandomSets" : [
+         
+      ],
+      "aAdvancedCustomAttacks" : [
+         {
+            "sOriginalPrefabName" : "DireWolf_Attack3_DoD",
+			"sAITargetType" : "Enemy",
+			"sAttackStatusEffect" : "SE_Bleeding_DoD",
+            "sTargetAnim" : "attack3",
+            "fAIAttackInterval" : 120,
+            "bAIPrioritized" : true,
+            "dtAttackDamageOverride" : {
+                 "fDamage" : 0,
+                 "fBlunt" : 0,
+                 "fSlash" : 0,
+                 "fPierce" : 200,
+                 "fChop" : 0,
+                 "fPickaxe" : 0,
+                 "fFire" : 0,
+                 "fFrost" : 0,
+                 "fLightning" : 0,
+                 "fPoison" : 0,
+                 "fSpirit" : 0
+            },
+            "fAttackDamageTotalOverride" : null,
+            "sAttackProjectileOverride" : null,
+            "aStartEffects" : null,
+            "aHitEffects" : null,
+            "aTriggerEffects" : null
+         }
+	  ]
+   },
+   "Category_BaseAI" : {
+      "fViewRange" : 30,
+      "fViewAngle" : 90,
+      "fHearRange" : 9999,
+      "sPathAgentType" : "Wolf",
+      "fRandomCircleInterval" : 2,
+      "fRandomMoveInterval" : 30,
+      "fRandomMoveRange" : 10,
+      "bAvoidFire" : false,
+      "bAfraidOfFire" : false,
+      "bAvoidWater" : true,
+      "sSpawnMessage" : "",
+      "sDeathMessage" : ""
+   },
+   "Category_MonsterAI" : {
+      "fAlertRange" : 60,
+      "bFleeIfHurtWhenTargetCantBeReached" : true,
+      "bFleeIfNotAlerted" : false,
+      "fFleeIfLowHealth" : 0,
+      "bCirculateWhileCharging" : true,
+      "bCirculateWhileChargingFlying" : false,
+      "bEnableHuntPlayer" : false,
+      "bAttackPlayerObjects" : true,
+      "bAttackPlayerObjectsWhenAlerted" : true,
+      "fInterceptTimeMax" : 2,
+      "fInterceptTimeMin" : 0,
+      "fMaxChaseDistance" : 0,
+      "fMinAttackInterval" : 0,
+      "fCircleTargetInterval" : 0,
+      "fCircleTargetDuration" : 5,
+      "fCircleTargetDistance" : 10,
+      "aConsumeItems" : [
+         "NeckTail",
+         "RawMeat",
+         "LoxMeat",
+         "Sausages",
+         "FishRaw"
+      ],
+      "fConsumeRange" : 1.4,
+      "fConsumeSearchRange" : 10,
+      "fConsumeSearchInterval" : 10,
+      "fConsumeHeal" : 20
+   },
+   "Category_CharacterDrop" : {
+      "bReplaceOriginalDrops" : true,
+      "drDrops" : [
+         {
+            "sPrefabName" : "TrophyDireWolf_DoD",
+            "iAmountMin" : 1,
+            "iAmountMax" : 1,
+            "fChance" : 0.1,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : false
+         },
+         {
+            "sPrefabName" : "RawMeat",
+            "iAmountMin" : 1,
+            "iAmountMax" : 1,
+            "fChance" : 0.4,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : false
+         },
+         {
+            "sPrefabName" : "WolfPelt",
+            "iAmountMin" : 1,
+            "iAmountMax" : 2,
+            "fChance" : 1,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : false
+         },
+         {
+            "sPrefabName" : "WolfFang",
+            "iAmountMin" : 1,
+            "iAmountMax" : 1,
+            "fChance" : 0.4,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : false
+         }
+      ]
+   },
+   "Category_Special" : {
+      "bCanTame" : false,
+      "bAlwaysTame" : false,
+      "bCommandableWhenTame" : false,
+      "bCanProcreateWhenTame" : false,
+      "bSfxNoAlert" : false,
+      "bSfxNoIdle" : false,
+      "bSfxNoHit" : false,
+      "bSfxNoDeath" : false
+   },
+   "Category_NpcOnly" : null,
+   "sConfigFormatVersion" : "0.2.0"
+}

@@ -1,0 +1,167 @@
+{
+   "sOriginalPrefabName" : "Golem2",
+   "sNewPrefabName" : "ExportedGolem2",
+   "Category_Appearance" : {
+      "vScale" : {
+         "fX" : 1,
+         "fY" : 1,
+         "fZ" : 1
+      },
+      "cTintColor" : null,
+      "cTintItems" : null,
+      "cBodySmoke" : null,
+      "cBodyFlames" : null,
+      "sCustomTexture" : null
+   },
+   "Category_Character" : {
+      "sName" : "Golem",
+      "sFaction" : "Boss",
+      "bBoss" : true,
+      "sBossEvent" : "Fire Golem",
+      "sDefeatSetGlobalKey" : "KilledGolem",
+      "fMoveSpeedMulti" : 1,
+      "bToleratesWater" : true,
+      "bToleratesFire" : true,
+      "bToleratesSmoke" : true,
+      "fHealth" : 900,
+      "dDamageTaken" : {
+         "m_blunt" : "Resistant",
+         "m_slash" : "Normal",
+         "m_pierce" : "Weak",
+         "m_chop" : "Ignore",
+         "m_pickaxe" : "Ignore",
+         "m_fire" : "Normal",
+         "m_frost" : "Normal",
+         "m_lightning" : "Normal",
+         "m_poison" : "Normal",
+         "m_spirit" : "Immune"
+      }
+   },
+   "Category_Humanoid" : {
+      "dtAttackDamageOverride" : {
+         "fDamage" : 0,
+         "fBlunt" : 0,
+         "fSlash" : 0,
+         "fPierce" : 0,
+         "fChop" : 0,
+         "fPickaxe" : 0,
+         "fFire" : 0,
+         "fFrost" : 0,
+         "fLightning" : 0,
+         "fPoison" : 0,
+         "fSpirit" : 0
+      },
+      "fAttackDamageTotalOverride" : null,
+      "sAttackProjectileOverride" : null,
+      "aDefaultItems" : [
+         "troll_punch",
+         "GoblinShaman_attack_fireball"
+      ],
+      "aRandomWeapon" : [
+         
+      ],
+      "aRandomArmor" : [
+         
+      ],
+      "aRandomShield" : [
+         
+      ],
+      "aaRandomSets" : [
+         
+      ],
+      "aHitEffects" : [
+         "vfx_foresttroll_hit",
+         "sfx_troll_hit"
+      ],
+      "aDeathEffects" : [
+         "sfx_troll_death"
+      ],
+      "aConsumeItemEffects" : [
+         
+      ],
+      "aAdvancedCustomAttacks" : null
+   },
+   "Category_BaseAI" : {
+      "fViewRange" : 30,
+      "fViewAngle" : 90,
+      "fHearRange" : 9999,
+      "aAlertedEffects" : [
+         "sfx_troll_alerted"
+      ],
+      "aIdleEffects" : [
+         "sfx_troll_idle"
+      ],
+      "fIdleEffectsInterval" : 5,
+      "fIdleEffectsChance" : 0.25,
+      "sPathAgentType" : "GoblinBruteSize",
+      "fRandomCircleInterval" : 2,
+      "fRandomMoveInterval" : 30,
+      "fRandomMoveRange" : 10,
+      "bRandomFly" : false,
+      "fChanceToTakeoff" : 1,
+      "fChanceToLand" : 1,
+      "fGroundDuration" : 10,
+      "fAirDuration" : 10,
+      "fMaxLandAltitude" : 5,
+      "fFlyAltitudeMin" : 3,
+      "fFlyAltitudeMax" : 10,
+      "fTakeoffTime" : 5,
+      "bAvoidFire" : false,
+      "bAfraidOfFire" : false,
+      "bAvoidWater" : true,
+      "sSpawnMessage" : "The Fire Golem Has Awoken...",
+      "sDeathMessage" : "You have slain the Golem"
+   },
+   "Category_MonsterAI" : {
+      "fAlertRange" : 20,
+      "bFleeIfHurtWhenTargetCantBeReached" : false,
+      "bFleeIfNotAlerted" : false,
+      "fFleeIfLowHealth" : 0,
+      "bCirculateWhileCharging" : true,
+      "bCirculateWhileChargingFlying" : true,
+      "bEnableHuntPlayer" : true,
+      "bAttackPlayerObjects" : true,
+      "bAttackPlayerObjectsWhenAlerted" : null,
+      "fInterceptTimeMax" : 2,
+      "fInterceptTimeMin" : 1,
+      "fMaxChaseDistance" : 200,
+      "fMinAttackInterval" : 0,
+      "fCircleTargetInterval" : 0,
+      "fCircleTargetDuration" : 5,
+      "fCircleTargetDistance" : 10,
+      "bSleeping" : false,
+      "bNoiseWakeup" : false,
+      "fNoiseRangeScale" : 1,
+      "fWakeupRange" : 5,
+      "aWakeupEffects" : [
+         
+      ],
+      "bAvoidLand" : false,
+      "aConsumeItems" : [
+         
+      ],
+      "fConsumeRange" : 2,
+      "fConsumeSearchRange" : 5,
+      "fConsumeSearchInterval" : 10,
+      "fConsumeHeal" : 0
+   },
+   "Category_CharacterDrop" : {
+      "bReplaceOriginalDrops" : true,
+      "drDrops" : [
+         
+      ]
+   },
+   "Category_Special" : {
+      "bCanTame" : false,
+      "bAlwaysTame" : false,
+      "bCommandableWhenTame" : false,
+      "bCanProcreateWhenTame" : false,
+      "bFxNoTame" : false,
+      "bSfxNoAlert" : false,
+      "bSfxNoIdle" : false,
+      "bSfxNoHit" : false,
+      "bSfxNoDeath" : false
+   },
+   "Category_NpcOnly" : null,
+   "sConfigFormatVersion" : "0.2.0"
+}

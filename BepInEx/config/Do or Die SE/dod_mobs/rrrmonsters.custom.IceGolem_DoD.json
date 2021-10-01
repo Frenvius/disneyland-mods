@@ -1,0 +1,184 @@
+{
+   "sOriginalPrefabName" : "IceGolem",
+   "sNewPrefabName" : "IceGolem_DoD",
+   "Category_Appearance" : {
+      "vScale" : {
+         "fX" : 0.25,
+         "fY" : 0.25,
+         "fZ" : 0.25
+      },
+      "cTintColor" : {
+         "fRed" : 0.6,
+         "fGreen" : 1,
+         "fBlue" : 1
+		 },
+      "cTintItems" : null,
+      "cBodySmoke" : null,
+      "cBodyFlames" : null
+   },
+   "Category_Character" : {
+      "sName" : "Ice Elemental",
+      "sFaction" : "MountainMonsters",
+      "bBoss" : false,
+      "sBossEvent" : "",
+      "sDefeatSetGlobalKey" : "",
+      "fMoveSpeedMulti" : 1.1,
+      "bToleratesWater" : true,
+      "bToleratesFire" : false,
+      "bToleratesSmoke" : true,
+      "fHealth" : 1200,
+      "dDamageTaken" : {
+         "m_blunt" : "Resistant",
+         "m_slash" : "VeryResistant",
+         "m_pierce" : "Immune",
+         "m_chop" : "Ignore",
+         "m_pickaxe" : "VeryWeak",
+         "m_fire" : "VeryWeak",
+         "m_frost" : "Immune",
+         "m_lightning" : "Immune",
+         "m_poison" : "Immune",
+         "m_spirit" : "Immune"
+      }
+   },
+   "Category_Humanoid" : {
+      "dtAttackDamageOverride" : {
+         "fDamage" : 0,
+         "fBlunt" : 100,
+         "fSlash" : 0,
+         "fPierce" : 0,
+         "fChop" : 0,
+         "fPickaxe" : 0,
+         "fFire" : 0,
+         "fFrost" : 140,
+         "fLightning" : 0,
+         "fPoison" : 0,
+         "fSpirit" : 0
+      },
+      "fAttackDamageTotalOverride" : null,
+      "sAttackProjectileOverride" : null,
+      "aDefaultItems" : [
+        "icegolem_taunt",
+		"icegolem_stomp",
+        "icegolem_jump_groundslam",
+		"icegolem_stomp_combo",
+        "icegolem_groundslam"
+      ],
+      "aRandomWeapon" : [
+         
+      ],
+      "aRandomArmor" : [
+         
+      ],
+      "aRandomShield" : [
+         
+      ],
+      "aaRandomSets" : [
+         
+      ]
+   },
+   "Category_BaseAI" : {
+      "fViewRange" : 30,
+      "fViewAngle" : 90,
+      "fHearRange" : 9999,
+      "sPathAgentType" : "TrollSize",
+      "fRandomCircleInterval" : 2,
+      "fRandomMoveInterval" : 20,
+      "fRandomMoveRange" : 10,
+      "bAvoidFire" : true,
+      "bAfraidOfFire" : false,
+      "bAvoidWater" : false,
+      "sSpawnMessage" : "",
+      "sDeathMessage" : ""
+   },
+   "Category_MonsterAI" : {
+      "fAlertRange" : 30,
+      "bFleeIfHurtWhenTargetCantBeReached" : true,
+      "bFleeIfNotAlerted" : false,
+      "fFleeIfLowHealth" : 0,
+      "bCirculateWhileCharging" : false,
+      "bCirculateWhileChargingFlying" : false,
+      "bEnableHuntPlayer" : false,
+      "bAttackPlayerObjects" : true,
+      "bAttackPlayerObjectsWhenAlerted" : true,
+      "fInterceptTimeMax" : 2,
+      "fInterceptTimeMin" : 0,
+      "fMaxChaseDistance" : 0,
+      "fMinAttackInterval" : 0,
+      "fCircleTargetInterval" : 0,
+      "fCircleTargetDuration" : 2,
+      "fCircleTargetDistance" : 6,
+      "aConsumeItems" : [
+         
+      ],
+      "fConsumeRange" : 2,
+      "fConsumeSearchRange" : 5,
+      "fConsumeSearchInterval" : 10,
+      "fConsumeHeal" : 0
+   },
+   "Category_CharacterDrop" : {
+      "bReplaceOriginalDrops" : true,
+      "drDrops" : [
+         {
+            "sPrefabName" : "Ruby",
+            "iAmountMin" : 1,
+            "iAmountMax" : 4,
+            "fChance" : 0.3,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : true
+         },
+         {
+            "sPrefabName" : "AmberPearl",
+            "iAmountMin" : 1,
+            "iAmountMax" : 4,
+            "fChance" : 0.5,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : true
+         },
+         {
+            "sPrefabName" : "FrometalOre_DoD",
+            "iAmountMin" : 2,
+            "iAmountMax" : 5,
+            "fChance" : 0.33,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : false
+         },
+         {
+            "sPrefabName" : "FelmetalOre_DoD",
+            "iAmountMin" : 3,
+            "iAmountMax" : 5,
+            "fChance" : 0.5,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : false
+         },
+         {
+            "sPrefabName" : "Crystal",
+            "iAmountMin" : 2,
+            "iAmountMax" : 4,
+            "fChance" : 1,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : false
+         },
+         {
+            "sPrefabName" : "FreezeGland",
+            "iAmountMin" : 2,
+            "iAmountMax" : 4,
+            "fChance" : 1,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : false
+         }
+      ]
+   },
+   "Category_Special" : {
+      "bCanTame" : false,
+      "bAlwaysTame" : false,
+      "bCommandableWhenTame" : false,
+      "bCanProcreateWhenTame" : false,
+      "bFxNoTame" : false,
+      "bSfxNoAlert" : false,
+      "bSfxNoIdle" : false,
+      "bSfxNoHit" : false,
+      "bSfxNoDeath" : false
+   },
+   "Category_NpcOnly" : null,
+   "sConfigFormatVersion" : "0.2.0"
+}

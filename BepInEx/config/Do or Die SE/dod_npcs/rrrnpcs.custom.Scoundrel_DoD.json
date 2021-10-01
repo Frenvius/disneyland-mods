@@ -1,0 +1,181 @@
+{
+   "sOriginalPrefabName" : "RRR_NPC",
+   "sNewPrefabName" : "Scoundrel_DoD",
+   "Category_Appearance" : {
+      "vScale" : {
+         "fX" : 1,
+         "fY" : 1,
+         "fZ" : 1
+      },
+      "cTintColor" : null,
+      "cBodySmoke" : null,
+      "cBodyFlames" : null
+   },
+   "Category_Character" : {
+      "sName" : "Scoundrel",
+      "sFaction" : "SeaMonsters",
+      "bBoss" : false,
+      "sBossEvent" : "",
+      "sDefeatSetGlobalKey" : "killed_scoundrel",
+      "fMoveSpeedMulti" : 1,
+      "bToleratesWater" : true,
+      "bToleratesFire" : false,
+      "bToleratesSmoke" : false,
+      "fHealth" : 130,
+      "dDamageTaken" : {
+         "m_blunt" : "Resistant",
+         "m_slash" : "Resistant",
+         "m_pierce" : "Normal",
+         "m_chop" : "Immune",
+         "m_pickaxe" : "Immune",
+         "m_fire" : "Normal",
+         "m_frost" : "Normal",
+         "m_lightning" : "Normal",
+         "m_poison" : "Resistant",
+         "m_spirit" : "Immune"
+      }
+   },
+   "Category_Humanoid" : {
+      "dtAttackDamageOverride" : null,
+      "fAttackDamageTotalOverride" : 60,
+      "sAttackProjectileOverride" : null,
+      "aDefaultItems" : [
+         "ArmorTrollLeatherLegs",
+         "HelmetTrollLeather",
+         "ArmorTrollLeatherChest",
+         "CapeTrollHide",
+         "ShieldBronzeBuckler"
+      ],
+      "aRandomWeapon" : [
+         "BowHuntsman",
+         "ShamanWand_DoD",
+         "KnifeBlackMetal",
+         "MageWand_DoD",
+         "BowDraugrFang",
+         "WarlockWand_DoD",
+         "SwordSilver",
+         "PaladinMace_DoD",
+         "SwordBlackmetal"
+      ],
+      "aRandomArmor" : [
+         
+      ],
+      "aRandomShield" : [
+         
+      ],
+      "aaRandomSets" : [
+         
+      ]
+   },
+   "Category_BaseAI" : {
+      "fViewRange" : 30,
+      "fViewAngle" : 90,
+      "fHearRange" : 9999,
+      "sPathAgentType" : "Humanoid",
+      "fRandomCircleInterval" : 2,
+      "fRandomMoveInterval" : 30,
+      "fRandomMoveRange" : 3,
+      "bAvoidFire" : false,
+      "bAfraidOfFire" : false,
+      "bAvoidWater" : true,
+      "sSpawnMessage" : "",
+      "sDeathMessage" : ""
+   },
+   "Category_MonsterAI" : {
+      "fAlertRange" : 40,
+      "bFleeIfHurtWhenTargetCantBeReached" : true,
+      "bFleeIfNotAlerted" : false,
+      "fFleeIfLowHealth" : 0,
+      "bCirculateWhileCharging" : true,
+      "bCirculateWhileChargingFlying" : false,
+      "bEnableHuntPlayer" : false,
+      "bAttackPlayerObjects" : true,
+      "bAttackPlayerObjectsWhenAlerted" : true,
+      "fInterceptTimeMax" : 2,
+      "fInterceptTimeMin" : 0,
+      "fMaxChaseDistance" : 300,
+      "fMinAttackInterval" : 0,
+      "fCircleTargetInterval" : 10,
+      "fCircleTargetDuration" : 3,
+      "fCircleTargetDistance" : 5,
+      "aConsumeItems" : [
+         
+      ],
+      "fConsumeRange" : 2,
+      "fConsumeSearchRange" : 5,
+      "fConsumeSearchInterval" : 10,
+      "fConsumeHeal" : 0
+   },
+   "Category_CharacterDrop" : {
+      "bReplaceOriginalDrops" : true,
+      "drDrops" : [
+         {
+            "sPrefabName" : "Coins",
+            "iAmountMin" : 5,
+            "iAmountMax" : 15,
+            "fChance" : 1,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : false
+         },
+         {
+            "sPrefabName" : "QueensJam",
+            "iAmountMin" : 1,
+            "iAmountMax" : 3,
+            "fChance" : 0.25,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : false
+         },
+         {
+            "sPrefabName" : "GreyPearl_DoD",
+            "iAmountMin" : 1,
+            "iAmountMax" : 1,
+            "fChance" : 0.25,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : false
+         }         
+      ]
+   },
+   "Category_Special" : {
+      "bCanTame" : false,
+      "bAlwaysTame" : false,
+      "bCommandableWhenTame" : false,
+      "bCanProcreateWhenTame" : false,
+      "bSfxNoAlert" : false,
+      "bSfxNoIdle" : false,
+      "bSfxNoHit" : false,
+      "bSfxNoDeath" : false
+   },
+   "Category_NpcOnly" : {
+      "bIsFemale" : false,
+      "bRandomGender" : false,
+      "aBeardIds" : [
+         "Beard5"
+      ],
+      "aHairIds" : [
+         "Hair5"
+      ],
+      "cSkinColorMin" : {
+         "fRed" : 0.5,
+         "fGreen" : 0.5,
+         "fBlue" : 1
+      },
+      "cSkinColorMax" : {
+         "fRed" : 1,
+         "fGreen" : 1,
+         "fBlue" : 1
+      },
+      "cHairColorMin" : {
+         "fRed" : 0.5,
+         "fGreen" : 0.3,
+         "fBlue" : 1
+      },
+      "cHairColorMax" : {
+         "fRed" : 0.5,
+         "fGreen" : 0.3,
+         "fBlue" : 1
+      },
+      "fHairValueMin" : 0.6,
+      "fHairValueMax" : 0.6
+   },
+   "sConfigFormatVersion" : "0.2.0"
+}

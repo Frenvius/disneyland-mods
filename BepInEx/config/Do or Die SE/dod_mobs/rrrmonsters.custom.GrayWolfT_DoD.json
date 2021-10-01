@@ -1,0 +1,180 @@
+{
+   "sOriginalPrefabName" : "WereWolfBlackArmored",
+   "sNewPrefabName" : "GrayWolfT_DoD",
+   "Category_Appearance" : {
+      "vScale" : {
+         "fX" : 1,
+         "fY" : 1,
+         "fZ" : 1
+      },
+      "cTintColor" : null,
+      "cTintItems" : null,
+      "cBodySmoke" : null,
+      "cBodyFlames" : null,
+      "sCustomTexture" : null
+   },
+   "Category_Character" : {
+      "sName" : "Gray Wolf",
+      "sFaction" : "MountainMonsters",
+      "bBoss" : false,
+      "sBossEvent" : "",
+      "sDefeatSetGlobalKey" : "KilledBlackWolfArmor",
+      "fMoveSpeedMulti" : 1,
+      "bToleratesWater" : true,
+      "bToleratesFire" : true,
+      "bToleratesSmoke" : true,
+      "fHealth" : 800,
+      "dDamageTaken" : {
+         "m_blunt" : "Resistant",
+         "m_slash" : "Resistant",
+         "m_pierce" : "Resistant",
+         "m_chop" : "Ignore",
+         "m_pickaxe" : "Ignore",
+         "m_fire" : "Normal",
+         "m_frost" : "Resistant",
+         "m_lightning" : "Normal",
+         "m_poison" : "Normal",
+         "m_spirit" : "Normal"
+      }
+   },
+   "Category_Humanoid" : {
+      "dtAttackDamageOverride" : null,
+      "fAttackDamageTotalOverride" : 240,
+      "sAttackProjectileOverride" : null,
+      "aDefaultItems" : [
+
+      ],
+      "aRandomWeapon" : [
+         
+      ],
+      "aRandomArmor" : [
+         
+      ],
+      "aRandomShield" : [
+         
+      ],
+      "aaRandomSets" : [
+         
+      ],
+      "aHitEffects" : [
+         "vfx_fenring_hurt",
+         "sfx_greydwarf_hit"
+      ],
+      "aDeathEffects" : [
+         "vfx_troll_death",
+         "sfx_fenring_death"
+      ],
+      "aConsumeItemEffects" : [
+         
+      ],
+      "aAdvancedCustomAttacks" : [
+
+      ]
+   },
+   "Category_BaseAI" : {
+      "fViewRange" : 30,
+      "fViewAngle" : 90,
+      "fHearRange" : 9999,
+      "aAlertedEffects" : [
+         "sfx_fenring_alerted"
+      ],
+      "aIdleEffects" : [
+         "sfx_fenring_idle"
+      ],
+      "fIdleEffectsInterval" : 10,
+      "fIdleEffectsChance" : 0.5,
+      "sPathAgentType" : "HumanoidAvoidWater",
+      "fRandomCircleInterval" : 2,
+      "fRandomMoveInterval" : 10,
+      "fRandomMoveRange" : 10,
+      "bRandomFly" : false,
+      "fChanceToTakeoff" : 1,
+      "fChanceToLand" : 1,
+      "fGroundDuration" : 10,
+      "fAirDuration" : 10,
+      "fMaxLandAltitude" : 5,
+      "fFlyAltitudeMin" : 3,
+      "fFlyAltitudeMax" : 10,
+      "fTakeoffTime" : 5,
+      "bAvoidFire" : false,
+      "bAfraidOfFire" : false,
+      "bAvoidWater" : true,
+      "sSpawnMessage" : "",
+      "sDeathMessage" : ""
+   },
+   "Category_MonsterAI" : {
+      "fAlertRange" : 50,
+      "bFleeIfHurtWhenTargetCantBeReached" : false,
+      "bFleeIfNotAlerted" : false,
+      "fFleeIfLowHealth" : 0,
+      "bCirculateWhileCharging" : true,
+      "bCirculateWhileChargingFlying" : false,
+      "bEnableHuntPlayer" : true,
+      "bAttackPlayerObjects" : true,
+      "bAttackPlayerObjectsWhenAlerted" : null,
+      "fInterceptTimeMax" : 5,
+      "fInterceptTimeMin" : 0,
+      "fMaxChaseDistance" : 50,
+      "fMinAttackInterval" : 0,
+      "fCircleTargetInterval" : 0,
+      "fCircleTargetDuration" : 5,
+      "fCircleTargetDistance" : 10,
+      "bSleeping" : false,
+      "bNoiseWakeup" : false,
+      "fNoiseRangeScale" : 1,
+      "fWakeupRange" : 5,
+      "aWakeupEffects" : [
+         
+      ],
+      "bAvoidLand" : false,
+      "aConsumeItems" : [
+         
+      ],
+      "fConsumeRange" : 2,
+      "fConsumeSearchRange" : 5,
+      "fConsumeSearchInterval" : 10,
+      "fConsumeHeal" : 0
+   },
+   "Category_CharacterDrop" : {
+      "bReplaceOriginalDrops" : true,
+      "drDrops" : [
+         {
+            "sPrefabName" : "Coins",
+            "iAmountMin" : 5,
+            "iAmountMax" : 20,
+            "fChance" : 1,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : true
+         },
+         {
+            "sPrefabName" : "FrometalOre_DoD",
+            "iAmountMin" : 2,
+            "iAmountMax" : 5,
+            "fChance" : 0.33,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : false
+         },
+         {
+            "sPrefabName" : "FelmetalOre_DoD",
+            "iAmountMin" : 3,
+            "iAmountMax" : 5,
+            "fChance" : 0.5,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : false
+         }           
+      ]
+   },
+   "Category_Special" : {
+      "bCanTame" : false,
+      "bAlwaysTame" : false,
+      "bCommandableWhenTame" : false,
+      "bCanProcreateWhenTame" : false,
+      "bFxNoTame" : false,
+      "bSfxNoAlert" : false,
+      "bSfxNoIdle" : false,
+      "bSfxNoHit" : false,
+      "bSfxNoDeath" : false
+   },
+   "Category_NpcOnly" : null,
+   "sConfigFormatVersion" : "0.2.0"
+}

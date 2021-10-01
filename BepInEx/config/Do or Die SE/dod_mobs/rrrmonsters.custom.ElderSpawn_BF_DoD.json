@@ -1,0 +1,150 @@
+{
+   "sOriginalPrefabName" : "gd_king",
+   "sNewPrefabName" : "ElderSpawn_BF_DoD",
+   "Category_Appearance" : {
+      "vScale" : {
+         "fX" : 0.5,
+         "fY" : 0.5,
+         "fZ" : 0.5
+      },
+      "cTintColor" : null,
+      "cBodySmoke" : null,
+      "cBodyFlames" : null,
+	  "sCustomTexture" : "DoDElderling"
+   },
+   "Category_Character" : {
+      "sName" : "Elderling",
+      "sFaction" : "ForestMonsters",
+      "bBoss" : false,
+      "sBossEvent" : "",
+      "sDefeatSetGlobalKey" : "killed_elderling",
+      "fMoveSpeedMulti" : 1,
+      "bToleratesWater" : true,
+      "bToleratesFire" : false,
+      "bToleratesSmoke" : true,
+      "fHealth" : 750,
+      "dDamageTaken" : {
+         "m_blunt" : "Resistant",
+         "m_slash" : "Normal",
+         "m_pierce" : "Resistant",
+         "m_chop" : "Ignore",
+         "m_pickaxe" : "Ignore",
+         "m_fire" : "VeryWeak",
+         "m_frost" : "Normal",
+         "m_lightning" : "Weak",
+         "m_poison" : "Immune",
+         "m_spirit" : "Immune"
+      }
+   },
+   "Category_Humanoid" : {
+      "dtAttackDamageOverride" : null,
+      "fAttackDamageTotalOverride" : 95,
+      "sAttackProjectileOverride" : null,
+      "aDefaultItems" : [
+         "gd_king_rootspawn",
+         "gd_king_scream",
+         "gd_king_stomp"
+      ],
+      "aRandomWeapon" : [
+         
+      ],
+      "aRandomArmor" : [
+         
+      ],
+      "aRandomShield" : [
+         
+      ],
+      "aaRandomSets" : [
+         
+      ],
+      "aAdvancedCustomAttacks" : null
+   },
+   "Category_BaseAI" : {
+      "fViewRange" : 50,
+      "fViewAngle" : 90,
+      "fHearRange" : 9999,
+      "sPathAgentType" : "TrollSize",
+      "fRandomCircleInterval" : 2,
+      "fRandomMoveInterval" : 15,
+      "fRandomMoveRange" : 20,
+      "bAvoidFire" : false,
+      "bAfraidOfFire" : false,
+      "bAvoidWater" : true,
+      "sSpawnMessage" : "",
+      "sDeathMessage" : ""
+   },
+   "Category_MonsterAI" : {
+      "fAlertRange" : 60,
+      "bFleeIfHurtWhenTargetCantBeReached" : true,
+      "bFleeIfNotAlerted" : false,
+      "fFleeIfLowHealth" : 0,
+      "bCirculateWhileCharging" : false,
+      "bCirculateWhileChargingFlying" : false,
+      "bEnableHuntPlayer" : false,
+      "bAttackPlayerObjects" : true,
+      "bAttackPlayerObjectsWhenAlerted" : true,
+      "fInterceptTimeMax" : 0,
+      "fInterceptTimeMin" : 0,
+      "fMaxChaseDistance" : 0,
+      "fMinAttackInterval" : 2,
+      "fCircleTargetInterval" : 0,
+      "fCircleTargetDuration" : 3,
+      "fCircleTargetDistance" : 5,
+      "bSleeping" : true,
+      "bNoiseWakeup" : true,
+      "fNoiseRangeScale" : 1,
+      "fWakeupRange" : 10,
+      "aWakeupEffects" : [
+         
+      ],
+      "aConsumeItems" : [
+         
+      ],
+      "fConsumeRange" : 2,
+      "fConsumeSearchRange" : 5,
+      "fConsumeSearchInterval" : 10,
+      "fConsumeHeal" : 0
+   },
+   "Category_CharacterDrop" : {
+      "bReplaceOriginalDrops" : true,
+      "drDrops" : [
+         {
+            "sPrefabName" : "Wood",
+            "iAmountMin" : 3,
+            "iAmountMax" : 9,
+            "fChance" : 0.5,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : true
+         },
+         {
+            "sPrefabName" : "FineWood",
+            "iAmountMin" : 4,
+            "iAmountMax" : 10,
+            "fChance" : 1,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : true
+         },
+         {
+            "sPrefabName" : "Resin",
+            "iAmountMin" : 2,
+            "iAmountMax" : 5,
+            "fChance" : 0.3,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : true
+         }
+      ]
+   },
+   "Category_Special" : {
+      "bCanTame" : false,
+      "bAlwaysTame" : false,
+      "bCommandableWhenTame" : false,
+      "bCanProcreateWhenTame" : false,
+      "bFxNoTame" : false,
+      "bSfxNoAlert" : false,
+      "bSfxNoIdle" : false,
+      "bSfxNoHit" : false,
+      "bSfxNoDeath" : false
+   },
+   "Category_NpcOnly" : null,
+   "sConfigFormatVersion" : "0.2.0"
+}

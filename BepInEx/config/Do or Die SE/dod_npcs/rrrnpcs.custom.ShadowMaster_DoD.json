@@ -1,0 +1,198 @@
+{
+   "sOriginalPrefabName" : "RRR_NPC",
+   "sNewPrefabName" : "ShadowMaster_DoD",
+   "Category_Appearance" : {
+      "vScale" : {
+         "fX" : 1,
+         "fY" : 1,
+         "fZ" : 1
+      },
+      "cTintColor" : {
+         "fRed" : 0.3,
+         "fGreen" : 0.3,
+         "fBlue" : 0.3
+		 },
+      "cTintItems" : {
+         "fRed" : 0.1,
+         "fGreen" : 0.4,
+         "fBlue" : 0.1
+		 },
+      "cBodySmoke" : null,
+      "cBodyFlames" : null
+   },
+   "Category_Character" : {
+      "sName" : "Shadow Master",
+      "sFaction" : "Boss",
+      "bBoss" : false,
+      "sBossEvent" : "",
+      "sDefeatSetGlobalKey" : "killed_shadowmaster",
+      "fMoveSpeedMulti" : 1,
+      "bToleratesWater" : true,
+      "bToleratesFire" : false,
+      "bToleratesSmoke" : false,
+      "fHealth" : 750,
+      "dDamageTaken" : {
+         "m_blunt" : "Resistant",
+         "m_slash" : "Resistant",
+         "m_pierce" : "Resistant",
+         "m_chop" : "Immune",
+         "m_pickaxe" : "Immune",
+         "m_fire" : "Normal",
+         "m_frost" : "Immune",
+         "m_lightning" : "Normal",
+         "m_poison" : "Immune",
+         "m_spirit" : "Immune"
+      }
+   },
+   "Category_Humanoid" : {
+      "dtAttackDamageOverride" : {
+         "fDamage" : 0,
+         "fBlunt" : 0,
+         "fSlash" : 50,
+         "fPierce" : 0,
+         "fChop" : 0,
+         "fPickaxe" : 0,
+         "fFire" : 70,
+         "fFrost" : 0,
+         "fLightning" : 70,
+         "fPoison" : 0,
+         "fSpirit" : 0
+      },
+      "fAttackDamageTotalOverride" : null,
+      "sAttackProjectileOverride" : null,
+      "aDefaultItems" : [
+         "ArmorPaddedGreaves",
+         "HelmetDverger",
+         "ArmorPaddedCuirass",
+         "CapeLinen",
+         "ShieldBlackmetalTower"
+      ],
+      "aRandomWeapon" : [
+         "SwordIronFire",
+         "ShamanWand_DoD",
+         "WarlockWand_DoD",
+         "MageWand_DoD"
+      ],
+      "aRandomArmor" : [
+         
+      ],
+      "aRandomShield" : [
+         
+      ],
+      "aaRandomSets" : [
+         
+      ]
+   },
+   "Category_BaseAI" : {
+      "fViewRange" : 30,
+      "fViewAngle" : 90,
+      "fHearRange" : 9999,
+      "sPathAgentType" : "Humanoid",
+      "fRandomCircleInterval" : 2,
+      "fRandomMoveInterval" : 30,
+      "fRandomMoveRange" : 3,
+      "bAvoidFire" : false,
+      "bAfraidOfFire" : false,
+      "bAvoidWater" : true,
+      "sSpawnMessage" : "",
+      "sDeathMessage" : ""
+   },
+   "Category_MonsterAI" : {
+      "fAlertRange" : 40,
+      "bFleeIfHurtWhenTargetCantBeReached" : true,
+      "bFleeIfNotAlerted" : false,
+      "fFleeIfLowHealth" : 0,
+      "bCirculateWhileCharging" : true,
+      "bCirculateWhileChargingFlying" : false,
+      "bEnableHuntPlayer" : false,
+      "bAttackPlayerObjects" : true,
+      "bAttackPlayerObjectsWhenAlerted" : true,
+      "fInterceptTimeMax" : 2,
+      "fInterceptTimeMin" : 0,
+      "fMaxChaseDistance" : 300,
+      "fMinAttackInterval" : 0,
+      "fCircleTargetInterval" : 10,
+      "fCircleTargetDuration" : 3,
+      "fCircleTargetDistance" : 5,
+      "aConsumeItems" : [
+         
+      ],
+      "fConsumeRange" : 2,
+      "fConsumeSearchRange" : 5,
+      "fConsumeSearchInterval" : 10,
+      "fConsumeHeal" : 0
+   },
+   "Category_CharacterDrop" : {
+      "bReplaceOriginalDrops" : true,
+      "drDrops" : [
+         {
+            "sPrefabName" : "Coins",
+            "iAmountMin" : 5,
+            "iAmountMax" : 15,
+            "fChance" : 1,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : false
+         },
+         {
+            "sPrefabName" : "FishWraps",
+            "iAmountMin" : 1,
+            "iAmountMax" : 3,
+            "fChance" : 0.25,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : false
+         },
+         {
+            "sPrefabName" : "FelmetalOre_DoD",
+            "iAmountMin" : 1,
+            "iAmountMax" : 3,
+            "fChance" : 0.25,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : false
+         }   
+         
+      ]
+   },
+   "Category_Special" : {
+      "bCanTame" : false,
+      "bAlwaysTame" : false,
+      "bCommandableWhenTame" : false,
+      "bCanProcreateWhenTame" : false,
+      "bSfxNoAlert" : false,
+      "bSfxNoIdle" : false,
+      "bSfxNoHit" : false,
+      "bSfxNoDeath" : false
+   },
+   "Category_NpcOnly" : {
+      "bIsFemale" : false,
+      "bRandomGender" : false,
+      "aBeardIds" : [
+         "Beard7"
+      ],
+      "aHairIds" : [
+         "Hair11"
+      ],
+      "cSkinColorMin" : {
+         "fRed" : 0,
+         "fGreen" : 1,
+         "fBlue" : 1
+      },
+      "cSkinColorMax" : {
+         "fRed" : 1,
+         "fGreen" : 1,
+         "fBlue" : 1
+      },
+      "cHairColorMin" : {
+         "fRed" : 0,
+         "fGreen" : 1,
+         "fBlue" : 1
+      },
+      "cHairColorMax" : {
+         "fRed" : 0,
+         "fGreen" : 1,
+         "fBlue" : 1
+      },
+      "fHairValueMin" : 0.4,
+      "fHairValueMax" : 0.4
+   },
+   "sConfigFormatVersion" : "0.2.0"
+}

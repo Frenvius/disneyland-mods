@@ -1,0 +1,225 @@
+{
+   "sOriginalPrefabName" : "Bear",
+   "sNewPrefabName" : "BearMountain_DoD",
+   "Category_Appearance" : {
+      "vScale" : {
+         "fX" : 1.2,
+         "fY" : 1.2,
+         "fZ" : 1.2
+      },
+      "cTintColor" : null,
+      "cTintItems" : null,
+      "cBodySmoke" : null,
+      "cBodyFlames" : null,
+      "sCustomTexture" : null
+   },
+   "Category_Character" : {
+      "sName" : "Mountain Bear",
+      "sFaction" : "MountainMonsters",
+      "bBoss" : false,
+      "sBossEvent" : "",
+      "sDefeatSetGlobalKey" : "",
+      "fMoveSpeedMulti" : 1,
+      "bToleratesWater" : true,
+      "bToleratesFire" : false,
+      "bToleratesSmoke" : false,
+      "fHealth" : 550,
+      "dDamageTaken" : {
+         "m_blunt" : "Resistant",
+         "m_slash" : "Resistant",
+         "m_pierce" : "Resistant",
+         "m_chop" : "Ignore",
+         "m_pickaxe" : "Ignore",
+         "m_fire" : "Resistant",
+         "m_frost" : "Ignore",
+         "m_lightning" : "Resistant",
+         "m_poison" : "Resistant",
+         "m_spirit" : "Immune"
+      }
+   },
+   "Category_Humanoid" : {
+      "dtAttackDamageOverride" : null,
+      "fAttackDamageTotalOverride" : 190,
+      "sAttackProjectileOverride" : null,
+      "aDefaultItems" : [
+         "Bear4legbite",
+         "Bear4legbiteF",
+         "Bear4legClawL",
+         "Bear4legClawLF",
+         "Bear4legClawR",
+         "Bear2legClawL",
+         "Bear2legClawR"
+      ],
+      "aRandomWeapon" : [
+         
+      ],
+      "aRandomArmor" : [
+         
+      ],
+      "aRandomShield" : [
+         
+      ],
+      "aaRandomSets" : [
+         
+      ],
+      "aHitEffects" : [
+         "vfx_bear_hit",
+         "sfx_bear_sond"
+      ],
+      "aDeathEffects" : [
+         "vfx_bear_hit",
+         "sfx_bear_low",
+         "Bear_ragdoll"
+      ],
+      "aConsumeItemEffects" : [
+         "sfx_creature_consume"
+      ],
+      "aAdvancedCustomAttacks" : [
+         {
+            "sOriginalPrefabName" : "Bear2legbite",
+			"sAITargetType" : "Enemy",
+			"sAttackStatusEffect" : "SE_Bleeding_DoD",
+            "sTargetAnim" : "2legBite",
+            "fAIAttackInterval" : 120,
+            "bAIPrioritized" : true,
+            "dtAttackDamageOverride" : {
+                 "fDamage" : 0,
+                 "fBlunt" : 0,
+                 "fSlash" : 0,
+                 "fPierce" : 190,
+                 "fChop" : 0,
+                 "fPickaxe" : 0,
+                 "fFire" : 0,
+                 "fFrost" : 0,
+                 "fLightning" : 0,
+                 "fPoison" : 0,
+                 "fSpirit" : 0
+            },
+            "fAttackDamageTotalOverride" : null,
+            "sAttackProjectileOverride" : null,
+            "aStartEffects" : null,
+            "aHitEffects" : null,
+            "aTriggerEffects" : null
+         }
+	  ]
+   },
+   "Category_BaseAI" : {
+      "fViewRange" : 30,
+      "fViewAngle" : 90,
+      "fHearRange" : 9999,
+      "aAlertedEffects" : [
+         "sfx_bear_roar"
+      ],
+      "aIdleEffects" : [
+         "sfx_bear_roar"
+      ],
+      "fIdleEffectsInterval" : 20,
+      "fIdleEffectsChance" : 0.1,
+      "sPathAgentType" : "Wolf",
+      "fRandomCircleInterval" : 4,
+      "fRandomMoveInterval" : 8,
+      "fRandomMoveRange" : 12,
+      "bRandomFly" : true,
+      "fChanceToTakeoff" : 0.3,
+      "fChanceToLand" : 0.7,
+      "fGroundDuration" : 12,
+      "fAirDuration" : 4,
+      "fMaxLandAltitude" : 1,
+      "fFlyAltitudeMin" : 0,
+      "fFlyAltitudeMax" : 0,
+      "fTakeoffTime" : 0.5,
+      "bAvoidFire" : false,
+      "bAfraidOfFire" : false,
+      "bAvoidWater" : true,
+      "sSpawnMessage" : "",
+      "sDeathMessage" : ""
+   },
+   "Category_MonsterAI" : {
+      "fAlertRange" : 20,
+      "bFleeIfHurtWhenTargetCantBeReached" : true,
+      "bFleeIfNotAlerted" : false,
+      "fFleeIfLowHealth" : 0,
+      "bCirculateWhileCharging" : false,
+      "bCirculateWhileChargingFlying" : false,
+      "bEnableHuntPlayer" : false,
+      "bAttackPlayerObjects" : true,
+      "bAttackPlayerObjectsWhenAlerted" : null,
+      "fInterceptTimeMax" : 2,
+      "fInterceptTimeMin" : 0,
+      "fMaxChaseDistance" : 0,
+      "fMinAttackInterval" : 0,
+      "fCircleTargetInterval" : 0,
+      "fCircleTargetDuration" : 5,
+      "fCircleTargetDistance" : 2,
+      "bSleeping" : false,
+      "bNoiseWakeup" : false,
+      "fNoiseRangeScale" : 1,
+      "fWakeupRange" : 5,
+      "aWakeupEffects" : [
+         
+      ],
+      "bAvoidLand" : false,
+      "aConsumeItems" : [
+         "NeckTail",
+         "RawMeat",
+         "LoxMeat",
+         "Sausages",
+         "FishRaw",
+         "Honey"
+      ],
+      "fConsumeRange" : 1.4,
+      "fConsumeSearchRange" : 10,
+      "fConsumeSearchInterval" : 10,
+      "fConsumeHeal" : 20
+   },
+   "Category_CharacterDrop" : {
+      "bReplaceOriginalDrops" : true,
+      "drDrops" : [
+         {
+            "sPrefabName" : "RawMeat",
+            "iAmountMin" : 2,
+            "iAmountMax" : 3,
+            "fChance" : 1,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : false
+         },
+         {
+            "sPrefabName" : "WolfFang",
+            "iAmountMin" : 1,
+            "iAmountMax" : 1,
+            "fChance" : 0.5,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : true
+         },
+         {
+            "sPrefabName" : "BearHide",
+            "iAmountMin" : 1,
+            "iAmountMax" : 1,
+            "fChance" : 0.5,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : true
+         },
+         {
+            "sPrefabName" : "TrophyBear",
+            "iAmountMin" : 1,
+            "iAmountMax" : 1,
+            "fChance" : 0.15,
+            "bOnePerPlayer" : false,
+            "bLevelMultiplier" : false
+         }
+      ]
+   },
+   "Category_Special" : {
+      "bCanTame" : false,
+      "bAlwaysTame" : false,
+      "bCommandableWhenTame" : false,
+      "bCanProcreateWhenTame" : false,
+      "bFxNoTame" : false,
+      "bSfxNoAlert" : false,
+      "bSfxNoIdle" : false,
+      "bSfxNoHit" : false,
+      "bSfxNoDeath" : false
+   },
+   "Category_NpcOnly" : null,
+   "sConfigFormatVersion" : "0.2.0"
+}
