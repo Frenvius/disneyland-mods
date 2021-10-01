@@ -130,7 +130,7 @@
       "fCircleTargetDistance" : 5,
       "aConsumeItems" : [
          "NeckTail",
-         "RawMeat",
+         "WolfMeat",
          "LoxMeat",
          "Sausages",
          "FishRaw"

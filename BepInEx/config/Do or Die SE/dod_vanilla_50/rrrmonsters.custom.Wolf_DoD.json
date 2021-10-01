@@ -103,7 +103,7 @@
       "fCircleTargetDistance" : 10,
       "aConsumeItems" : [
          "NeckTail",
-         "RawMeat",
+         "WolfMeat",
          "LoxMeat",
          "Sausages",
          "FishRaw"
@@ -133,7 +133,7 @@
             "bLevelMultiplier" : false
          },
          {
-            "sPrefabName" : "RawMeat",
+            "sPrefabName" : "WolfMeat",
             "iAmountMin" : 1,
             "iAmountMax" : 1,
             "fChance" : 0.4,
