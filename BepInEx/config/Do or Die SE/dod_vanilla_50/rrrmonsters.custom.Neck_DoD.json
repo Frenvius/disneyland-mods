@@ -127,14 +127,6 @@
             "bLevelMultiplier" : true
          },
          {
-            "sPrefabName" : "Amber",
-            "iAmountMin" : 1,
-            "iAmountMax" : 1,
-            "fChance" : 0.5,
-            "bOnePerPlayer" : false,
-            "bLevelMultiplier" : true
-         },
-         {
             "sPrefabName" : "TrophyNeck",
             "iAmountMin" : 1,
             "iAmountMax" : 1,

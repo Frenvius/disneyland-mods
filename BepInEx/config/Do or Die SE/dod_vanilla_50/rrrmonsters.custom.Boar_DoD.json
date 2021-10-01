@@ -115,14 +115,6 @@
       "bReplaceOriginalDrops" : true,
       "drDrops" : [
          {
-            "sPrefabName" : "Amber",
-            "iAmountMin" : 1,
-            "iAmountMax" : 1,
-            "fChance" : 0.7,
-            "bOnePerPlayer" : false,
-            "bLevelMultiplier" : true
-         },
-         {
             "sPrefabName" : "rk_pork",
             "iAmountMin" : 1,
             "iAmountMax" : 1,

@@ -120,21 +120,13 @@
             "bLevelMultiplier" : true
          },
          {
-            "sPrefabName" : "AmberPearl",
+            "sPrefabName" : "Resin",
             "iAmountMin" : 1,
-            "iAmountMax" : 1,
-            "fChance" : 0.7,
+            "iAmountMax" : 3,
+            "fChance" : 0.4,
             "bOnePerPlayer" : false,
             "bLevelMultiplier" : true
-         },
-         {
-            "sPrefabName" : "Amber",
-            "iAmountMin" : 1,
-            "iAmountMax" : 2,
-            "fChance" : 1,
-            "bOnePerPlayer" : false,
-            "bLevelMultiplier" : true
-         },
+         }
          {
             "sPrefabName" : "TrophyGreydwarf",
             "iAmountMin" : 1,

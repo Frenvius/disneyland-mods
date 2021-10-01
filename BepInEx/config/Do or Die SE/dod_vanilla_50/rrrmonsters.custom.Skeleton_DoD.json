@@ -118,14 +118,6 @@
       "bReplaceOriginalDrops" : true,
       "drDrops" : [
          {
-            "sPrefabName" : "AmberPearl",
-            "iAmountMin" : 1,
-            "iAmountMax" : 1,
-            "fChance" : 0.7,
-            "bOnePerPlayer" : false,
-            "bLevelMultiplier" : true
-         },
-         {
             "sPrefabName" : "TrophySkeleton",
             "iAmountMin" : 1,
             "iAmountMax" : 1,
