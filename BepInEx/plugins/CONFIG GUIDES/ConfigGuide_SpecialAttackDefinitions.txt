@@ -1,0 +1,18 @@
+Expanded attack definitions
+
+ - Custom mob attacks can now define animation, projectile,
+  and interval (cooldown).
+ - The syntax is "ItemName@AnimationName@ProjectileName@Interval"
+ - ItemName is the name of the attack object.
+ - AnimationName is the name of the animation on your custom mob you
+  want this attack to use. See `AnimationsGuide.txt` in the zip for a
+  list of animations that your base mob can use.
+ - ProjectileName is the name of the projectile object.
+ - Interval is a delay in seconds before the attack can be used again.
+ - For example: "GoblinKing_Beam@attack_bite@dragon_ice_projectile@3"
+ - You can leave out sections at the end but you if you want to skip
+  a section, you need the @'s still to separate.
+ - For example: "GoblinKing_Beam"
+ - For example: "GoblinKing_Beam@attack_bite"
+ - For example: "GoblinKing_Beam@@dragon_ice_projectile@3"
+ - For example: "GoblinKing_Beam@@@3"

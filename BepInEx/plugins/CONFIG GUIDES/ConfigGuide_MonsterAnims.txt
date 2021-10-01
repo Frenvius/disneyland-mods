@@ -1,0 +1,199 @@
+﻿|----Blob
+| attack
+|
+|
+|----BlobElite
+| attack
+|
+|
+|----Boar
+| base_attack
+|
+|
+|----Boar_piggy
+|
+|
+|----Bonemass
+| aoe
+| punch
+| spawn
+|
+|
+|----Deathsquito
+| attack
+|
+|
+|----Dragon
+| attack_taunt
+| attack_bite
+| attack_claw_left
+| attack_claw_right
+| attack_iceball
+| attack_breath
+|
+|
+|----Draugr
+| attack
+| attack_bow
+|
+|
+|----Draugr_Elite
+| attack
+|
+|
+|----Draugr_Ranged
+| attack_bow
+|
+|
+|----Eikthyr
+| attack1
+| attack2
+| attack_stomp
+|
+|
+|----Fenring
+| attack_taunt
+| attack_claw
+| attack_jump
+|
+|
+|----gd_king
+| spawn
+| scream
+| shoot
+| stomp
+|
+|
+|----Ghost
+| punch
+|
+|
+|----Goblin
+| swing_longsword
+| spear_throw
+| swing_longsword
+| swing_longsword
+|
+|
+|----GoblinArcher
+| spear_throw
+|
+|
+|----GoblinBrute
+| attack
+| rageattack
+| taunt
+|
+|
+|----GoblinKing
+| beam
+| cast1
+| nova
+| taunt
+|
+|
+|----GoblinShaman
+| attack_protect
+| attack_poke
+| attack_cast
+| swing_longsword
+| swing_longsword
+| swing_longsword
+| swing_longsword
+|
+|
+|----Greydwarf
+| attack
+| throw
+|
+|
+|----Greydwarf_Elite
+| attack
+|
+|
+|----Greydwarf_Shaman
+| spray
+| attack
+| heal
+|
+|
+|----Greyling
+| attack
+|
+|
+|----Hatchling
+| attack
+|
+|
+|----Leech
+| attack
+|
+|
+|----Leech_cave
+| attack
+|
+|
+|----Lox
+| attack_bite
+| attack_stomp
+|
+|
+|----Neck
+| attack
+|
+|
+|----Serpent
+| attack
+| taunt
+|
+|
+|----Skeleton
+| attack
+| attack_bow
+|
+|
+|----Skeleton_NoArcher
+| attack
+|
+|
+|----Skeleton_Poison
+| attack_mace
+|
+|
+|----StoneGolem
+| attack
+| attack3
+| attack2
+| doublesmash
+|
+|
+|----Surtling
+| attack
+|
+|
+|----TentaRoot
+| attack
+|
+|
+|----TrainingDummy
+|
+|
+|----Troll
+| punch
+| attack
+| throw
+| swing_logv
+| swing_logh
+|
+|
+|----Wolf
+| attack1
+| attack2
+| attack3
+|
+|
+|----Wolf_cub
+|
+|
+|----Wraith
+| attack

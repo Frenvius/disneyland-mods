@@ -1,0 +1,107 @@
+﻿See the two examples below.
+
+NOTE THAT YOU MUST BOTH DEFINE YOUR CUSTOM ATTACKS *AND* ASSIGN THEM TO A LIST IN HUMANOID.
+JUST DEFINING THEM ALONE WILL NOT USE THEM.
+
+To use your advanced custom attacks in the other humanoid lists, reference them with @1, @2, @3, and so on, matching the order in which you defined them. See the second example below.
+
+----------ADVANCED ATTACK OBJECT EXAMPLE----------
+
+        {
+            "sOriginalPrefabName" : "troll_throw",
+            "sTargetAnim" : null,
+            "fAIAttackInterval" : 5,
+            "bAIPrioritized" : true,
+            "dtAttackDamageOverride" : {
+                 "fDamage" : 0,
+                 "fBlunt" : 0,
+                 "fSlash" : 0,
+                 "fPierce" : 0,
+                 "fChop" : 0,
+                 "fPickaxe" : 0,
+                 "fFire" : 20,
+                 "fFrost" : 0,
+                 "fLightning" : 0,
+                 "fPoison" : 0,
+                 "fSpirit" : 0
+            },
+            "fAttackDamageTotalOverride" : null,
+            "sAttackProjectileOverride" : "dragon_ice_projectile",
+            "aStartEffects" : null,
+            "aHitEffects" : null,
+            "aTriggerEffects" : ["SwordIron"]
+         }
+
+
+
+----------FULL EXAMPLE----------
+
+"Category_Humanoid" : {
+      "dtAttackDamageOverride" : null,
+      "fAttackDamageTotalOverride" : null,
+      "sAttackProjectileOverride" : null,
+      "aDefaultItems" : [
+               "@1",
+               "@2"
+      ],
+      "aRandomWeapon" : [
+         
+      ],
+      "aRandomArmor" : [
+         
+      ],
+      "aRandomShield" : [
+         
+      ],
+      "aaRandomSets" : [],
+      "aAdvancedCustomAttacks" : [
+         {
+            "sOriginalPrefabName" : "troll_throw",
+            "sTargetAnim" : null,
+            "fAIAttackInterval" : 5,
+            "bAIPrioritized" : true,
+            "dtAttackDamageOverride" : {
+                 "fDamage" : 0,
+                 "fBlunt" : 0,
+                 "fSlash" : 0,
+                 "fPierce" : 0,
+                 "fChop" : 0,
+                 "fPickaxe" : 0,
+                 "fFire" : 20,
+                 "fFrost" : 0,
+                 "fLightning" : 0,
+                 "fPoison" : 0,
+                 "fSpirit" : 0
+            },
+            "fAttackDamageTotalOverride" : null,
+            "sAttackProjectileOverride" : "dragon_ice_projectile",
+            "aStartEffects" : null,
+            "aHitEffects" : null,
+            "aTriggerEffects" : ["SwordIron"]
+         },
+         {
+            "sOriginalPrefabName" : "troll_throw",
+            "sTargetAnim" : null,
+            "fAIAttackInterval" : 2,
+            "bAIPrioritized" : null,
+            "dtAttackDamageOverride" : {
+                 "fDamage" : 0,
+                 "fBlunt" : 0,
+                 "fSlash" : 0,
+                 "fPierce" : 0,
+                 "fChop" : 0,
+                 "fPickaxe" : 0,
+                 "fFire" : 0,
+                 "fFrost" : 20,
+                 "fLightning" : 0,
+                 "fPoison" : 0,
+                 "fSpirit" : 0
+            },
+            "fAttackDamageTotalOverride" : null,
+            "sAttackProjectileOverride" : "GoblinShaman_projectile_fireball",
+            "aStartEffects" : null,
+            "aHitEffects" : null,
+            "aTriggerEffects" : null
+         },
+      ]
+   }

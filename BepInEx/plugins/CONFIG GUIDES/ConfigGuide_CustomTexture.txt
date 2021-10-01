@@ -1,0 +1,5 @@
+﻿To use a custom texture for your mob, place a .PNG file (png only) anywhere in your config folder that follows the following name:
+
+rrrtex.Example.png
+
+Then in the appearance category on your mob, for sCustomTexture, set it to "Example". These textures will even be synced over multiplayer :)
