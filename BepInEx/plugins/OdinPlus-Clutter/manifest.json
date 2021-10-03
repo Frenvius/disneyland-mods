@@ -1,0 +1,10 @@
+﻿{
+  "name": "Clutter",
+  "description": "Adds a bunch of clutter and decor items.",
+  "version_number": "0.0.9",
+  "website_url": "https://github.com/plumga/Clutter",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.1501",
+    "ValheimModding-Jotunn-2.3.1"
+  ]
+}

@@ -215,12 +215,13 @@
             </exception>
             <exception cref="T:System.ArgumentNullException">One of IL opcodes with an operand contains a null operand.</exception>
         </member>
-        <member name="M:HarmonyLib.Internal.Patching.ILManipulator.MakeBranchesLong(System.Collections.Generic.IEnumerable{HarmonyLib.CodeInstruction})">
+        <member name="M:HarmonyLib.Internal.Patching.ILManipulator.NormalizeInstructions(System.Collections.Generic.IEnumerable{HarmonyLib.CodeInstruction})">
             <summary>
-               Converts all branches to long types. This exists to mimic the behaviour of Harmony 2
+               Normalizes instructions into a consistent format for passing to transpilers.
+               Converts short branches to long, ensures that certain fields are properly initialized.
             </summary>
             <param name="instrs">Enumerable of instructions</param>
-            <returns>Enumerable of fixed instructions</returns>
+            <returns>Enumerable of normalized instructions</returns>
         </member>
         <member name="T:HarmonyLib.Internal.Util.ILEmitter">
             <summary>

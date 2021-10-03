@@ -1,0 +1,9 @@
+{
+    "name": "FarmGrid",
+    "version_number": "0.2.0",
+    "website_url": "https://www.nexusmods.com/valheim/mods/449",
+    "description": "Allows for all plants planted with the cultivator to automatically be snapped and placed into a grid in which they will have enough space to grow. Made by Sarcen",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.800"
+    ]
+}

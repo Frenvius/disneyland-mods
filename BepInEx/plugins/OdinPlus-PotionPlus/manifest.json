@@ -1,0 +1,10 @@
+{
+    "name": "PotionPlus",
+    "version_number": "2.1.2",
+    "website_url": "https://github.com/GraveofBears/PotionsPlus",
+    "description": "Adds several simple potions to the game, now with Potion Cauldron and Alchemy Table!",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.1500",
+        "ValheimModding-Jotunn-2.2.3"
+    ]
+}

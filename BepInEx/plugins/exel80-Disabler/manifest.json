@@ -1,0 +1,9 @@
+{
+    "name": "Disabler",
+    "version_number": "1.0.1",
+    "website_url": "https://github.com/exel80/ValheimMods/tree/master/Disabler",
+    "description": "Allow you disable \"checks\" from the game.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.601"
+    ]
+}

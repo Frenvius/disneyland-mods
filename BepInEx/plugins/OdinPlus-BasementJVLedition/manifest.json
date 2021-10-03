@@ -1,0 +1,10 @@
+{
+    "name": "BasementJVLedition",
+    "version_number": "1.0.3",
+    "website_url": "https://github.com/rolopogo/ValheimMods/pull/36",
+    "description": "Expand into the earth with this placeable basement",
+    "dependencies": [ 
+		"denikson-BepInExPack_Valheim-5.4.1500",
+		"ValheimModding-Jotunn-2.2.7"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+	"name": "Compass",
+	"version_number": "0.7.0",
+	"website_url": "https://www.nexusmods.com/valheim/mods/851",
+	"description": "Adds a customizable compass to the HUD that shows nearby map marker directions.",
+	"dependencies": [
+		"denikson-BepInExPack_Valheim-5.4.901"
+	]
+}

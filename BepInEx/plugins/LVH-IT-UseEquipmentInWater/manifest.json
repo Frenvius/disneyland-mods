@@ -1,0 +1,9 @@
+{
+    "name": "UseEquipmentInWater",
+    "version_number": "0.2.2",
+    "website_url": "https://github.com/LVH-IT/ValheimMods/tree/master/Use%20Equipment%20in%20Water",
+    "description": "Allows you to use your Equipment while swimming in water",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.701"
+    ]
+}

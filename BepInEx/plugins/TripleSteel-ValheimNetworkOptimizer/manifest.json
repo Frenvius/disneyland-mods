@@ -1,0 +1,7 @@
+{
+    "name": "ValheimNetworkOptimizer",
+    "version_number": "1.1.5",
+    "website_url": "https://www.nexusmods.com/valheim/mods/537",
+    "description": "Mod that works to optimize data transfer between clients and servers.",
+    "dependencies": []
+}

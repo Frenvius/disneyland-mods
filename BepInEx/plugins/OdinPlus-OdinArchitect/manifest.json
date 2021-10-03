@@ -1,0 +1,10 @@
+﻿{
+  "name": "OdinArchitect",
+  "description": "Odin Architect is a mod that will allow you to build more with more structures and on a larger scale. You will find here not only larger counterparts of basic buildings but also completely new ones",
+  "version_number": "0.1.1",
+  "website_url": "https://discord.gg/mbkPcvu9ax",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.1502",
+    "ValheimModding-Jotunn-2.3.4"
+  ]
+}
