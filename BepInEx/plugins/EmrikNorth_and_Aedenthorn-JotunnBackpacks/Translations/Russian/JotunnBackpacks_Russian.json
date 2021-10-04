@@ -1,0 +1,11 @@
+{
+  "item_cape_ironbackpack": "Прочный рюкзак",
+  "item_cape_ironbackpack_description": "Крепко укрепленный рюкзак с пряжками и тонкими кожаными ремнями.",
+  "se_ruggedbackpackeffects_start": "Рюкзак экипирован",
+  
+  "item_cape_silverbackpack": "Полярный рюкзак",
+  "item_cape_silverbackpack_description": "Рюкзак c утепленной спинкой, отлично подходит для длительных походов в горы.",
+  "se_arcticbackpackeffects_start": "Рюкзак экипирован",
+  
+  "ui_backpack_inventoryname": "Рюкзак"
+}

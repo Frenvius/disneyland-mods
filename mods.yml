@@ -785,3 +785,46 @@
     patch: 0
   enabled: true
   icon: D:/projects/thunderData/Valheim/cache/aedenthorn-InstantMonsterLootDrop/0.4.0/icon.png
+- manifestVersion: 1
+  name: RandyKnapp-ExtendedItemDataFramework
+  authorName: RandyKnapp
+  websiteUrl: https://valheim.thunderstore.io/package/RandyKnapp/ExtendedItemDataFramework/
+  displayName: ExtendedItemDataFramework
+  description: Extends ItemData for modders. Adds Unique ID to items.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 6
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/RandyKnapp-ExtendedItemDataFramework/1.0.6/icon.png
+- manifestVersion: 1
+  name: EmrikNorth_and_Aedenthorn-JotunnBackpacks
+  authorName: EmrikNorth_and_Aedenthorn
+  websiteUrl: https://valheim.thunderstore.io/package/EmrikNorth_and_Aedenthorn/JotunnBackpacks/
+  displayName: JotunnBackpacks
+  description: Adds two new craftable backpacks into the game.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.1502
+    - ValheimModding-Jotunn-2.3.2
+    - RandyKnapp-ExtendedItemDataFramework-1.0.6
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/EmrikNorth_and_Aedenthorn-JotunnBackpacks/2.0.0/icon.png

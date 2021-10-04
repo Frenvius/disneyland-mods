@@ -1,0 +1,11 @@
+{
+  "item_cape_ironbackpack": "Allsidig Ryggsekk",
+  "item_cape_ironbackpack_description": "En Allsidig ryggsekk, tilpasset alle terreng.",
+  "se_ruggedbackpackeffects_start": "Ryggsekk på",
+  
+  "item_cape_silverbackpack": "Arktisk Ryggsekk",
+  "item_cape_silverbackpack_description": "En Arktisk ryggsekk, for de lange fjellturene om vinteren.",
+  "se_arcticbackpackeffects_start": "Ryggsekk av",
+  
+  "ui_backpack_inventoryname": "Ryggsekk"
+}
