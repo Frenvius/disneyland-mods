@@ -477,3 +477,185 @@
     patch: 5
   enabled: true
   icon: D:/projects/thunderData/Valheim/cache/TripleSteel-ValheimNetworkOptimizer/1.1.5/icon.png
+- manifestVersion: 1
+  name: freyeux-Serverside_Simulations
+  authorName: freyeux
+  websiteUrl: ""
+  displayName: Serverside_Simulations
+  description: ""
+  gameVersion: ""
+  networkMode: ""
+  packageType: ""
+  installMode: ""
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 1
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/freyeux-Serverside_Simulations/1.1.1/icon.png
+- manifestVersion: 1
+  name: Deathwalkx-Valheim_Recycle
+  authorName: Deathwalkx
+  websiteUrl: ""
+  displayName: Valheim_Recycle
+  description: ""
+  gameVersion: ""
+  networkMode: ""
+  packageType: ""
+  installMode: ""
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/Deathwalkx-Valheim_Recycle/2.0.0/icon.png
+- manifestVersion: 1
+  name: LoewiePiewie-Oryxen.Valheim.UI.DisplayDayTime
+  authorName: LoewiePiewie
+  websiteUrl: ""
+  displayName: Oryxen.Valheim.UI.DisplayDayTime
+  description: ""
+  gameVersion: ""
+  networkMode: ""
+  packageType: ""
+  installMode: ""
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 2
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/LoewiePiewie-Oryxen.Valheim.UI.DisplayDayTime/1.1.2/icon.png
+- manifestVersion: 1
+  name: Rokumaehn-CraftableChain
+  authorName: Rokumaehn
+  websiteUrl: ""
+  displayName: CraftableChain
+  description: ""
+  gameVersion: ""
+  networkMode: ""
+  packageType: ""
+  installMode: ""
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/Rokumaehn-CraftableChain/1.0.0/icon.png
+- manifestVersion: 1
+  name: Pfhoenix-AdvancedBoating
+  authorName: Pfhoenix
+  websiteUrl: ""
+  displayName: AdvancedBoating
+  description: ""
+  gameVersion: ""
+  networkMode: ""
+  packageType: ""
+  installMode: ""
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 3
+    patch: 0
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/Pfhoenix-AdvancedBoating/0.3.0/icon.png
+- manifestVersion: 1
+  name: aedenthorn-Simple Sort
+  authorName: aedenthorn
+  websiteUrl: ""
+  displayName: Simple Sort
+  description: ""
+  gameVersion: ""
+  networkMode: ""
+  packageType: ""
+  installMode: ""
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 7
+    patch: 0
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/aedenthorn-Simple Sort/0.7.0/icon.png
+- manifestVersion: 1
+  name: Pfhoenix-ModConfigEnforcer
+  authorName: Pfhoenix
+  websiteUrl: ""
+  displayName: ModConfigEnforcer
+  description: ""
+  gameVersion: ""
+  networkMode: ""
+  packageType: ""
+  installMode: ""
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 1
+    patch: 1
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/Pfhoenix-ModConfigEnforcer/2.1.1/icon.png
+- manifestVersion: 1
+  name: DunkleMateria-ValheimAthleticsSkill
+  authorName: DunkleMateria
+  websiteUrl: ""
+  displayName: ValheimAthleticsSkill
+  description: ""
+  gameVersion: ""
+  networkMode: ""
+  packageType: ""
+  installMode: ""
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/DunkleMateria-ValheimAthleticsSkill/1.0.3/icon.png
+- manifestVersion: 1
+  name: RockerKitten-BoneAppetit
+  authorName: RockerKitten
+  websiteUrl: ""
+  displayName: BoneAppetit
+  description: New food and cooking stations!
+  gameVersion: ""
+  networkMode: ""
+  packageType: ""
+  installMode: ""
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.1100
+    - ValheimModding-Jotunn-2.0.12
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 3
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: ""
