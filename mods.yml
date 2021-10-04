@@ -481,7 +481,7 @@
   name: freyeux-Serverside_Simulations
   authorName: freyeux
   websiteUrl: ""
-  displayName: Serverside_Simulations
+  displayName: Serverside Simulations
   description: ""
   gameVersion: ""
   networkMode: ""
@@ -658,4 +658,25 @@
     minor: 0
     patch: 2
   enabled: true
-  icon: ""
+  icon: D:/projects/thunderData/Valheim/cache/RockerKitten-BoneAppetit/3.0.2/icon.png
+- manifestVersion: 1
+  name: MaGic-Quick_Deposit
+  authorName: MaGic
+  websiteUrl: https://valheim.thunderstore.io/package/MaGic/Quick_Deposit/
+  displayName: Quick_Deposit
+  description: Adds a button for depositing items to a container.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.601
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/MaGic-Quick_Deposit/1.0.1/icon.png
