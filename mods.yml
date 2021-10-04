@@ -681,27 +681,6 @@
   enabled: true
   icon: D:/projects/thunderData/Valheim/cache/MaGic-Quick_Deposit/1.0.1/icon.png
 - manifestVersion: 1
-  name: pipakin-SkillInjector
-  authorName: pipakin
-  websiteUrl: https://valheim.thunderstore.io/package/pipakin/SkillInjector/
-  displayName: SkillInjector
-  description: Injects new skills in a simple way for mod authors.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.800
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 1
-  enabled: true
-  icon: D:/projects/thunderData/Valheim/cache/pipakin-SkillInjector/1.1.1/icon.png
-- manifestVersion: 1
   name: rin_jugatla-Add_All_Fuel_And_Ore_For_Smelter_Charcoalkiln_etc
   authorName: rin_jugatla
   websiteUrl: https://valheim.thunderstore.io/package/rin_jugatla/Add_All_Fuel_And_Ore_For_Smelter_Charcoalkiln_etc/
@@ -805,4 +784,4 @@
     minor: 4
     patch: 0
   enabled: true
-  icon: ""
+  icon: D:/projects/thunderData/Valheim/cache/aedenthorn-InstantMonsterLootDrop/0.4.0/icon.png
