@@ -1,0 +1,9 @@
+﻿{
+  "name": "SkillInjector",
+  "description": "Injects new skills in a simple way for mod authors.",
+  "version_number": "1.1.1",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.800"
+  ],
+  "website_url": "https://github.com/pipakin/PipakinsMods/tree/master/SkillInjector"
+}

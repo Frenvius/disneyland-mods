@@ -680,3 +680,129 @@
     patch: 1
   enabled: true
   icon: D:/projects/thunderData/Valheim/cache/MaGic-Quick_Deposit/1.0.1/icon.png
+- manifestVersion: 1
+  name: pipakin-SkillInjector
+  authorName: pipakin
+  websiteUrl: https://valheim.thunderstore.io/package/pipakin/SkillInjector/
+  displayName: SkillInjector
+  description: Injects new skills in a simple way for mod authors.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.800
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 1
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/pipakin-SkillInjector/1.1.1/icon.png
+- manifestVersion: 1
+  name: rin_jugatla-Add_All_Fuel_And_Ore_For_Smelter_Charcoalkiln_etc
+  authorName: rin_jugatla
+  websiteUrl: https://valheim.thunderstore.io/package/rin_jugatla/Add_All_Fuel_And_Ore_For_Smelter_Charcoalkiln_etc/
+  displayName: Add_All_Fuel_And_Ore_For_Smelter_Charcoalkiln_etc
+  description: MOD for batch loading of fuel and ore into Smelter, charcoal kiln and etc...
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.602
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 6
+    patch: 2
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/rin_jugatla-Add_All_Fuel_And_Ore_For_Smelter_Charcoalkiln_etc/1.6.2/icon.png
+- manifestVersion: 1
+  name: MaxiMods-MultiCraft
+  authorName: MaxiMods
+  websiteUrl: https://valheim.thunderstore.io/package/MaxiMods/MultiCraft/
+  displayName: MultiCraft
+  description: Easy interface to craft multiple items of the same recipe.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 2
+    patch: 7
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/MaxiMods-MultiCraft/0.2.7/icon.png
+- manifestVersion: 1
+  name: ontrigger-ValheimPerformanceOptimizations
+  authorName: ontrigger
+  websiteUrl: https://valheim.thunderstore.io/package/ontrigger/ValheimPerformanceOptimizations/
+  displayName: ValheimPerformanceOptimizations
+  description: Rendering, logic, and loading time optimizations for both client
+    and server versions of Valheim.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 7
+    patch: 5
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/ontrigger-ValheimPerformanceOptimizations/0.7.5/icon.png
+- manifestVersion: 1
+  name: bdew-QuickConnect
+  authorName: bdew
+  websiteUrl: https://valheim.thunderstore.io/package/bdew/QuickConnect/
+  displayName: QuickConnect
+  description: Adds a quick connect window with a configurable list of servers, no
+    more dealing with steam's buggy favorites widow and entering passwords.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.600
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 4
+    patch: 0
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/bdew-QuickConnect/1.4.0/icon.png
+- manifestVersion: 1
+  name: aedenthorn-InstantMonsterLootDrop
+  authorName: aedenthorn
+  websiteUrl: ""
+  displayName: InstantMonsterLootDrop
+  description: Causes monsters to drop their loot and poof immediately. Created byaedenthorn
+  gameVersion: ""
+  networkMode: ""
+  packageType: ""
+  installMode: ""
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.800
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 4
+    patch: 0
+  enabled: true
+  icon: ""

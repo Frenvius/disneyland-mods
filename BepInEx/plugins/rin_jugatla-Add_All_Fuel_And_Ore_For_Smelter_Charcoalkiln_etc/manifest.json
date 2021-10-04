@@ -1,0 +1,9 @@
+{
+    "name": "Add_All_Fuel_And_Ore_For_Smelter_Charcoalkiln_etc",
+    "version_number": "1.6.2",
+    "website_url": "https://github.com/rinjugatla/ValheimMods",
+    "description": "MOD for batch loading of fuel and ore into Smelter, charcoal kiln and etc...",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.602"
+    ]
+}

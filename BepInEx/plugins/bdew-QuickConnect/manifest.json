@@ -1,0 +1,9 @@
+{
+    "name": "QuickConnect",
+    "version_number": "1.4.0",
+    "website_url": "https://github.com/bdew-valheim/quickconnect",
+    "description": "Adds a quick connect window with a configurable list of servers, no more dealing with steam's buggy favorites widow and entering passwords.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.600"
+    ]
+}
