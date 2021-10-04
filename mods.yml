@@ -722,27 +722,6 @@
   enabled: true
   icon: D:/projects/thunderData/Valheim/cache/MaxiMods-MultiCraft/0.2.7/icon.png
 - manifestVersion: 1
-  name: ontrigger-ValheimPerformanceOptimizations
-  authorName: ontrigger
-  websiteUrl: https://valheim.thunderstore.io/package/ontrigger/ValheimPerformanceOptimizations/
-  displayName: ValheimPerformanceOptimizations
-  description: Rendering, logic, and loading time optimizations for both client
-    and server versions of Valheim.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies: []
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 7
-    patch: 5
-  enabled: true
-  icon: D:/projects/thunderData/Valheim/cache/ontrigger-ValheimPerformanceOptimizations/0.7.5/icon.png
-- manifestVersion: 1
   name: bdew-QuickConnect
   authorName: bdew
   websiteUrl: https://valheim.thunderstore.io/package/bdew/QuickConnect/
