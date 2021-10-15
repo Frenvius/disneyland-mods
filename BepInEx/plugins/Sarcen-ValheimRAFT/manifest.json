@@ -1,0 +1,10 @@
+{
+  "name": "ValheimRAFT",
+  "version_number": "1.3.0",
+  "website_url": "https://www.nexusmods.com/valheim/mods/1136",
+  "description": "This mod allows you to create your own ship! As you may see by the name it is very much inspired by the game Raft!",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.1100",
+    "ValheimModding-Jotunn-2.3.7"
+  ]
+}

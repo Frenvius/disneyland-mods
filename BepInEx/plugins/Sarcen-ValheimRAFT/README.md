@@ -1,0 +1,1 @@
+This mod allows you to create your own ship! As you may see by the name it is very much inspired by the game Raft!

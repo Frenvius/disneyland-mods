@@ -1,0 +1,11 @@
+{
+  "name": "Valharvest",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/Frenvius/Valharvest",
+  "description": "New plants and food!",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.1100",
+    "ValheimModding-Jotunn-2.3.7",
+    "RockerKitten-BoneAppetit-3.0.2"
+  ]
+}

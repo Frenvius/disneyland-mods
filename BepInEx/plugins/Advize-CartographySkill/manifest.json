@@ -1,0 +1,9 @@
+{
+  "name": "CartographySkill",
+  "description": "Adds the cartography skill, allowing you to increase your map explore radius as you uncover more of your map. Also allows you to craft a functional spyglass to see things from afar.",
+  "version_number": "2.0.1",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.1500"
+  ],
+  "website_url": "https://www.nexusmods.com/valheim/mods/394"
+}

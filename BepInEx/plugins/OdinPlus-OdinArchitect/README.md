@@ -8,7 +8,7 @@ You will not find plug & play whole castles but single elements which will give 
 
 In case of anything: You're using this mod on your responsibility, make sure you did backup of your character/world.
 
-There's about **89** new elements to build-in and the list of them can be found below.
+There's about **90** new elements to build-in and the list of them can be found below.
 
 ## News & Important info.
 
@@ -95,6 +95,10 @@ For Odin's Hammer you will need the Workbench.
 - Thin Crystal beam 45
 - Thin Crystal Wall
 - Crystal Floor Slab
+- Alternative Iron Decoration (DarkWood Alt.)
+- Alternative DarkWood Decoration - fence (on the side)
+- Alternative Iron Decoration - fence (on the side)
+- Alternative DarkWood Arch (upside-down)
 
 ### Furnitures:
 
@@ -106,9 +110,10 @@ For Odin's Hammer you will need the Workbench.
 
 ### Crafting and smelting:
 
-- Advanced cooking station (Smelter for cooking raw meat, fish etc.)
-- New Birds House (feathers generator) - Rufio
-- New Fish Trap (raw fish generator)
+Advanced cooking station (Smelter for cooking raw meat, fish etc.)
+Bird's House (Feathers generator) - use Fishing Bait to fill
+Fish Trap (Raw Fish generator) - use Fishing Bait to fill
+Primitive Compost (Fishing Bait generator) - use Neck Tails and Raw Meat to fill
 
 ### Other:
 
@@ -116,6 +121,7 @@ For Odin's Hammer you will need the Workbench.
 - Wooden Surtling Lantern *L
 - Wooden Surtling Lantern *T
 - Wall Mounted Surtling Lantern *L
+- Small Standing Surtling Lantern
 
 ## Installation (how-to)
 Place the files to your /BepInEx/plugins/ folder.
@@ -199,3 +205,19 @@ via Discord - Raelaziel#0954
 - Added Fish Trap (raw fish generator)
 - Decreased requirements for Odin's Hammer (5 Wood, 5 Stone)
 - Fixed problem with rae_half_woodwall which was undestructible
+
+### 0.1.2
+- No change to dll or contents, version update due to Thunderstore folder structure requirements. 
+
+### 0.1.3
+- Added Primitive Compost - Fill with Neck Tail and Raw Meat to generate Fishing Bait
+- Added Standing Surtling Lantern
+- Added Alternative H&H Iron Decor
+- Added Alternative H&H Iron Decor - on the side (fence)
+- Added Alternative H&H DarkWood Decor - on the side (fence)
+- Added Alternative H&H DarkWood Arch (upside down)
+- Fixed broken meshes in all Lanterns
+- Nerfed the generators production time - it's intended to build more then one
+- Fixed name duplications
+- Fixed big stone column VFX when attack show pink effects
+- Fixed elevators VFX when destroyed
