@@ -1,7 +1,7 @@
 {
   "name": "Valharvest",
-  "version_number": "1.0.0",
-  "website_url": "https://github.com/Frenvius/Valharvest",
+  "version_number": "1.2.0",
+  "website_url": "https://discord.gg/JyWawnNDMv",
   "description": "New plants and food!",
   "dependencies": [
     "denikson-BepInExPack_Valheim-5.4.1100",

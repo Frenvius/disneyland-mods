@@ -1,0 +1,9 @@
+{
+    "name": "AdvancedBoating",
+    "version_number": "1.1.0",
+    "website_url": "https://www.nexusmods.com/valheim/mods/1537?tab=files",
+    "description": "Lets you mod a bunch of things about ships, got it from the nexus couldnt find it here.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.1600"
+    ]
+}

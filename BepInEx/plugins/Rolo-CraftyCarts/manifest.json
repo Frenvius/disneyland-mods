@@ -1,9 +1,0 @@
-{
-    "name": "CraftyCarts",
-    "version_number": "1.1.0",
-    "website_url": "https://github.com/rolopogo/ValheimMods",
-    "description": "Crafting stations on wheels!",
-    "dependencies": [ 
-		"denikson-BepInExPack_Valheim-5.4.602"
-    ]
-}

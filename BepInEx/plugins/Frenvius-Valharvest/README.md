@@ -8,7 +8,19 @@ Discord: https://discord.gg/JyWawnNDMv
 
  - 1.0.0 - Release includes 2 new food items, 3 new plants and some updated recipes for H&H update.
  - 1.1.0 - Added rice based foods.
-
+ - 1.1.1 - Fixed rice icon on cultivator.
+ - 1.1.2 - Fixed some recipes from BoneAppetit.
+   - Removed spam of logs on console
+   - Added configurable option to change Kabob name to Kebab
+ - 1.2.0 - Added tomato plant, new foods ands ingredients.
+   - Added Tomato
+   - Added Tomato Plant
+   - Added Rock Salt (you can drop rock salt mining rocks)
+   - Added Raw Pasta
+   - Added Spaghetti
+   - Added Ramen
+   - Added Egg and Sausage
+   - Balanced some foods
 
 ## Installation:
 
@@ -31,7 +43,7 @@ Note: this mod requires BoneAppetit, JVL (Jotunn the Valheim Lib) and it's depen
   - Onion
 
 
-#### New Recipes
+#### Updated Recipes
 - Haggis
   - Deer Meat
   - Carrot
@@ -85,7 +97,7 @@ Note: this mod requires BoneAppetit, JVL (Jotunn the Valheim Lib) and it's depen
   - Garlic
   - Rice
   - Egg
-  - WRaw Pork
+  - Raw Pork
   
 ### To Do/ Current Ideas
  - add new plants and new foods (like tomato, potato, pumpkin, watermelon, etc) ~~maybe some fruit trees~~

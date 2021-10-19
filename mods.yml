@@ -301,27 +301,6 @@
   enabled: true
   icon: D:/projects/thunderData/Valheim/cache/RandyKnapp-EquipmentAndQuickSlots/2.0.14/icon.png
 - manifestVersion: 1
-  name: Rolo-CraftyCarts
-  authorName: Rolo
-  websiteUrl: https://valheim.thunderstore.io/package/Rolo/CraftyCarts/
-  displayName: CraftyCarts
-  description: Crafting stations on wheels!
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.602
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 0
-  enabled: true
-  icon: D:/projects/thunderData/Valheim/cache/Rolo-CraftyCarts/1.1.0/icon.png
-- manifestVersion: 1
   name: OdinPlus-BasementJVLedition
   authorName: OdinPlus
   websiteUrl: https://valheim.thunderstore.io/package/OdinPlus/BasementJVLedition/
@@ -413,28 +392,6 @@
     patch: 3
   enabled: true
   icon: D:/projects/thunderData/Valheim/cache/OdinPlus-OdinArchitect/0.1.3/icon.png
-- manifestVersion: 1
-  name: ValheimModding-ValheimLib
-  authorName: ValheimModding
-  websiteUrl: https://valheim.thunderstore.io/package/ValheimModding/ValheimLib/
-  displayName: ValheimLib
-  description: A library to facilitate valheim modding
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.800
-    - ValheimModding-HookGenPatcher-0.0.2
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 0
-    patch: 16
-  enabled: true
-  icon: D:/projects/thunderData/Valheim/cache/ValheimModding-ValheimLib/0.0.16/icon.png
 - manifestVersion: 1
   name: Smallo-PlantGrowProgress
   authorName: Smallo
@@ -557,26 +514,6 @@
     patch: 0
   enabled: true
   icon: D:/projects/thunderData/Valheim/cache/Rokumaehn-CraftableChain/1.0.0/icon.png
-- manifestVersion: 1
-  name: Pfhoenix-AdvancedBoating
-  authorName: Pfhoenix
-  websiteUrl: ""
-  displayName: AdvancedBoating
-  description: ""
-  gameVersion: ""
-  networkMode: ""
-  packageType: ""
-  installMode: ""
-  loaders: []
-  dependencies: []
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 3
-    patch: 0
-  enabled: true
-  icon: D:/projects/thunderData/Valheim/cache/Pfhoenix-AdvancedBoating/0.3.0/icon.png
 - manifestVersion: 1
   name: aedenthorn-Simple Sort
   authorName: aedenthorn
@@ -829,7 +766,71 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 0
+    minor: 2
     patch: 0
   enabled: true
-  icon: D:/projects/thunderData/Valheim/cache/Frenvius-Valharvest/1.0.0/icon.png
+  icon: D:/projects/thunderData/Valheim/cache/Frenvius-Valharvest/1.2.0/icon.png
+- manifestVersion: 1
+  name: OdinPlus-CraftyCartsRemake
+  authorName: OdinPlus
+  websiteUrl: https://valheim.thunderstore.io/package/OdinPlus/CraftyCartsRemake/
+  displayName: CraftyCartsRemake
+  description: Crafting stations on wheels!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.1600
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/OdinPlus-CraftyCartsRemake/2.1.0/icon.png
+- manifestVersion: 1
+  name: KiwisMods-AdvancedBoating
+  authorName: KiwisMods
+  websiteUrl: https://valheim.thunderstore.io/package/KiwisMods/AdvancedBoating/
+  displayName: AdvancedBoating
+  description: Lets you mod a bunch of things about ships, got it from the nexus
+    couldnt find it here.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.1600
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/KiwisMods-AdvancedBoating/1.1.0/icon.png
+- manifestVersion: 1
+  name: wernermayer-ServerInventory
+  authorName: wernermayer
+  websiteUrl: https://valheim.thunderstore.io/package/wernermayer/ServerInventory/
+  displayName: ServerInventory
+  description: This saves players inventory and skills into a json in server
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.1600
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 9
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/wernermayer-ServerInventory/1.0.9/icon.png
