@@ -21,6 +21,7 @@ Discord: https://discord.gg/JyWawnNDMv
    - Added Ramen
    - Added Egg and Sausage
    - Balanced some foods
+ - 1.2.1 - Fixed burrito recipe.
 
 ## Installation:
 

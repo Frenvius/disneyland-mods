@@ -575,28 +575,6 @@
   enabled: true
   icon: D:/projects/thunderData/Valheim/cache/DunkleMateria-ValheimAthleticsSkill/1.0.3/icon.png
 - manifestVersion: 1
-  name: RockerKitten-BoneAppetit
-  authorName: RockerKitten
-  websiteUrl: ""
-  displayName: BoneAppetit
-  description: New food and cooking stations!
-  gameVersion: ""
-  networkMode: ""
-  packageType: ""
-  installMode: ""
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1100
-    - ValheimModding-Jotunn-2.0.12
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 3
-    minor: 0
-    patch: 2
-  enabled: true
-  icon: D:/projects/thunderData/Valheim/cache/RockerKitten-BoneAppetit/3.0.2/icon.png
-- manifestVersion: 1
   name: MaGic-Quick_Deposit
   authorName: MaGic
   websiteUrl: https://valheim.thunderstore.io/package/MaGic/Quick_Deposit/
@@ -748,29 +726,6 @@
   enabled: true
   icon: D:/projects/thunderData/Valheim/cache/Sarcen-ValheimRAFT/1.3.0/icon.png
 - manifestVersion: 1
-  name: Frenvius-Valharvest
-  authorName: Frenvius
-  websiteUrl: https://valheim.thunderstore.io/package/Frenvius/Valharvest/
-  displayName: Valharvest
-  description: New plants and food!
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1100
-    - ValheimModding-Jotunn-2.3.7
-    - RockerKitten-BoneAppetit-3.0.2
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 2
-    patch: 0
-  enabled: true
-  icon: D:/projects/thunderData/Valheim/cache/Frenvius-Valharvest/1.2.0/icon.png
-- manifestVersion: 1
   name: OdinPlus-CraftyCartsRemake
   authorName: OdinPlus
   websiteUrl: https://valheim.thunderstore.io/package/OdinPlus/CraftyCartsRemake/
@@ -834,3 +789,69 @@
     patch: 9
   enabled: true
   icon: D:/projects/thunderData/Valheim/cache/wernermayer-ServerInventory/1.0.9/icon.png
+- manifestVersion: 1
+  name: RockerKitten-BoneAppetit
+  authorName: RockerKitten
+  websiteUrl: https://valheim.thunderstore.io/package/RockerKitten/BoneAppetit/
+  displayName: BoneAppetit
+  description: New food and cooking stations!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.1100
+    - ValheimModding-Jotunn-2.0.12
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 3
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/RockerKitten-BoneAppetit/3.0.2/icon.png
+- manifestVersion: 1
+  name: Frenvius-Valharvest
+  authorName: Frenvius
+  websiteUrl: https://valheim.thunderstore.io/package/Frenvius/Valharvest/
+  displayName: Valharvest
+  description: New plants and food!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.1100
+    - ValheimModding-Jotunn-2.3.7
+    - RockerKitten-BoneAppetit-3.0.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 1
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/Frenvius-Valharvest/1.2.1/icon.png
+- manifestVersion: 2
+  name: CW_Jesse-Better Networking
+  authorName: CW_Jesse
+  websiteUrl: ""
+  displayName: Better Networking
+  description: The networking performance mod you've been looking for!
+  gameVersion: ""
+  networkMode: ""
+  packageType: ""
+  installMode: ""
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.1100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 3
+  enabled: true
+  icon: ""
