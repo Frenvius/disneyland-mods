@@ -703,29 +703,6 @@
   enabled: true
   icon: D:/projects/thunderData/Valheim/cache/Advize-CartographySkill/2.0.1/icon.png
 - manifestVersion: 1
-  name: Sarcen-ValheimRAFT
-  authorName: Sarcen
-  websiteUrl: ""
-  displayName: ValheimRAFT
-  description: This mod allows you to create your own ship! As you may see by the
-    name it is very much inspired by the game Raft!
-  gameVersion: ""
-  networkMode: ""
-  packageType: ""
-  installMode: ""
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1100
-    - ValheimModding-Jotunn-2.3.7
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 3
-    patch: 0
-  enabled: true
-  icon: D:/projects/thunderData/Valheim/cache/Sarcen-ValheimRAFT/1.3.0/icon.png
-- manifestVersion: 1
   name: OdinPlus-CraftyCartsRemake
   authorName: OdinPlus
   websiteUrl: https://valheim.thunderstore.io/package/OdinPlus/CraftyCartsRemake/
