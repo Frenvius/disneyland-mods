@@ -1,8 +1,8 @@
 {
   "name": "Valharvest",
-  "version_number": "1.2.1",
+  "version_number": "1.5.2",
   "website_url": "https://discord.gg/JyWawnNDMv",
-  "description": "New plants and food!",
+  "description": "New plants and foods!",
   "dependencies": [
     "denikson-BepInExPack_Valheim-5.4.1100",
     "ValheimModding-Jotunn-2.3.7",

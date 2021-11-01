@@ -11,6 +11,9 @@ Thanks in advance!
 
 ## ChangeLog
 
+### Version 1.0.0
+* Added Heart and Home support.
+
 ### Version 0.2.7
 * Fixed issue where the MultiCraft UI would dissapear if logging off from the game.
 

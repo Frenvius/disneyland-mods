@@ -54,6 +54,22 @@
                 Overrides the <see cref="P:Jotunn.Configs.ButtonConfig.Shortcut"/> value of this config.
             </summary>
         </member>
+        <member name="F:Jotunn.Configs.ButtonConfig._gamepadButton">
+            <summary>
+                Private store for the GamepadButton property
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.ButtonConfig.GamepadButton">
+            <summary>
+                GamepadButton this config should be bound to for gamepads.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.ButtonConfig.GamepadConfig">
+            <summary>
+                BepInEx configuration entry of a GamepadButton that should be used.
+                Overrides the <see cref="P:Jotunn.Configs.ButtonConfig.GamepadButton"/> value of this config.
+            </summary>
+        </member>
         <member name="P:Jotunn.Configs.ButtonConfig.Inverted">
             <summary>
                 Should the Axis value be inverted?
@@ -82,6 +98,18 @@
         <member name="P:Jotunn.Configs.ButtonConfig.ActiveInCustomGUI">
             <summary>
                 Should this button react on key presses when a custom GUI is open and requested to block input? Defaults to <c>false</c>.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.ButtonConfig.BlockOtherInputs">
+            <summary>
+                Should this button block all other inputs using the same key or button? Defaults to <c>false</c>.<br/>
+                <b>Warning:</b> If set to <c>true</c>, all other input using the same key or axis is reset when queried via ZInput.
+                Make sure to gate your usage properly.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.ButtonConfig.IsConfigBacked">
+            <summary>
+                Internal flag if this button config is backed by any BepInEx ConfigEntry
             </summary>
         </member>
         <member name="T:Jotunn.Configs.ConversionConfig">
@@ -369,6 +397,12 @@
         <member name="P:Jotunn.Configs.KeyHintConfig.ButtonConfigs">
             <summary>
                 Array of <see cref="T:Jotunn.Configs.ButtonConfig"/>s used for this key hint.
+            </summary>
+        </member>
+        <member name="F:Jotunn.Configs.KeyHintConfig.Dirty">
+            <summary>
+                Internal marker if any of the button configs backed by a BepInEx ConfigEntry did change
+                to regenerate the key hint object
             </summary>
         </member>
         <member name="M:Jotunn.Configs.KeyHintConfig.ToString">
@@ -847,11 +881,37 @@
                 The help text that will be displayed to the user for your command when they type `help` into their console.
             </summary>
         </member>
+        <member name="P:Jotunn.Entities.ConsoleCommand.IsCheat">
+            <summary>
+                If true, this command will only work after `devcommands` is run in the console.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Entities.ConsoleCommand.IsNetwork">
+            <summary>
+                If true, this command will be allowed in networked play.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Entities.ConsoleCommand.OnlyServer">
+            <summary>
+                If true, and IsNetwork is true, this command will be allowed in networked play, but only for the server.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Entities.ConsoleCommand.IsSecret">
+            <summary>
+                If true, this command will not be shown when the user types `help` into their console.
+            </summary>
+        </member>
         <member name="M:Jotunn.Entities.ConsoleCommand.Run(System.String[])">
             <summary>
                 The function that will be called when the user runs your console command, with space-delimited arguments.
             </summary>
             <param name="args">The arguments the user types, with spaces being the delimiter.</param>
+        </member>
+        <member name="M:Jotunn.Entities.ConsoleCommand.CommandOptionList">
+            <summary>
+                Override this function to return a list of strings that are valid options for your command
+            </summary>
+            <returns>List of valid command options</returns>
         </member>
         <member name="M:Jotunn.Entities.ConsoleCommand.ToString">
             <inheritdoc/>
@@ -1641,6 +1701,16 @@
             <param name="events"></param>
             <param name="arg1"></param>
         </member>
+        <member name="M:Jotunn.EventExtensions.SafeInvoke``2(System.Action{``0,``1},``0,``1)">
+            <summary>
+                try/catch the delegate chain so that it doesnt break on the first failing Delegate.
+            </summary>
+            <typeparam name="TArg1"></typeparam>
+            <typeparam name="TArg2"></typeparam>
+            <param name="events"></param>
+            <param name="arg1"></param>
+            <param name="arg2"></param>
+        </member>
         <member name="M:Jotunn.EventExtensions.SafeInvoke``1(System.EventHandler{``0},System.Object,``0)">
             <summary>
                 try/catch the delegate chain so that it doesnt break on the first failing Delegate.
@@ -1892,11 +1962,6 @@
                 Our own mod config tabs
             </summary>
         </member>
-        <member name="F:Jotunn.GUI.InGameConfig.ConfigurationKeybindings">
-            <summary>
-                Cache keybinds
-            </summary>
-        </member>
         <member name="M:Jotunn.GUI.InGameConfig.HookOnSettings">
             <summary>
                 Hook into settings setup
@@ -2028,6 +2093,11 @@
         <member name="T:Jotunn.GUI.InGameConfig.ConfigBoundKeyboardShortcut">
             <summary>
                 KeyboardShortcut binding
+            </summary>
+        </member>
+        <member name="T:Jotunn.GUI.InGameConfig.ConfigBoundGamepadButton">
+            <summary>
+                GamepadButton binding
             </summary>
         </member>
         <member name="T:Jotunn.GUI.InGameConfig.ConfigBoundString">
@@ -2514,6 +2584,11 @@
                 The singleton instance of this manager.
             </summary>
         </member>
+        <member name="F:Jotunn.Managers.CommandManager.OnGetTabOptions">
+            <summary>
+                Internal Action delegate to add custom entities into vanilla command's option list
+            </summary>
+        </member>
         <member name="P:Jotunn.Managers.CommandManager.CustomCommands">
             <summary>
                 A list of all the custom console commands that have been added to the game through this manager,
@@ -2530,6 +2605,15 @@
                 Adds a new console command to Valheim.
             </summary>
             <param name="cmd">The console command to add</param>
+        </member>
+        <member name="M:Jotunn.Managers.CommandManager.ConsoleCommand_GetTabOptions(On.Terminal.ConsoleCommand.orig_GetTabOptions,Terminal.ConsoleCommand)">
+            <summary>
+                Fire <see cref="F:Jotunn.Managers.CommandManager.OnGetTabOptions"/> for any ConsoleCommand when its tabOptions member
+                is first populated to add Jötunn entities to the option list
+            </summary>
+            <param name="orig"></param>
+            <param name="self"></param>
+            <returns></returns>
         </member>
         <member name="T:Jotunn.Managers.GUIManager">
             <summary>
@@ -2619,16 +2703,6 @@
                 <see cref="T:UnityEngine.UI.DefaultControls.Resources"/> with default Valheim assets.
             </summary>
         </member>
-        <member name="F:Jotunn.Managers.GUIManager.KeyHints">
-            <summary>
-                Internal Dictionary holding the references to the custom key hints added to the manager.
-            </summary>
-        </member>
-        <member name="F:Jotunn.Managers.GUIManager.KeyHintContainer">
-            <summary>
-                Reference to the games "KeyHint" GameObjects RectTransform.
-            </summary>
-        </member>
         <member name="F:Jotunn.Managers.GUIManager.UIAtlas">
             <summary>
                 SpriteAtlas holding the references to the sprites used in the helper methods.
@@ -2642,6 +2716,11 @@
         <member name="F:Jotunn.Managers.GUIManager.GUIInStart">
             <summary>
                 Indicates if the PixelFix must be created for the start or main scene.
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.GUIManager.Headless">
+            <summary>
+                Cache headless state
             </summary>
         </member>
         <member name="M:Jotunn.Managers.GUIManager.IsHeadless">
@@ -2694,17 +2773,6 @@
             </summary>
             <param name="parent"></param>
         </member>
-        <member name="M:Jotunn.Managers.GUIManager.RegisterKeyHints">
-            <summary>
-                Create custom KeyHint objects for every config added.
-            </summary>
-        </member>
-        <member name="M:Jotunn.Managers.GUIManager.CreateKeyHintObject(Jotunn.Configs.KeyHintConfig)">
-            <summary>
-                Copy vanilla BuildHints object and create a custom one from a KeyHintConfig.
-            </summary>
-            <param name="config"></param>
-        </member>
         <member name="M:Jotunn.Managers.GUIManager.AddKeyHint(Jotunn.Configs.KeyHintConfig)">
             <summary>
                 Add a <see cref="T:Jotunn.Configs.KeyHintConfig"/> to the manager.<br />
@@ -2720,13 +2788,6 @@
                 Removes a <see cref="T:Jotunn.Configs.KeyHintConfig"/> from the game.
             </summary>
             <param name="hintConfig">The custom key hint config to add.</param>
-        </member>
-        <member name="M:Jotunn.Managers.GUIManager.ShowCustomKeyHint(On.KeyHints.orig_UpdateHints,KeyHints)">
-            <summary>
-                Hook on <see cref="M:KeyHints.UpdateHints" /> to show custom key hints instead of the vanilla ones.
-            </summary>
-            <param name="orig"></param>
-            <param name="self"></param>
         </member>
         <member name="M:Jotunn.Managers.GUIManager.GetSprite(System.String)">
             <summary>
@@ -2971,6 +3032,96 @@
                Manager for handling custom inputs registered by mods.
             </summary>
         </member>
+        <member name="T:Jotunn.Managers.InputManager.GamepadButton">
+            <summary>
+                Abstraction for gamepad buttons and axes used as inputs
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.InputManager.GamepadButton.None">
+            <summary>
+                No gamepad button, internally treated as null
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.InputManager.GamepadButton.DPadUp">
+            <summary>
+                Up direction on the directional pad
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.InputManager.GamepadButton.DPadDown">
+            <summary>
+                Down direction on the directional pad
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.InputManager.GamepadButton.DPadLeft">
+            <summary>
+                Left direction on the directional pad
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.InputManager.GamepadButton.DPadRight">
+            <summary>
+                Right direction on the directional pad
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.InputManager.GamepadButton.ButtonSouth">
+            <summary>
+                Southern button on the gamepad (A on XBox-like)
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.InputManager.GamepadButton.ButtonEast">
+            <summary>
+                Eastern button on the gamepad (B on XBox-like)
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.InputManager.GamepadButton.ButtonWest">
+            <summary>
+                Western button on the gamepad (X on XBox-like)
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.InputManager.GamepadButton.ButtonNorth">
+            <summary>
+                Nothern button on the gamepad (Y on XBox-like)
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.InputManager.GamepadButton.LeftShoulder">
+            <summary>
+                Left shoulder button
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.InputManager.GamepadButton.RightShoulder">
+            <summary>
+                Right shoulder button
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.InputManager.GamepadButton.LeftTrigger">
+            <summary>
+                Left trigger
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.InputManager.GamepadButton.RightTrigger">
+            <summary>
+                Right trigger
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.InputManager.GamepadButton.SelectButton">
+            <summary>
+                Left special button (Back on XBox-like)
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.InputManager.GamepadButton.StartButton">
+            <summary>
+                Right special button (Menu on XBox-like)
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.InputManager.GamepadButton.LeftStickButton">
+            <summary>
+                Left Joystick press
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.InputManager.GamepadButton.RightStickButton">
+            <summary>
+                Right Joystick press
+            </summary>
+        </member>
         <member name="P:Jotunn.Managers.InputManager.Instance">
             <summary>
                 Singleton instance
@@ -3191,6 +3342,85 @@
             <param name="orig"></param>
             <param name="self"></param>
         </member>
+        <member name="T:Jotunn.Managers.KeyHintManager">
+            <summary>
+                Manager for handling custom key hints
+            </summary>
+        </member>
+        <member name="P:Jotunn.Managers.KeyHintManager.Instance">
+            <summary>
+                Singleton instance
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.KeyHintManager.KeyHints">
+            <summary>
+                Internal Dictionary holding the references to the custom key hints added to the manager
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.KeyHintManager.KeyHintObjects">
+            <summary>
+                Internal Dictionary holding the references to the key hint GameObjects created per KeyHintConfig
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.KeyHintManager.KeyHintInstance">
+            <summary>
+                Reference to the current "KeyHints" instance
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.KeyHintManager.KeyHintContainer">
+            <summary>
+                Reference to the games "KeyHint" GameObjects RectTransform
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.KeyHintManager.BaseKey">
+            <summary>
+                Base GameObjects of vanilla key hint parts
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.KeyHintManager.Init">
+            <summary>
+                Initialize the manager
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.KeyHintManager.AddKeyHint(Jotunn.Configs.KeyHintConfig)">
+            <summary>
+                Add a <see cref="T:Jotunn.Configs.KeyHintConfig"/> to the manager.<br />
+                Checks if the custom key hint is unique (i.e. the first one registered for an item).<br />
+                Custom key hints are displayed in the game instead of the default 
+                KeyHints for equipped tools or weapons they are registered for.
+            </summary>
+            <param name="hintConfig">The custom key hint config to add.</param>
+            <returns>true if the custom key hint config was added to the manager.</returns>
+        </member>
+        <member name="M:Jotunn.Managers.KeyHintManager.RemoveKeyHint(Jotunn.Configs.KeyHintConfig)">
+            <summary>
+                Removes a <see cref="T:Jotunn.Configs.KeyHintConfig"/> from the game.
+            </summary>
+            <param name="hintConfig">The custom key hint config to add.</param>
+        </member>
+        <member name="M:Jotunn.Managers.KeyHintManager.GetBaseGameObjects(On.KeyHints.orig_Start,KeyHints)">
+            <summary>
+                Instantiate base GameObjects from vanilla KeyHints to use in our custom key hints
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.KeyHintManager.KeyHints_Start(On.KeyHints.orig_Start,KeyHints)">
+            <summary>
+                Extract base key hint elements and create key hint objects.
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.KeyHintManager.CreateKeyHintObject(Jotunn.Configs.KeyHintConfig)">
+            <summary>
+                Copy vanilla BuildHints object and create a custom one from a KeyHintConfig.
+            </summary>
+            <param name="config"></param>
+        </member>
+        <member name="M:Jotunn.Managers.KeyHintManager.KeyHints_UpdateHints(On.KeyHints.orig_UpdateHints,KeyHints)">
+            <summary>
+                Hook on <see cref="M:KeyHints.UpdateHints" /> to show custom key hints instead of the vanilla ones.
+            </summary>
+            <param name="orig"></param>
+            <param name="self"></param>
+        </member>
         <member name="T:Jotunn.Managers.KitbashManager">
             <summary>
                 Manager for handling Kitbashed objects
@@ -3377,6 +3607,152 @@
             </summary>
             <param name="fileContent"> Entire file as string </param>
         </member>
+        <member name="T:Jotunn.Managers.MapOverlayManager">
+            <summary>
+                Manager for adding custom Map Overlays to the game.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Managers.MapOverlayManager.Instance">
+            <summary>
+                The singleton instance of this manager.
+            </summary>
+        </member>
+        <member name="E:Jotunn.Managers.MapOverlayManager.OnVanillaMapAvailable">
+            <summary>
+                Event that gets fired once the Map for a World has started and Mods can begin to draw.
+            </summary>
+        </member>
+        <member name="E:Jotunn.Managers.MapOverlayManager.OnVanillaMapDataLoaded">
+            <summary>
+                Event that gets fired once data for a specific Map for a world has been loaded. Eg, Pins are available after this has fired.
+            </summary>
+        </member>
+        <member name="T:Jotunn.Managers.MapOverlayManager.MapOverlay">
+            <summary>
+                Object for modders to use to access and modify their Overlay.
+                Modders should modify the Image's shader's texture directly.
+                MapName and TextureSize should not be modified.
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.MapOverlayManager.MapOverlay.Helper">
+            <summary>
+                Internal Helper GameObject to hold the Image component
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.MapOverlayManager.MapOverlay.MapName">
+            <summary>
+                Unique ID per overlay
+            </summary>
+        </member>
+        <member name="P:Jotunn.Managers.MapOverlayManager.MapOverlay.TextureSize">
+            <summary>
+                Initial texture size to calculate the relative drawing position
+            </summary>
+        </member>
+        <member name="P:Jotunn.Managers.MapOverlayManager.MapOverlay.Img">
+            <summary>
+                Image component holding the overlay texture data
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.MapOverlayManager.Init">
+            <summary>
+                Creates the Overlays and registers hooks.
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.MapOverlayManager.AddMapOverlay">
+            <summary>
+                Create a new mapoverlay with a default overlay name
+            </summary>
+            <returns>Reference to MapOverlay for modder to edit</returns>
+        </member>
+        <member name="M:Jotunn.Managers.MapOverlayManager.AddMapOverlay(System.String)">
+            <summary>
+                Create a new mapoverlay with a custom overlay name
+            </summary>
+            <param name="name">Custom name for the MapOverlay</param>
+            <returns>Reference to MapOverlay for modder to edit</returns>
+        </member>
+        <member name="M:Jotunn.Managers.MapOverlayManager.AddMapOverlay(Jotunn.Managers.MapOverlayManager.MapOverlay)">
+            <summary>
+                If a mod already has an instance of MapOverlay ready, they can simply call this function to register to the MapOverlayManager.
+                This Manager will then ensure the image is updated.
+            </summary>
+            <param name="ovl">The MapOverlay to be registered</param>
+        </member>
+        <member name="M:Jotunn.Managers.MapOverlayManager.RemoveMapOverlay(System.String)">
+            <summary>
+                Causes MapManager to stop updating the MapOverlay object and removes this Manager's reference to that overlay.
+                A mod could still hold references and keep the object alive.
+            </summary>
+            <param name="name">The name of the MapOverlay to be removed</param>
+            <returns>True if removal was successful. False if there was an error removing the object from the internal dict.</returns>
+        </member>
+        <member name="M:Jotunn.Managers.MapOverlayManager.GetMapOverlay(System.String)">
+            <summary>
+                Returns a reference to a currently registered MapOverlay
+            </summary>
+            <param name="name">The name of the MapOverlay to retrieve</param>
+            <returns>The MapOverlay if it exists.</returns>
+        </member>
+        <member name="M:Jotunn.Managers.MapOverlayManager.MaskWithFog(Jotunn.Managers.MapOverlayManager.MapOverlay)">
+            <summary>
+                Helper function to set pixels on the overlay image completely transparent if there is map fog over that pixel.
+                The end effect is to "put fog over top of the overlay".
+            </summary>
+            <param name="ovl">The overlay to place fog on top of</param>
+        </member>
+        <member name="M:Jotunn.Managers.MapOverlayManager.WorldToOverlayCoords(UnityEngine.Vector3,System.Int32)">
+            <summary>
+                Input a World Coordinate and the size of the overlay texture to retrieve the translated overlay coordinates. 
+            </summary>
+            <param name="input">World Coordinates</param>
+            <param name="texSize">Size of the image from your MapOverlay</param>
+            <returns>The 2D coordinate space on the MapOverlay</returns>
+        </member>
+        <member name="M:Jotunn.Managers.MapOverlayManager.OverlayToWorldCoords(UnityEngine.Vector2,System.Int32)">
+            <summary>
+                Input a MapOverlay Coordinate and the size of the overlay texture to retrieve the translated World coordinates.
+            </summary>
+            <param name="input">The 2D Overlay coordinate</param>
+            <param name="texSize">The size of the Overlay</param>
+            <returns>The 3D World coordinate that corresponds to the input Vector</returns>
+        </member>
+        <member name="M:Jotunn.Managers.MapOverlayManager.Update">
+            <summary>
+                All map overlays need to be updated in this way to keep them scaled and positioned properly when the minimap itself is moved / scaled.
+                This function is public as it needs to be called by MapManagerHelper.
+                Automatically scales and positions based on whether the large or small map is active.
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.MapOverlayManager.AddOverlay(Jotunn.Managers.MapOverlayManager.MapOverlay)">
+            <summary>
+                Helper function to set default properties of a MapOverlay.
+                Create a new image of our custom default size and set its anchor min/max to the bottom left.
+                Then add a reference of the mapoverlay to our dict so we can update it later.
+            </summary>
+            <param name="ovl">The overlay to be added</param>
+        </member>
+        <member name="M:Jotunn.Managers.MapOverlayManager.InvokeOnVanillaMapAvailable(On.Minimap.orig_Start,Minimap)">
+            <summary>
+                Safely invoke OnVanillaMapAvailable event.
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.MapOverlayManager.InvokeOnVanillaMapDataLoaded(On.Minimap.orig_LoadMapData,Minimap)">
+            <summary>
+                Safely invoke InvokeOnVanillaMapDataLoaded event.
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.MapOverlayManager.Minimap_Start(On.Minimap.orig_Start,Minimap)">
+            <summary>
+                Monomod hook into the Minimap Awake method. MapManager adds its helper component after the Minimap does its thing.
+            </summary>
+        </member>
+        <member name="T:Jotunn.Managers.MapOverlayManager.MapManagerHelper">
+            <summary>
+                    Helper class that gets attached to the Minimap object on Minimap.Awake()
+                    Used to give MapManager Update() functionality
+            </summary>
+        </member>
         <member name="T:Jotunn.Managers.MockManager">
             <summary>
                 Handles all logic to do with managing mocked prefabs added into the game.
@@ -3533,10 +3909,15 @@
                 Create piece categories per table if custom categories were added.
             </summary>
         </member>
-        <member name="M:Jotunn.Managers.PieceManager.CreateCategoryTabs(UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)">
+        <member name="M:Jotunn.Managers.PieceManager.CreateCategoryTabs(On.Hud.orig_Awake,Hud)">
             <summary>
                 Create tabs for the ingame GUI for every piece table category.
-                Only executes when custom piece table categories were added.
+                Only executes when custom piece table catego-ries were added.
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.PieceManager.UpdatePieceCategories">
+            <summary>
+                Reorder piece table tabs if the table if opened currently
             </summary>
         </member>
         <member name="M:Jotunn.Managers.PieceManager.TogglePieceCategories(On.Hud.orig_UpdateBuild,Hud,Player,System.Boolean)">
@@ -3727,6 +4108,112 @@
             </summary>
             <param name="type"><see cref="T:System.Type"/> to search for.</param>
             <returns></returns>
+        </member>
+        <member name="T:Jotunn.Managers.RenderManager">
+            <summary>
+                Manager for rendering <see cref="T:UnityEngine.Sprite">Sprites</see> of <see cref="T:UnityEngine.GameObject">GameObjects</see>
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.RenderManager.IsometricRotation">
+            <summary>
+                Rotation of the prefab that will result in an isometric view
+            </summary>
+        </member>
+        <member name="P:Jotunn.Managers.RenderManager.Instance">
+            <summary>
+                Singleton instance
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.RenderManager.Layer">
+            <summary>
+                Unused Layer in Unity
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.RenderManager.Init">
+            <summary>
+                Initialize the manager
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.RenderManager.EnqueueRender(UnityEngine.GameObject,System.Action{UnityEngine.Sprite})">
+            <summary>
+                Create a <see cref="T:UnityEngine.Sprite"/> of the <paramref name="target"/>
+            </summary>
+            <param name="target">GameObject to render</param>
+            <param name="callback">Callback for the generated <see cref="T:UnityEngine.Sprite"/></param>
+            <returns>If there is no active visual Mesh attached to the target, this method invokes the callback with null immediately and returns false.</returns>
+        </member>
+        <member name="M:Jotunn.Managers.RenderManager.EnqueueRender(Jotunn.Managers.RenderManager.RenderRequest,System.Action{UnityEngine.Sprite})">
+            <summary>
+                Enqueue a render of the <see cref="T:Jotunn.Managers.RenderManager.RenderRequest"/>
+            </summary>
+            <param name="renderRequest"></param>
+            <param name="callback">Callback for the generated <see cref="T:UnityEngine.Sprite"/></param>
+            <returns>If there is no active visual Mesh attached to the target, this method invokes the callback with null immediately and returns false.</returns>
+        </member>
+        <member name="M:Jotunn.Managers.RenderManager.EnqueueRender(UnityEngine.GameObject,System.Action{UnityEngine.Sprite},System.Int32,System.Int32)">
+            <summary>
+                Queues a new prefab to be rendered. The resulting <see cref="T:UnityEngine.Sprite"/> will be ready at the next frame.
+                If there is no active visual Mesh attached to the target, this method invokes the callback with null immediately.
+            </summary>
+            <param name="target">Object to be rendered. A copy of the provided GameObject will be created for rendering</param>
+            <param name="callback">Action that gets called when the rendering is complete</param>
+            <param name="width">Width of the resulting <see cref="T:UnityEngine.Sprite"/></param>
+            <param name="height">Height of the resulting <see cref="T:UnityEngine.Sprite"/></param>
+            <returns>Only true if the target was queued for rendering</returns>
+        </member>
+        <member name="M:Jotunn.Managers.RenderManager.SpawnSafe(Jotunn.Managers.RenderManager.RenderRequest)">
+            <summary>
+                Spawn a prefab without any Components except visuals. Also prevents calling Awake methods of the prefab.
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Jotunn.Managers.RenderManager.RenderRequest">
+            <summary>
+                Queues a new prefab to be rendered. The resulting <see cref="T:UnityEngine.Sprite"/> will be ready at the next frame. 
+            </summary>
+            <returns>Only true if the target was queued for rendering</returns>
+        </member>
+        <member name="F:Jotunn.Managers.RenderManager.RenderRequest.Target">
+            <summary>
+                Target GameObject to create a <see cref="T:UnityEngine.Sprite"/> from
+            </summary>
+        </member>
+        <member name="P:Jotunn.Managers.RenderManager.RenderRequest.Width">
+            <summary>
+                Width of the generated <see cref="T:UnityEngine.Sprite"/>
+            </summary>
+        </member>
+        <member name="P:Jotunn.Managers.RenderManager.RenderRequest.Height">
+            <summary>
+                Height of the generated <see cref="T:UnityEngine.Sprite"/>
+            </summary>
+        </member>
+        <member name="P:Jotunn.Managers.RenderManager.RenderRequest.Rotation">
+            <summary>
+                Rotation of the prefab to capture
+            </summary>
+        </member>
+        <member name="P:Jotunn.Managers.RenderManager.RenderRequest.FieldOfView">
+            <summary>
+                Field of view of the camera used to create the <see cref="T:UnityEngine.Sprite"/>. Default is small to simulate orthographic view. An orthographic camera is not possible because of shaders
+            </summary>
+        </member>
+        <member name="P:Jotunn.Managers.RenderManager.RenderRequest.DistanceMultiplier">
+            <summary>
+                Distance multiplier, should not be required with the default <see cref="P:Jotunn.Managers.RenderManager.RenderRequest.FieldOfView"/>
+            </summary>
+        </member>
+        <member name="P:Jotunn.Managers.RenderManager.RenderRequest.Callback">
+            <summary>
+                Callback for the generated <see cref="T:UnityEngine.Sprite"/>
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.RenderManager.RenderRequest.#ctor(UnityEngine.GameObject)">
+            <summary>
+                Create a new RenderRequest
+            </summary>
+            <param name="target">Object to be rendered. A copy of the provided GameObject will be created for rendering</param> 
         </member>
         <member name="T:Jotunn.Managers.SkillManager">
             <summary>
@@ -4123,21 +4610,21 @@
             <summary>
                 Get <see cref="T:BepInEx.PluginInfo"/> from a <see cref="T:System.Type"/>
             </summary>
-            <param name="type"></param>
+            <param name="type"><see cref="T:System.Type"/> of the plugin main class</param>
             <returns></returns>
         </member>
         <member name="M:Jotunn.Utils.BepInExUtils.GetPluginInfoFromAssembly(System.Reflection.Assembly)">
             <summary>
                 Get <see cref="T:BepInEx.PluginInfo"/> from an <see cref="T:System.Reflection.Assembly"/>
             </summary>
-            <param name="assembly"></param>
+            <param name="assembly"><see cref="T:System.Reflection.Assembly"/> of the plugin</param>
             <returns></returns>
         </member>
-        <member name="M:Jotunn.Utils.BepInExUtils.GetPluginInfoFromPath(System.String)">
+        <member name="M:Jotunn.Utils.BepInExUtils.GetPluginInfoFromPath(System.IO.FileInfo)">
             <summary>
                 Get <see cref="T:BepInEx.PluginInfo"/> from a path, also matches subfolder paths
             </summary>
-            <param name="path"></param>
+            <param name="fileInfo"><see cref="T:System.IO.FileInfo"/> object of the plugin path</param>
             <returns></returns>
         </member>
         <member name="M:Jotunn.Utils.BepInExUtils.GetSourceModMetadata">
@@ -4779,6 +5266,11 @@
         <member name="P:Jotunn.Utils.ReflectionHelper.Cache.EnumerableToArray">
             <summary>
                 <see cref="T:System.Reflection.MethodInfo"/> of <see cref="M:System.Linq.Enumerable.ToArray``1(System.Collections.Generic.IEnumerable{``0})"/>
+            </summary>
+        </member>
+        <member name="P:Jotunn.Utils.ReflectionHelper.Cache.EnumerableToList">
+            <summary>
+                <see cref="T:System.Reflection.MethodInfo"/> of <see cref="M:System.Linq.Enumerable.ToList``1(System.Collections.Generic.IEnumerable{``0})"/>
             </summary>
         </member>
         <member name="P:Jotunn.Utils.ReflectionHelper.Cache.EnumerableCast">
