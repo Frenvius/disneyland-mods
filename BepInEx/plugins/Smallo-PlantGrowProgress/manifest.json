@@ -1,9 +1,0 @@
-{
-    "name": "PlantGrowProgress",
-    "version_number": "1.4.0",
-    "website_url": "https://github.com/smallo92/PlantGrowProgress",
-    "description": "This mod shows a plant grow progress when you hover over it. It changes colour depending on the progress.",
-    "dependencies": [
-        "denikson-BepInExPack_Valheim-5.4.901"
-    ]
-}
