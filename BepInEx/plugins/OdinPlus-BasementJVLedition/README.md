@@ -16,5 +16,8 @@ Copy Basement.dll into Valheim/BepInEx/plugins
 
 # ChangeLog
 
-V1.0.3:
-Change from Valheimlib -> JVL lib as Valheimlib is defunct.
+## V1.0.3:
+* Change from Valheimlib -> JVL lib as Valheimlib is defunct.
+
+## V1.0.4
+* Made recipe requirements configurable volumes

@@ -1,7 +1,7 @@
 {
     "name": "ServerInventory",
-    "version_number": "1.0.9",
-    "website_url": "https://github.com/Deadheim-project/",
+    "version_number": "1.2.1",
+    "website_url": "https://0github.com/Deadheim-project/",
     "description": "This saves players inventory and skills into a json in server",
   "dependencies": [
     "denikson-BepInExPack_Valheim-5.4.1600"

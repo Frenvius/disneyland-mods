@@ -96,22 +96,22 @@ If you are willing to translate to other languages, I would be more than happy t
 ## Config
 ### Default Config File:
 ```
-## Settings file was created by plugin PlantEverything v1.8.4
+## Settings file was created by plugin PlantEverything v1.8.6
 ## Plugin GUID: advize.PlantEverything
 
 [Berries]
 
-## Number of raspberries required to place a raspberry bush
+## Number of raspberries required to place a raspberry bush. Set to 0 to disable the ability to plant this resource
 # Setting type: Int32
 # Default value: 5
 RaspberryCost = 5
 
-## Number of blueberries required to place a blueberry bush
+## Number of blueberries required to place a blueberry bush. Set to 0 to disable the ability to plant this resource
 # Setting type: Int32
 # Default value: 5
 BlueberryCost = 5
 
-## Number of cloudberries required to place a cloudberry bush
+## Number of cloudberries required to place a cloudberry bush. Set to 0 to disable the ability to plant this resource
 # Setting type: Int32
 # Default value: 5
 CloudberryCost = 5
@@ -217,12 +217,12 @@ ResourcesSpawnEmpty = false
 
 [Flowers]
 
-## Number of thistle required to place a pickable thistle spawner
+## Number of thistle required to place a pickable thistle spawner. Set to 0 to disable the ability to plant this resource
 # Setting type: Int32
 # Default value: 5
 ThistleCost = 5
 
-## Number of dandelion required to place a pickable dandelion spawner
+## Number of dandelion required to place a pickable dandelion spawner. Set to 0 to disable the ability to plant this resource
 # Setting type: Int32
 # Default value: 5
 DandelionCost = 5
@@ -291,17 +291,17 @@ Language = english
 
 [Mushrooms]
 
-## Number of mushrooms required to place a pickable mushroom spawner
+## Number of mushrooms required to place a pickable mushroom spawner. Set to 0 to disable the ability to plant this resource
 # Setting type: Int32
 # Default value: 5
 MushroomCost = 5
 
-## Number of yellow mushrooms required to place a pickable yellow mushroom spawner
+## Number of yellow mushrooms required to place a pickable yellow mushroom spawner. Set to 0 to disable the ability to plant this resource
 # Setting type: Int32
 # Default value: 5
 YellowMushroomCost = 5
 
-## Number of blue mushrooms required to place a pickable blue mushroom spawner
+## Number of blue mushrooms required to place a pickable blue mushroom spawner. Set to 0 to disable the ability to plant this resource
 # Setting type: Int32
 # Default value: 5
 BlueMushroomCost = 5
@@ -491,6 +491,13 @@ ServerIsAuthoritative = true
 Github Repo: [Advize_ValheimMods](https://github.com/AdvizeGH/Advize_ValheimMods)
 
 ## Changelog
+### 1.8.6
+- Berry bushes, mushrooms, and flowers can now individually have their recipes removed from the cultivator by setting their respective resourceCost to 0 in the configuration file.
+
+### 1.8.5
+- Added extra null reference error prevention.
+- Compiled against BepInEx 5.4.1601 and Valheim 0.205.5.
+
 ### 1.8.4
 - Fixed bug where some trees would only drop one or two items from their drop table, even when [Seeds] oneOfEach was set to true.
 

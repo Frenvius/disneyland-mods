@@ -49,7 +49,7 @@ Alternatively, take a look at the following list: https://gist.github.com/C0DEF5
 ## Config
 ### Default Config File:
 ```
-## Settings file was created by plugin CartographySkill v2.0.0
+## Settings file was created by plugin CartographySkill v2.0.2
 ## Plugin GUID: advize.CartographySkill
 
 [Controls]
@@ -138,6 +138,9 @@ EnableDebugMessages = false
 Github Repo: [Advize_ValheimMods](https://github.com/AdvizeGH/Advize_ValheimMods)
 
 ## Changelog
+### 2.0.2
+- Corrected cartography skill icon.
+
 ### 2.0.1
 - Added extra null reference error prevention.
 

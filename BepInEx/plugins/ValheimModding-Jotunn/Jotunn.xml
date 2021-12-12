@@ -503,6 +503,175 @@
             </summary>
             <param name="language">Name of the language</param>
         </member>
+        <member name="T:Jotunn.Configs.LocationConfig">
+            <summary>
+                Configuration class for adding custom locations.<br />
+                Use this in a constructor of <see cref="T:Jotunn.Entities.CustomLocation"/> and 
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.LocationConfig.Location">
+            <summary>
+                Associated <see cref="P:Jotunn.Configs.LocationConfig.Location"/> component
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.LocationConfig.Biome">
+            <summary>
+                Biome to spawn in, multiple Biomes can be allowed with <see cref="M:Jotunn.Managers.ZoneManager.AnyBiomeOf(Heightmap.Biome[])"/>
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.LocationConfig.BiomeArea">
+            <summary>
+                BiomeArea to spawn in, defaults to Everything
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.LocationConfig.Priotized">
+            <summary>
+                Enable to place this kind of location first, and make it twice as likely that the objects will all be placed (random samples increase from 100,000 to 200,000) 
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.LocationConfig.Quantity">
+            <summary>
+                Upper limit on how many of these locations will be placed in the world
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.LocationConfig.ChanceToSpawn">
+            <summary>
+                Unused in Valheim, but available in case that changes in the future
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.LocationConfig.ExteriorRadius">
+            <summary>
+                Radius of the location. Terrain delta is calculated within this circle.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.LocationConfig.CenterFirst">
+            <summary>
+                Attempt to place in the central zone first
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.LocationConfig.InForest">
+            <summary>
+                Enable to check forest thresholds against the forest fractal.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.LocationConfig.ForestTresholdMin">
+            <summary>
+                Minimum value of the forest fractal:
+                    0 - 1: inside the forest
+                    1: forest edge
+                    1 - infinity: outside the forest
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.LocationConfig.ForestTrasholdMax">
+            <summary>
+                Maximum value of the forest fractal:
+                    0 - 1: inside the forest
+                    1: forest edge
+                    1 - infinity: outside the forest
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.LocationConfig.Unique">
+            <summary>
+                Enable to make this location unique, it will not be replaced when locations change
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.LocationConfig.MinAltitude">
+            <summary>
+                Minimal altitude of the location
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.LocationConfig.MaxAltitude">
+            <summary>
+                Maximum altitude of the location
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.LocationConfig.MinDistance">
+            <summary>
+                Minimum distance from the center of the map of the location
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.LocationConfig.MaxDistance">
+            <summary>
+                Maximum distance from the center of the map of the location
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.LocationConfig.Group">
+            <summary>
+                Group of the location. Used with <see cref="P:Jotunn.Configs.LocationConfig.MinDistanceFromSimilar"/>
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.LocationConfig.MinDistanceFromSimilar">
+            <summary>
+                Minimum distance to a similar location, either the same location or a location with the same <see cref="P:Jotunn.Configs.LocationConfig.Group"/>
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.LocationConfig.MinTerrainDelta">
+            <summary>
+                Minimum terrain delta (difference between min and max height) in the circle defined by <see cref="P:Jotunn.Configs.LocationConfig.ExteriorRadius"/>
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.LocationConfig.MaxTerrainDelta">
+            <summary>
+                Maximum terrain delta (difference between min and max height) in the circle defined by <see cref="P:Jotunn.Configs.LocationConfig.ExteriorRadius"/>
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.LocationConfig.SlopeRotation">
+            <summary>
+                Rotate towards the average slope of the terrain in the circle defined by <see cref="P:Jotunn.Configs.LocationConfig.ExteriorRadius"/>
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.LocationConfig.HasInterior">
+            <summary>
+                Enable to
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.LocationConfig.InteriorRadius">
+            <summary>
+                Radius of the interior attached to the location
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.LocationConfig.RandomRotation">
+            <summary>
+                Randomize location rotation when placing
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.LocationConfig.SnapToWater">
+            <summary>
+                Place at water level
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.LocationConfig.IconPlaced">
+            <summary>
+                Enable if the location places an icon to push the location icons
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.LocationConfig.IconAlways">
+            <summary>
+                Always show the associated icon on the minimap
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.LocationConfig.ClearArea">
+            <summary>
+                Enable to forbid Vegetation from spawning inside the circle defined by <see cref="P:Jotunn.Configs.LocationConfig.ExteriorRadius"/>
+            </summary>
+        </member>
+        <member name="M:Jotunn.Configs.LocationConfig.#ctor">
+            <summary>
+                Create a new <see cref="T:Jotunn.Configs.LocationConfig"/>
+            </summary>
+        </member>
+        <member name="M:Jotunn.Configs.LocationConfig.#ctor(ZoneSystem.ZoneLocation)">
+            <summary>
+                Create a copy of the <see cref="T:ZoneSystem.ZoneLocation"/>
+            </summary>
+            <param name="zoneLocation">ZoneLocation to copy</param>
+        </member>
+        <member name="M:Jotunn.Configs.LocationConfig.GetZoneLocation">
+            <summary>
+                Converts the LocationConfig to a Valheim style <see cref="T:ZoneSystem.ZoneLocation"/>.
+            </summary>
+            <returns>The Valheim <see cref="T:ZoneSystem.ZoneLocation"/></returns>
+        </member>
         <member name="T:Jotunn.Configs.PieceConfig">
             <summary>
                 Configuration class for adding custom pieces.<br />
@@ -866,6 +1035,155 @@
             <param name="json">JSON text</param>
             <returns>Loaded list of SmelterConversionConfigs</returns>
         </member>
+        <member name="T:Jotunn.Configs.VegetationConfig">
+            <summary>
+                Configuration class for adding custom vegetation.<br />
+                Use this in a constructor of <see cref="T:Jotunn.Entities.CustomVegetation"/> and 
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.VegetationConfig.Biome">
+            <summary>
+                Biome to spawn in, can be bitwise or'ed toghether to allow multiple Biomes (Heightmap.Biome.Meadows | Heightmap.Biome.Forest)
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.VegetationConfig.BiomeArea">
+            <summary>
+                BiomeArea to spawn in, defaults to Everything
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.VegetationConfig.BlockCheck">
+            <summary>
+                Do a check before placing that there is nothing already from layers: "Default", "static_solid", "Default_small", "piece"
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.VegetationConfig.ForcePlacement">
+            <summary>
+                Unlike what the name suggets, Valheim will attempt 50 times the normal amount of placements, almost guaranteeing that everything will be placed
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.VegetationConfig.Min">
+            <summary>
+                Minimum amount per zone
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.VegetationConfig.Max">
+            <summary>
+                Values between 0 - 1 are used as a chance to place
+                Values above 1 are used as integer amount of maximum per zone
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.VegetationConfig.MinAltitude">
+            <summary>
+                Minimal altitude of the vegetation
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.VegetationConfig.MaxAltitude">
+            <summary>
+                Maximum altitude of the vegetation
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.VegetationConfig.MinOceanDepth">
+            <summary>
+                Minimum ocean depth
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.VegetationConfig.MaxOceanDepth">
+            <summary>
+                Maximum ocean depth
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.VegetationConfig.MinTerrainDelta">
+            <summary>
+                Minimum terrain delta (difference between min and max height) in the circle defined by <see cref="P:Jotunn.Configs.VegetationConfig.TerrainDeltaRadius"/>
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.VegetationConfig.MaxTerrainDelta">
+            <summary>
+                Maximum terrain delta (difference between min and max height) in the circle defined by <see cref="P:Jotunn.Configs.VegetationConfig.TerrainDeltaRadius"/>
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.VegetationConfig.MinTilt">
+            <summary>
+                Minimum tilt in degrees
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.VegetationConfig.MaxTilt">
+            <summary>
+                Maximum tilt in degrees
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.VegetationConfig.InForest">
+            <summary>
+                Enable to check forest thresholds against the forest fractal.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.VegetationConfig.ForestThresholdMin">
+            <summary>
+                Minimum value of the forest fractal:
+                    0 - 1: inside the forest
+                    1: forest edge
+                    1 - infinity: outside the forest
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.VegetationConfig.ForestThresholdMax">
+            <summary>
+                Maximum value of the forest fractal:
+                    0 - 1: inside the forest
+                    1: forest edge
+                    1 - infinity: outside the forest
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.VegetationConfig.TerrainDeltaRadius">
+            <summary>
+                Size of the circle used to determine terrain delta
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.VegetationConfig.ScaleMin">
+            <summary>
+                Minimum scale of placed instances
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.VegetationConfig.ScaleMax">
+            <summary>
+                Maximum scale of place instances
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.VegetationConfig.GroupSizeMin">
+            <summary>
+                Minimum amount in group
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.VegetationConfig.GroupSizeMax">
+            <summary>
+                Maximum amount in group
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.VegetationConfig.GroupRadius">
+            <summary>
+                Radius of group
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.VegetationConfig.GroundOffset">
+            <summary>
+                Placement offset, use negatives to bury underground
+            </summary>
+        </member>
+        <member name="M:Jotunn.Configs.VegetationConfig.#ctor">
+            <summary>
+                Create a new <see cref="T:Jotunn.Configs.VegetationConfig"/>
+            </summary>
+        </member>
+        <member name="M:Jotunn.Configs.VegetationConfig.#ctor(ZoneSystem.ZoneVegetation)">
+            <summary>
+                Create a copy of the <see cref="T:ZoneSystem.ZoneVegetation"/>
+            </summary>
+            <param name="zoneVegetation">ZoneVegetation to copy</param>
+        </member>
+        <member name="T:Jotunn.DebugUtils.DebugHelper.Debug_isDebugBuild">
+            <summary>
+                Pretend to be a debugBuild :)
+            </summary>
+        </member>
         <member name="T:Jotunn.Entities.ConsoleCommand">
             <summary>
                 A custom console command.
@@ -923,7 +1241,7 @@
         </member>
         <member name="P:Jotunn.Entities.CustomEntity.SourceMod">
             <summary>
-                Reference to the <see cref="T:BepInEx.BepInPlugin"/> which added this prefab.
+                Reference to the <see cref="T:BepInEx.BepInPlugin"/> which added this entity.
             </summary>
         </member>
         <member name="M:Jotunn.Entities.CustomEntity.#ctor">
@@ -1150,7 +1468,7 @@
             <summary> Checks if a translation exists for given language and token. </summary>
             <param name="language"> Language being checked. </param>
             <param name="token"> Token being checked. </param>
-            <returns> The translation. </returns>
+            <returns> True if the token was found. </returns>
         </member>
         <member name="M:Jotunn.Entities.CustomLocalization.AddTranslation(System.String@,System.String)">
             <summary> Add a translation. </summary>
@@ -1200,6 +1518,47 @@
         </member>
         <member name="M:Jotunn.Entities.CustomLocalization.ToString">
             <inheritdoc/>
+        </member>
+        <member name="T:Jotunn.Entities.CustomLocation">
+            <summary>
+                Main interface for adding custom locations to the game.<br />
+                All custom locations have to be wrapped inside this class to add it to Jötunns <see cref="T:Jotunn.Managers.ZoneManager"/>.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Entities.CustomLocation.Prefab">
+            <summary>
+                The exterior prefab for this custom location.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Entities.CustomLocation.ZoneLocation">
+            <summary>
+                Associated <see cref="T:ZoneSystem.ZoneLocation"/> component
+            </summary>
+        </member>
+        <member name="P:Jotunn.Entities.CustomLocation.Location">
+            <summary>
+                Associated <see cref="P:Jotunn.Entities.CustomLocation.Location"/> component
+            </summary>
+        </member>
+        <member name="P:Jotunn.Entities.CustomLocation.Name">
+            <summary>
+                Name of this custom location
+            </summary>
+        </member>
+        <member name="M:Jotunn.Entities.CustomLocation.#ctor(UnityEngine.GameObject,Jotunn.Configs.LocationConfig)">
+            <summary>
+                Custom location from a prefab with a <see cref="T:Jotunn.Configs.LocationConfig"/> attached.<br />
+            </summary>
+            <param name="exteriorPrefab">The exterior prefab for this custom location.</param>
+            <param name="locationConfig">The <see cref="T:Jotunn.Configs.LocationConfig"/> for this custom location.</param>
+        </member>
+        <member name="M:Jotunn.Entities.CustomLocation.#ctor(UnityEngine.GameObject,UnityEngine.GameObject,Jotunn.Configs.LocationConfig)">
+            <summary>
+                Custom location from a prefab with a <see cref="T:Jotunn.Configs.LocationConfig"/> attached.<br />
+            </summary>
+            <param name="exteriorPrefab">The exterior prefab for this custom location.</param>
+            <param name="interiorPrefab">The interior prefab for this custom location.</param>
+            <param name="locationConfig">The <see cref="T:Jotunn.Configs.LocationConfig"/> for this custom location.</param>
         </member>
         <member name="T:Jotunn.Entities.CustomPiece">
             <summary>
@@ -1520,6 +1879,115 @@
         <member name="M:Jotunn.Entities.CustomRecipe.ToString">
             <inheritdoc/>
         </member>
+        <member name="T:Jotunn.Entities.CustomRPC">
+            <summary>
+                Wrapper for Valheim's RPC calls implementing convenience delegate methods for client and server processing of packages.<br/>
+                Automatically compresses and slices big packages to fit into the Steam package limit.<br/>
+                All sending and processing of received packages is executed in Coroutines to ensure the game loop's execution.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Entities.CustomRPC.Name">
+            <summary>
+                Name of the custom RPC as defined at instantiation
+            </summary>
+        </member>
+        <member name="P:Jotunn.Entities.CustomRPC.IsSending">
+            <summary>
+                True, if this RPC is currently sending data
+            </summary>
+        </member>
+        <member name="P:Jotunn.Entities.CustomRPC.IsReceiving">
+            <summary>
+                True, if this RPC is currently receiving data
+            </summary>
+        </member>
+        <member name="P:Jotunn.Entities.CustomRPC.IsProcessing">
+            <summary>
+                True, if this RPC is currently processing received data.
+                This is always true while executing the registered delegates.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Entities.CustomRPC.IsProcessingOther">
+            <summary>
+                True, if this RPC is processing received data outside the current delegate call.
+                This should only be used in the registered delegate methods to determine
+                if this RPC is already processing another package.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Entities.CustomRPC.ID">
+            <summary>
+                Unique ID of this RPC to prevent name clashes between mods
+            </summary>
+        </member>
+        <member name="F:Jotunn.Entities.CustomRPC.OnServerReceive">
+            <summary>
+                Delegate called when a package is received on the server
+            </summary>
+        </member>
+        <member name="F:Jotunn.Entities.CustomRPC.OnClientReceive">
+            <summary>
+                Delegate called when a package is received on the client
+            </summary>
+        </member>
+        <member name="M:Jotunn.Entities.CustomRPC.#ctor(BepInEx.BepInPlugin,System.String,Jotunn.Managers.NetworkManager.CoroutineHandler,Jotunn.Managers.NetworkManager.CoroutineHandler)">
+            <summary>
+                Internal constructor only, CustomRPCs are instantiated via <see cref="T:Jotunn.Managers.NetworkManager"/>
+            </summary>
+            <param name="sourceMod">Reference to the <see cref="T:BepInEx.BepInPlugin"/> which created this RPC.</param>
+            <param name="name"></param>
+            <param name="serverReceive"></param>
+            <param name="clientReceive"></param>
+        </member>
+        <member name="M:Jotunn.Entities.CustomRPC.Initiate">
+            <summary>
+                Initiates a RPC exchange with the server by sending an empty package.
+            </summary>
+        </member>
+        <member name="M:Jotunn.Entities.CustomRPC.SendPackage(System.Int64,ZPackage)">
+            <summary>
+                Send a package to a single target. Compresses and fragments the package if necessary.
+            </summary>
+            <param name="target"></param>
+            <param name="package"></param>
+        </member>
+        <member name="M:Jotunn.Entities.CustomRPC.SendPackage(System.Collections.Generic.List{ZNetPeer},ZPackage)">
+            <summary>
+                Send a package to a list of peers. Compresses and fragments the package if necessary.
+            </summary>
+            <param name="peers"></param>
+            <param name="package"></param>
+        </member>
+        <member name="M:Jotunn.Entities.CustomRPC.SendPackageRoutine(System.Int64,ZPackage)">
+            <summary>
+                Coroutine to send a package to a single target. Compresses and fragments the package if necessary.
+            </summary>
+            <param name="target"></param>
+            <param name="package"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Jotunn.Entities.CustomRPC.SendPackageRoutine(System.Collections.Generic.List{ZNetPeer},ZPackage)">
+            <summary>
+                Coroutine to send a package to a list of peers. Compresses and fragments the package if necessary.
+            </summary>
+            <param name="peers"></param>
+            <param name="package"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Jotunn.Entities.CustomRPC.SendToPeer(ZNetPeer,ZPackage)">
+            <summary>
+                Coroutine to send a package to an actual peer.
+            </summary>
+            <param name="peer"></param>
+            <param name="package"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Jotunn.Entities.CustomRPC.ReceivePackage(System.Int64,ZPackage)">
+            <summary>
+                Receive and handle an incoming package
+            </summary>
+            <param name="sender"></param>
+            <param name="package"></param>
+        </member>
         <member name="T:Jotunn.Entities.CustomStatusEffect">
             <summary>
                 Main interface for adding custom status effects to the game.<br />
@@ -1558,6 +2026,34 @@
         </member>
         <member name="M:Jotunn.Entities.CustomStatusEffect.ToString">
             <inheritdoc/>
+        </member>
+        <member name="T:Jotunn.Entities.CustomVegetation">
+            <summary>
+                Main interface for adding custom vegetation to the game.<br />
+                All custom vegetation have to be wrapped inside this class to add it to Jötunns <see cref="T:Jotunn.Managers.ZoneManager"/>.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Entities.CustomVegetation.Prefab">
+            <summary>
+                The prefab for this custom vegetation.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Entities.CustomVegetation.Vegetation">
+            <summary>
+                Associated <see cref="T:ZoneSystem.ZoneVegetation"/> component
+            </summary>
+        </member>
+        <member name="P:Jotunn.Entities.CustomVegetation.Name">
+            <summary>
+                Name of this custom vegetation
+            </summary>
+        </member>
+        <member name="M:Jotunn.Entities.CustomVegetation.#ctor(UnityEngine.GameObject,Jotunn.Configs.VegetationConfig)">
+            <summary>
+                Custom vegetation from a prefab.<br />
+            </summary>
+            <param name="prefab">The prefab for this custom vegetation.</param>
+            <param name="config">The vegetation config for this custom vegation.</param> 
         </member>
         <member name="T:Jotunn.Entities.KitbashObject">
             <summary>
@@ -1617,6 +2113,20 @@
             <param name="recover">Whether the resources are returned after deconstruction</param>
             <returns></returns>
         </member>
+        <member name="T:Jotunn.ArrayExtensions">
+            <summary>
+                Helper for Arrays
+            </summary>
+        </member>
+        <member name="M:Jotunn.ArrayExtensions.Populate``1(``0[],``0)">
+            <summary>
+                Populate an array with a default value
+            </summary>
+            <typeparam name="T">Array value type</typeparam>
+            <param name="arr">Array instance</param>
+            <param name="value">Default value</param>
+            <returns>Reference to the array instance</returns>
+        </member>
         <member name="T:Jotunn.ConfigEntryBaseExtension">
             <summary>
                 Extends <see cref="T:BepInEx.Configuration.ConfigEntryBase"/> with convenience functions.
@@ -1657,14 +2167,6 @@
             <param name="configurationEntry"></param>
             <param name="value"></param>
             <returns></returns>
-        </member>
-        <member name="M:Jotunn.ConfigEntryBaseExtension.IsButtonBound(BepInEx.Configuration.ConfigEntryBase)">
-            <summary>
-                Check, if button is bound to a configuration entry
-            </summary>
-            <param name="configurationEntry"></param>
-            <returns></returns>
-            <exception cref="T:System.ArgumentNullException"></exception>
         </member>
         <member name="M:Jotunn.ConfigEntryBaseExtension.GetBoundButtonName(BepInEx.Configuration.ConfigEntryBase)">
             <summary>
@@ -1748,6 +2250,15 @@
             <typeparam name="T">The type of Component to return.</typeparam>
             <param name="gameObject">The GameObject this Component is attached to.</param>
             <returns>Component</returns>
+        </member>
+        <member name="M:Jotunn.ExposedGameObjectExtension.AddComponentCopy``1(UnityEngine.GameObject,``0)">
+            <summary>
+                Adds a new copy of the provided component to a gameObject
+            </summary>
+            <param name="gameObject"></param>
+            <param name="duplicate"></param>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
         </member>
         <member name="T:Jotunn.GameObjectGUIExtension">
             <summary>
@@ -1871,6 +2382,35 @@
                 Helpful Unity Object extensions.
             </summary>
         </member>
+        <member name="T:Jotunn.RectTransformExtensions">
+            <summary>
+                Extensions for working with Unity UI RectTransforms
+            </summary>
+        </member>
+        <member name="M:Jotunn.RectTransformExtensions.Overlaps(UnityEngine.RectTransform,UnityEngine.RectTransform)">
+            <summary>
+                Test if a RectTransform overlaps another RectTransform in world space
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Jotunn.RectTransformExtensions.Overlaps(UnityEngine.RectTransform,UnityEngine.RectTransform,System.Boolean)">
+            <summary>
+                Test if a RectTransform overlaps another RectTransform in world space
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <param name="allowInverse"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Jotunn.RectTransformExtensions.WorldRect(UnityEngine.RectTransform)">
+            <summary>
+                Calculate the world rect of a RectTransform
+            </summary>
+            <param name="rectTransform"></param>
+            <returns></returns>
+        </member>
         <member name="T:Jotunn.ZNetExtension">
             <summary>
                 Extends ZNet with a clear diversion between local, client and server instances.
@@ -1937,57 +2477,85 @@
                 An ingame GUI for BepInEx config files
             </summary>
         </member>
-        <member name="F:Jotunn.GUI.InGameConfig.MenuName">
+        <member name="F:Jotunn.GUI.InGameConfig.MenuToken">
             <summary>
                 Name of the menu entry
             </summary>
         </member>
-        <member name="F:Jotunn.GUI.InGameConfig.MenuList">
+        <member name="F:Jotunn.GUI.InGameConfig.CancelToken">
             <summary>
-                Cached transform of the vanilla menu list
+                Text of the Cancel button
+            </summary>
+        </member>
+        <member name="F:Jotunn.GUI.InGameConfig.OKToken">
+            <summary>
+                Text of the OK button
+            </summary>
+        </member>
+        <member name="F:Jotunn.GUI.InGameConfig.KeybindToken">
+            <summary>
+                Text of the keybind dialogue
             </summary>
         </member>
         <member name="F:Jotunn.GUI.InGameConfig.SettingsPrefab">
             <summary>
-                Cached prefab of the vanilla Settings window
+                Mod settings Prefab
             </summary>
         </member>
         <member name="F:Jotunn.GUI.InGameConfig.SettingsRoot">
             <summary>
-                Our own Settings window
+                Current mod settings instance
             </summary>
         </member>
-        <member name="F:Jotunn.GUI.InGameConfig.Configs">
+        <member name="M:Jotunn.GUI.InGameConfig.Init">
             <summary>
-                Our own mod config tabs
+                Load and init hooks on client instances
             </summary>
         </member>
-        <member name="M:Jotunn.GUI.InGameConfig.HookOnSettings">
+        <member name="M:Jotunn.GUI.InGameConfig.LoadDefaultLocalization">
             <summary>
-                Hook into settings setup
+                Register Jötunn's default localization
+            </summary>
+        </member>
+        <member name="M:Jotunn.GUI.InGameConfig.LoadModSettingsPrefab">
+            <summary>
+                Load the mod settings prefab and apply Valheim style to it
+            </summary>
+        </member>
+        <member name="T:Jotunn.GUI.InGameConfig.CloseBehaviour">
+            <summary>
+                Adding a MonoBehaviour to close the mod settings here.
+                The Unity project does not know about BepInEx...
             </summary>
         </member>
         <member name="M:Jotunn.GUI.InGameConfig.FejdStartup_SetupGui(On.FejdStartup.orig_SetupGui,FejdStartup)">
             <summary>
-                After SetupGui
+                Add default localization and instantiate the mod settings button in Fejd.
             </summary>
         </member>
         <member name="M:Jotunn.GUI.InGameConfig.Menu_Start(On.Menu.orig_Start,Menu)">
             <summary>
-                After first menu start
+                Cache current configuration values for possible sync and instantiate
+                the mod settings button on first in-game menu start.
             </summary>
         </member>
-        <member name="M:Jotunn.GUI.InGameConfig.Instantiate(UnityEngine.Transform,UnityEngine.GameObject)">
+        <member name="M:Jotunn.GUI.InGameConfig.Instantiate(UnityEngine.Transform)">
             <summary>
                 Create our own menu list entry when mod config is available
             </summary>
             <param name="menuList"></param>
-            <param name="settingsPrefab"></param>
         </member>
-        <member name="M:Jotunn.GUI.InGameConfig.CreateWindow">
+        <member name="M:Jotunn.GUI.InGameConfig.CreateWindow(UnityEngine.Transform)">
             <summary>
                 Create custom configuration window
             </summary>
+        </member>
+        <member name="M:Jotunn.GUI.InGameConfig.GetConfigurationEntries(System.String)">
+            <summary>
+                Get all config entries of a module by GUID
+            </summary>
+            <param name="guid"></param>
+            <returns></returns>
         </member>
         <member name="M:Jotunn.GUI.InGameConfig.GetConfigurationEntries(BepInEx.BaseUnityPlugin)">
             <summary>
@@ -1996,68 +2564,20 @@
             <param name="module"></param>
             <returns></returns>
         </member>
+        <member name="M:Jotunn.GUI.InGameConfig.ShowWindow">
+            <summary>
+                Refresh the displayed values
+            </summary>
+        </member>
         <member name="M:Jotunn.GUI.InGameConfig.SaveConfiguration">
             <summary>
-                Save our settings
+                Write all displayed values back to the config files
             </summary>
         </member>
-        <member name="M:Jotunn.GUI.InGameConfig.CreateTextInputField(UnityEngine.Transform,System.String,UnityEngine.Color,System.String,UnityEngine.Color,System.Single)">
+        <member name="T:Jotunn.GUI.InGameConfig.IConfigBound">
             <summary>
-                Create a text input field (used for string, int, float)
+                Interface for the generic config bind class used in <see cref="M:Jotunn.GUI.InGameConfig.SaveConfiguration"/>
             </summary>
-            <param name="parent">parent transform</param>
-            <param name="labelname">Label text</param>
-            <param name="labelColor">Color of the label</param>
-            <param name="description">Description text</param>
-            <param name="descriptionColor">Color of the description text</param>
-            <param name="width">Width</param>
-            <returns></returns>
-        </member>
-        <member name="M:Jotunn.GUI.InGameConfig.CreateColorInputField(UnityEngine.Transform,System.String,UnityEngine.Color,System.String,UnityEngine.Color,System.Single)">
-            <summary>
-                Create a text input field and a ColorPicker button (used for Color)
-            </summary>
-            <param name="parent">parent transform</param>
-            <param name="labelname">Label text</param>
-            <param name="labelColor">Color of the label</param>
-            <param name="description">Description text</param>
-            <param name="descriptionColor">Color of the description text</param>
-            <param name="width">Width</param>
-            <returns></returns>
-        </member>
-        <member name="M:Jotunn.GUI.InGameConfig.CreateToggleElement(UnityEngine.Transform,System.String,UnityEngine.Color,System.String,UnityEngine.Color,System.Single)">
-            <summary>
-                Create a toggle element
-            </summary>
-            <param name="parent">parent transform</param>
-            <param name="labelname">label text</param>
-            <param name="labelColor">Color of the label</param>
-            <param name="description">Description text</param>
-            <param name="descriptionColor">Color of the description text</param>
-            <param name="width">width</param>
-            <returns></returns>
-        </member>
-        <member name="M:Jotunn.GUI.InGameConfig.CreateKeybindElement(UnityEngine.Transform,System.String,System.String,System.String,System.Single)">
-            <summary>
-                Create a keybinding element
-            </summary>
-            <param name="parent">parent transform</param>
-            <param name="labelname">label text</param>
-            <param name="description">description text</param>
-            ´<param name="buttonName">buttonName</param>
-            <param name="width">width</param>
-            <returns></returns>
-        </member>
-        <member name="M:Jotunn.GUI.InGameConfig.CreateShortcutbindElement(UnityEngine.Transform,System.String,System.String,System.String,System.Single)">
-            <summary>
-                Create a KeyboardShortcut binding element
-            </summary>
-            <param name="parent">parent transform</param>
-            <param name="labelname">label text</param>
-            <param name="description">description text</param>
-            ´<param name="buttonName">buttonName</param>
-            <param name="width">width</param>
-            <returns></returns>
         </member>
         <member name="T:Jotunn.GUI.InGameConfig.ConfigBound`1">
             <summary>
@@ -2085,6 +2605,11 @@
                 Double binding
             </summary>
         </member>
+        <member name="T:Jotunn.GUI.InGameConfig.ConfigBoundString">
+            <summary>
+                String binding
+            </summary>
+        </member>
         <member name="T:Jotunn.GUI.InGameConfig.ConfigBoundKeyCode">
             <summary>
                 KeyCode binding
@@ -2100,9 +2625,14 @@
                 GamepadButton binding
             </summary>
         </member>
-        <member name="T:Jotunn.GUI.InGameConfig.ConfigBoundString">
+        <member name="T:Jotunn.GUI.InGameConfig.ConfigBoundVector2">
             <summary>
-                String binding
+                Vector2 binding
+            </summary>
+        </member>
+        <member name="T:Jotunn.GUI.InGameConfig.ConfigBoundEnum">
+            <summary>
+                GamepadButton binding
             </summary>
         </member>
         <member name="T:Jotunn.GUI.ColorPicker">
@@ -2476,6 +3006,16 @@
                 Manually close the GradientPicker and apply the selected color
             </summary>
         </member>
+        <member name="T:Jotunn.IManager">
+            <summary>
+                The base class for all the library's various Managers
+            </summary>
+        </member>
+        <member name="M:Jotunn.IManager.Init">
+            <summary>
+                Initialize manager class after all manager scripts have been added to the root game object
+            </summary>
+        </member>
         <member name="T:Jotunn.Logger">
             <summary>
                 A namespace wide Logger class, which automatically creates a ManualLogSource
@@ -2564,16 +3104,6 @@
                 Invoke patch initialization methods for all loaded mods.
             </summary>
         </member>
-        <member name="T:Jotunn.IManager">
-            <summary>
-                The base class for all the library's various Managers
-            </summary>
-        </member>
-        <member name="M:Jotunn.IManager.Init">
-            <summary>
-                Initialize manager class after all manager scripts have been added to the root game object
-            </summary>
-        </member>
         <member name="T:Jotunn.Managers.CommandManager">
             <summary>
                 Manager for handling custom console and chat commands.
@@ -2582,6 +3112,11 @@
         <member name="P:Jotunn.Managers.CommandManager.Instance">
             <summary>
                 The singleton instance of this manager.
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.CommandManager.#ctor">
+            <summary>
+                Hide .ctor
             </summary>
         </member>
         <member name="F:Jotunn.Managers.CommandManager.OnGetTabOptions">
@@ -2624,6 +3159,11 @@
         <member name="P:Jotunn.Managers.GUIManager.Instance">
             <summary>
                 Singleton instance
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.GUIManager.#ctor">
+            <summary>
+                Hide .ctor
             </summary>
         </member>
         <member name="E:Jotunn.Managers.GUIManager.OnPixelFixCreated">
@@ -3027,6 +3567,13 @@
             </summary>
             <param name="slider"></param>
         </member>
+        <member name="M:Jotunn.Managers.GUIManager.ApplySliderStyle(UnityEngine.UI.Slider,UnityEngine.Vector2)">
+            <summary>
+                Apply Valheim style to a <see cref="T:UnityEngine.UI.Slider"/> component.
+            </summary>
+            <param name="slider"></param>
+            <param name="handleSize"></param>
+        </member>
         <member name="T:Jotunn.Managers.InputManager">
             <summary>
                Manager for handling custom inputs registered by mods.
@@ -3127,6 +3674,11 @@
                 Singleton instance
             </summary>
         </member>
+        <member name="M:Jotunn.Managers.InputManager.#ctor">
+            <summary>
+                Hide .ctor
+            </summary>
+        </member>
         <member name="M:Jotunn.Managers.InputManager.Init">
             <summary>
                 Initialize the manager
@@ -3147,6 +3699,11 @@
         <member name="P:Jotunn.Managers.ItemManager.Instance">
             <summary>
                 The singleton instance of this manager.
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.ItemManager.#ctor">
+            <summary>
+                Hide .ctor
             </summary>
         </member>
         <member name="E:Jotunn.Managers.ItemManager.OnVanillaItemsAvailable">
@@ -3352,6 +3909,11 @@
                 Singleton instance
             </summary>
         </member>
+        <member name="M:Jotunn.Managers.KeyHintManager.#ctor">
+            <summary>
+                Hide .ctor
+            </summary>
+        </member>
         <member name="F:Jotunn.Managers.KeyHintManager.KeyHints">
             <summary>
                 Internal Dictionary holding the references to the custom key hints added to the manager
@@ -3431,6 +3993,11 @@
                 The singleton instance of this manager.
             </summary>
         </member>
+        <member name="M:Jotunn.Managers.KitbashManager.#ctor">
+            <summary>
+                Hide .ctor
+            </summary>
+        </member>
         <member name="F:Jotunn.Managers.KitbashManager.KitbashObjects">
             <summary>
                 Internal list of objects to which Kitbashing should be applied.
@@ -3504,6 +4071,11 @@
         <member name="P:Jotunn.Managers.LocalizationManager.Instance">
             <summary> 
                 The singleton instance of this manager.
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.LocalizationManager.#ctor">
+            <summary>
+                Hide .ctor
             </summary>
         </member>
         <member name="F:Jotunn.Managers.LocalizationManager.JotunnLocalization">
@@ -3763,6 +4335,16 @@
                 The singleton instance of this manager.
             </summary>
         </member>
+        <member name="M:Jotunn.Managers.MockManager.#ctor">
+            <summary>
+                Hide .ctor
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.MockManager.CopyRegex">
+            <summary>
+                Regex to identify multiple instances of mock objects from Unity
+            </summary>
+        </member>
         <member name="F:Jotunn.Managers.MockManager.MockPrefix">
             <summary>
                 Legacy ValheimLib prefix used by the Mock System to recognize Mock gameObject that must be replaced at some point.
@@ -3799,6 +4381,64 @@
             <param name="mockObjectType"></param>
             <returns>the real prefab</returns>
         </member>
+        <member name="T:Jotunn.Managers.NetworkManager">
+            <summary>
+                Manager handling all network related code
+            </summary>
+        </member>
+        <member name="P:Jotunn.Managers.NetworkManager.Instance">
+            <summary>
+                Singleton instance
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.NetworkManager.#ctor">
+            <summary>
+                Hide .ctor
+            </summary>
+        </member>
+        <member name="T:Jotunn.Managers.NetworkManager.CoroutineHandler">
+            <summary>
+                Delegate for receiving <see cref="T:ZPackage">ZPackages</see>.
+                Gets called inside a <see cref="T:UnityEngine.Coroutine"/>.
+            </summary>
+            <param name="sender">Sender ID of the package</param>
+            <param name="package">Package sent</param>
+            <returns></returns>
+        </member>
+        <member name="F:Jotunn.Managers.NetworkManager.RPCs">
+            <summary>
+                Internal list of registered RPCs
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.NetworkManager.Init">
+            <summary>
+                Manager's main init
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.NetworkManager.AddRPC(System.String,Jotunn.Managers.NetworkManager.CoroutineHandler,Jotunn.Managers.NetworkManager.CoroutineHandler)">
+            <summary>
+                Get a <see cref="T:Jotunn.Entities.CustomRPC"/> for your mod
+            </summary>
+            <param name="name">Unique name for your RPC</param>
+            <param name="serverReceive">Delegate which gets called on client instances when packages are received</param>
+            <param name="clientReceive">Delegate which gets called on server instances when packages are received</param>
+            <returns>Existing or newly created <see cref="T:Jotunn.Entities.CustomRPC"/></returns>
+        </member>
+        <member name="M:Jotunn.Managers.NetworkManager.AddRPC(BepInEx.BepInPlugin,System.String,Jotunn.Managers.NetworkManager.CoroutineHandler,Jotunn.Managers.NetworkManager.CoroutineHandler)">
+            <summary>
+                Get the <see cref="T:Jotunn.Entities.CustomRPC"/> for a given mod.
+            </summary>
+            <param name="sourceMod">Reference to the <see cref="T:BepInEx.BepInPlugin"/> which added this entity</param>
+            <param name="name">Unique name for your RPC</param>
+            <param name="serverReceive">Delegate which gets called on client instances when packages are received</param>
+            <param name="clientReceive">Delegate which gets called on server instances when packages are received</param>
+            <returns>Existing or newly created <see cref="T:Jotunn.Entities.CustomRPC"/>.</returns>
+        </member>
+        <member name="M:Jotunn.Managers.NetworkManager.Game_Start(On.Game.orig_Start,Game)">
+            <summary>
+                Register all custom RPCs as <see cref="T:ZRoutedRpc">ZRoutedRPCs</see>
+            </summary>
+        </member>
         <member name="T:Jotunn.Managers.PieceManager">
             <summary>
                 Manager for handling custom pieces added to the game.
@@ -3807,6 +4447,11 @@
         <member name="P:Jotunn.Managers.PieceManager.Instance">
             <summary>
                 The singleton instance of this manager.
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.PieceManager.#ctor">
+            <summary>
+                Hide .ctor
             </summary>
         </member>
         <member name="E:Jotunn.Managers.PieceManager.OnPiecesRegistered">
@@ -3957,6 +4602,11 @@
         <member name="P:Jotunn.Managers.PrefabManager.Instance">
             <summary>
                 The singleton instance of this manager.
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.PrefabManager.#ctor">
+            <summary>
+                Hide .ctor
             </summary>
         </member>
         <member name="E:Jotunn.Managers.PrefabManager.OnVanillaPrefabsAvailable">
@@ -4124,6 +4774,11 @@
                 Singleton instance
             </summary>
         </member>
+        <member name="M:Jotunn.Managers.RenderManager.#ctor">
+            <summary>
+                Hide .ctor
+            </summary>
+        </member>
         <member name="F:Jotunn.Managers.RenderManager.Layer">
             <summary>
                 Unused Layer in Unity
@@ -4140,7 +4795,7 @@
             </summary>
             <param name="target">GameObject to render</param>
             <param name="callback">Callback for the generated <see cref="T:UnityEngine.Sprite"/></param>
-            <returns>If there is no active visual Mesh attached to the target, this method invokes the callback with null immediately and returns false.</returns>
+            <returns>If this is called on a headless server or when there is no active visual Mesh attached to the target, this method invokes the callback with null immediately and returns false.</returns>
         </member>
         <member name="M:Jotunn.Managers.RenderManager.EnqueueRender(Jotunn.Managers.RenderManager.RenderRequest,System.Action{UnityEngine.Sprite})">
             <summary>
@@ -4148,7 +4803,7 @@
             </summary>
             <param name="renderRequest"></param>
             <param name="callback">Callback for the generated <see cref="T:UnityEngine.Sprite"/></param>
-            <returns>If there is no active visual Mesh attached to the target, this method invokes the callback with null immediately and returns false.</returns>
+            <returns>If this is called on a headless server or when there is no active visual Mesh attached to the target, this method invokes the callback with null immediately and returns false.</returns>
         </member>
         <member name="M:Jotunn.Managers.RenderManager.EnqueueRender(UnityEngine.GameObject,System.Action{UnityEngine.Sprite},System.Int32,System.Int32)">
             <summary>
@@ -4160,6 +4815,28 @@
             <param name="width">Width of the resulting <see cref="T:UnityEngine.Sprite"/></param>
             <param name="height">Height of the resulting <see cref="T:UnityEngine.Sprite"/></param>
             <returns>Only true if the target was queued for rendering</returns>
+        </member>
+        <member name="M:Jotunn.Managers.RenderManager.Render(UnityEngine.GameObject)">
+            <summary>
+                Create a <see cref="T:UnityEngine.Sprite"/> of the <paramref name="target"/>
+            </summary>
+            <param name="target">Can be a prefab or any existing GameObject in the world</param>
+            <returns>If this is called on a headless server or when there is no active visual Mesh attached to the target, this method returns null.</returns>
+        </member>
+        <member name="M:Jotunn.Managers.RenderManager.Render(UnityEngine.GameObject,UnityEngine.Quaternion)">
+            <summary>
+                Create a <see cref="T:UnityEngine.Sprite"/> of the <paramref name="target"/>
+            </summary>
+            <param name="target">Can be a prefab or any existing GameObject in the world</param>
+            <param name="rotation">Rotation while rendering of the GameObject. See <code>RenderManager.IsometricRotation</code> for example/></param>
+            <returns>If this is called on a headless server or when there is no active visual Mesh attached to the target, this method returns null.</returns>
+        </member>
+        <member name="M:Jotunn.Managers.RenderManager.Render(Jotunn.Managers.RenderManager.RenderRequest)">
+            <summary>
+                Create a <see cref="T:UnityEngine.Sprite"/> of the <paramref name="target"/>
+            </summary>
+            <param name="renderRequest"></param>
+            <returns>If this is called on a headless server or when there is no active visual Mesh attached to the target, this method returns null.</returns>
         </member>
         <member name="M:Jotunn.Managers.RenderManager.SpawnSafe(Jotunn.Managers.RenderManager.RenderRequest)">
             <summary>
@@ -4181,12 +4858,12 @@
         </member>
         <member name="P:Jotunn.Managers.RenderManager.RenderRequest.Width">
             <summary>
-                Width of the generated <see cref="T:UnityEngine.Sprite"/>
+                Pixel width of the generated <see cref="T:UnityEngine.Sprite"/>
             </summary>
         </member>
         <member name="P:Jotunn.Managers.RenderManager.RenderRequest.Height">
             <summary>
-                Height of the generated <see cref="T:UnityEngine.Sprite"/>
+                Pixel height of the generated <see cref="T:UnityEngine.Sprite"/>
             </summary>
         </member>
         <member name="P:Jotunn.Managers.RenderManager.RenderRequest.Rotation">
@@ -4215,6 +4892,11 @@
             </summary>
             <param name="target">Object to be rendered. A copy of the provided GameObject will be created for rendering</param> 
         </member>
+        <member name="M:Jotunn.Managers.SaveManager.#ctor">
+            <summary>
+                Hide .ctor
+            </summary>
+        </member>
         <member name="T:Jotunn.Managers.SkillManager">
             <summary>
                Manager for handling custom skills added to the game.
@@ -4223,6 +4905,11 @@
         <member name="P:Jotunn.Managers.SkillManager.Instance">
             <summary>
                 Global singleton instance of the manager.
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.SkillManager.#ctor">
+            <summary>
+                Hide .ctor
             </summary>
         </member>
         <member name="M:Jotunn.Managers.SkillManager.Init">
@@ -4288,6 +4975,11 @@
                 Singleton instance
             </summary>
         </member>
+        <member name="M:Jotunn.Managers.SynchronizationManager.#ctor">
+            <summary>
+                Hide .ctor
+            </summary>
+        </member>
         <member name="P:Jotunn.Managers.SynchronizationManager.PlayerIsAdmin">
             <summary>
                 Clientside indicator if the current player has admin status on 
@@ -4298,13 +4990,6 @@
             <summary>
                 Manager's main init
             </summary>
-        </member>
-        <member name="M:Jotunn.Managers.SynchronizationManager.Game_Start(On.Game.orig_Start,Game)">
-            <summary>
-                Hook <see cref="M:Game.Start"/> to register RPCs
-            </summary>
-            <param name="orig"></param>
-            <param name="self"></param>
         </member>
         <member name="M:Jotunn.Managers.SynchronizationManager.SceneManager_sceneLoaded(UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)">
             <summary>
@@ -4319,14 +5004,6 @@
             </summary>
             <param name="orig"></param>
             <param name="self"></param>
-        </member>
-        <member name="M:Jotunn.Managers.SynchronizationManager.ZNet_OnNewConnection(On.ZNet.orig_OnNewConnection,ZNet,ZNetPeer)">
-            <summary>
-                Hook <see cref="M:ZNet.OnNewConnection(ZNetPeer)"/> to register client side RPC calls for synchronization.
-            </summary>
-            <param name="orig"></param>
-            <param name="self"></param>
-            <param name="peer"></param>
         </member>
         <member name="M:Jotunn.Managers.SynchronizationManager.ZNet_RPC_PeerInfo(On.ZNet.orig_RPC_PeerInfo,ZNet,ZRpc,ZPackage)">
             <summary>
@@ -4363,13 +5040,6 @@
             </summary>
             <param name="entry">Socket host name of the peer</param>
             <param name="admin">Admin state to send to the client</param>
-        </member>
-        <member name="M:Jotunn.Managers.SynchronizationManager.RPC_Jotunn_IsAdmin(System.Int64,System.Boolean)">
-            <summary>
-                Determine Player's admin status.
-            </summary>
-            <param name="sender"></param>
-            <param name="isAdmin"></param>
         </member>
         <member name="M:Jotunn.Managers.SynchronizationManager.InvokeOnAdminStatusChanged">
             <summary>
@@ -4450,20 +5120,6 @@
                 Reset configs which may have been overwritten with server values to the local value
             </summary>
         </member>
-        <member name="M:Jotunn.Managers.SynchronizationManager.RPC_Jotunn_SyncInitialConfig(ZRpc,ZPackage)">
-            <summary>
-                Client side RPC to receive the initial config from the server
-            </summary>
-            <param name="rpc"></param>
-            <param name="package"></param>
-        </member>
-        <member name="M:Jotunn.Managers.SynchronizationManager.RPC_Jotunn_SyncConfig(System.Int64,ZPackage)">
-            <summary>
-                Receive and apply a partial config and send to other clients when the server receives changed config.
-            </summary>
-            <param name="sender"></param>
-            <param name="package"></param>
-        </member>
         <member name="M:Jotunn.Managers.SynchronizationManager.InvokeOnConfigurationSynchronized(System.Boolean)">
             <summary>
                 Safely invoke the <see cref="E:Jotunn.Managers.SynchronizationManager.OnConfigurationSynchronized"/> event
@@ -4484,40 +5140,123 @@
             <param name="values">List of config tuples to include in the package</param>
             <returns></returns>
         </member>
-        <member name="M:Jotunn.Managers.SynchronizationManager.SendPackage(System.Int64,ZPackage)">
-            <summary>
-                Coroutine to send a package async to a single target. Compresses the package if necessary.
-            </summary>
-            <param name="target"></param>
-            <param name="package"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Jotunn.Managers.SynchronizationManager.SendPackage(System.Collections.Generic.List{ZNetPeer},ZPackage)">
-            <summary>
-                Coroutine to send a package async to a list of Peers. Compresses the package if necessary.
-            </summary>
-            <param name="peers"></param>
-            <param name="package"></param>
-            <returns></returns>
-        </member>
-        <member name="F:Jotunn.Managers.SynchronizationManager.packageCounter">
-            <summary>
-                Global package counter to identify fragmented packages
-            </summary>
-        </member>
-        <member name="M:Jotunn.Managers.SynchronizationManager.SendToPeer(ZNetPeer,ZPackage)">
-            <summary>
-                Coroutine to send a package async to an actual peer. Fragments the package if necessary.
-            </summary>
-            <param name="peer"></param>
-            <param name="package"></param>
-            <returns></returns>
-        </member>
         <member name="T:Jotunn.Managers.SynchronizationManager.PeerInfoBlockingSocket">
             <summary>
                 Wrapper Socket which holds up and preserves PeerInfo or RoutedRPC packages until
                 the finished member is set to true. All other packages get sent. This will
                 stop the client from completing the login handshake with the server until ready.
+            </summary>
+        </member>
+        <member name="T:Jotunn.Managers.ZoneManager">
+            <summary>
+                Manager for adding custom Locations and Vegetation.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Managers.ZoneManager.Instance">
+            <summary>
+                The singleton instance of this manager.
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.ZoneManager.#ctor">
+            <summary>
+                Hide .ctor
+            </summary>
+        </member>
+        <member name="E:Jotunn.Managers.ZoneManager.OnVanillaLocationsAvailable">
+            <summary>
+                Event that gets fired after the vanilla locations are in memory and available for cloning or editing.
+                Your code will execute every time before a new <see cref="T:ObjectDB"/> is copied (on every menu start).
+                If you want to execute just once you will need to unregister from the event after execution.
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.ZoneManager.LocationContainer">
+            <summary>
+                Container for custom locations in the DontDestroyOnLoad scene.
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.ZoneManager.Init">
+            <summary>
+                Initialize the manager
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.ZoneManager.AnyBiomeOf(Heightmap.Biome[])">
+            <summary>
+                Return a <see cref="T:Heightmap.Biome"/> that matches any of the provided Biomes
+            </summary>
+            <param name="biomes">Biomes that should match</param> 
+        </member>
+        <member name="M:Jotunn.Managers.ZoneManager.GetMatchingBiomes(Heightmap.Biome)">
+            <summary>
+                Returns a list of all <see cref="T:Heightmap.Biome"/> that match <paramref name="biome"/>
+            </summary>
+            <param name="biome"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Jotunn.Managers.ZoneManager.AddCustomLocation(Jotunn.Entities.CustomLocation)">
+            <summary>
+                Register a CustomLocation to be added to the ZoneSystem
+            </summary>
+            <param name="customLocation"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Jotunn.Managers.ZoneManager.GetZoneLocation(System.String)">
+            <summary>
+                Get a ZoneLocation by its name.<br /><br />
+                Search hierarchy:
+                <list type="number">
+                    <item>Custom Location with the exact name</item>
+                    <item>Vanilla Location with the exact name from <see cref="T:ZoneSystem"/></item>
+                </list>
+            </summary>
+            <param name="name">Name of the ZoneLocation to search for.</param>
+            <returns>The existing ZoneLocation, or null if none exists with given name</returns>
+        </member>
+        <member name="M:Jotunn.Managers.ZoneManager.CreateLocationContainer(System.String)">
+            <summary>
+                Create an empty GameObject that is disabled, so any Components in instantiated GameObjects will not start their lifecycle.
+            </summary>
+            <param name="name">Name of the location</param>
+            <returns></returns>
+        </member>
+        <member name="M:Jotunn.Managers.ZoneManager.CreateLocationContainer(UnityEngine.GameObject,System.Boolean)">
+            <summary>
+                Create a copy that is disabled, so any Components in instantiated GameObjects will not start their lifecycle     
+            </summary>
+            <param name="gameObject">Prefab to copy</param>
+            <param name="fixLocationReferences">Replace JVLmock GameObjects with a copy of their real prefab</param>
+            <returns></returns>
+        </member>
+        <member name="M:Jotunn.Managers.ZoneManager.CreateClonedLocation(System.String,System.String)">
+            <summary>
+                Create a CustomLocation that is a deep copy of the original.
+                Changes will not affect the original. The CustomLocation is already registered to be added.
+            </summary>
+            <param name="name">name of the custom location</param>
+            <param name="baseName">name of the existing location to copy</param>
+            <returns></returns>
+        </member>
+        <member name="M:Jotunn.Managers.ZoneManager.AddCustomVegetation(Jotunn.Entities.CustomVegetation)">
+            <summary>
+                Register a CustomVegetation to be added to the ZoneSystem
+            </summary>
+            <param name="customVegetation"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Jotunn.Managers.ZoneManager.GetZoneVegetation(System.String)">
+            <summary>
+                Get a ZoneVegetation by its name.<br /><br />
+                Search hierarchy:
+                <list type="number">
+                    <item>Custom Vegetation with the exact name</item>
+                    <item>Vanilla Vegetation with the exact name from <see cref="T:ZoneSystem"/></item>
+                </list>
+            </summary>
+            <param name="name">Name of the ZoneVegetation to search for.</param>
+            <returns>The existing ZoneVegetation, or null if none exists with given name</returns>
+        </member>
+        <member name="M:Jotunn.Managers.ZoneManager.InvokeOnVanillaLocationsAvailable">
+            <summary>
+                Safely invoke OnVanillaLocationsAvailable
             </summary>
         </member>
         <member name="T:Jotunn.Utils.AssetUtils">
@@ -4543,6 +5282,14 @@
                 Loads a <see cref="T:UnityEngine.Sprite"/> from file at runtime.
             </summary>
             <param name="spritePath">Texture path relative to "plugins" BepInEx folder</param>
+            <returns>Texture2D loaded, or null if invalid path</returns>
+        </member>
+        <member name="M:Jotunn.Utils.AssetUtils.LoadSpriteFromFile(System.String,UnityEngine.Vector2)">
+            <summary>
+                Loads a <see cref="T:UnityEngine.Sprite"/> from file at runtime.
+            </summary>
+            <param name="spritePath">Texture path relative to "plugins" BepInEx folder</param>
+            <param name="pivot">The pivot to use in the resulting Sprite</param>
             <returns>Texture2D loaded, or null if invalid path</returns>
         </member>
         <member name="M:Jotunn.Utils.AssetUtils.LoadMesh(System.String)">
@@ -5054,12 +5801,12 @@
         </member>
         <member name="F:Jotunn.Utils.CompatibilityLevel.ClientMustHaveMod">
             <summary>
-                If mod is installed on the server, every client has to have it. VersionStrictness does not apply.
+                If mod is installed on the server, every client has to have it. VersionStrictness does apply when both sides have it.
             </summary>
         </member>
         <member name="F:Jotunn.Utils.CompatibilityLevel.ServerMustHaveMod">
             <summary>
-                If mod is installed on the client, the server has to have it. VersionStrictness does not apply.
+                If mod is installed on the client, the server has to have it. VersionStrictness does apply when both sides have it.
             </summary>
         </member>
         <member name="F:Jotunn.Utils.CompatibilityLevel.VersionCheckOnly">
@@ -5075,7 +5822,7 @@
         <member name="T:Jotunn.Utils.VersionStrictness">
             <summary>
                 Enum used for telling whether or not the same mod version should be used by both the server and the clients.
-                This enum is only useful if CompatibilityLevel.EveryoneMustHaveMod or OnlySyncWhenInstalled was chosen.
+                This enum is only useful with certain CompatibilityLevel values.
             </summary>
         </member>
         <member name="F:Jotunn.Utils.VersionStrictness.None">
@@ -5186,6 +5933,14 @@
             <param name="type">this type</param>
             <param name="base">Type against the type is checked</param>
             <returns>true if this type is the same or a subtype</returns>
+        </member>
+        <member name="M:Jotunn.Utils.ReflectionHelper.HasImplementedRawGeneric(System.Type,System.Type)">
+            <summary>
+                Determine whether the specified type <paramref name= "type"/> is a subtype of the specified generic type or implements the specified generic interface.
+            </summary>
+            <param name="type">the type to be tested.</param>
+            <param name="generic">generic interface type, passing in typeof (IXxx&lt;&gt;)</param>
+            <returns>returns true if it is a subtype of the generic interface, or false.</returns>
         </member>
         <member name="M:Jotunn.Utils.ReflectionHelper.IsEnumerable(System.Type)">
             <summary>

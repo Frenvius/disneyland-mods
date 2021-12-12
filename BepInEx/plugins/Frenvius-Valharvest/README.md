@@ -22,11 +22,11 @@ Discord: https://discord.gg/JyWawnNDMv
    - Added Egg and Sausage
    - Balanced some foods
  - 1.2.1 - Fixed burrito recipe.
- - 1.3.0 - Now you can milk a lox
-    - Added Empty Bottle (needs crystal)
-    - Added Milk Bottle
-    - Added Cheese
-    - Fixed some bugs
+ - 1.3.0 - Now you can milk a tamed Lox
+   - Added Empty Bottle (needs crystal)
+   - Added Milk Bottle
+   - Added Cheese
+   - Fixed some bugs
  - 1.3.1 - Some fix on pizza and cheese
  - 1.4.0 - More rice based foods and taco
    - Added Rice Bowl
@@ -43,6 +43,16 @@ Discord: https://discord.gg/JyWawnNDMv
  - 1.5.1 - Fixed model of tomato and rework on lox milking
    - Fixed some conflit with taming mods and Chicken Boo
  - 1.5.2 - Fixed Lox sounds on all tamed animals
+ - 1.6.1 - Added Raised bed and tomato box
+ - 1.6.2 - Fixed spicy pepper plant requirements to seeds
+ - 1.7.0 - Added more foods and small balances
+   - Added Cheese Sandwich
+   - Added Egg Fried Bread
+   - Added Potato Slices
+   - Added Boiled Potatoes
+   - Added Tonkotsu Ramen
+   - Added Spaghetti and Meatballs
+ - 1.7.1 - Fixed bug on growing plants
 
 ### - Soon more foods
 
@@ -54,75 +64,28 @@ Note: this mod requires BoneAppetit, JVL (Jotunn the Valheim Lib) and it's depen
 
 This mod is routinely tested on a dedicated server with a great many other mods. To ensure your plants don't disappear, and that food doesn't turn to dust, please put this on the dedicated server as well as ALL clients.
 
-### Initial Release v1.0.0
+### Foods
+https://valharvest.frenvius.com/foods
 
-#### Foods
-- Meat Burrito
-  - Deer Meat
-  - Onion
-  - Barley Flour
-
-
-- Dragon Omelette 
-  - Dragon Egg
-  - Onion
-
-
-#### Updated Recipes
-- Haggis
-  - Deer Meat
-  - Carrot
-  - Entrails
-  - Turnip
-
-
-- BloodSausage
-  - Entrails
-  - Bloodbag
-  - Thistle
-  - Deer Meat
-
-
-- Bacon
-  - DeerMeat
-  - Raw Pork
-
-
-- Kabob
-  - Turnip
-  - Carrot
-  - Wolf Meat
-  - Bone Fragments
-
-#### Plants
+### Plants
 - Spicy Pepper
-  - Now you can plant Pepper
   - Drops from Greydwarf
-  - Soon new food items
-
 
 - Garlic
-  - Now you can plant Garlic
   - Drops from Troll
-  - Soon new food items
 
 - Rice
-  - Now you can plant Rice
   - Drops from Goblin
-  - Soon new food items
 
-### Release v1.1.0
-- Rice and Egg
-  - Garlic
-  - Rice
-  - Egg
+- Tomato
+  - Drops from Draugr
 
+- Potato
+  - Drops from Greydwarf
 
-- Rice Egg and Meat
-  - Garlic
-  - Rice
-  - Egg
-  - Raw Pork
+- Pumpkin
+  - Drops from Draugr Elite
+  
   
 ### To Do/ Current Ideas
  - add new plants and new foods (like ~~tomato~~, ~~potato~~, ~~pumpkin~~, watermelon, etc) _maybe some fruit trees_

@@ -1,10 +1,10 @@
-[Message:   BepInEx] BepInEx 5.4.16.0 - valheim (28/09/2021 13:19:03)
-[Info   :   BepInEx] Running under Unity v2019.4.24.6137584
+[Message:   BepInEx] BepInEx 5.4.17.0 - valheim (08/11/2021 11:01:12)
+[Info   :   BepInEx] Running under Unity v2019.4.31.12409535
 [Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
 [Info   :   BepInEx] Supports SRE: True
 [Info   :   BepInEx] System platform: Bits64, Windows
 [Message:   BepInEx] Preloader started
-[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.16.0]
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.17.0]
 [Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.MonoMod.HookGenPatcher 1.2.0.0]
 [Info   :   BepInEx] 2 patcher plugins loaded
 [Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
@@ -24,21 +24,29 @@
 [Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
 [Info   :HookGenPatcher] Already ran for this version, reusing that file.
 [Info   :HookGenPatcher] Previous MMHOOK location found. Using that location to save instead.
-[Info   :HookGenPatcher] Already ran for this version, reusing that file.
+[Info   :   Console] [MonoMod] 
+[Info   :   Console] Reading input file into module.
+[Info   :HookGenPatcher] Starting HookGenerator
+[Info   :HookGenPatcher] Done.
 [Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 30 plugins to load
-[Info   :   BepInEx] Loading [PlantEverything 1.8.4]
+[Info   :   BepInEx] 40 plugins to load
+[Info   :   BepInEx] Loading [CartographySkill 2.0.2]
+[Info   : CartographySkill] Initialized Server Authoritative Config Manager.
+[Info   : CartographySkill] Unable to load localized text file, generating new one from default English values
+[Info   :   BepInEx] Loading [PlantEverything 1.8.6]
 [Info   : PlantEverything] Initialized Server Authoritative Config Manager.
 [Info   :   BepInEx] Loading [Compass 0.7.0]
 [Warning:  HarmonyX] AccessTools.DeclaredMethod: Could not find method for type Console and name InputText and parameters 
 [Warning:  HarmonyX] Unknown patch - Could not find method InputText with 0 parameters in type Console, but it was found in base class of this type Terminal
+[Info   :   BepInEx] Loading [Craft From Containers 2.2.1]
+[Info   :   BepInEx] Loading [Instant Monster Drop 0.4.0]
 [Info   :   BepInEx] Loading [Simple Sort 0.7.0]
 [Info   :   BepInEx] Loading [FarmGrid 0.2.0]
 [Info   :   BepInEx] Loading [kgladder 0.2.0]
-[Info   :   BepInEx] Loading [Jotunn 2.3.7]
+[Info   :   BepInEx] Loading [Jotunn 2.4.3]
 [Info   :    Jotunn] Initializing LocalizationManager
 [Info   :    Jotunn] Initializing CommandManager
 [Info   :    Jotunn] Initializing InputManager
@@ -49,45 +57,103 @@
 [Info   :    Jotunn] Initializing MockManager
 [Info   :    Jotunn] Initializing KitbashManager
 [Info   :    Jotunn] Initializing GUIManager
+[Info   :    Jotunn] Initializing KeyHintManager
+[Info   :    Jotunn] Initializing ZoneManager
+[Info   :    Jotunn] Initializing NetworkManager
 [Info   :    Jotunn] Initializing SynchronizationManager
-[Info   :    Jotunn] Jötunn v2.3.7 loaded successfully
-[Info   :   BepInEx] Loading [Use Equipment in Water 0.2.2.0]
-[Info   :   BepInEx] Loading [PotionsPlus 2.1.2]
-[Info   :   BepInEx] Loading [Clutter 0.0.8]
-[Info   :   BepInEx] Loading [OdinArchitect 0.1.1]
-[Info   :OdinArchitect.OdinArchitect] Embedded resources: OdinArchitect.odinarchitect
-[Info   :   BepInEx] Loading [BoneAppetit 3.0.2]
+[Info   :    Jotunn] Initializing RenderManager
+[Info   :    Jotunn] Jötunn v2.4.3 loaded successfully
+[Info   :   BepInEx] Loading [BoneAppetit 3.1.0]
 [Message:Boneappetit.BoneAppetit] Prepping Kitchen...
 [Message:Boneappetit.BoneAppetit] Big thanks to MeatwareMonster!
+[Info   :   BepInEx] Loading [Valharvest 1.7.1]
+[Info   :Valharvest.Main] Preparing the plants...
+[Info   :   BepInEx] Loading [Use Equipment in Water 0.2.2.0]
+[Info   :   BepInEx] Loading [Quick Deposit 1.0.0]
+[Info   :   BepInEx] Loading [PotionsPlus 3.0.2]
+[Info   :   BepInEx] Loading [OdinPlusQOL 0.3.9]
+[Info   : Unity Log] Found CraftFromContainers
+[Info   :   BepInEx] Loading [Clutter 0.1.0]
+[Info   :   BepInEx] Loading [OdinArchitect 0.1.3]
+[Info   :OdinArchitect.OdinArchitect] Embedded resources: OdinArchitect.odinarchitect
 [Info   :   BepInEx] Loading [Basement 1.0.2]
-[Info   :   BepInEx] Loading [CraftyCarts 1.1.0]
+[Info   :   BepInEx] Loading [CraftyCarts 2.1.0]
+[Info   :   BepInEx] Loading [Better Networking 1.1.3]
+[Info   :   BepInEx] Loading [ServerInventory 1.0.1]
 [Info   :   BepInEx] Loading [Disabler 1.0.1]
 [Info   :   BepInEx] Loading [Craftable Chain 1.0.0.0]
 [Info   : Unity Log] Craftable Chain plugin loaded.
+[Info   :   BepInEx] Loading [MultiCraft 1.0.0]
 [Info   :   BepInEx] Loading [Valheim Plus 0.9.9]
 [Info   :Valheim Plus] Trying to load the configuration file
 [Info   : Unity Log] Loading config section AdvancedBuildingMode
-[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log]  Loading key enterAdvancedBuildingMode
+[Info   : Unity Log]  Loading key exitAdvancedBuildingMode
+[Info   : Unity Log]  Loading key copyObjectRotation
+[Info   : Unity Log]  Loading key pasteObjectRotation
+[Info   : Unity Log]  Loading key increaseScrollSpeed
+[Info   : Unity Log]  Loading key decreaseScrollSpeed
 [Info   : Unity Log] Loading config section AdvancedEditingMode
-[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log]  Loading key enterAdvancedEditingMode
+[Info   : Unity Log]  Loading key resetAdvancedEditingMode
+[Info   : Unity Log]  Loading key abortAndExitAdvancedEditingMode
+[Info   : Unity Log]  Loading key confirmPlacementOfAdvancedEditingMode
+[Info   : Unity Log]  Loading key copyObjectRotation
+[Info   : Unity Log]  Loading key pasteObjectRotation
+[Info   : Unity Log]  Loading key increaseScrollSpeed
+[Info   : Unity Log]  Loading key decreaseScrollSpeed
 [Info   : Unity Log] Loading config section Bed
 [Info   : Unity Log]  Section not enabled
 [Info   : Unity Log] Loading config section Beehive
-[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log]  Loading key honeyProductionSpeed
+[Info   : Unity Log]  Loading key maximumHoneyPerBeehive
+[Info   : Unity Log]  Loading key autoDeposit
+[Info   : Unity Log]  Loading key autoDepositRange
+[Info   : Unity Log]  Loading key showDuration
 [Info   : Unity Log] Loading config section Building
-[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log]  Loading key noInvalidPlacementRestriction
+[Info   : Unity Log]  Loading key noMysticalForcesPreventPlacementRestriction
+[Info   : Unity Log]  Loading key noWeatherDamage
+[Info   : Unity Log]  Loading key maximumPlacementDistance
+[Info   : Unity Log]  Loading key pieceComfortRadius
+[Info   : Unity Log]  Loading key alwaysDropResources
+[Info   : Unity Log]  Loading key alwaysDropExcludedResources
+[Info   : Unity Log]  Loading key enableAreaRepair
+[Info   : Unity Log]  Loading key areaRepairRadius
 [Info   : Unity Log] Loading config section Deconstruct
 [Info   : Unity Log]  Section not enabled
 [Info   : Unity Log] Loading config section Inventory
-[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log]  Loading key inventoryFillTopToBottom
+[Info   : Unity Log]  Loading key mergeWithExistingStacks
+[Info   : Unity Log]  Loading key playerInventoryRows
+[Info   : Unity Log]  Loading key woodChestColumns
+[Info   : Unity Log]  Loading key woodChestRows
+[Info   : Unity Log]  Loading key personalChestColumns
+[Info   : Unity Log]  Loading key personalChestRows
+[Info   : Unity Log]  Loading key ironChestColumns
+[Info   : Unity Log]  Loading key ironChestRows
+[Info   : Unity Log]  Loading key cartInventoryColumns
+[Info   : Unity Log]  Loading key cartInventoryRows
+[Info   : Unity Log]  Loading key karveInventoryColumns
+[Info   : Unity Log]  Loading key karveInventoryRows
+[Info   : Unity Log]  Loading key longboatInventoryColumns
+[Info   : Unity Log]  Loading key longboatInventoryRows
 [Info   : Unity Log] Loading config section Items
-[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log]  Loading key noTeleportPrevention
+[Info   : Unity Log]  Loading key baseItemWeightReduction
+[Info   : Unity Log]  Loading key itemStackMultiplier
+[Info   : Unity Log]  Loading key droppedItemOnGroundDurationInSeconds
 [Info   : Unity Log] Loading config section Fermenter
 [Info   : Unity Log]  Section not enabled
 [Info   : Unity Log] Loading config section FireSource
-[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log]  Loading key torches
+[Info   : Unity Log]  Loading key fires
+[Info   : Unity Log]  Loading key autoFuel
+[Info   : Unity Log]  Loading key ignorePrivateAreaCheck
+[Info   : Unity Log]  Loading key autoRange
 [Info   : Unity Log] Loading config section Food
-[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log]  Loading key foodDurationMultiplier
+[Info   : Unity Log]  Loading key disableFoodDegradation
 [Info   : Unity Log] Loading config section Smelter
 [Info   : Unity Log]  Section not enabled
 [Info   : Unity Log] Loading config section Furnace
@@ -95,7 +161,15 @@
 [Info   : Unity Log] Loading config section Hotkeys
 [Info   : Unity Log]  Section not enabled
 [Info   : Unity Log] Loading config section Kiln
-[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log]  Loading key productionSpeed
+[Info   : Unity Log]  Loading key maximumWood
+[Info   : Unity Log]  Loading key dontProcessFineWood
+[Info   : Unity Log]  Loading key dontProcessRoundLog
+[Info   : Unity Log]  Loading key autoDeposit
+[Info   : Unity Log]  Loading key autoFuel
+[Info   : Unity Log]  Loading key stopAutoFuelThreshold
+[Info   : Unity Log]  Loading key ignorePrivateAreaCheck
+[Info   : Unity Log]  Loading key autoRange
 [Info   : Unity Log] Loading config section Windmill
 [Info   : Unity Log]  Section not enabled
 [Info   : Unity Log] Loading config section SpinningWheel
@@ -103,7 +177,27 @@
 [Info   : Unity Log] Loading config section Map
 [Info   : Unity Log]  Section not enabled
 [Info   : Unity Log] Loading config section Player
-[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log]  Loading key baseMaximumWeight
+[Info   : Unity Log]  Loading key baseMegingjordBuff
+[Info   : Unity Log]  Loading key baseAutoPickUpRange
+[Info   : Unity Log]  Loading key disableCameraShake
+[Info   : Unity Log]  Loading key baseUnarmedDamage
+[Info   : Unity Log]  Loading key cropNotifier
+[Info   : Unity Log]  Loading key restSecondsPerComfortLevel
+[Info   : Unity Log]  Loading key deathPenaltyMultiplier
+[Info   : Unity Log]  Loading key autoRepair
+[Info   : Unity Log]  Loading key guardianBuffDuration
+[Info   : Unity Log]  Loading key guardianBuffCooldown
+[Info   : Unity Log]  Loading key disableGuardianBuffAnimation
+[Info   : Unity Log]  Loading key autoEquipShield
+[Info   : Unity Log]  Loading key skipIntro
+[Info   : Unity Log]  Loading key iHaveArrivedOnSpawn
+[Info   : Unity Log]  Loading key queueWeaponChanges
+[Info   : Unity Log]  Loading key reequipItemsAfterSwimming
+[Info   : Unity Log]  Loading key fallDamageScalePercent
+[Info   : Unity Log]  Loading key maxFallDamage
+[Info   : Unity Log]  Loading key skipTutorials
+[Info   : Unity Log]  Loading key disableEncumbered
 [Info   : Unity Log] Loading config section Server
 [Info   : Unity Log]  Loading key maxPlayers
 [Info   : Unity Log]  Loading key disableServerPassword
@@ -111,11 +205,33 @@
 [Info   : Unity Log]  Loading key serverSyncsConfig
 [Info   : Unity Log]  Loading key serverSyncHotkeys
 [Info   : Unity Log] Loading config section Stamina
-[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log]  Loading key dodgeStaminaUsage
+[Info   : Unity Log]  Loading key encumberedStaminaDrain
+[Info   : Unity Log]  Loading key jumpStaminaDrain
+[Info   : Unity Log]  Loading key runStaminaDrain
+[Info   : Unity Log]  Loading key sneakStaminaDrain
+[Info   : Unity Log]  Loading key staminaRegen
+[Info   : Unity Log]  Loading key staminaRegenDelay
+[Info   : Unity Log]  Loading key swimStaminaDrain
 [Info   : Unity Log] Loading config section StaminaUsage
-[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log]  Loading key axes
+[Info   : Unity Log]  Loading key bows
+[Info   : Unity Log]  Loading key blocking
+[Info   : Unity Log]  Loading key clubs
+[Info   : Unity Log]  Loading key knives
+[Info   : Unity Log]  Loading key pickaxes
+[Info   : Unity Log]  Loading key polearms
+[Info   : Unity Log]  Loading key spears
+[Info   : Unity Log]  Loading key swords
+[Info   : Unity Log]  Loading key unarmed
+[Info   : Unity Log]  Loading key hammer
+[Info   : Unity Log]  Loading key hoe
+[Info   : Unity Log]  Loading key cultivator
 [Info   : Unity Log] Loading config section Workbench
-[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log]  Loading key workbenchRange
+[Info   : Unity Log]  Loading key workbenchEnemySpawnRange
+[Info   : Unity Log]  Loading key workbenchAttachmentRange
+[Info   : Unity Log]  Loading key disableRoofCheck
 [Info   : Unity Log] Loading config section Time
 [Info   : Unity Log]  Section not enabled
 [Info   : Unity Log] Loading config section Ward
@@ -125,7 +241,10 @@
 [Info   : Unity Log] Loading config section Tameable
 [Info   : Unity Log]  Section not enabled
 [Info   : Unity Log] Loading config section Hud
-[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log]  Loading key showRequiredItems
+[Info   : Unity Log]  Loading key experienceGainedNotifications
+[Info   : Unity Log]  Loading key removeDamageFlash
+[Info   : Unity Log]  Loading key displayBowAmmoCounts
 [Info   : Unity Log] Loading config section Experience
 [Info   : Unity Log]  Section not enabled
 [Info   : Unity Log] Loading config section Camera
@@ -133,11 +252,26 @@
 [Info   : Unity Log] Loading config section Game
 [Info   : Unity Log]  Section not enabled
 [Info   : Unity Log] Loading config section Wagon
-[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log]  Loading key wagonExtraMassFromItems
+[Info   : Unity Log]  Loading key wagonBaseMass
 [Info   : Unity Log] Loading config section Gathering
-[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log]  Loading key wood
+[Info   : Unity Log]  Loading key stone
+[Info   : Unity Log]  Loading key fineWood
+[Info   : Unity Log]  Loading key coreWood
+[Info   : Unity Log]  Loading key elderBark
+[Info   : Unity Log]  Loading key ironScrap
+[Info   : Unity Log]  Loading key tinOre
+[Info   : Unity Log]  Loading key copperOre
+[Info   : Unity Log]  Loading key silverOre
+[Info   : Unity Log]  Loading key chitin
+[Info   : Unity Log]  Loading key dropChance
 [Info   : Unity Log] Loading config section Pickable
-[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log]  Loading key edibles
+[Info   : Unity Log]  Loading key flowersAndIngredients
+[Info   : Unity Log]  Loading key materials
+[Info   : Unity Log]  Loading key valuables
+[Info   : Unity Log]  Loading key surtlingCores
 [Info   : Unity Log] Loading config section Durability
 [Info   : Unity Log]  Section not enabled
 [Info   : Unity Log] Loading config section Armor
@@ -149,7 +283,9 @@
 [Info   : Unity Log] Loading config section FirstPerson
 [Info   : Unity Log]  Section not enabled
 [Info   : Unity Log] Loading config section GridAlignment
-[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log]  Loading key align
+[Info   : Unity Log]  Loading key alignToggle
+[Info   : Unity Log]  Loading key changeDefaultAlignment
 [Info   : Unity Log] Loading config section CraftFromChest
 [Info   : Unity Log]  Section not enabled
 [Info   : Unity Log] Loading config section ValheimPlus
@@ -164,9 +300,12 @@
 [Info   : Unity Log] Loading config section Brightness
 [Info   : Unity Log]  Section not enabled
 [Info   :Valheim Plus] Configuration file loaded succesfully.
+[Info   : Unity Log] 12/12/2021 17:39:33: Successfully transpiled Pickable.RPC_Pick to patch item yields
+
 [Info   :Valheim Plus] ValheimPlus [0.9.9] is up to date.
 [Info   :   BepInEx] Loading [Serverside Simulations 1.1.3]
 [Info   :Serverside Simulations] Serverside Simulations is disabled. (not a dedicated server)
+[Info   :   BepInEx] Loading [QuickConnect 1.4.0]
 [Info   :   BepInEx] Loading [Display BepInEx Info In-Game 2.0.0]
 [Info   :   BepInEx] Loading [Valheim Recycle 2.0.0]
 [Info   :Valheim Recycle] AWAKE
@@ -175,84 +314,105 @@
 [Info   :InteractWhileBuilding] Modified InPlaceMode
 [Info   :   BepInEx] Loading [Display Day & Time in HUD 1.1.2]
 [Info   :   BepInEx] Loading [Mod Config Enforcer 2.1.1]
-[Info   :   BepInEx] Loading [Advanced Boating 0.3]
+[Info   :   BepInEx] Loading [Advanced Boating 0.4.1]
 [Info   :   BepInEx] Loading [Equipment and Quick Slots 2.0.14]
+[Info   :   BepInEx] Loading [AddAllFuel 1.6.1]
 [Info   :   BepInEx] Loading [Show Plant Progress 1.4.0]
 [Info   :   BepInEx] Loading [Valheim Network Optimizer 1.1.5]
 [Info   :Valheim Network Optimizer]  VNO Initialized Properly 
 [Info   :   BepInEx] Loading [Teleport Wolves 0.2.0]
 [Info   :   BepInEx] Loading [ValheimAthleticsSkill 1.0.3]
-[Info   : Unity Log] 10/03/2021 14:47:27: Loaded localization CSV:localization language:English
+[Info   : Unity Log] 12/12/2021 17:39:36: Loaded localization CSV:localization language:English
 
-[Info   : Unity Log] 10/03/2021 14:47:27: Loaded localization CSV:localization_extra language:English
+[Info   : Unity Log] 12/12/2021 17:39:36: Loaded localization CSV:localization_extra language:English
 
-[Info   : Unity Log] 10/03/2021 14:47:27: Loaded localization CSV:localization language:Portuguese_Brazilian
+[Info   : Unity Log] 12/12/2021 17:39:36: Loaded localization CSV:localization language:Portuguese_Brazilian
 
-[Info   : Unity Log] 10/03/2021 14:47:27: Loaded localization CSV:localization_extra language:Portuguese_Brazilian
+[Info   : Unity Log] 12/12/2021 17:39:36: Loaded localization CSV:localization_extra language:Portuguese_Brazilian
 
-[Info   :   BepInEx] Loading [ValheimLib 0.0.15]
-[Info   :ValheimLib] Added json language file Clutter.json
-[Info   :ValheimLib] Added json language file translations.json
-[Info   :   BepInEx] Loading [Equip Wheel Mod 1.3.5]
+[Info   :   BepInEx] Loading [Equip Wheel Mod 1.3.6]
 [Info   :EquipWheel] Epicloot Mod installed. Applied compatibility patch.
 [Info   :EquipWheel] EquipWheel Loaded!
 [Message:   BepInEx] Chainloader startup complete
-[Info   : Unity Log] 10/03/2021 14:47:28: Starting to load scene:start
+[Info   : Unity Log] 12/12/2021 17:39:36: Starting to load scene:start
 
 [Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Amb_MainMenu).
 [Info   : Unity Log] Version generator started.
-[Info   : Unity Log] Version generated with enforced mod : 0.202.19@0.9.9
-[Info   : Unity Log] 10/03/2021 14:47:31: Valheim version:0.202.19@0.9.9
+[Info   : Unity Log] Version generated with enforced mod : 0.205.5@0.9.9
+[Info   : Unity Log] 12/12/2021 17:39:40: Valheim version:0.205.5@0.9.9-OdinPlusQOL0.3.9
 
 [Info   : Unity Log] Version generator started.
-[Info   : Unity Log] Version generated with enforced mod : 0.202.19@0.9.9
+[Info   : Unity Log] Version generated with enforced mod : 0.205.5@0.9.9
 [Info   :Jotunn.Managers.CommandManager] Adding 1 commands to the Console
-[Info   : Unity Log] 10/03/2021 14:47:31: Render threading mode:MultiThreaded
+[Info   : Unity Log] 12/12/2021 17:39:40: Render threading mode:MultiThreaded
 
 [Info   : Unity Log] Version generator started.
-[Info   : Unity Log] Version generated with enforced mod : 0.202.19@0.9.9
-[Info   : Unity Log] 10/03/2021 14:47:31: Using environment steamid 892970
+[Info   : Unity Log] Version generated with enforced mod : 0.205.5@0.9.9
+[Info   : Unity Log] 12/12/2021 17:39:40: Using environment steamid 892970
 
-[Info   : Unity Log] 10/03/2021 14:47:31: Using steam APPID:892970
+[Info   : Unity Log] 12/12/2021 17:39:40: Using steam APPID:892970
 
-[Info   : Unity Log] 10/03/2021 14:47:31: Authentication:k_ESteamNetworkingAvailability_Attempting
+[Info   : Unity Log] 12/12/2021 17:39:40: Authentication:k_ESteamNetworkingAvailability_Attempting
 
-[Info   : Unity Log] 10/03/2021 14:47:31: Steam initialized, persona:Frenvius
+[Info   : Unity Log] 12/12/2021 17:39:40: Steam initialized, persona:Frenvius
 
-[Warning: Unity Log] 10/03/2021 14:47:31: Missing audio clip in music respawn
+[Warning: Unity Log] 12/12/2021 17:39:40: Missing audio clip in music respawn
 
-[Info   : Unity Log] 10/03/2021 14:47:31: Checking for installed DLCs
+[Info   : Unity Log] 12/12/2021 17:39:40: Checking for installed DLCs
 
-[Info   : Unity Log] 10/03/2021 14:47:31: DLC:beta installed:False
+[Info   : Unity Log] 12/12/2021 17:39:40: DLC:beta installed:False
 
 [Info   : Unity Log] Version generator started.
-[Info   : Unity Log] Version generated with enforced mod : 0.202.19@0.9.9
+[Info   : Unity Log] Version generated with enforced mod : 0.205.5@0.9.9
+[Info   :QuickConnect] Loaded 1 server entries
 [Info   :Jotunn.Managers.LocalizationManager] Loading custom localizations
-[Info   : Unity Log] 10/03/2021 14:47:32: Loaded localization CSV:localization language:English
+[Info   : Unity Log] 12/12/2021 17:39:41: Loaded localization CSV:localization language:English
 
-[Info   : Unity Log] 10/03/2021 14:47:32: Loaded localization CSV:localization_extra language:English
+[Info   : Unity Log] 12/12/2021 17:39:41: Loaded localization CSV:localization_extra language:English
 
 [Info   :Jotunn.Managers.LocalizationManager] Adding tokens for language 'English'
-[Info   : Unity Log] 10/03/2021 14:47:32: Loaded localization CSV:localization language:Portuguese_Brazilian
+[Info   : Unity Log] 12/12/2021 17:39:41: Loaded localization CSV:localization language:Portuguese_Brazilian
 
-[Info   : Unity Log] 10/03/2021 14:47:32: Loaded localization CSV:localization_extra language:Portuguese_Brazilian
+[Info   : Unity Log] 12/12/2021 17:39:41: Loaded localization CSV:localization_extra language:Portuguese_Brazilian
 
 [Info   :Jotunn.Managers.LocalizationManager] Adding tokens for language 'Portuguese_Brazilian'
 [Info   :CraftableChain] called ObjectDB::Awake()
 [Info   :CraftableChain] recipe not found, creating...
 [Info   :CraftableChain] chain not found, skipping.
 [Info   :CraftableChain] ObjectDB not intitialized, skipping.
+[Info   :Valharvest.Main] PepperSeeds Loaded.
+[Info   :Valharvest.Main] RawPasta Loaded.
+[Info   :Valharvest.Main] Empty Bottle Loaded.
+[Info   :Valharvest.Main] Load Complete.
 [Message:Boneappetit.BoneAppetit] Loaded Game VFX and SFX
 [Message:Boneappetit.BoneAppetit] Load Complete. Bone Appetit yall.
-[Info   :Jotunn.Managers.ItemManager] Adding 53 custom items to the ObjectDB
+[Info   :Jotunn.Managers.ItemManager] Adding 87 custom items to the ObjectDB
 [Info   :CraftableChain] called ObjectDB::CopyOtherDB()
 [Info   :CraftableChain] recipe not found, creating...
 [Info   :CraftableChain] found chain!
 [Info   :CraftableChain] found iron!
 [Info   :CraftableChain] found nail recipe!
 [Info   :CraftableChain] added recipe.
-[Info   :Jotunn.Managers.SkillManager] Registering 1 custom skills
-[Info   : Unity Log] 10/03/2021 14:47:33: UI Group status changed Menu = True
+[Info   :Valharvest.Scripts.BoneAppetitBalance] SeagullEgg Loaded.
+[Info   :Valharvest.Main] Load Complete.
+[Info   :Jotunn.Managers.SkillManager] Registering 2 custom skills
+[Info   : Unity Log] 12/12/2021 17:39:43: Failed to find item prefab apple
 
-[Info   : Unity Log] 10/03/2021 14:47:35: UI Group status changed Menu = True
+[Info   : Unity Log] 12/12/2021 17:39:43: Failed to find item prefab apple
 
+[Info   : Unity Log] 12/12/2021 17:39:43: Failed to find item prefab raw_chicken
+
+[Info   : Unity Log] 12/12/2021 17:39:43: Failed to find item prefab water_bucket
+
+[Info   : Unity Log] 12/12/2021 17:39:43: UI Group status changed Menu = True
+
+[Info   : Unity Log] 12/12/2021 17:39:45: UI Group status changed Menu = True
+
+[Info   : Unity Log] 12/12/2021 17:40:03: Steam manager on destroy
+
+[Info   : Unity Log] Compass Destroying plugin
+[Info   : Unity Log] SimpleSort Destroying plugin
+[Info   :Valharvest.Main] Valharvest: OnDestroy
+[Warning:  HarmonyX] UnpatchAll has been called with harmonyID=null - This will remove ALL HARMONY PATCHES. If you want to only unpatch patches created by this instance (harmony-auto-24becfed-1c1d-452a-99b2-2dde84ca71fc), use UnpatchSelf() instead.
+[Info   :Valheim Recycle] DESTROY
+[Info   :Valheim Recycle] Unpatched InventoryGui
