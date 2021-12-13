@@ -811,3 +811,25 @@
     patch: 14
   enabled: true
   icon: D:/projects/thunderData/Valheim/cache/RandyKnapp-EquipmentAndQuickSlots/2.0.14/icon.png
+- manifestVersion: 1
+  name: OdinPlus-OdinsQOL
+  authorName: OdinPlus
+  websiteUrl: https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/
+  displayName: OdinsQOL
+  description: A collection of QOL patches and tweaks for your game
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.1601
+    - ValheimModding-HookGenPatcher-0.0.3
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 3
+    patch: 9
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/OdinPlus-OdinsQOL/0.3.9/icon.png

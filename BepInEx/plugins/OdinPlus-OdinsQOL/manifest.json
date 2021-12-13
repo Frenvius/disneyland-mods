@@ -1,0 +1,10 @@
+﻿{
+  "name": "OdinsQOL",
+  "description": "A collection of QOL patches and tweaks for your game",
+  "version_number": "0.3.9",
+  "website_url": "",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.1601",
+    "ValheimModding-HookGenPatcher-0.0.3"
+  ]
+}
