@@ -96,3 +96,9 @@ If you get any conflicts/Issues please find me in the Odin+ Discord
 * Fixed Auga compatibility
 * Added Auga tooltip for how to equip bag
 * Added Russian and German translations (Thank you SorXchi && Blaxxun)
+
+### V0.2.0
+* Fixed reported null reference (red text) when loading new world or moving too fast in your world 
+
+### V0.2.1
+* Fixed improper manipulation of scriptable object when deploying the carrybuff SE
