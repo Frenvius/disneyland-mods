@@ -2,7 +2,7 @@
   "name": "BackPacks_Remake",
   "author": "OdinPlus",
   "description": "Add Some cool storage options",
-  "version_number": "0.1.8",
+  "version_number": "0.1.9",
   "website_url": "https://github.com/sbtoonz/BackPacks_Remake",
   "dependencies": [
     "denikson-BepInExPack_Valheim-5.4.1900",

@@ -90,3 +90,9 @@ If you get any conflicts/Issues please find me in the Odin+ Discord
 ### V0.1.8
 * Fixed issue with Judes bags not grabbing slot size
 * Fixed issue where if you didnt edit bag contents and unequipped it was not saved
+
+### V0.1.9
+* Fixed issue if you store bag in Chest and logout the bags weight was reset
+* Fixed Auga compatibility
+* Added Auga tooltip for how to equip bag
+* Added Russian and German translations (Thank you SorXchi && Blaxxun)
