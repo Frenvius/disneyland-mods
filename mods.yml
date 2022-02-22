@@ -899,50 +899,6 @@
   enabled: true
   icon: D:/projects/thunderData/Valheim/cache/OdinPlus-OdinShip/0.0.3/icon.png
 - manifestVersion: 1
-  name: ASharpPen-Spawn_That
-  authorName: ASharpPen
-  websiteUrl: https://valheim.thunderstore.io/package/ASharpPen/Spawn_That/
-  displayName: Spawn_That
-  description: Advanced tool for customizing mob spawners throughout the world
-    with configuration files.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1900
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 3
-  enabled: true
-  icon: D:/projects/thunderData/Valheim/cache/ASharpPen-Spawn_That/1.0.3/icon.png
-- manifestVersion: 1
-  name: FixItFelix-RegenerativeNature
-  authorName: FixItFelix
-  websiteUrl: https://valheim.thunderstore.io/package/FixItFelix/RegenerativeNature/
-  displayName: RegenerativeNature
-  description: Let the trees grow and replenish mined ores
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - ASharpPen-Spawn_That-0.11.3
-    - denikson-BepInExPack_Valheim-5.4.1601
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 2
-    patch: 3
-  enabled: true
-  icon: D:/projects/thunderData/Valheim/cache/FixItFelix-RegenerativeNature/1.2.3/icon.png
-- manifestVersion: 1
   name: RandyKnapp-ExtendedItemDataFramework
   authorName: RandyKnapp
   websiteUrl: https://valheim.thunderstore.io/package/RandyKnapp/ExtendedItemDataFramework/
