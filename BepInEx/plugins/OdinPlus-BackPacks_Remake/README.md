@@ -102,3 +102,7 @@ If you get any conflicts/Issues please find me in the Odin+ Discord
 
 ### V0.2.1
 * Fixed improper manipulation of scriptable object when deploying the carrybuff SE
+
+
+### V0.2.2
+* Fixed issue with Fejd loading EIDF and causing NRE (Red text)

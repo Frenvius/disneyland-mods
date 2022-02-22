@@ -217,26 +217,6 @@
   enabled: true
   icon: D:/projects/thunderData/Valheim/cache/LVH-IT-UseEquipmentInWater/0.2.2/icon.png
 - manifestVersion: 1
-  name: ToastyWzrd-TeleportWolves
-  authorName: ToastyWzrd
-  websiteUrl: https://valheim.thunderstore.io/package/ToastyWzrd/TeleportWolves/
-  displayName: TeleportWolves
-  description: This plugin makes your pets able to follow you through portals.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies: []
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 2
-    patch: 1
-  enabled: true
-  icon: D:/projects/thunderData/Valheim/cache/ToastyWzrd-TeleportWolves/0.2.1/icon.png
-- manifestVersion: 1
   name: tonsit-InteractWhileBuilding
   authorName: tonsit
   websiteUrl: https://valheim.thunderstore.io/package/tonsit/InteractWhileBuilding/
@@ -370,46 +350,6 @@
     patch: 3
   enabled: true
   icon: D:/projects/thunderData/Valheim/cache/OdinPlus-OdinArchitect/0.1.3/icon.png
-- manifestVersion: 1
-  name: TripleSteel-ValheimNetworkOptimizer
-  authorName: TripleSteel
-  websiteUrl: https://valheim.thunderstore.io/package/TripleSteel/ValheimNetworkOptimizer/
-  displayName: ValheimNetworkOptimizer
-  description: Mod that works to optimize data transfer between clients and servers.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies: []
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 5
-  enabled: true
-  icon: D:/projects/thunderData/Valheim/cache/TripleSteel-ValheimNetworkOptimizer/1.1.5/icon.png
-- manifestVersion: 1
-  name: freyeux-Serverside_Simulations
-  authorName: freyeux
-  websiteUrl: ""
-  displayName: Serverside Simulations
-  description: ""
-  gameVersion: ""
-  networkMode: ""
-  packageType: ""
-  installMode: ""
-  loaders: []
-  dependencies: []
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 1
-  enabled: true
-  icon: D:/projects/thunderData/Valheim/cache/freyeux-Serverside_Simulations/1.1.1/icon.png
 - manifestVersion: 1
   name: Deathwalkx-Valheim_Recycle
   authorName: Deathwalkx
@@ -937,6 +877,96 @@
   versionNumber:
     major: 0
     minor: 2
+    patch: 2
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/OdinPlus-BackPacks_Remake/0.2.2/icon.png
+- manifestVersion: 1
+  name: JiuJitsu-Constructed_Kingdoms_Secret_Bookcases
+  authorName: JiuJitsu
+  websiteUrl: https://valheim.thunderstore.io/package/JiuJitsu/Constructed_Kingdoms_Secret_Bookcases/
+  displayName: Constructed_Kingdoms_Secret_Bookcases
+  description: Normal & Dark Wood Variations. Options to slide left or right like
+    a secret passageway! Also stationary. Feel free to join the server at
+    https://discord.gg/pFA2dQPXEf
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.1900
+    - ValheimModding-Jotunn-2.5.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
     patch: 1
   enabled: true
-  icon: D:/projects/thunderData/Valheim/cache/OdinPlus-BackPacks_Remake/0.2.1/icon.png
+  icon: D:/projects/thunderData/Valheim/cache/JiuJitsu-Constructed_Kingdoms_Secret_Bookcases/1.0.1/icon.png
+- manifestVersion: 1
+  name: ASharpPen-Spawn_That
+  authorName: ASharpPen
+  websiteUrl: https://valheim.thunderstore.io/package/ASharpPen/Spawn_That/
+  displayName: Spawn_That
+  description: Advanced tool for customizing mob spawners throughout the world
+    with configuration files.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.1900
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/ASharpPen-Spawn_That/1.0.3/icon.png
+- manifestVersion: 1
+  name: FixItFelix-RegenerativeNature
+  authorName: FixItFelix
+  websiteUrl: https://valheim.thunderstore.io/package/FixItFelix/RegenerativeNature/
+  displayName: RegenerativeNature
+  description: Let the trees grow and replenish mined ores
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - ASharpPen-Spawn_That-0.11.3
+    - denikson-BepInExPack_Valheim-5.4.1601
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 3
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/FixItFelix-RegenerativeNature/1.2.3/icon.png
+- manifestVersion: 1
+  name: Smoothbrain-Blacksmithing
+  authorName: Smoothbrain
+  websiteUrl: https://valheim.thunderstore.io/package/Smoothbrain/Blacksmithing/
+  displayName: Blacksmithing
+  description: Adds a skill that increases the durability of armor and weapons.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.1900
+    - RandyKnapp-ExtendedItemDataFramework-1.0.7
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/Smoothbrain-Blacksmithing/1.0.2/icon.png

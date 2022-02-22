@@ -1,0 +1,10 @@
+{
+    "name": "Blacksmithing",
+    "version_number": "1.0.2",
+    "website_url": "https://github.com/blaxxun-boop/Blacksmithing",
+    "description": "Adds a skill that increases the durability of armor and weapons.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.1900",
+        "RandyKnapp-ExtendedItemDataFramework-1.0.7"
+    ]
+}

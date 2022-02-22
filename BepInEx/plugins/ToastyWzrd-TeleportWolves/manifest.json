@@ -1,8 +1,0 @@
-{
-    "name": "TeleportWolves",
-    "description": "This plugin makes your pets able to follow you through portals.",
-    "version_number": "0.2.1",
-    "website_url": "https://www.nexusmods.com/valheim/mods/217",
-    "dependencies": [
-    ]
-}

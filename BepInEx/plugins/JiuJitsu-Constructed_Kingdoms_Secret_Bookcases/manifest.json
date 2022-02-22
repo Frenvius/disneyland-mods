@@ -1,0 +1,10 @@
+{
+    "name": "Constructed_Kingdoms_Secret_Bookcases",
+    "version_number": "1.0.1",
+    "website_url": "https://discord.gg/pFA2dQPXEf",
+    "description": "Normal & Dark Wood Variations. Options to slide left or right like a secret passageway! Also stationary. Feel free to join the server at https://discord.gg/pFA2dQPXEf",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.1900",
+		"ValheimModding-Jotunn-2.5.1"
+    ]
+}
