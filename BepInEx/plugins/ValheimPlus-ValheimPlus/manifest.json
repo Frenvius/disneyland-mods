@@ -1,9 +1,9 @@
 {
     "name": "ValheimPlus",
-    "version_number": "9.9.1",
+    "version_number": "9.9.7",
     "website_url": "https://valheim.plus/",
     "description": "Valheim Plus",
     "dependencies": [
-        "denikson-BepInExPack_Valheim-5.4.900"
+        "denikson-BepInExPack_Valheim-5.4.1700"
     ]
 }

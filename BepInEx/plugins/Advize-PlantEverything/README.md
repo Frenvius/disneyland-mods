@@ -27,8 +27,6 @@ For all other pickables, you must obtain at least 1 of the item before the recip
 
 ### Manual Install
 
-First be sure to uninstall the Planting Plus mod if you haven't already or there will be errors.
-
 Extract the Advize_PlantEverything.dll file into the BepinEx/plugins folder.
 Directory structure should look like this:
 ```
@@ -78,14 +76,11 @@ For further mod or mod dev support, I can be found at the following Discord serv
 ## Config and Other Info:
 Mod is highly configurable, a config file will be generated after first loading the mod and can be found in ﻿BepInEx/config/advize.PlantEverything.cfg
 
-The config can be edited out of game with a text editor, or modified in game using the Configuration Manager mod. If using the latter, changes will not take effect until you reload a world. This is to ensure that the server config is respected.
+The config can be edited out of game with a text editor, or modified in game using the Configuration Manager mod.
 
-Authoritative Server Configuration Files: 
+ServerSync Config Synchronization: 
 
-As of 1.3.0: Clients will by default receive configuration settings from a server hosting the mod unless ServerIsAuthoritative
- is set to false in the config file (server side). However, settings falling under the [General] category of the config file will not be enforced by the server (with the exception of AlternateIcons, AlwaysShowSpawners, and EnableMiscFlora). Though authoritative, servers will not permanently alter a client's locally stored configuration file.
-
-This is thanks to a custom implementation of the AuthoritativeConfig code written by Nextek for their Speedy Paths mod.
+As of 1.9.0: ServerSync has been adopted in place of Authoritative Config. Mod configurations will be synchronized between connected clients. If [General] LockConfiguration is set to true, only server admins will be able to modify configuration settings. However, settings falling under the [General] category of the config file will not be synchronized (with the exception of AlternateIcons, AlwaysShowSpawners, and EnableMiscFlora). Though ServerSync will sync configs between connected clients, a client's locally stored configuration file will not be altered.
 
 Localized Language Support:
 
@@ -96,7 +91,7 @@ If you are willing to translate to other languages, I would be more than happy t
 ## Config
 ### Default Config File:
 ```
-## Settings file was created by plugin PlantEverything v1.8.6
+## Settings file was created by plugin PlantEverything v1.9.2
 ## Plugin GUID: advize.PlantEverything
 
 [Berries]
@@ -249,6 +244,11 @@ DandelionReturn = 1
 
 [General]
 
+## If on, the configuration is locked and can be changed by server admins only.
+# Setting type: Boolean
+# Default value: false
+LockConfiguration = false
+
 ## Nexus mod ID for updates.
 # Setting type: Int32
 # Default value: 1042
@@ -273,11 +273,6 @@ AlwaysShowSpawners = false
 # Setting type: Boolean
 # Default value: true
 EnableMiscFlora = true
-
-## Enables display of growth time remaining on pickable resources.
-# Setting type: Boolean
-# Default value: true
-EnablePickableTimers = true
 
 ## Enable this to attempt to load localized text data for the language set in the following setting
 # Setting type: Boolean
@@ -480,19 +475,42 @@ dropChance = 0.5
 # Default value: false
 oneOfEach = false
 
-[ServerAuthoritativeConfig]
+[UI]
 
-## <Server Only> Forces Clients to use Server defined configs.
+## Enables display of growth time remaining on pickable resources.
 # Setting type: Boolean
 # Default value: true
-ServerIsAuthoritative = true
+EnablePickableTimers = true
+
+## Enables display of growth time remaining on planted resources, such as crops and saplings.
+# Setting type: Boolean
+# Default value: true
+EnablePlantTimers = true
+
+## Enables display of growth time as a percentage instead of time remaining.
+# Setting type: Boolean
+# Default value: false
+GrowthAsPercentage = false
 ```
 ## Source
 Github Repo: [Advize_ValheimMods](https://github.com/AdvizeGH/Advize_ValheimMods)
 
 ## Changelog
+### 1.9.2
+- Fixed incompatibility with Better Creative, with fix submitted by its author, Heinermann.
+
+### 1.9.1
+- New config category: UI.
+	- Moved EnablePickableTimers to UI category.
+	- Added [UI]EnablePlantTimers and [UI]GrowthAsPercentage.
+- Growth time remaining can be seen as hover text on crops, saplings, and pickables, and optionally may be displayed as a percentage.
+
+### 1.9.0
+- Adopted ServerSync in place of Authoritative Config.
+- Changes to configuration options while in game, through BepInEx Configuration Manager or synchronization with connected clients, will immediately take effect without a world reload.
+
 ### 1.8.6
-- Berry bushes, mushrooms, and flowers can now individually have their recipes removed from the cultivator by setting their respective resourceCost to 0 in the configuration file.
+- Berry bushes, mushrooms, and flowers can now individually have their recipes removed from the cultivator by setting their respective resource cost to 0 in the configuration file.
 
 ### 1.8.5
 - Added extra null reference error prevention.

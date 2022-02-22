@@ -15,9 +15,9 @@
   versionNumber:
     major: 5
     minor: 4
-    patch: 1700
+    patch: 1900
   enabled: true
-  icon: D:/projects/thunderData/Valheim/cache/denikson-BepInExPack_Valheim/5.4.1700/icon.png
+  icon: D:/projects/thunderData/Valheim/cache/denikson-BepInExPack_Valheim/5.4.1900/icon.png
 - manifestVersion: 1
   name: ValheimModding-HookGenPatcher
   authorName: ValheimModding
@@ -55,16 +55,16 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1601
+    - denikson-BepInExPack_Valheim-5.4.1900
     - ValheimModding-HookGenPatcher-0.0.3
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 2
-    minor: 4
-    patch: 3
+    minor: 5
+    patch: 1
   enabled: true
-  icon: D:/projects/thunderData/Valheim/cache/ValheimModding-Jotunn/2.4.3/icon.png
+  icon: D:/projects/thunderData/Valheim/cache/ValheimModding-Jotunn/2.5.1/icon.png
 - manifestVersion: 1
   name: OdinPlus-Clutter
   authorName: OdinPlus
@@ -186,15 +186,15 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.900
+    - denikson-BepInExPack_Valheim-5.4.1700
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 9
     minor: 9
-    patch: 1
+    patch: 7
   enabled: true
-  icon: D:/projects/thunderData/Valheim/cache/ValheimPlus-ValheimPlus/9.9.1/icon.png
+  icon: D:/projects/thunderData/Valheim/cache/ValheimPlus-ValheimPlus/9.9.7/icon.png
 - manifestVersion: 1
   name: LVH-IT-UseEquipmentInWater
   authorName: LVH-IT
@@ -291,16 +291,15 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1500
-    - ValheimModding-Jotunn-2.2.7
+    - denikson-BepInExPack_Valheim-5.4.1900
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 0
-    patch: 4
+    patch: 6
   enabled: true
-  icon: D:/projects/thunderData/Valheim/cache/OdinPlus-BasementJVLedition/1.0.4/icon.png
+  icon: D:/projects/thunderData/Valheim/cache/OdinPlus-BasementJVLedition/1.0.6/icon.png
 - manifestVersion: 1
   name: Advize-PlantEverything
   authorName: Advize
@@ -315,15 +314,15 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1601
+    - denikson-BepInExPack_Valheim-5.4.1700
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 8
-    patch: 6
+    minor: 9
+    patch: 2
   enabled: true
-  icon: D:/projects/thunderData/Valheim/cache/Advize-PlantEverything/1.8.6/icon.png
+  icon: D:/projects/thunderData/Valheim/cache/Advize-PlantEverything/1.9.2/icon.png
 - manifestVersion: 1
   name: OdinPlus-PotionPlus
   authorName: OdinPlus
@@ -337,16 +336,16 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1600
-    - ValheimModding-Jotunn-2.3.7
+    - denikson-BepInExPack_Valheim-5.4.1700
+    - ValheimModding-Jotunn-2.4.6
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 3
-    minor: 0
+    minor: 2
     patch: 2
   enabled: true
-  icon: D:/projects/thunderData/Valheim/cache/OdinPlus-PotionPlus/3.0.2/icon.png
+  icon: D:/projects/thunderData/Valheim/cache/OdinPlus-PotionPlus/3.2.2/icon.png
 - manifestVersion: 1
   name: OdinPlus-OdinArchitect
   authorName: OdinPlus
@@ -650,15 +649,15 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1500
+    - denikson-BepInExPack_Valheim-5.4.1700
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 2
-    minor: 0
-    patch: 2
+    minor: 1
+    patch: 0
   enabled: true
-  icon: D:/projects/thunderData/Valheim/cache/Advize-CartographySkill/2.0.2/icon.png
+  icon: D:/projects/thunderData/Valheim/cache/Advize-CartographySkill/2.1.0/icon.png
 - manifestVersion: 1
   name: OdinPlus-CraftyCartsRemake
   authorName: OdinPlus
@@ -720,9 +719,9 @@
   versionNumber:
     major: 1
     minor: 2
-    patch: 1
+    patch: 3
   enabled: true
-  icon: D:/projects/thunderData/Valheim/cache/wernermayer-ServerInventory/1.2.1/icon.png
+  icon: D:/projects/thunderData/Valheim/cache/wernermayer-ServerInventory/1.2.3/icon.png
 - manifestVersion: 1
   name: RockerKitten-BoneAppetit
   authorName: RockerKitten
@@ -833,3 +832,177 @@
     patch: 0
   enabled: true
   icon: D:/projects/thunderData/Valheim/cache/Smallo-PlantGrowProgress/1.4.0/icon.png
+- manifestVersion: 1
+  name: Smoothbrain-Mining
+  authorName: Smoothbrain
+  websiteUrl: https://valheim.thunderstore.io/package/Smoothbrain/Mining/
+  displayName: Mining
+  description: Adds a skill that increases damage dealt while mining and item
+    yield from ore deposits.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.1900
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/Smoothbrain-Mining/1.0.0/icon.png
+- manifestVersion: 1
+  name: OdinPlus-OdinCampsite
+  authorName: OdinPlus
+  websiteUrl: https://valheim.thunderstore.io/package/OdinPlus/OdinCampsite/
+  displayName: OdinCampsite
+  description: Campsite is just simple mod for additional pieces thanks to which
+    you can travel safe and save time to build temporary bases. Become the real
+    adventurer!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.1700
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/OdinPlus-OdinCampsite/1.0.0/icon.png
+- manifestVersion: 1
+  name: OdinPlus-OdinHorse
+  authorName: OdinPlus
+  websiteUrl: https://valheim.thunderstore.io/package/OdinPlus/OdinHorse/
+  displayName: OdinHorse
+  description: Horse is just simple custom creture mod. You can tame it, You can
+    ride it, he even got continers like horse bag to stash items
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.1700
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 2
+    patch: 0
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/OdinPlus-OdinHorse/0.2.0/icon.png
+- manifestVersion: 1
+  name: OdinPlus-OdinShip
+  authorName: OdinPlus
+  websiteUrl: https://valheim.thunderstore.io/package/OdinPlus/OdinShip/
+  displayName: OdinShip
+  description: Two new boats to help you explore this giant world.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.1700
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/OdinPlus-OdinShip/0.0.3/icon.png
+- manifestVersion: 1
+  name: ASharpPen-Spawn_That
+  authorName: ASharpPen
+  websiteUrl: https://valheim.thunderstore.io/package/ASharpPen/Spawn_That/
+  displayName: Spawn_That
+  description: Advanced tool for customizing mob spawners throughout the world
+    with configuration files.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.1900
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/ASharpPen-Spawn_That/1.0.3/icon.png
+- manifestVersion: 1
+  name: FixItFelix-RegenerativeNature
+  authorName: FixItFelix
+  websiteUrl: https://valheim.thunderstore.io/package/FixItFelix/RegenerativeNature/
+  displayName: RegenerativeNature
+  description: Let the trees grow and replenish mined ores
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - ASharpPen-Spawn_That-0.11.3
+    - denikson-BepInExPack_Valheim-5.4.1601
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 3
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/FixItFelix-RegenerativeNature/1.2.3/icon.png
+- manifestVersion: 1
+  name: RandyKnapp-ExtendedItemDataFramework
+  authorName: RandyKnapp
+  websiteUrl: https://valheim.thunderstore.io/package/RandyKnapp/ExtendedItemDataFramework/
+  displayName: ExtendedItemDataFramework
+  description: Extends ItemData for modders. Adds Unique ID to items.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 7
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/RandyKnapp-ExtendedItemDataFramework/1.0.7/icon.png
+- manifestVersion: 1
+  name: OdinPlus-BackPacks_Remake
+  authorName: OdinPlus
+  websiteUrl: https://valheim.thunderstore.io/package/OdinPlus/BackPacks_Remake/
+  displayName: BackPacks_Remake
+  description: Add Some cool storage options
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.1900
+    - RandyKnapp-ExtendedItemDataFramework-1.0.7
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 1
+    patch: 8
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/OdinPlus-BackPacks_Remake/0.1.8/icon.png

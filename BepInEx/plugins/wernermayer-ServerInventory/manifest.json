@@ -1,6 +1,6 @@
 {
     "name": "ServerInventory",
-    "version_number": "1.2.1",
+    "version_number": "1.2.3",
     "website_url": "https://0github.com/Deadheim-project/",
     "description": "This saves players inventory and skills into a json in server",
   "dependencies": [

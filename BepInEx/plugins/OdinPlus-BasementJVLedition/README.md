@@ -21,3 +21,9 @@ Copy Basement.dll into Valheim/BepInEx/plugins
 
 ## V1.0.4
 * Made recipe requirements configurable volumes
+
+## V1.0.5
+* Revamped 
+
+## V1.0.6
+* fixed nesting limit

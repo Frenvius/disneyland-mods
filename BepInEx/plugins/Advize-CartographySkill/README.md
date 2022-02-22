@@ -14,6 +14,8 @@ Crafted and upgraded at a workbench. By default, right click will zoom in. Hold 
 
 Recipe is: 2x Obsidian, 2x Bronze, 1x Crystal
 
+Alternatively, you can spawn the item with command `spawn AdvizeSpyglass`
+
 ## Installing
 
 ### Manual Install
@@ -33,43 +35,42 @@ Mod is highly configurable, a config file will be generated after first loading 
 
 Localization Support: A file named Advize_CartographySkill.json will be generated alongside the .dll file after the game is first launched. In it you will find the ability to change the Spyglass name and description text. Any changes made to this file will be loaded by the mod.
 
-Note: As of 1.5.0: Clients will by default receive configuration settings from a server hosting the mod unless `ServerIsAuthoritative` is set to false in the config file (server side). However, settings falling under the [Controls] and [Troubleshooting] categories of the config file will not be enforced by the server. Though authoritative, servers will not permanently alter a client's locally stored configuration file.
-
-This is thanks to a custom implementation of the AuthoritativeConfig code written by Nextek for their Speedy Paths mod.
+Note: Configuration settings will sync to clients from the server provided the server is running the mod as well.
 
 This config can be edited out of game with a text editor, or modified in game using the Configuration Manager mod (recommended).
 By default, one should be able to reach cartography level 100 before exploring an entire world; but it will not add xp for parts you've already discovered (yet). If you need to increase the level higher and you've discovered your whole world, you'll need to uncover parts of the map in a new world.
 
-Controls can be changed in the mod config - use this as your guide: https://docs.unity3d.com/Manual/class-InputManager.html
-
-Alternatively, take a look at the following list: https://gist.github.com/C0DEF52/b1168e6ed3d1f567fc919f2942037bab
-
-~~If using mods such as Map Sync Mod to produce map discovery as a result of irregular means, use the custom console command 'cartxpsync' to allow cartography XP to be awarded for synchronized discoveries. At present, this must be entered manually after map data has been synced via another mod.~~
+Controls can be changed in the mod config - use this as your guide: https://docs.unity3d.com/ScriptReference/KeyCode.html
 
 ## Config
 ### Default Config File:
 ```
-## Settings file was created by plugin CartographySkill v2.0.2
+## Settings file was created by plugin CartographySkill v2.1.0
 ## Plugin GUID: advize.CartographySkill
 
 [Controls]
 
-## Key to increase zoom level. See https://docs.unity3d.com/Manual/class-InputManager.html
-# Setting type: String
-# Default value: mouse 1
-IncreaseZoomKey = mouse 1
+## Key to increase zoom level. See https://docs.unity3d.com/ScriptReference/KeyCode.html
+# Setting type: KeyboardShortcut
+# Default value: Mouse1
+IncreaseZoomKey = Mouse1
 
-## Hold this key while pressing IncreaseZoomKey to decrease zoom level. See https://docs.unity3d.com/Manual/class-InputManager.html
-# Setting type: String
-# Default value: left shift
-DecreaseZoomModifierKey = left shift
+## Hold this key while pressing IncreaseZoomKey to decrease zoom level. See https://docs.unity3d.com/ScriptReference/KeyCode.html
+# Setting type: KeyboardShortcut
+# Default value: LeftShift
+DecreaseZoomModifierKey = LeftShift
 
-## Optional key to fully zoom out. See https://docs.unity3d.com/Manual/class-InputManager.html
-# Setting type: String
+## Optional key to fully zoom out. See https://docs.unity3d.com/ScriptReference/KeyCode.html
+# Setting type: KeyboardShortcut
 # Default value: 
 RemoveZoomKey = 
 
 [General]
+
+## If on, the configuration is locked and can be changed by server admins only.
+# Setting type: Boolean
+# Default value: false
+Lock Configuration = false
 
 ## Nexus mod ID for updates.
 # Setting type: Int32
@@ -103,13 +104,6 @@ LevelingIncrement = 0.5
 # Default value: 100
 TileDiscoveryRequirement = 100
 
-[ServerAuthoritativeConfig]
-
-## <Server Only> Forces Clients to use Server defined configs.
-# Setting type: Boolean
-# Default value: true
-ServerIsAuthoritative = false
-
 [Spyglass]
 
 ## Enables the spyglass item
@@ -138,6 +132,15 @@ EnableDebugMessages = false
 Github Repo: [Advize_ValheimMods](https://github.com/AdvizeGH/Advize_ValheimMods)
 
 ## Changelog
+### 2.1.0
+- Adopted ServerSync in place of Authoritative Config.
+- Changed [Controls] in config to be of type KeyboardShortcut instead of string.
+	- It's recommended you delete and regenerate your config file.
+- Compiled against BepInEx 5.4.17 and Valheim 0.206.5.
+
+### 2.0.3
+- Added more null reference error prevention.
+
 ### 2.0.2
 - Corrected cartography skill icon.
 

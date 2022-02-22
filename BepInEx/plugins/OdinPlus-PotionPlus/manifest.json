@@ -3,10 +3,10 @@
   "name": "PotionPlus",
   "author": "OdinPlus",
   "description": "Adds several simple potions to the game, now with Potion Cauldron and Alchemy Table!",
-  "version_number": "3.0.2",
+  "version_number": "3.2.2",
   "dependencies": [
-    "denikson-BepInExPack_Valheim-5.4.1600",
-    "ValheimModding-Jotunn-2.3.7"
+    "denikson-BepInExPack_Valheim-5.4.1700",
+    "ValheimModding-Jotunn-2.4.6"
   ],
   "website_url": "https://github.com/GraveofBears/PotionsPlus"
 }

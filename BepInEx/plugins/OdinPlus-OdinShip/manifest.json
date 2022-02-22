@@ -1,0 +1,9 @@
+{
+    "name": "OdinShip",
+    "version_number": "0.0.3",
+    "website_url": "https://discord.gg/zNpsGQW2ZF",
+    "description": "Two new boats to help you explore this giant world.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.1700"
+    ]
+}

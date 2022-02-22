@@ -167,6 +167,119 @@
             <param name="json">JSON text</param>
             <returns>Loaded list of CookingConversionConfigs</returns>
         </member>
+        <member name="T:Jotunn.Configs.CreatureConfig">
+            <summary>
+                Configuration class for adding custom creature spawns.<br />
+                Use this in a constructor of <see cref="T:Jotunn.Entities.CustomCreature"/> 
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.CreatureConfig.Name">
+            <summary>
+                The unique name for your custom creature. May be tokenized.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.CreatureConfig.Group">
+            <summary>
+                Group tag of this creature.<br/>
+                Creatures in the same group don't attack each other, regardless of faction.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.CreatureConfig.Faction">
+            <summary>
+                <see cref="T:Character.Faction"/> of this creature.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.CreatureConfig.UseCumulativeLevelEffects">
+            <summary>
+                If set to true, <see cref="T:LevelEffects"/> stack the "EnableObject" action for all levels
+                instead of only activating the GameObject of the highest level matched.
+            </summary>
+        </member>
+        <member name="F:Jotunn.Configs.CreatureConfig.DropConfigs">
+            <summary>
+                Array of <see cref="T:Jotunn.Configs.DropConfig">DropConfigs</see> to use for this creature's <see cref="T:CharacterDrop"/>.<br/>
+                A <see cref="T:CharacterDrop"/> component will automatically be added if not present.<br/>
+                The drop table of an existing component will be replaced.
+            </summary>
+        </member>
+        <member name="F:Jotunn.Configs.CreatureConfig.SpawnConfigs">
+            <summary>
+                Array of <see cref="T:Jotunn.Configs.SpawnConfig">SpawnConfigs</see> used for world spawns of your custom creature.<br/>
+                Leave empty if you don't want your creature to spawn in the world automatically.<br/>
+            </summary>
+        </member>
+        <member name="F:Jotunn.Configs.CreatureConfig.Consumables">
+            <summary>
+                String array of items this creature can consume to use in the <see cref="T:MonsterAI"/> component.<br/>
+                Jötunn will try to resolve all strings to <see cref="T:ItemDrop">ItemDrops</see> at runtime.<br/>
+                An existing consumeItems table will be replaced.
+            </summary>
+        </member>
+        <member name="M:Jotunn.Configs.CreatureConfig.Apply(UnityEngine.GameObject)">
+            <summary>
+                Apply this config's values to a creature GameObject.
+            </summary>
+            <param name="prefab">Prefab to apply this config to</param>
+        </member>
+        <member name="M:Jotunn.Configs.CreatureConfig.GetDrops">
+            <summary>
+                Converts the <see cref="T:Jotunn.Configs.DropConfig">DropConfigs</see> to Valheim style <see cref="T:CharacterDrop.Drop"/> array.
+            </summary>
+            <returns>The Valheim <see cref="T:CharacterDrop.Drop"/> array</returns>
+        </member>
+        <member name="M:Jotunn.Configs.CreatureConfig.GetSpawns">
+            <summary>
+                Converts the <see cref="T:Jotunn.Configs.SpawnConfig">SpawnConfigs</see> to Valheim style <see cref="T:SpawnSystem.SpawnData"/> array.
+            </summary>
+            <returns>The Valheim <see cref="T:SpawnSystem.SpawnData"/> array</returns>
+        </member>
+        <member name="M:Jotunn.Configs.CreatureConfig.GetConsumeItems">
+            <summary>
+                Creates an array of <see cref="T:ItemDrop"/> mocks for the consumeItem list of the creature.
+            </summary>
+            <returns>An array of <see cref="T:ItemDrop"/> mocks</returns>
+        </member>
+        <member name="T:Jotunn.Configs.DropConfig">
+            <summary>
+                Configuration class for drops of <see cref="T:Jotunn.Entities.CustomCreature">CustomCreatures</see> used in <see cref="T:Jotunn.Configs.CreatureConfig"/>.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.DropConfig.Item">
+            <summary>
+                Name of the item prefab of this drop. Gets resolved by Jötunn at runtime.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.DropConfig.MinAmount">
+            <summary>
+                Minimum amount of this drop. Defaults to 1.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.DropConfig.MaxAmount">
+            <summary>
+                Maximum amount of this drop. Defaults to 1.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.DropConfig.Chance">
+            <summary>
+                Chance of this drop in percent. Defaults to 100f.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.DropConfig.OnePerPlayer">
+            <summary>
+                If true, only one instance per active player will be dropped regardless of min/max amount. Defaults to false.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.DropConfig.LevelMultiplier">
+            <summary>
+                Should the drop amount be multiplied by the creature level. Defaults to true.
+            </summary>
+        </member>
+        <member name="M:Jotunn.Configs.DropConfig.GetDrop">
+            <summary>
+                Creates a Valheim <see cref="T:CharacterDrop.Drop"/> from this config.
+            </summary>
+            <returns>The Valheim <see cref="T:CharacterDrop.Drop"/></returns>
+        </member>
         <member name="T:Jotunn.Configs.FermenterConversionConfig">
             <summary>
                 Used to add new ItemConversions to the Fermenter
@@ -622,12 +735,17 @@
         </member>
         <member name="P:Jotunn.Configs.LocationConfig.HasInterior">
             <summary>
-                Enable to
+                Enable to activate interior handling
             </summary>
         </member>
         <member name="P:Jotunn.Configs.LocationConfig.InteriorRadius">
             <summary>
                 Radius of the interior attached to the location
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.LocationConfig.InteriorEnvironment">
+            <summary>
+                Environment string used by the interior
             </summary>
         </member>
         <member name="P:Jotunn.Configs.LocationConfig.RandomRotation">
@@ -740,7 +858,7 @@
         </member>
         <member name="M:Jotunn.Configs.PieceConfig.GetRequirements">
             <summary>
-                Converts the <see cref="T:Jotunn.Configs.RequirementConfig"/>s to Valheim style <see cref="T:Piece.Requirement"/> array.
+                Converts the <see cref="T:Jotunn.Configs.RequirementConfig">RequirementConfigs</see> to Valheim style <see cref="T:Piece.Requirement"/> array.
             </summary>
             <returns>The Valheim <see cref="T:Piece.Requirement"/> array</returns>
         </member>
@@ -1035,6 +1153,163 @@
             <param name="json">JSON text</param>
             <returns>Loaded list of SmelterConversionConfigs</returns>
         </member>
+        <member name="T:Jotunn.Configs.SpawnConfig">
+            <summary>
+                Configuration class for adding custom creature spawns.<br />
+                Use this to define spawn configurations in your <see cref="T:Jotunn.Configs.CreatureConfig"/>.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.SpawnConfig.Name">
+            <summary>
+                The unique name for your spawn configuration.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.SpawnConfig.WorldSpawnEnabled">
+            <summary>
+                Should this creature be loaded into the world spawn lists? Defaults to true.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.SpawnConfig.Biome">
+            <summary>
+                Biome to spawn in, multiple Biomes can be allowed with <see cref="M:Jotunn.Managers.ZoneManager.AnyBiomeOf(Heightmap.Biome[])"/>.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.SpawnConfig.BiomeArea">
+            <summary>
+                BiomeArea to spawn in. Defaults to Everything.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.SpawnConfig.MaxSpawned">
+            <summary>
+                Maximum count of instances of this creature that can be active at the same time. Defaults to 1.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.SpawnConfig.SpawnInterval">
+            <summary>
+                Spawning interval. Defaults to 4f.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.SpawnConfig.SpawnChance">
+            <summary>
+                Spawn chance each spawn interval. Defaults to 100f.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.SpawnConfig.SpawnDistance">
+            <summary>
+                Minimum distance to another instance. Defaults to 10f.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.SpawnConfig.MinSpawnRadius">
+            <summary>
+                Minimun spawn range (0 = use global setting).
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.SpawnConfig.MaxSpawnRadius">
+            <summary>
+                Maximum spawn range.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.SpawnConfig.MinLevel">
+            <summary>
+                Minimum level the creature spawns with. Defaults to 1.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.SpawnConfig.MaxLevel">
+            <summary>
+                Maximum level the creature spawns with. Defaults to 1.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.SpawnConfig.RequiredGlobalKey">
+            <summary>
+                Only spawn if this key is set. See <see cref="T:Jotunn.Utils.GameConstants.GlobalKey"/> for constant values
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.SpawnConfig.RequiredEnvironments">
+            <summary>
+                Only spawn if this environment is active, see <see cref="T:Jotunn.Utils.GameConstants.Weather"/> for constant values
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.SpawnConfig.MinGroupSize">
+            <summary>
+                Minimum number of entities to attempt to spawn at a time. Defaults to 1.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.SpawnConfig.MaxGroupSize">
+            <summary>
+                Maximum number of entities to attempt to spawn at a time. Defaults to 1.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.SpawnConfig.GroupRadius">
+            <summary>
+                Radius for the group to spawn in. Defaults to 3f.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.SpawnConfig.SpawnAtDay">
+            <summary>
+                Creature can spawn at day. Defaults to true.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.SpawnConfig.SpawnAtNight">
+            <summary>
+                Creature can spawn at night. Defaults to true.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.SpawnConfig.MinAltitude">
+            <summary>
+                The minimum altitude (distance to water surface) for the creature to spawn. Defaults to -1000f.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.SpawnConfig.MaxAltitude">
+            <summary>
+                The maximum altitude (distance to water surface) for the creature to spawn. Defaults to 1000f.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.SpawnConfig.MinTilt">
+            <summary>
+                The minimum tilt of terrain required to spawn. Range 0 to 90.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.SpawnConfig.MaxTilt">
+            <summary>
+                The maximum tilt of terrain required to spawn. Range 0 to 90. Defaults to 35f.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.SpawnConfig.MinOceanDepth">
+            <summary>
+                The minimum ocean depth for the creature to spawn.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.SpawnConfig.MaxOceanDepth">
+            <summary>
+                The maximum ocean depth for the creature to spawn.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.SpawnConfig.SpawnInForest">
+            <summary>
+                Spawn can happen in forest areas. Defaults to true.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.SpawnConfig.SpawnOutsideForest">
+            <summary>
+                Spawn can happen outside forest areas. Defaults to true.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.SpawnConfig.HuntPlayer">
+            <summary>
+                Set true to let the AI hunt the player on spawn.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.SpawnConfig.GroundOffset">
+            <summary>
+                Offset to the ground the creature spawns on. Defaults to 0.5f
+            </summary>
+        </member>
+        <member name="M:Jotunn.Configs.SpawnConfig.GetSpawnData">
+            <summary>
+                Converts the SpawnConfig to a Valheim style <see cref="T:SpawnSystem.SpawnData"/> without a prefab set.
+            </summary>
+            <returns>The Valheim <see cref="T:SpawnSystem.SpawnData"/></returns>
+        </member>
         <member name="T:Jotunn.Configs.VegetationConfig">
             <summary>
                 Configuration class for adding custom vegetation.<br />
@@ -1179,6 +1454,11 @@
             </summary>
             <param name="zoneVegetation">ZoneVegetation to copy</param>
         </member>
+        <member name="M:Jotunn.DebugUtils.DebugHelper.ZoneSystem_SpawnLocation(On.ZoneSystem.orig_SpawnLocation,ZoneSystem,ZoneSystem.ZoneLocation,System.Int32,UnityEngine.Vector3,UnityEngine.Quaternion,ZoneSystem.SpawnMode,System.Collections.Generic.List{UnityEngine.GameObject})">
+            <summary>
+                Output custom location spawns
+            </summary>
+        </member>
         <member name="T:Jotunn.DebugUtils.DebugHelper.Debug_isDebugBuild">
             <summary>
                 Pretend to be a debugBuild :)
@@ -1232,6 +1512,84 @@
             <returns>List of valid command options</returns>
         </member>
         <member name="M:Jotunn.Entities.ConsoleCommand.ToString">
+            <inheritdoc/>
+        </member>
+        <member name="T:Jotunn.Entities.CustomCreature">
+            <summary>
+                Main interface for adding custom creatures to the game.<br />
+                All custom creatures have to be wrapped inside this class to add it to Jötunns <see cref="T:Jotunn.Managers.CreatureManager"/>.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Entities.CustomCreature.Prefab">
+            <summary>
+                The creature prefab.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Entities.CustomCreature.Spawns">
+            <summary>
+                Associated list of <see cref="T:SpawnSystem.SpawnData"/> of the creature.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Entities.CustomCreature.FixReference">
+            <summary>
+                Indicator if references from <see cref="T:Jotunn.Entities.Mock`1">mocks</see> will be replaced at runtime.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Entities.CustomCreature.FixConfig">
+            <summary>
+                Indicator if references from configs should get replaced
+            </summary>
+        </member>
+        <member name="P:Jotunn.Entities.CustomCreature.UseCumulativeLevelEffects">
+            <summary>
+                Internal flag for the cumulative level effects hook. Value is set in the config.
+            </summary>
+        </member>
+        <member name="M:Jotunn.Entities.CustomCreature.#ctor(UnityEngine.GameObject,System.Boolean)">
+            <summary>
+                Custom creature from a prefab.
+            </summary>
+            <param name="creaturePrefab">The prefab of this custom creature.</param>
+            <param name="fixReference">If true references for <see cref="T:Jotunn.Entities.Mock`1"/> objects get resolved at runtime by Jötunn.</param>
+        </member>
+        <member name="M:Jotunn.Entities.CustomCreature.#ctor(UnityEngine.GameObject,System.Boolean,Jotunn.Configs.CreatureConfig)">
+            <summary>
+                Custom creature from a prefab with a <see cref="T:Jotunn.Configs.CreatureConfig"/> attached.
+            </summary>
+            <param name="creaturePrefab">The prefab of this custom creature.</param>
+            <param name="fixReference">If true references for <see cref="T:Jotunn.Entities.Mock`1"/> objects get resolved at runtime by Jötunn.</param>
+            <param name="creatureConfig">The <see cref="T:Jotunn.Configs.CreatureConfig"/> for this custom creature.</param>
+        </member>
+        <member name="M:Jotunn.Entities.CustomCreature.#ctor(System.String,System.String,Jotunn.Configs.CreatureConfig)">
+            <summary>
+                Custom creature created as a copy of a vanilla Valheim creature.<br />
+                SpawnData is not cloned, you will have to add <see cref="T:Jotunn.Configs.SpawnConfig">SpawnConfigs</see>
+                to your <see cref="T:Jotunn.Configs.CreatureConfig"/> if you want to spawn the cloned creature automatically.
+            </summary>
+            <param name="name">The new name of the creature after cloning.</param>
+            <param name="basePrefabName">The name of the base prefab the custom creature is cloned from.</param>
+            <param name="creatureConfig">The <see cref="T:Jotunn.Configs.CreatureConfig"/> for this custom creature.</param>
+        </member>
+        <member name="M:Jotunn.Entities.CustomCreature.IsValid">
+            <summary>
+                Checks if a custom creature is valid (i.e. has a prefab and all required components).
+            </summary>
+            <returns>true if all criteria is met</returns>
+        </member>
+        <member name="M:Jotunn.Entities.CustomCreature.IsCustomCreature(System.String)">
+            <summary>
+                Helper method to determine if a prefab with a given name is a custom creature created with Jötunn.
+            </summary>
+            <param name="prefabName">Name of the prefab to test.</param>
+            <returns>true if the prefab is added as a custom creature to the <see cref="T:Jotunn.Managers.CreatureManager"/>.</returns>
+        </member>
+        <member name="M:Jotunn.Entities.CustomCreature.Equals(System.Object)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Jotunn.Entities.CustomCreature.GetHashCode">
+            <inheritdoc/>
+        </member>
+        <member name="M:Jotunn.Entities.CustomCreature.ToString">
             <inheritdoc/>
         </member>
         <member name="T:Jotunn.Entities.CustomEntity">
@@ -1545,9 +1903,15 @@
                 Name of this custom location
             </summary>
         </member>
+        <member name="P:Jotunn.Entities.CustomLocation.FixReference">
+            <summary>
+                Indicator if references from <see cref="T:Jotunn.Entities.Mock`1"/>s will be replaced at runtime.
+            </summary>
+        </member>
         <member name="M:Jotunn.Entities.CustomLocation.#ctor(UnityEngine.GameObject,Jotunn.Configs.LocationConfig)">
             <summary>
                 Custom location from a prefab with a <see cref="T:Jotunn.Configs.LocationConfig"/> attached.<br />
+                Does not fix references.
             </summary>
             <param name="exteriorPrefab">The exterior prefab for this custom location.</param>
             <param name="locationConfig">The <see cref="T:Jotunn.Configs.LocationConfig"/> for this custom location.</param>
@@ -1555,10 +1919,38 @@
         <member name="M:Jotunn.Entities.CustomLocation.#ctor(UnityEngine.GameObject,UnityEngine.GameObject,Jotunn.Configs.LocationConfig)">
             <summary>
                 Custom location from a prefab with a <see cref="T:Jotunn.Configs.LocationConfig"/> attached.<br />
+                Does not fix references.
             </summary>
             <param name="exteriorPrefab">The exterior prefab for this custom location.</param>
             <param name="interiorPrefab">The interior prefab for this custom location.</param>
             <param name="locationConfig">The <see cref="T:Jotunn.Configs.LocationConfig"/> for this custom location.</param>
+        </member>
+        <member name="M:Jotunn.Entities.CustomLocation.#ctor(UnityEngine.GameObject,System.Boolean,Jotunn.Configs.LocationConfig)">
+            <summary>
+                Custom location from a prefab with a <see cref="T:Jotunn.Configs.LocationConfig"/> attached.
+            </summary>
+            <param name="exteriorPrefab">The exterior prefab for this custom location.</param>
+            <param name="fixReference">If true references for <see cref="T:Jotunn.Entities.Mock`1"/> objects get resolved at runtime by Jötunn.</param>
+            <param name="locationConfig">The <see cref="T:Jotunn.Configs.LocationConfig"/> for this custom location.</param>
+        </member>
+        <member name="M:Jotunn.Entities.CustomLocation.#ctor(UnityEngine.GameObject,UnityEngine.GameObject,System.Boolean,Jotunn.Configs.LocationConfig)">
+            <summary>
+                Custom location from a prefab with a <see cref="T:Jotunn.Configs.LocationConfig"/> attached.
+            </summary>
+            <param name="exteriorPrefab">The exterior prefab for this custom location.</param>
+            <param name="interiorPrefab">The interior prefab for this custom location.</param>
+            <param name="fixReference">If true references for <see cref="T:Jotunn.Entities.Mock`1"/> objects get resolved at runtime by Jötunn.</param>
+            <param name="locationConfig">The <see cref="T:Jotunn.Configs.LocationConfig"/> for this custom location.</param>
+        </member>
+        <member name="M:Jotunn.Entities.CustomLocation.IsCustomLocation(System.String)">
+            <summary>
+                Helper method to determine if a location prefab with a given name is a custom location created with Jötunn.
+            </summary>
+            <param name="prefabName">Name of the prefab to test.</param>
+            <returns>true if the prefab is added as a custom location to the <see cref="T:Jotunn.Managers.ZoneManager"/>.</returns>
+        </member>
+        <member name="M:Jotunn.Entities.CustomLocation.ToString">
+            <inheritdoc/>
         </member>
         <member name="T:Jotunn.Entities.CustomPiece">
             <summary>
@@ -2048,12 +2440,36 @@
                 Name of this custom vegetation
             </summary>
         </member>
+        <member name="P:Jotunn.Entities.CustomVegetation.FixReference">
+            <summary>
+                Indicator if references from <see cref="T:Jotunn.Entities.Mock`1"/>s will be replaced at runtime.
+            </summary>
+        </member>
         <member name="M:Jotunn.Entities.CustomVegetation.#ctor(UnityEngine.GameObject,Jotunn.Configs.VegetationConfig)">
             <summary>
                 Custom vegetation from a prefab.<br />
             </summary>
             <param name="prefab">The prefab for this custom vegetation.</param>
             <param name="config">The vegetation config for this custom vegation.</param> 
+        </member>
+        <member name="M:Jotunn.Entities.CustomVegetation.#ctor(UnityEngine.GameObject,System.Boolean,Jotunn.Configs.VegetationConfig)">
+            <summary>
+                Custom vegetation from a prefab.<br />
+                Can fix references for mocks.
+            </summary>
+            <param name="prefab">The prefab for this custom vegetation.</param>
+            <param name="fixReference">If true references for <see cref="T:Jotunn.Entities.Mock`1"/> objects get resolved at runtime by Jötunn.</param>
+            <param name="config">The vegetation config for this custom vegation.</param> 
+        </member>
+        <member name="M:Jotunn.Entities.CustomVegetation.IsCustomVegetation(System.String)">
+            <summary>
+                Helper method to determine if a prefab with a given name is a custom Vegetation created with Jötunn.
+            </summary>
+            <param name="prefabName">Name of the prefab to test.</param>
+            <returns>true if the prefab is added as a custom vegetation to the <see cref="T:Jotunn.Managers.ZoneManager"/>.</returns>
+        </member>
+        <member name="M:Jotunn.Entities.CustomVegetation.ToString">
+            <inheritdoc/>
         </member>
         <member name="T:Jotunn.Entities.KitbashObject">
             <summary>
@@ -2539,7 +2955,7 @@
                 the mod settings button on first in-game menu start.
             </summary>
         </member>
-        <member name="M:Jotunn.GUI.InGameConfig.Instantiate(UnityEngine.Transform)">
+        <member name="M:Jotunn.GUI.InGameConfig.CreateMenu(UnityEngine.Transform)">
             <summary>
                 Create our own menu list entry when mod config is available
             </summary>
@@ -2548,6 +2964,11 @@
         <member name="M:Jotunn.GUI.InGameConfig.CreateWindow(UnityEngine.Transform)">
             <summary>
                 Create custom configuration window
+            </summary>
+        </member>
+        <member name="M:Jotunn.GUI.InGameConfig.CreatePlugin(Jotunn.GUI.ModSettings,System.Collections.Generic.KeyValuePair{System.String,BepInEx.BaseUnityPlugin})">
+            <summary>
+                Create settings for a plugin
             </summary>
         </member>
         <member name="M:Jotunn.GUI.InGameConfig.GetConfigurationEntries(System.String)">
@@ -3006,6 +3427,49 @@
                 Manually close the GradientPicker and apply the selected color
             </summary>
         </member>
+        <member name="T:Jotunn.GUI.MinimapOverlayPanel">
+            <summary>
+                Panel for displaying and toggling custom map overlays
+            </summary>
+        </member>
+        <member name="F:Jotunn.GUI.MinimapOverlayPanel.OverlayGroup">
+            <summary>
+                
+            </summary>
+        </member>
+        <member name="F:Jotunn.GUI.MinimapOverlayPanel.Button">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Jotunn.GUI.MinimapOverlayPanel.BaseMod">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Jotunn.GUI.MinimapOverlayPanel.BaseModText">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Jotunn.GUI.MinimapOverlayPanel.BaseToggle">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Jotunn.GUI.MinimapOverlayPanel.ToggleOverlayGroup">
+            <summary>
+                Toggle the overlay list
+            </summary>
+        </member>
+        <member name="M:Jotunn.GUI.MinimapOverlayPanel.AddOverlayToggle(System.String,System.String)">
+            <summary>
+                Add a new toggle for a map overlay
+            </summary>
+            <param name="modName"></param>
+            <param name="overlayName"></param>
+            <returns></returns>
+        </member>
         <member name="T:Jotunn.IManager">
             <summary>
                 The base class for all the library's various Managers
@@ -3149,6 +3613,120 @@
             <param name="orig"></param>
             <param name="self"></param>
             <returns></returns>
+        </member>
+        <member name="T:Jotunn.Managers.CreatureManager">
+            <summary>
+               Manager for handling all custom data added to the game related to creatures.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Managers.CreatureManager.Instance">
+            <summary>
+                The singleton instance of this manager.
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.CreatureManager.#ctor">
+            <summary>
+                Hide .ctor
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.CreatureManager.CharacterLayer">
+            <summary>
+                Unity "character" layer ID. 
+            </summary>
+        </member>
+        <member name="E:Jotunn.Managers.CreatureManager.OnVanillaCreaturesAvailable">
+            <summary>
+                Event that gets fired after the vanilla creatures are in memory and available for cloning.
+                Your code will execute every time before a new <see cref="T:ObjectDB"/> is copied (on every menu start).
+                If you want to execute just once you will need to unregister from the event after execution.
+            </summary>
+        </member>
+        <member name="E:Jotunn.Managers.CreatureManager.OnCreaturesRegistered">
+            <summary>
+                Event that gets fired after registering all custom creatures to <see cref="T:ZNetScene"/>.
+                Your code will execute every time a new ZNetScene is created (on every game start).
+                If you want to execute just once you will need to unregister from the event after execution.
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.CreatureManager.Creatures">
+            <summary>
+                Internal lists of all custom entities added
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.CreatureManager.SpawnListContainer">
+            <summary>
+                Container for Jötunn's SpawnSystemList in the DontDestroyOnLoad scene.
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.CreatureManager.SpawnList">
+            <summary>
+                Reference to the SpawnList component of the container.
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.CreatureManager.Init">
+            <summary>
+                Creates the spawner container and registers all hooks.
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.CreatureManager.AddCreature(Jotunn.Entities.CustomCreature)">
+            <summary>
+                Add a <see cref="T:Jotunn.Entities.CustomCreature"/> to the game.<br />
+                Checks if the custom creature is valid and unique and adds it to the list of custom creatures.
+            </summary>
+            <param name="customCreature">The custom Creature to add.</param>
+            <returns>true if the custom Creature was added to the manager.</returns>
+        </member>
+        <member name="M:Jotunn.Managers.CreatureManager.GetCreature(System.String)">
+            <summary>
+                Get a custom creature by its name.
+            </summary>
+            <param name="creatureName">Name of the custom creature to search.</param>
+            <returns>The <see cref="T:Jotunn.Entities.CustomCreature"/> if found.</returns>
+        </member>
+        <member name="M:Jotunn.Managers.CreatureManager.GetCreaturePrefab(System.String)">
+            <summary>
+                Get a custom or vanilla creature prefab by its name.
+            </summary>
+            <param name="creatureName">Name of the creature to search.</param>
+            <returns>The prefab of the creature if found.</returns>
+        </member>
+        <member name="M:Jotunn.Managers.CreatureManager.RemoveCreature(System.String)">
+            <summary>
+                Remove a custom creature by its name.
+            </summary>
+            <param name="creatureName">Name of the creature to remove.</param>
+        </member>
+        <member name="M:Jotunn.Managers.CreatureManager.RemoveCreature(Jotunn.Entities.CustomCreature)">
+            <summary>
+                Remove a custom creature by its ref. Removes the custom recipe, too.
+            </summary>
+            <param name="creature"><see cref="T:Jotunn.Entities.CustomCreature"/> to remove.</param>
+        </member>
+        <member name="M:Jotunn.Managers.CreatureManager.InvokeOnVanillaCreaturesAvailable(On.ObjectDB.orig_CopyOtherDB,ObjectDB,ObjectDB)">
+            <summary>
+                Safely invoke the <see cref="E:Jotunn.Managers.CreatureManager.OnVanillaCreaturesAvailable"/> event
+            </summary>
+            
+        </member>
+        <member name="M:Jotunn.Managers.CreatureManager.FixReferences(On.ZNetScene.orig_Awake,ZNetScene)">
+            <summary>
+                Resolve mocks of all custom creatures if necessary.
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.CreatureManager.InvokeOnCreaturesRegistered">
+            <summary>
+                Safely invoke the <see cref="E:Jotunn.Managers.CreatureManager.OnCreaturesRegistered"/> event.
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.CreatureManager.AddSpawnListToSpawnSystem(On.SpawnSystem.orig_Awake,SpawnSystem)">
+            <summary>
+                Add the internal <see cref="T:SpawnSystemList"/> to the awoken spawner if not already added.
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.CreatureManager.EnableCumulativeLevelEffects(On.LevelEffects.orig_SetupLevelVisualization,LevelEffects,System.Int32)">
+            <summary>
+                Enable cumulative level effects for custom creatures requesting it. Thx ASP for the code.
+            </summary>
         </member>
         <member name="T:Jotunn.Managers.GUIManager">
             <summary>
@@ -4179,101 +4757,104 @@
             </summary>
             <param name="fileContent"> Entire file as string </param>
         </member>
-        <member name="T:Jotunn.Managers.MapOverlayManager">
+        <member name="T:Jotunn.Managers.MinimapManager">
             <summary>
                 Manager for adding custom Map Overlays to the game.
             </summary>
         </member>
-        <member name="P:Jotunn.Managers.MapOverlayManager.Instance">
+        <member name="P:Jotunn.Managers.MinimapManager.Instance">
             <summary>
                 The singleton instance of this manager.
             </summary>
         </member>
-        <member name="E:Jotunn.Managers.MapOverlayManager.OnVanillaMapAvailable">
+        <member name="M:Jotunn.Managers.MinimapManager.#ctor">
+            <summary>
+                Hide .ctor
+            </summary>
+        </member>
+        <member name="E:Jotunn.Managers.MinimapManager.OnVanillaMapAvailable">
             <summary>
                 Event that gets fired once the Map for a World has started and Mods can begin to draw.
             </summary>
         </member>
-        <member name="E:Jotunn.Managers.MapOverlayManager.OnVanillaMapDataLoaded">
+        <member name="E:Jotunn.Managers.MinimapManager.OnVanillaMapDataLoaded">
             <summary>
                 Event that gets fired once data for a specific Map for a world has been loaded. Eg, Pins are available after this has fired.
             </summary>
         </member>
-        <member name="T:Jotunn.Managers.MapOverlayManager.MapOverlay">
+        <member name="F:Jotunn.Managers.MinimapManager.FilterOn">
             <summary>
-                Object for modders to use to access and modify their Overlay.
-                Modders should modify the Image's shader's texture directly.
-                MapName and TextureSize should not be modified.
+                Colour which sets a filter on. Used for ForestFilter and FogFilter.
+                A full alpha value enables this pixel, and then the red value is written to the result texture.
             </summary>
         </member>
-        <member name="F:Jotunn.Managers.MapOverlayManager.MapOverlay.Helper">
+        <member name="F:Jotunn.Managers.MinimapManager.FilterOff">
             <summary>
-                Internal Helper GameObject to hold the Image component
+                Colour which sets a filter off. See FilterOn.
             </summary>
         </member>
-        <member name="F:Jotunn.Managers.MapOverlayManager.MapOverlay.MapName">
+        <member name="F:Jotunn.Managers.MinimapManager.MeadowHeight">
             <summary>
-                Unique ID per overlay
+                Height "Colour" used for the base height of "Meadows"
             </summary>
         </member>
-        <member name="P:Jotunn.Managers.MapOverlayManager.MapOverlay.TextureSize">
+        <member name="F:Jotunn.Managers.MinimapManager.Overlays">
             <summary>
-                Initial texture size to calculate the relative drawing position
+                Container to hold all live Overlays.
             </summary>
         </member>
-        <member name="P:Jotunn.Managers.MapOverlayManager.MapOverlay.Img">
+        <member name="F:Jotunn.Managers.MinimapManager.Drawings">
             <summary>
-                Image component holding the overlay texture data
+                Container to hold all live Drawings.
             </summary>
         </member>
-        <member name="M:Jotunn.Managers.MapOverlayManager.Init">
+        <member name="M:Jotunn.Managers.MinimapManager.Init">
             <summary>
                 Creates the Overlays and registers hooks.
             </summary>
         </member>
-        <member name="M:Jotunn.Managers.MapOverlayManager.AddMapOverlay">
+        <member name="M:Jotunn.Managers.MinimapManager.GetMapOverlay(System.String,System.Boolean)">
             <summary>
-                Create a new mapoverlay with a default overlay name
-            </summary>
-            <returns>Reference to MapOverlay for modder to edit</returns>
-        </member>
-        <member name="M:Jotunn.Managers.MapOverlayManager.AddMapOverlay(System.String)">
-            <summary>
-                Create a new mapoverlay with a custom overlay name
+                Create a new MapOverlay with a custom overlay name
             </summary>
             <param name="name">Custom name for the MapOverlay</param>
+            <param name="ignoreFog">When set to true, that layer will be drawn regardless of exploration status, defaults to false</param>
             <returns>Reference to MapOverlay for modder to edit</returns>
         </member>
-        <member name="M:Jotunn.Managers.MapOverlayManager.AddMapOverlay(Jotunn.Managers.MapOverlayManager.MapOverlay)">
+        <member name="M:Jotunn.Managers.MinimapManager.GetMapDrawing(System.String)">
             <summary>
-                If a mod already has an instance of MapOverlay ready, they can simply call this function to register to the MapOverlayManager.
-                This Manager will then ensure the image is updated.
+                Create a new MapDrawing with a custom overlay name
             </summary>
-            <param name="ovl">The MapOverlay to be registered</param>
+            <param name="name">Custom name for the MapDrawing</param>
+            <returns>Reference to MapDrawing for modder to edit</returns>
         </member>
-        <member name="M:Jotunn.Managers.MapOverlayManager.RemoveMapOverlay(System.String)">
+        <member name="M:Jotunn.Managers.MinimapManager.RemoveMapOverlay(System.String)">
             <summary>
                 Causes MapManager to stop updating the MapOverlay object and removes this Manager's reference to that overlay.
-                A mod could still hold references and keep the object alive.
             </summary>
             <param name="name">The name of the MapOverlay to be removed</param>
             <returns>True if removal was successful. False if there was an error removing the object from the internal dict.</returns>
         </member>
-        <member name="M:Jotunn.Managers.MapOverlayManager.GetMapOverlay(System.String)">
+        <member name="M:Jotunn.Managers.MinimapManager.RemoveMapDrawing(System.String)">
             <summary>
-                Returns a reference to a currently registered MapOverlay
+                Causes MapManager to stop updating the MapDrawing object and removes this Manager's reference to that drawing.
             </summary>
-            <param name="name">The name of the MapOverlay to retrieve</param>
-            <returns>The MapOverlay if it exists.</returns>
+            <param name="name">The name of the MapDrawing to be removed</param>
+            <returns>True if removal was successful. False if there was an error removing the object from the internal dict.</returns>
         </member>
-        <member name="M:Jotunn.Managers.MapOverlayManager.MaskWithFog(Jotunn.Managers.MapOverlayManager.MapOverlay)">
+        <member name="M:Jotunn.Managers.MinimapManager.GetOverlayNames">
             <summary>
-                Helper function to set pixels on the overlay image completely transparent if there is map fog over that pixel.
-                The end effect is to "put fog over top of the overlay".
+                Return a list of all current overlay names
             </summary>
-            <param name="ovl">The overlay to place fog on top of</param>
+            <returns>List of names</returns>
         </member>
-        <member name="M:Jotunn.Managers.MapOverlayManager.WorldToOverlayCoords(UnityEngine.Vector3,System.Int32)">
+        <member name="M:Jotunn.Managers.MinimapManager.GetDrawingNames">
+            <summary>
+                Return a list of all current MapDrawing names
+            </summary>
+            <returns>List of names</returns>
+        </member>
+        <member name="M:Jotunn.Managers.MinimapManager.WorldToOverlayCoords(UnityEngine.Vector3,System.Int32)">
             <summary>
                 Input a World Coordinate and the size of the overlay texture to retrieve the translated overlay coordinates. 
             </summary>
@@ -4281,48 +4862,172 @@
             <param name="texSize">Size of the image from your MapOverlay</param>
             <returns>The 2D coordinate space on the MapOverlay</returns>
         </member>
-        <member name="M:Jotunn.Managers.MapOverlayManager.OverlayToWorldCoords(UnityEngine.Vector2,System.Int32)">
+        <member name="M:Jotunn.Managers.MinimapManager.OverlayToWorldCoords(UnityEngine.Vector2,System.Int32)">
             <summary>
                 Input a MapOverlay Coordinate and the size of the overlay texture to retrieve the translated World coordinates.
             </summary>
             <param name="input">The 2D Overlay coordinate</param>
             <param name="texSize">The size of the Overlay</param>
             <returns>The 3D World coordinate that corresponds to the input Vector</returns>
+            
         </member>
-        <member name="M:Jotunn.Managers.MapOverlayManager.Update">
+        <member name="M:Jotunn.Managers.MinimapManager.Minimap_Start(On.Minimap.orig_Start,Minimap)">
             <summary>
-                All map overlays need to be updated in this way to keep them scaled and positioned properly when the minimap itself is moved / scaled.
-                This function is public as it needs to be called by MapManagerHelper.
-                Automatically scales and positions based on whether the large or small map is active.
+                Setup GUI on <see cref="M:Minimap.Start"/>.
             </summary>
         </member>
-        <member name="M:Jotunn.Managers.MapOverlayManager.AddOverlay(Jotunn.Managers.MapOverlayManager.MapOverlay)">
-            <summary>
-                Helper function to set default properties of a MapOverlay.
-                Create a new image of our custom default size and set its anchor min/max to the bottom left.
-                Then add a reference of the mapoverlay to our dict so we can update it later.
-            </summary>
-            <param name="ovl">The overlay to be added</param>
-        </member>
-        <member name="M:Jotunn.Managers.MapOverlayManager.InvokeOnVanillaMapAvailable(On.Minimap.orig_Start,Minimap)">
+        <member name="M:Jotunn.Managers.MinimapManager.InvokeOnVanillaMapAvailable">
             <summary>
                 Safely invoke OnVanillaMapAvailable event.
             </summary>
         </member>
-        <member name="M:Jotunn.Managers.MapOverlayManager.InvokeOnVanillaMapDataLoaded(On.Minimap.orig_LoadMapData,Minimap)">
+        <member name="M:Jotunn.Managers.MinimapManager.Minimap_LoadMapData(On.Minimap.orig_LoadMapData,Minimap)">
+            <summary>
+                Setup textures and GUI on <see cref="M:Minimap.LoadMapData"/>
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.MinimapManager.InvokeOnVanillaMapDataLoaded">
             <summary>
                 Safely invoke InvokeOnVanillaMapDataLoaded event.
             </summary>
         </member>
-        <member name="M:Jotunn.Managers.MapOverlayManager.Minimap_Start(On.Minimap.orig_Start,Minimap)">
+        <member name="M:Jotunn.Managers.MinimapManager.DrawingsActive">
             <summary>
-                Monomod hook into the Minimap Awake method. MapManager adds its helper component after the Minimap does its thing.
+                Return whether the Drawings functionality is active.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Jotunn.Managers.MinimapManager.SetupDrawings">
+            <summary>
+                Called when the first MapDraw object is created.
+                Initializes all variables required for MapDraw objects to be rendered.
+                Changes the behaviour of some vanilla shaders.
             </summary>
         </member>
-        <member name="T:Jotunn.Managers.MapOverlayManager.MapManagerHelper">
+        <member name="T:Jotunn.Managers.MinimapManager.MapOverlay">
             <summary>
-                    Helper class that gets attached to the Minimap object on Minimap.Awake()
-                    Used to give MapManager Update() functionality
+                Object for modders to use to access and modify their Overlay.
+                Modders should modify the texture directly.
+            </summary>
+        </member>
+        <member name="P:Jotunn.Managers.MinimapManager.MapOverlay.OverlayTex">
+            <summary>
+                Texture to draw overlay texture information to
+            </summary>
+        </member>
+        <member name="P:Jotunn.Managers.MinimapManager.MapOverlay.Enabled">
+            <summary>
+                Set true to render this overlay, false to hide
+            </summary>
+        </member>
+        <member name="P:Jotunn.Managers.MinimapManager.MapOverlay.Dirty">
+            <summary>
+                Flag to determine if this overlay had changes since its last draw
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.MinimapManager.MapOverlay.IgnoreFog">
+            <summary>
+                Flag to determine if this overlay should be hidden in unexplored areas
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.MinimapManager.MapOverlay.#ctor">
+            <summary>
+                Hide .ctor
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.MinimapManager.MapOverlay.SetTextureDirty(UnityEngine.Texture2D)">
+            <summary>
+                Function called on Texture2D.Apply to check if one of our member textures was changed
+            </summary>
+            <param name="tex"></param>
+        </member>
+        <member name="M:Jotunn.Managers.MinimapManager.MapOverlay.Destroy">
+            <summary>
+                Destroys the overlay texture
+            </summary>
+        </member>
+        <member name="T:Jotunn.Managers.MinimapManager.MapDrawing">
+            <summary>
+                Object for modders to use to access and modify their Overlay.
+                Modders should modify the texture directly.
+                
+            </summary>
+        </member>
+        <member name="P:Jotunn.Managers.MinimapManager.MapDrawing.MainTex">
+            <summary>
+                Texture to draw main texture information to
+            </summary>
+        </member>
+        <member name="P:Jotunn.Managers.MinimapManager.MapDrawing.HeightFilter">
+            <summary>
+                Texture to draw height filter information to
+            </summary>
+        </member>
+        <member name="P:Jotunn.Managers.MinimapManager.MapDrawing.ForestFilter">
+            <summary>
+                Texture to draw forest filter information to
+            </summary>
+        </member>
+        <member name="P:Jotunn.Managers.MinimapManager.MapDrawing.FogFilter">
+            <summary>
+                Texture to draw fog filter information to
+            </summary>
+        </member>
+        <member name="P:Jotunn.Managers.MinimapManager.MapDrawing.Enabled">
+            <summary>
+                Set true to render this overlay, false to hide
+            </summary>
+        </member>
+        <member name="P:Jotunn.Managers.MinimapManager.MapDrawing.Dirty">
+            <summary>
+                Flag to determine if this overlay had changes since its last draw
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.MinimapManager.MapDrawing.#ctor">
+            <summary>
+                Hide .ctor
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.MinimapManager.MapDrawing.SetTextureDirty(UnityEngine.Texture2D)">
+            <summary>
+                Function called on Texture2D.Apply to check if one of our member textures was changed
+            </summary>
+            <param name="tex"></param>
+        </member>
+        <member name="M:Jotunn.Managers.MinimapManager.MapDrawing.Destroy">
+            <summary>
+                Destroys all textures
+            </summary>
+        </member>
+        <member name="T:Jotunn.Managers.MinimapManager.MapOverlayBase">
+            <summary>
+                Overlay Base to inherit from
+                
+            </summary>
+        </member>
+        <member name="P:Jotunn.Managers.MinimapManager.MapOverlayBase.Name">
+            <summary>
+                Unique name per overlay
+            </summary>
+        </member>
+        <member name="P:Jotunn.Managers.MinimapManager.MapOverlayBase.TextureSize">
+            <summary>
+                Initial texture size to calculate the relative drawing position
+            </summary>
+        </member>
+        <member name="F:Jotunn.Managers.MinimapManager.MapOverlayBase.Toggle">
+            <summary>
+                Reference to the GUI toggle element to notify changes on the overlay state
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.MinimapManager.MapOverlayBase.#ctor">
+            <summary>
+                Hide .ctor
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.MinimapManager.MapOverlayBase.Create(UnityEngine.Texture2D)">
+            <summary>
+                Helper function to create and copy overlay texture instances
             </summary>
         </member>
         <member name="T:Jotunn.Managers.MockManager">
@@ -4338,11 +5043,6 @@
         <member name="M:Jotunn.Managers.MockManager.#ctor">
             <summary>
                 Hide .ctor
-            </summary>
-        </member>
-        <member name="F:Jotunn.Managers.MockManager.CopyRegex">
-            <summary>
-                Regex to identify multiple instances of mock objects from Unity
             </summary>
         </member>
         <member name="F:Jotunn.Managers.MockManager.MockPrefix">
@@ -4364,6 +5064,21 @@
             <summary>
                 Creates the container and registers all hooks
             </summary>
+        </member>
+        <member name="M:Jotunn.Managers.MockManager.CreateMockedGameObject(System.String)">
+            <summary>
+                Create an empty GameObject with the mock string prepended
+            </summary>
+            <param name="prefabName">Name of the mocked vanilla prefab</param>
+            <returns>Mocked GameObject reference</returns>
+        </member>
+        <member name="M:Jotunn.Managers.MockManager.CreateMockedPrefab``1(System.String)">
+            <summary>
+                Create a mocked component on an empty GameObject
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="prefabName"></param>
+            <returns></returns>
         </member>
         <member name="M:Jotunn.Managers.MockManager.GetRealPrefabFromMock``1(UnityEngine.Object)">
             <summary>
@@ -4640,10 +5355,11 @@
         </member>
         <member name="M:Jotunn.Managers.PrefabManager.AddPrefab(UnityEngine.GameObject,BepInEx.BepInPlugin)">
             <summary>
-                Add a custom prefab to the manager with known source mod metadata.
+                Add a custom prefab to the manager with known source mod metadata. Don't fix references.
             </summary>
             <param name="prefab">Prefab to add</param>
             <param name="sourceMod">Metadata of the mod adding this prefab</param>
+            <returns>true if the custom prefab was added to the manager.</returns>
         </member>
         <member name="M:Jotunn.Managers.PrefabManager.AddPrefab(UnityEngine.GameObject)">
             <summary>
@@ -4833,7 +5549,7 @@
         </member>
         <member name="M:Jotunn.Managers.RenderManager.Render(Jotunn.Managers.RenderManager.RenderRequest)">
             <summary>
-                Create a <see cref="T:UnityEngine.Sprite"/> of the <paramref name="target"/>
+                Create a <see cref="T:UnityEngine.Sprite"/> from a <see cref="T:Jotunn.Managers.RenderManager.RenderRequest"/>/>
             </summary>
             <param name="renderRequest"></param>
             <returns>If this is called on a headless server or when there is no active visual Mesh attached to the target, this method returns null.</returns>
@@ -4884,6 +5600,18 @@
         <member name="P:Jotunn.Managers.RenderManager.RenderRequest.Callback">
             <summary>
                 Callback for the generated <see cref="T:UnityEngine.Sprite"/>
+            </summary>
+        </member>
+        <member name="P:Jotunn.Managers.RenderManager.RenderRequest.TargetPlugin">
+            <summary>
+                Optional, Used for <see cref="P:Jotunn.Managers.RenderManager.RenderRequest.UseCache"/> to determine a unique name-version combination
+            </summary>
+        </member>
+        <member name="P:Jotunn.Managers.RenderManager.RenderRequest.UseCache">
+            <summary>
+                Save the render on the disc and reuse when called again. This reduces the time to re-render drastically.
+                When the game version changes, a new render will be made. When a <see cref="P:Jotunn.Managers.RenderManager.RenderRequest.TargetPlugin"/> is set, the version and name
+                will be used to determine if a new render should be made
             </summary>
         </member>
         <member name="M:Jotunn.Managers.RenderManager.RenderRequest.#ctor(UnityEngine.GameObject)">
@@ -5084,12 +5812,12 @@
             <param name="sender"></param>
             <param name="e"></param>
         </member>
-        <member name="T:Jotunn.Managers.SynchronizationManager.ConfigEntryBase_GetSerializedValue">
+        <member name="M:Jotunn.Managers.SynchronizationManager.ConfigEntryBase_GetSerializedValue(BepInEx.Configuration.ConfigEntryBase,System.String@)">
             <summary>
                 Return the cached local value of a bep config thats locked
             </summary>
         </member>
-        <member name="T:Jotunn.Managers.SynchronizationManager.ConfigEntryBase_SetSerializedValue">
+        <member name="M:Jotunn.Managers.SynchronizationManager.ConfigEntryBase_SetSerializedValue(BepInEx.Configuration.ConfigEntryBase,System.String)">
             <summary>
                 Prevent overwriting bep config value when the setting is locked on config file reload
             </summary>
@@ -5192,12 +5920,42 @@
             <param name="biome"></param>
             <returns></returns>
         </member>
+        <member name="M:Jotunn.Managers.ZoneManager.CreateLocationContainer(System.String)">
+            <summary>
+                Create an empty GameObject that is disabled, so any Components in instantiated GameObjects will not start their lifecycle.
+            </summary>
+            <param name="name">Name of the location</param>
+            <returns>Empty and hierarchy disabled GameObject</returns>
+        </member>
+        <member name="M:Jotunn.Managers.ZoneManager.CreateLocationContainer(UnityEngine.GameObject)">
+            <summary>
+                Create a copy that is disabled, so any Components in instantiated child GameObjects will not start their lifecycle.<br />
+                Use this if you plan to alter your location prefab in code after importing it. <br />
+                Don't create a separate container if you won't alter the prefab afterwards as it creates a new instance for the container.
+            </summary>
+            <param name="gameObject">Instantiated and hierarchy disabled location prefab</param>
+        </member>
+        <member name="M:Jotunn.Managers.ZoneManager.CreateLocationContainer(UnityEngine.GameObject,System.Boolean)">
+            <summary>
+                Create a copy that is disabled, so any Components in instantiated GameObjects will not start their lifecycle     
+            </summary>
+            <param name="gameObject">Prefab to copy</param>
+            <param name="fixLocationReferences">Replace JVLmock GameObjects with a copy of their real prefab</param>
+            <returns></returns>
+        </member>
         <member name="M:Jotunn.Managers.ZoneManager.AddCustomLocation(Jotunn.Entities.CustomLocation)">
             <summary>
                 Register a CustomLocation to be added to the ZoneSystem
             </summary>
             <param name="customLocation"></param>
-            <returns></returns>
+            <returns>true if the custom location could be added to the manager</returns>
+        </member>
+        <member name="M:Jotunn.Managers.ZoneManager.GetCustomLocation(System.String)">
+            <summary>
+                Get a custom location by name.
+            </summary>
+            <param name="name">Name of the location (normally the prefab name)</param>
+            <returns>The <see cref="T:Jotunn.Entities.CustomLocation"/> object with the given name if found</returns>
         </member>
         <member name="M:Jotunn.Managers.ZoneManager.GetZoneLocation(System.String)">
             <summary>
@@ -5211,29 +5969,14 @@
             <param name="name">Name of the ZoneLocation to search for.</param>
             <returns>The existing ZoneLocation, or null if none exists with given name</returns>
         </member>
-        <member name="M:Jotunn.Managers.ZoneManager.CreateLocationContainer(System.String)">
-            <summary>
-                Create an empty GameObject that is disabled, so any Components in instantiated GameObjects will not start their lifecycle.
-            </summary>
-            <param name="name">Name of the location</param>
-            <returns></returns>
-        </member>
-        <member name="M:Jotunn.Managers.ZoneManager.CreateLocationContainer(UnityEngine.GameObject,System.Boolean)">
-            <summary>
-                Create a copy that is disabled, so any Components in instantiated GameObjects will not start their lifecycle     
-            </summary>
-            <param name="gameObject">Prefab to copy</param>
-            <param name="fixLocationReferences">Replace JVLmock GameObjects with a copy of their real prefab</param>
-            <returns></returns>
-        </member>
         <member name="M:Jotunn.Managers.ZoneManager.CreateClonedLocation(System.String,System.String)">
             <summary>
-                Create a CustomLocation that is a deep copy of the original.
-                Changes will not affect the original. The CustomLocation is already registered to be added.
+                Create a CustomLocation that is a deep copy of the original.<br />
+                Changes will not affect the original. The CustomLocation is already registered in the manager.
             </summary>
             <param name="name">name of the custom location</param>
             <param name="baseName">name of the existing location to copy</param>
-            <returns></returns>
+            <returns>A CustomLocation object with the cloned location prefab</returns>
         </member>
         <member name="M:Jotunn.Managers.ZoneManager.AddCustomVegetation(Jotunn.Entities.CustomVegetation)">
             <summary>
@@ -5475,6 +6218,176 @@
                 Store the variant index of the chest item to the ZDO if the variant has changed
             </summary>
         </member>
+        <member name="T:Jotunn.Utils.GameConstants">
+            <summary>
+                Constants of hardcoded strings used in-game
+            </summary>
+        </member>
+        <member name="T:Jotunn.Utils.GameConstants.GlobalKey">
+            <summary>
+                GlobalKey strings
+            </summary>
+        </member>
+        <member name="F:Jotunn.Utils.GameConstants.GlobalKey.None">
+            <summary>
+                <para>In-game value: ""</para>
+            </summary>
+        </member>
+        <member name="F:Jotunn.Utils.GameConstants.GlobalKey.KilledBonemass">
+            <summary>
+                <para>In-game value: "defeated_bonemass"</para>
+            </summary>
+        </member>
+        <member name="F:Jotunn.Utils.GameConstants.GlobalKey.KilledElder">
+            <summary>
+                <para>In-game value: "defeated_gdking"</para>
+            </summary>
+        </member>
+        <member name="F:Jotunn.Utils.GameConstants.GlobalKey.KilledYagluth">
+            <summary>
+                <para>In-game value: "defeated_goblinking"</para>
+            </summary>
+        </member>
+        <member name="F:Jotunn.Utils.GameConstants.GlobalKey.KilledModer">
+            <summary>
+                <para>In-game value: "defeated_dragon"</para>
+            </summary>
+        </member>
+        <member name="F:Jotunn.Utils.GameConstants.GlobalKey.KilledEikthyr">
+            <summary>
+                <para>In-game value: "defeated_eikthyr"</para>
+            </summary>
+        </member>
+        <member name="F:Jotunn.Utils.GameConstants.GlobalKey.KilledTroll">
+            <summary>
+                <para>In-game value: "KilledTroll"</para>
+            </summary>
+        </member>
+        <member name="F:Jotunn.Utils.GameConstants.GlobalKey.KilledSurtling">
+            <summary>
+                <para>In-game value: "killed_surtling"</para>
+            </summary>
+        </member>
+        <member name="T:Jotunn.Utils.GameConstants.Weather">
+            <summary>
+                Weather strings
+            </summary>
+        </member>
+        <member name="F:Jotunn.Utils.GameConstants.Weather.ClearSkies">
+            <summary>
+                <para>In-game value: "Clear"</para>
+            </summary>
+        </member>
+        <member name="F:Jotunn.Utils.GameConstants.Weather.MeadowsClearSkies">
+            <summary>
+                <para>In-game value: "Heath_clear"</para>
+            </summary>
+        </member>
+        <member name="F:Jotunn.Utils.GameConstants.Weather.LightRain">
+            <summary>
+                <para>In-game value: "LightRain"</para>
+            </summary>
+        </member>
+        <member name="F:Jotunn.Utils.GameConstants.Weather.Rain">
+            <summary>
+                <para>In-game value: "Rain"</para>
+            </summary>
+        </member>
+        <member name="F:Jotunn.Utils.GameConstants.Weather.ThunderStorm">
+            <summary>
+                <para>In-game value: "ThunderStorm"</para>
+            </summary>
+        </member>
+        <member name="F:Jotunn.Utils.GameConstants.Weather.ClearThunderStorm">
+            <summary>
+                <para>In-game value: "nofogts"</para>
+            </summary>
+        </member>
+        <member name="F:Jotunn.Utils.GameConstants.Weather.SwampRain">
+            <summary>
+                <para>In-game value: "SwampRain"</para>
+            </summary>
+        </member>
+        <member name="F:Jotunn.Utils.GameConstants.Weather.MistlandsDark">
+            <summary>
+                <para>In-game value: "Darklands_dark"</para>
+            </summary>
+        </member>
+        <member name="F:Jotunn.Utils.GameConstants.Weather.AshlandsAshrain">
+            <summary>
+                <para>In-game value: "Ashrain"</para>
+            </summary>
+        </member>
+        <member name="F:Jotunn.Utils.GameConstants.Weather.MountainSnow">
+            <summary>
+                <para>In-game value: "Snow"</para>
+            </summary>
+        </member>
+        <member name="F:Jotunn.Utils.GameConstants.Weather.MountainBlizzard">
+            <summary>
+                <para>In-game value: "SnowStorm"</para>
+            </summary>
+        </member>
+        <member name="F:Jotunn.Utils.GameConstants.Weather.BlackForestFog">
+            <summary>
+                <para>In-game value: "DeepForest Mist"</para>
+            </summary>
+        </member>
+        <member name="F:Jotunn.Utils.GameConstants.Weather.Fog">
+            <summary>
+                <para>In-game value: "Misty"</para>
+            </summary>
+        </member>
+        <member name="F:Jotunn.Utils.GameConstants.Weather.DeepNorthSnow">
+            <summary>
+                <para>In-game value: "Twilight_Snow"</para>
+            </summary>
+        </member>
+        <member name="F:Jotunn.Utils.GameConstants.Weather.DeepNorthSnowStorm">
+            <summary>
+                <para>In-game value: "Twilight_SnowStorm"</para>
+            </summary>
+        </member>
+        <member name="F:Jotunn.Utils.GameConstants.Weather.DeepNorthClear">
+            <summary>
+                <para>In-game value: "Twilight_Clear"</para>
+            </summary>
+        </member>
+        <member name="F:Jotunn.Utils.GameConstants.Weather.EikthyrsThunderstorm">
+            <summary>
+                <para>In-game value: "Eikthyr"</para>
+            </summary>
+        </member>
+        <member name="F:Jotunn.Utils.GameConstants.Weather.EldersHaze">
+            <summary>
+                <para>In-game value: "GDKing"</para>
+            </summary>
+        </member>
+        <member name="F:Jotunn.Utils.GameConstants.Weather.BonemassDownpour">
+            <summary>
+                <para>In-game value: "Bonemass"</para>
+            </summary>
+        </member>
+        <member name="F:Jotunn.Utils.GameConstants.Weather.ModersVortex">
+            <summary>
+                <para>In-game value: "Moder"</para>
+            </summary>
+        </member>
+        <member name="F:Jotunn.Utils.GameConstants.Weather.YagluthsMagicBlizzard">
+            <summary>
+                <para>In-game value: "GoblinKing"</para>
+            </summary>
+        </member>
+        <member name="F:Jotunn.Utils.GameConstants.Weather.Crypt">
+            <summary>
+                <para>In-game value: "Crypt"</para>
+            </summary>
+        </member>
+        <member name="F:Jotunn.Utils.GameConstants.Weather.SunkenCrypt">
+            <summary>
+                <para>In-game value: "SunkenCrypt"</para>
+            </summary>
+        </member>
         <member name="T:Jotunn.Utils.HashUtils">
             <summary>
                 A util class for computing various hashes
@@ -5593,124 +6506,163 @@
             <summary>
                 Get all loaded mod's metadata
             </summary>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Utils.ModRegistry.ModInfo"/> for all loaded mods</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetPrefabs">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.CustomPrefab"/>s
+                Get all added <see cref="T:Jotunn.Entities.CustomPrefab">CustomPrefabs</see>
             </summary>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomPrefab"/> from all loaded mods</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetPrefabs(System.String)">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.CustomPrefab"/>s of a mod by GUID
+                Get all added <see cref="T:Jotunn.Entities.CustomPrefab">CustomPrefabs</see> of a mod by GUID
             </summary>
             <param name="modGuid">GUID of the mod</param>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomPrefab"/> from a specific mod</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetItems">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.CustomItem"/>s
+                Get all added <see cref="T:Jotunn.Entities.CustomItem">CustomItems</see>
             </summary>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomItem"/> from all loaded mods</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetItems(System.String)">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.CustomItem"/>s of a mod by GUID
+                Get all added <see cref="T:Jotunn.Entities.CustomItem">CustomItems</see> of a mod by GUID
             </summary>
             <param name="modGuid">GUID of the mod</param>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomItem"/> from a specific mod</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetRecipes">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.CustomRecipe"/>s
+                Get all added <see cref="T:Jotunn.Entities.CustomRecipe">CustomRecipes</see>
             </summary>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomRecipe"/> from all loaded mods</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetRecipes(System.String)">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.CustomRecipe"/>s of a mod by GUID
+                Get all added <see cref="T:Jotunn.Entities.CustomRecipe">CustomRecipes</see> of a mod by GUID
             </summary>
             <param name="modGuid">GUID of the mod</param>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomRecipe"/> from a specific mod</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetItemConversions">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.CustomItemConversion"/>s of a mod by GUID
+                Get all added <see cref="T:Jotunn.Entities.CustomItemConversion">CustomItemConversions</see>
             </summary>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomItemConversion"/> from all loaded mods</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetItemConversions(System.String)">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.CustomItemConversion"/>s of a mod by GUID
+                Get all added <see cref="T:Jotunn.Entities.CustomItemConversion">CustomItemConversions</see> of a mod by GUID
             </summary>
             <param name="modGuid">GUID of the mod</param>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomItemConversion"/> from a specific mod</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetStatusEffects">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.CustomStatusEffect"/>s
+                Get all added <see cref="T:Jotunn.Entities.CustomStatusEffect">CustomStatusEffects</see>
             </summary>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomStatusEffect"/> from all loaded mods</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetStatusEffects(System.String)">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.CustomStatusEffect"/>s of a mod by GUID
+                Get all added <see cref="T:Jotunn.Entities.CustomStatusEffect">CustomStatusEffects</see> of a mod by GUID
             </summary>
             <param name="modGuid">GUID of the mod</param>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomStatusEffect"/> from a specific mod</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetPieceTables">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.CustomPieceTable"/>s
+                Get all added <see cref="T:Jotunn.Entities.CustomPieceTable">CustomPieceTables</see>
             </summary>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomPieceTable"/> from all loaded mods</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetPieceTables(System.String)">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.CustomPieceTable"/>s of a mod by GUID
+                Get all added <see cref="T:Jotunn.Entities.CustomPieceTable">CustomPieceTables</see> of a mod by GUID
             </summary>
             <param name="modGuid">GUID of the mod</param>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomPieceTable"/> from a specific mod</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetPieces">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.CustomPiece"/>s
+                Get all added <see cref="T:Jotunn.Entities.CustomPiece">CustomPieces</see>
             </summary>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomPiece"/> from all loaded mods</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetPieces(System.String)">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.CustomPiece"/>s of a mod by GUID
+                Get all added <see cref="T:Jotunn.Entities.CustomPiece">CustomPieces</see> of a mod by GUID
             </summary>
             <param name="modGuid">GUID of the mod</param>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomPiece"/> from a specific mod</returns>
+        </member>
+        <member name="M:Jotunn.Utils.ModRegistry.GetLocations">
+            <summary>
+                Get all added <see cref="T:Jotunn.Entities.CustomLocation">CustomLocations</see>
+            </summary>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomLocation"/> from all loaded mods</returns>
+        </member>
+        <member name="M:Jotunn.Utils.ModRegistry.GetLocations(System.String)">
+            <summary>
+                Get all added <see cref="T:Jotunn.Entities.CustomLocation">CustomLocations</see> of a mod by GUID
+            </summary>
+            <param name="modGuid">GUID of the mod</param>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomLocation"/> from a specific mod</returns>
+        </member>
+        <member name="M:Jotunn.Utils.ModRegistry.GetVegetation">
+            <summary>
+                Get all added <see cref="T:Jotunn.Entities.CustomVegetation">CustomVegetations</see>
+            </summary>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomVegetation"/> from all loaded mods</returns>
+        </member>
+        <member name="M:Jotunn.Utils.ModRegistry.GetVegetation(System.String)">
+            <summary>
+                Get all added <see cref="T:Jotunn.Entities.CustomVegetation">CustomVegetations</see> of a mod by GUID
+            </summary>
+            <param name="modGuid">GUID of the mod</param>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomVegetation"/> from a specific mod</returns>
+        </member>
+        <member name="M:Jotunn.Utils.ModRegistry.GetCreatures">
+            <summary>
+                Get all added <see cref="T:Jotunn.Entities.CustomCreature">CustomCreatures</see>
+            </summary>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomCreature"/> from all loaded mods</returns>
+        </member>
+        <member name="M:Jotunn.Utils.ModRegistry.GetCreatures(System.String)">
+            <summary>
+                Get all added <see cref="T:Jotunn.Entities.CustomCreature">CustomCreatures</see> of a mod by GUID
+            </summary>
+            <param name="modGuid">GUID of the mod</param>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomCreature"/> from a specific mod</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetCommands">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.ConsoleCommand"/>s
+                Get all added <see cref="T:Jotunn.Entities.ConsoleCommand">ConsoleCommands</see>
             </summary>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.ConsoleCommand"/> from all loaded mods</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetCommands(System.String)">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.ConsoleCommand"/>s of a mod by GUID
+                Get all added <see cref="T:Jotunn.Entities.ConsoleCommand">ConsoleCommands</see> of a mod by GUID
             </summary>
             <param name="modGuid">GUID of the mod</param>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.ConsoleCommand"/> from a specific mod</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetTranslations">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.CustomLocalization"/>s
+                Get all added <see cref="T:Jotunn.Entities.CustomLocalization">CustomLocalizations</see>
             </summary>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomLocalization"/> from all loaded mods</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetTranslations(System.String)">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.CustomLocalization"/>s of a mod by GUID
+                Get all added <see cref="T:Jotunn.Entities.CustomLocalization">CustomLocalizations</see> of a mod by GUID
             </summary>
             <param name="modGuid">GUID of the mod</param>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomLocalization"/> from a specific mod</returns>
         </member>
         <member name="T:Jotunn.Utils.ModRegistry.ModInfo">
             <summary>
@@ -5765,6 +6717,21 @@
         <member name="P:Jotunn.Utils.ModRegistry.ModInfo.Pieces">
             <summary>
                 Custom pieces added by that mod
+            </summary>
+        </member>
+        <member name="P:Jotunn.Utils.ModRegistry.ModInfo.Locations">
+            <summary>
+                Custom locations added by that mod
+            </summary>
+        </member>
+        <member name="P:Jotunn.Utils.ModRegistry.ModInfo.Vegetation">
+            <summary>
+                Custom Vegetation added by that mod
+            </summary>
+        </member>
+        <member name="P:Jotunn.Utils.ModRegistry.ModInfo.Creatures">
+            <summary>
+                Custom Creatures added by that mod
             </summary>
         </member>
         <member name="P:Jotunn.Utils.ModRegistry.ModInfo.Commands">
@@ -5916,6 +6883,11 @@
                 Path to the global translation folder
             </summary>
         </member>
+        <member name="P:Jotunn.Utils.Paths.IconCachePath">
+            <summary>
+                Path to cached icons. See <see cref="T:Jotunn.Managers.RenderManager"/>
+            </summary>
+        </member>
         <member name="T:Jotunn.Utils.ReflectionHelper">
             <summary>
                 Various utility methods aiding Reflection tasks.
@@ -6065,6 +7037,21 @@
             </summary>
             <param name="gameObject">Parent GameObject</param>
             <returns>List of <see cref="T:UnityEngine.Material"/></returns>
+        </member>
+        <member name="M:Jotunn.Utils.ShaderHelper.CreateScaledTexture(UnityEngine.Texture2D,System.Int32)">
+            <summary>
+                Create a new, scaled texture from a given texture.
+            </summary>
+            <param name="texture">Source texture to scale</param>
+            <param name="width">New width of the scaled texture</param>
+            <returns></returns>
+        </member>
+        <member name="M:Jotunn.Utils.ShaderHelper.ScaleTexture(UnityEngine.Texture2D,System.Int32)">
+            <summary>
+                Scale a texture to a certain width, aspect ratio is preserved.
+            </summary>
+            <param name="texture">Texture to scale</param>
+            <param name="width">New width of the scaled texture</param>
         </member>
         <member name="M:Jotunn.Utils.ShaderHelper.ShaderDump(UnityEngine.GameObject)">
             <summary>
