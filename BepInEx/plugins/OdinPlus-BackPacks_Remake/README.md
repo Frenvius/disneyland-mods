@@ -106,3 +106,20 @@ If you get any conflicts/Issues please find me in the Odin+ Discord
 
 ### V0.2.2
 * Fixed issue with Fejd loading EIDF and causing NRE (Red text)
+
+### V0.2.3
+* Added configuration option to allow bag contents to be removed upon unequipping of the bag. This option when set to true forces the contents of the bag to be thrown onto the ground near the player when the bag is unequipped;
+* Changed upgrade cost of rugged bag to use Iron instead of copper (missed on my end)
+
+
+### V0.2.4
+* Fixed reported multiplayer issues
+  * Resolved issue where if another player equipped or upgraded bag your bag would no longer open
+  * Resolved issue where if another player interacts with a chest it no longer registers an error in log (no more red sea of text)
+  * Resolved issue where if YOU upgraded or unequipped your bag other players lost access to their bags
+  * Renamed RPC methods for bag, avoids issues if you try to open a container after equipping your bag in multiplayer
+  * Added RPC Method for admin to peek bag contents (needs testing before implementing into a tool) 
+
+### V0.2.5
+* Fixed reported issue where if you were wearing cape and attempted to equip bag the game resulted in a null reference (red text)********
+  <p>  <b>IF YOU HAVE ANY OF THESE PROBLEMS PLEASE FILE AN ISSUE ON GITHUB</b> </p>

@@ -877,9 +877,9 @@
   versionNumber:
     major: 0
     minor: 2
-    patch: 2
+    patch: 5
   enabled: true
-  icon: D:/projects/thunderData/Valheim/cache/OdinPlus-BackPacks_Remake/0.2.2/icon.png
+  icon: D:/projects/thunderData/Valheim/cache/OdinPlus-BackPacks_Remake/0.2.5/icon.png
 - manifestVersion: 1
   name: JiuJitsu-Constructed_Kingdoms_Secret_Bookcases
   authorName: JiuJitsu
