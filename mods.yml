@@ -610,15 +610,15 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1600
+    - denikson-BepInExPack_Valheim-5.4.1900
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
-    major: 2
-    minor: 1
+    major: 3
+    minor: 0
     patch: 0
   enabled: true
-  icon: D:/projects/thunderData/Valheim/cache/OdinPlus-CraftyCartsRemake/2.1.0/icon.png
+  icon: D:/projects/thunderData/Valheim/cache/OdinPlus-CraftyCartsRemake/3.0.0/icon.png
 - manifestVersion: 1
   name: KiwisMods-AdvancedBoating
   authorName: KiwisMods
