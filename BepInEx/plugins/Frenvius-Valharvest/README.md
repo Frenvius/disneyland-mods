@@ -53,8 +53,20 @@ Discord: https://discord.gg/JyWawnNDMv
    - Added Tonkotsu Ramen
    - Added Spaghetti and Meatballs
  - 1.7.1 - Fixed bug on growing plants
-
-### - Soon more foods
+ - 2.0.0 - Major update
+   - Plants now grow on worldgen
+   - Fixed Lox milking
+   - Fixed pepper seeds
+   - Added translations
+   - Added more raised beds
+   - Added more ingredient boxes
+   - Added Water Well 
+   - Added Water Bucket (fertilizer)
+   - Added Bone Meal (fertilizer)
+   - Fixed items that didn't attach to item stand
+   - Added Apple and Apple Tree
+   - Added many new foods, find out :)
+ - 2.0.1 - Updated Water Well Recipe
 
 ## Installation:
 
@@ -65,7 +77,12 @@ Note: this mod requires BoneAppetit, JVL (Jotunn the Valheim Lib) and it's depen
 This mod is routinely tested on a dedicated server with a great many other mods. To ensure your plants don't disappear, and that food doesn't turn to dust, please put this on the dedicated server as well as ALL clients.
 
 ### Foods
-https://valharvest.frenvius.com/foods
+You can check out more details about the mod's foods at the following link https://valharvest.frenvius.com
+
+### Translations
+Now you can submit the mod translation in your language at the link below
+
+https://valharvest.frenvius.com/translate
 
 ### Plants
 - Spicy Pepper
@@ -88,6 +105,6 @@ https://valharvest.frenvius.com/foods
   
   
 ### To Do/ Current Ideas
- - add new plants and new foods (like ~~tomato~~, ~~potato~~, ~~pumpkin~~, watermelon, etc) _maybe some fruit trees_
- - add new plants to grow in the world generation
- - localization
+ - ~~add new plants and new foods (like tomato, potato, pumpkin~~, watermelon, etc) _maybe more fruit trees_
+ - ~~add new plants to grow in the world generation~~
+ - ~~localization~~

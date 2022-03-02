@@ -61,10 +61,10 @@
   optionalDependencies: []
   versionNumber:
     major: 2
-    minor: 5
-    patch: 1
+    minor: 6
+    patch: 0
   enabled: true
-  icon: D:/projects/thunderData/Valheim/cache/ValheimModding-Jotunn/2.5.1/icon.png
+  icon: D:/projects/thunderData/Valheim/cache/ValheimModding-Jotunn/2.6.0/icon.png
 - manifestVersion: 1
   name: OdinPlus-Clutter
   authorName: OdinPlus
@@ -186,15 +186,15 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1700
+    - denikson-BepInExPack_Valheim-5.4.1900
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 9
     minor: 9
-    patch: 7
+    patch: 8
   enabled: true
-  icon: D:/projects/thunderData/Valheim/cache/ValheimPlus-ValheimPlus/9.9.7/icon.png
+  icon: D:/projects/thunderData/Valheim/cache/ValheimPlus-ValheimPlus/9.9.8/icon.png
 - manifestVersion: 1
   name: LVH-IT-UseEquipmentInWater
   authorName: LVH-IT
@@ -277,9 +277,9 @@
   versionNumber:
     major: 1
     minor: 0
-    patch: 6
+    patch: 7
   enabled: true
-  icon: D:/projects/thunderData/Valheim/cache/OdinPlus-BasementJVLedition/1.0.6/icon.png
+  icon: D:/projects/thunderData/Valheim/cache/OdinPlus-BasementJVLedition/1.0.7/icon.png
 - manifestVersion: 1
   name: Advize-PlantEverything
   authorName: Advize
@@ -702,11 +702,11 @@
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
-    major: 1
-    minor: 7
+    major: 2
+    minor: 0
     patch: 1
   enabled: true
-  icon: D:/projects/thunderData/Valheim/cache/Frenvius-Valharvest/1.7.1/icon.png
+  icon: D:/projects/thunderData/Valheim/cache/Frenvius-Valharvest/2.0.1/icon.png
 - manifestVersion: 1
   name: RandyKnapp-EquipmentAndQuickSlots
   authorName: RandyKnapp
@@ -877,9 +877,9 @@
   versionNumber:
     major: 0
     minor: 2
-    patch: 5
+    patch: 7
   enabled: true
-  icon: D:/projects/thunderData/Valheim/cache/OdinPlus-BackPacks_Remake/0.2.5/icon.png
+  icon: D:/projects/thunderData/Valheim/cache/OdinPlus-BackPacks_Remake/0.2.7/icon.png
 - manifestVersion: 1
   name: JiuJitsu-Constructed_Kingdoms_Secret_Bookcases
   authorName: JiuJitsu
@@ -992,3 +992,24 @@
     patch: 0
   enabled: true
   icon: D:/projects/thunderData/Valheim/cache/GemHunter1-FastTeleport/1.0.0/icon.png
+- manifestVersion: 1
+  name: JereKuusela-Upgrade_World
+  authorName: JereKuusela
+  websiteUrl: https://valheim.thunderstore.io/package/JereKuusela/Upgrade_World/
+  displayName: Upgrade_World
+  description: A tool which can add new content to already explored areas.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.1700
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 10
+    patch: 0
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/JereKuusela-Upgrade_World/1.10.0/icon.png

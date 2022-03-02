@@ -27,3 +27,6 @@ Copy Basement.dll into Valheim/BepInEx/plugins
 
 ## V1.0.6
 * fixed nesting limit
+
+## V1.0.7
+* Fixed for caves update

@@ -4558,8 +4558,11 @@
             <summary>
                 Hook on <see cref="M:KeyHints.UpdateHints" /> to show custom key hints instead of the vanilla ones.
             </summary>
-            <param name="orig"></param>
-            <param name="self"></param>
+        </member>
+        <member name="M:Jotunn.Managers.KeyHintManager.ZInput_Save(On.ZInput.orig_Save,ZInput)">
+            <summary>
+                Set any key hint config using buttons without a backing bep config dirty
+            </summary>
         </member>
         <member name="T:Jotunn.Managers.KitbashManager">
             <summary>

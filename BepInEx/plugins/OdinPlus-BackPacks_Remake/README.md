@@ -122,4 +122,13 @@ If you get any conflicts/Issues please find me in the Odin+ Discord
 
 ### V0.2.5
 * Fixed reported issue where if you were wearing cape and attempted to equip bag the game resulted in a null reference (red text)********
+
+
+### V0.2.6
+* Changed method of listening for keypress to open backpacks, I am no longer using Unity Native key listens instead switched to the Valheim ZInput listeners. Hopefully this resolves the only pending issue I am aware of. 
+* Added configuration option to show/hide the tooltip depending on what mod you're using to extend your inventory the tooltip did not show in the right place 
+
+### V0.2.7
+* Added config sync heard events for movement modifier. If you are editing these with bepin config manager in game they will live impact your game now 
+
   <p>  <b>IF YOU HAVE ANY OF THESE PROBLEMS PLEASE FILE AN ISSUE ON GITHUB</b> </p>
