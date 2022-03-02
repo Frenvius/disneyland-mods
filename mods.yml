@@ -351,26 +351,6 @@
   enabled: true
   icon: D:/projects/thunderData/Valheim/cache/OdinPlus-OdinArchitect/0.1.3/icon.png
 - manifestVersion: 1
-  name: Deathwalkx-Valheim_Recycle
-  authorName: Deathwalkx
-  websiteUrl: ""
-  displayName: Valheim_Recycle
-  description: ""
-  gameVersion: ""
-  networkMode: ""
-  packageType: ""
-  installMode: ""
-  loaders: []
-  dependencies: []
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 2
-    minor: 0
-    patch: 0
-  enabled: true
-  icon: D:/projects/thunderData/Valheim/cache/Deathwalkx-Valheim_Recycle/2.0.0/icon.png
-- manifestVersion: 1
   name: LoewiePiewie-Oryxen.Valheim.UI.DisplayDayTime
   authorName: LoewiePiewie
   websiteUrl: ""
@@ -1013,3 +993,25 @@
     patch: 0
   enabled: true
   icon: D:/projects/thunderData/Valheim/cache/JereKuusela-Upgrade_World/1.10.0/icon.png
+- manifestVersion: 1
+  name: cjayride-Discard_or_Recycle_Inventory_Items_No_Coins_cjaycraft_fix
+  authorName: cjayride
+  websiteUrl: https://valheim.thunderstore.io/package/cjayride/Discard_or_Recycle_Inventory_Items_No_Coins_cjaycraft_fix/
+  displayName: Discard_or_Recycle_Inventory_Items_No_Coins_cjaycraft_fix
+  description: Recycle items into lesser parts. Drag and press [Delete]. Option to
+    not give Coins back.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.1700
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
+    patch: 3
+  enabled: true
+  icon: D:/projects/thunderData/Valheim/cache/cjayride-Discard_or_Recycle_Inventory_Items_No_Coins_cjaycraft_fix/1.3.3/icon.png

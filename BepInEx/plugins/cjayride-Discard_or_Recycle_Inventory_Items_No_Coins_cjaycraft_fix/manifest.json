@@ -1,0 +1,9 @@
+{
+    "name": "Discard_or_Recycle_Inventory_Items_No_Coins_cjaycraft_fix",
+    "version_number": "1.3.3",
+    "website_url": "https://github.com/cjayride/ValheimMods/tree/master/DiscardInventoryItem",
+    "description": "Recycle items into lesser parts. Drag and press [Delete]. Option to not give Coins back.",
+    "dependencies": [
+		"denikson-BepInExPack_Valheim-5.4.1700"
+    ]
+}
