@@ -1,0 +1,9 @@
+{
+  "name": "DropMoreLoot",
+  "description": "Rebirth of Castix's Loot Mutiplier with permission.  Configurable loot drops and now stacking",
+  "version_number": "1.0.5",
+  "website_url": "https://github.com/tastychickenlegs",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.1900"
+  ]
+}

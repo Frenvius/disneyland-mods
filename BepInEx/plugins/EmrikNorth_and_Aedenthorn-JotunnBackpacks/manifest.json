@@ -1,0 +1,11 @@
+{
+    "name": "JotunnBackpacks",
+    "version_number": "2.0.0",
+    "website_url": "https://github.com/Emrik-North/JotunnBackpacks",
+    "description": "Adds two new craftable backpacks into the game.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.1502",
+		"ValheimModding-Jotunn-2.3.2",
+		"RandyKnapp-ExtendedItemDataFramework-1.0.6"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Digitalroot-Valheim/Digitalroot.Valheim.Common.Interfaces/main/src/json/tsio-manifest.json",
+  "name": "Better_Wisps",
+  "author": "Digitalroot",
+  "description": "Make the Wisp do a better job. ",
+  "version_number": "1.0.0",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.1901",
+    "ValheimModding-Jotunn-2.10.0"
+  ],
+  "website_url": "https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.BetterWisps"
+}

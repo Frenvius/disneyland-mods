@@ -1,0 +1,20 @@
+# Items
+## Item names and descriptions
+
+item_campsite: "Recursos del camping"
+item_campsite_desc: "Kit básico de material de acampada para montar el campamento."
+
+# Pieces
+## Buildable components
+
+piece_campsite_firepit: "Hoguera pequeña"
+piece_campsite_firepit_desc: "Esta hoguera pequeña es lo suficientemente grande como para calentarte las manos."
+
+piece_sleepingbag: "Saco de dormir"
+piece_sleepingbag_desc: "Para los aventureros sin lujos. Duerme bajo las estrellas, estés donde estés."
+
+campsite_smalltent: "Tienda pequeña"
+campsite_smalltent_desc: "Para el aventurero experimentado. Mantén la nieve y la lluvia alejadas de tu cara con esta sencilla tienda de campaña."
+
+campsite_bigtent: "Tienda grande"
+campsite_bigtent_desc: "Para el aventurero veterano. Puedes construir una pequeña base avanzada con esta espaciosa tienda."

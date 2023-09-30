@@ -1,0 +1,9 @@
+{
+    "name": "InteractWhileBuilding",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/tonsit/valheim-mods",
+    "description": "Allows you to interact with objects in the world while in build mode.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.600"
+    ]
+}

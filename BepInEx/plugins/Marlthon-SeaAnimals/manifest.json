@@ -1,0 +1,9 @@
+{
+    "name": "SeaAnimals",
+    "version_number": "0.1.4",
+    "website_url": "https://discord.gg/mZNHDwxTgp",
+    "description": "Marine animals arrived in Valheim (Orca, Dolphin, Sharks, Crocodile, Turtles, Seal and Penguin) and with them new tasty meats.",
+    "dependencies": [ 
+		"denikson-BepInExPack_Valheim-5.4.1900"
+		]
+}

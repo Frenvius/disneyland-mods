@@ -1,0 +1,9 @@
+{
+  "name": "Shut_it_Hugins",
+  "version_number": "0.0.10",
+  "website_url": "https://www.nexusmods.com/valheim/mods/1778",
+  "description": "Shuts up that annoying Tutorial Bird hugins .",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.1600"
+  ]
+}

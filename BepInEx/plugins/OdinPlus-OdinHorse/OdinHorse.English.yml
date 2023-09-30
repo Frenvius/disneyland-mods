@@ -1,0 +1,55 @@
+# Creatures
+## Nameplates for Creatures
+
+horse_odin: "Horse"
+horse_offspring: "Horse Offspring"
+
+# Materials
+## Components, miscs and materials
+
+horse_hide: "Horse hide"
+horse_hide_desc: "Hide from horse"
+
+trophy_horse: "Horse Trophy"
+trophy_horse_desc: "Trophy from Horse hunting"
+
+# Items
+## Item names and descriptions
+
+item_horse_saddle: "Horse Saddle"
+
+horse_saddle: "Horse Saddle"
+horse_saddle_desc: "You will need this saddle to mount-up tamed horse"
+
+horse_helmet: "Horse Trophy Helmet"
+horse_helmet_desc: "Trophy helmet crafted from horse head trophy"
+
+horse_cape: "Horse Cape"
+horse_cape_desc: "Cape crafted from Horse Hide"
+
+horseaker: "Horseaker"
+horseaker_desc: "Two-handed battleaxe with Horse head shaped Ironhead"
+
+# Foods
+## Consumables like meats and soups
+
+horse_meat: "Horse Meat"
+horse_meat_desc: "Meat from horse"
+
+horse_skewer: "Shaslik"
+horse_skewer_desc: "Horse Skewer with some delicious additions"
+
+horse_soup: "Thick Soup"
+horse_soup_desc: "Soup from Horse meat with special indigrients"
+
+horse_sticks: "Dark Frankfurter"
+horse_sticks_desc: "Sausages made from Horse meat"
+
+# Pieces
+## Buildable components
+
+horse_rug: "Horse hide rug"
+horse_rug_desc: "Rug made from Horse hide"
+
+horse_chair: "Horsie"
+horse_chair_desc: "Funny Chair"

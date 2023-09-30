@@ -1,0 +1,9 @@
+{
+    "name": "Vagons",
+    "version_number": "1.0.2",
+    "website_url": "https://discord.gg/BYtsnyHNke",
+    "description": "Adds 2 pullable wagons.",
+    "dependencies": [ 
+		"ValheimModding-Jotunn-2.7.6"
+		]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "WisplightSlot",
+  "description": "This is a Bepinex mod for Valheim that lets you equip both the Wisplight and Megingjord at the same time.",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/DerNap/ValheimAddicts/tree/main/WisplightSlot",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.1901",
+    "nearbear-CustomSlotItemLib-1.0.3"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "FastTeleport",
+    "version_number": "1.1.0",
+    "website_url": "https://www.nexusmods.com/valheim/mods/1774",
+    "description": "Shortens teleportation loading time to save those precious 8 seconds of our lives. Also makes entering dungeons instant.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.1900"
+    ]
+}

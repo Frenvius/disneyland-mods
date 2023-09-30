@@ -1,0 +1,10 @@
+# Configure your servers for Azumatt's FastLink mod in this file.
+# Servers are automatically sorted alphabetically when shown in the list.
+# This file live updates the in-game listing. Feel free to change it while in the main menu.
+
+# You can optionally change the color of your server name. Does not work for the address and port. Also, can show PvP status.
+<color=red>CLICA AQUI PRA ENTRAR LIGERO</color>:
+  address: 26.180.171.200
+  port: 2456
+  password: bacom
+  ispvp: true

@@ -1,0 +1,9 @@
+{
+    "name": "FuelEternal",
+    "version_number": "1.2.0",
+    "website_url": "https://github.com/thejhoffman/FuelEternal",
+    "description": "Fuel Eternal is a reimagining of TorchesEternal with updated support for stone ovens and hot tubs, along side an adjustable config to enable/disable options of your choosing.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.1901"
+    ]
+}

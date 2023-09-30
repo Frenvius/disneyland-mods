@@ -1,0 +1,10 @@
+{
+  "name": "Pageable_Build_Hud",
+  "version_number": "1.0.2",
+  "website_url": "",
+  "description": "Building hud upgrade: Pagination. This mod adds a pagination to the building hud.",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.1502",
+    "ValheimModding-Jotunn-2.3.4"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "ServerCharacters",
+    "version_number": "1.3.3",
+    "website_url": "https://github.com/blaxxun-boop/ServerCharacters",
+    "description": "Saves your character on the server, instead of your computer, to prevent you from messing with it.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.1901"
+    ]
+}

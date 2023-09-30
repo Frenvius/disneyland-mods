@@ -1,0 +1,9 @@
+﻿{
+  "name": "OdinCampsite",
+  "version_number": "1.4.1",
+  "website_url": "https://discord.gg/fjYKpEDmSQ",
+  "description": "Campsite is just simple mod for additional pieces thanks to which you can travel safe and save time to build temporary bases. Become the real adventurer!",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.1901"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+    "name": "BetterLadders",
+    "version_number": "0.2.0",
+    "website_url": "https://www.nexusmods.com/valheim/mods/1054",
+    "description": " Mod changes ladder's behavior, so player can go up smoothly without need to auto-jump (REUPLOAD FROM NEXUSMODS)",
+    "dependencies": [
+    ]
+}

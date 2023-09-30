@@ -1,0 +1,32 @@
+﻿{
+	"wooden_gate_1": "Big gate",
+	"wooden_gate_1_desc": "Big and heavy wooden gate",
+	"wooden_drawbridge_1": "Surtling Drawbridge",
+	"wooden_drawbridge_1_desc": "Surtling Core controlled drawbridge",
+	"wooden_drawbridge_2": "IG Surtling Drawbridge",
+	"wooden_drawbridge_2_desc": "Surtling Core controlled drawbridge made by IG88V1",
+
+	"iron_gate_small": "Small Iron Gate",
+	"iron_gate_small_desc": "Small Iron Gate without central pole",
+	"iron_gate_big": "Big Iron Gate",
+	"iron_gate_big_desc": "Big Iron Gate without central pole",
+
+	"rae_elevator_small": "Simple small elevator",
+	"rae_elevator_small_desc": "It moves every one floor",
+	"rae_elevator": "Simple elevator",
+	"rae_elevator_desc": "It moves every one floor",
+	"rae_elevator_big": "Transport elevator",
+	"rae_elevator_big_desc": "It moves every one floor",
+
+	"piece_woodgate_iron": "Wooden doors with iron",
+	"piece_woodgate_iron_desc": "Wooden doors with iron ornament",
+	"piece_woodgate_darkwood": "Wooden doors with darkwood",
+	"piece_woodgate_darkwood_desc": "Wooden doors with darkwood ornament",
+	"piece_woodgate_crystal": "Wooden doors with window",
+	"piece_woodgate_crystal_desc": "Wooden doors with crystal window",
+	"rae_hidden_door": "Hidden hatch",
+	"rae_hidden_door_desc": "Wooden hidden hatch",
+
+	"piece_dvergr_wood_custom": "Dvergr Iron Doors",
+	"piece_dvergr_wood_custom_desc": "Dvergr styled piece"
+}

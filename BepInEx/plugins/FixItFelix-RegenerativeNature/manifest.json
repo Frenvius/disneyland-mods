@@ -1,0 +1,10 @@
+{
+  "name": "RegenerativeNature",
+  "version_number": "1.2.3",
+  "website_url": "https://github.com/FelixReuthlinger/regenerative-nature",
+  "description": "Let the trees grow and replenish mined ores",
+  "dependencies": [
+    "ASharpPen-Spawn_That-0.11.3",
+    "denikson-BepInExPack_Valheim-5.4.1601"
+  ]
+}

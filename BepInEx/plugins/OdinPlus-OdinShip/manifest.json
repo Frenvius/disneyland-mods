@@ -1,0 +1,9 @@
+{
+    "name": "OdinShip",
+    "version_number": "0.2.4",
+    "website_url": "https://discord.gg/mZNHDwxTgp",
+    "description": "New boats, oil press, fish extract, cranes and more to help you explore this giant world.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.1900"
+    ]
+}

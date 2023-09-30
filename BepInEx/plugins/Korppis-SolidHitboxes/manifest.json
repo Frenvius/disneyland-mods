@@ -1,0 +1,9 @@
+{
+    "name": "SolidHitboxes",
+    "version_number": "1.0.3",
+    "website_url": "https://github.com/karkkant/valheim-solid_hitboxes",
+    "description": "Makes AI attacks collide with their allies. No more shooting through mobs.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.1900"
+    ]
+}

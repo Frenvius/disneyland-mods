@@ -1,0 +1,9 @@
+{
+    "name": "Sailing",
+    "version_number": "1.1.5",
+    "website_url": "https://github.com/blaxxun-boop/Sailing",
+    "description": "Adds a skill that increases the health of ships, sailing speed and exploration radius while sailing.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.1901"
+    ]
+}

@@ -1,0 +1,29 @@
+﻿{
+	"wooden_gate_1": "Duża brama",
+	"wooden_gate_1_desc": "Duża i ciężka drewniana brama",
+	"wooden_drawbridge_1": "Surlingowy most zwodzony",
+	"wooden_drawbridge_1_desc": "Most zwodzony sterowany mocą z rdzeni Surtlinga",
+	"wooden_drawbridge_2": "Most zwodzony IG Surtling",
+	"wooden_drawbridge_2_desc": "Most zwodzony sterowany mocą z rdzeni Surtlinga",
+	
+	"iron_gate_small": "Mała żelazna brama",
+	"iron_gate_small_desc": "Mała żelazna brama bez centralnego słupa",
+	"iron_gate_big": "Duża Żelazna Brama",
+	"iron_gate_big_desc": "Duża Żelazna Brama bez centralnego słupa",
+	
+	"rae_elevator_small": "Prosta mała winda",
+	"rae_elevator_small_desc": "Przenosi się o każde piętro",
+	"rae_elevator": "Prosta winda",
+	"rae_elevator_desc": "Przenosi się o każde piętro",
+	"rae_elevator_big": "Winda transportowa",
+	"rae_elevator_big_desc": "Przenosi się o każde piętro",
+	
+	"piece_woodgate_iron": "Drewniane drzwi",
+	"piece_woodgate_iron_desc": "Drewniane drzwi z żelaznym ornamentem",
+	"piece_woodgate_darkwood": "Drzwi drewniane",
+	"piece_woodgate_darkwood_desc": "Drewniane drzwi z ornamentem z ciemnego drewna",
+	"piece_woodgate_crystal": "Drewniane drzwi z oknem",
+	"piece_woodgate_crystal_desc": "Drewniane drzwi z kryształowym oknem",
+	"rae_hidden_door": "Ukryty właz",
+	"rae_hidden_door_desc": "Drewniany ukryty właz"
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Sleepover",
+    "version_number": "1.0.2",
+    "website_url": "https://github.com/timneill/ValheimMods/tree/main/Skald/Sleepover",
+    "description": "Customizable bed/sleep rules including ignoring restrictions and allowing multiple sleepers at once.",
+    "dependencies": [
+      "denikson-BepInExPack_Valheim-5.4.1700"
+    ]
+  }

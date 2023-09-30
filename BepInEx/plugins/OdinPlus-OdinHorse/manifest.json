@@ -1,0 +1,9 @@
+﻿{
+  "name": "OdinHorse",
+  "version_number": "1.1.0",
+  "website_url": "https://discord.gg/fjYKpEDmSQ",
+  "description": "Horse mount and new items! You can tame it, You can ride it, You can attach the cart!",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.1901"
+  ]
+}

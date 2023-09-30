@@ -1,0 +1,9 @@
+{
+    "name": "ServerSideMap",
+    "version_number": "1.3.7",
+    "website_url": "https://github.com/Mydayyy/Valheim-ServerSideMap",
+    "description": "Shares the Map between all players, synchronizes map when connecting",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.1901"
+    ]
+}

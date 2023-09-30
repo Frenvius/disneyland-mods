@@ -1,0 +1,9 @@
+{
+    "name": "BetterLanterns",
+    "version_number": "1.0.2",
+    "website_url": "",
+    "description": "This mod adds an enhanced version of the Dvergr Lanterns as well as Wisp versions.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.1901"
+    ]
+}

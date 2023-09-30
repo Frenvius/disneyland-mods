@@ -1,0 +1,9 @@
+{
+    "name": "TheFisher",
+    "version_number": "0.0.7",
+    "website_url": "https://discord.gg/mZNHDwxTgp",
+    "description": "Adds 37 new fish species, 7 starfish and 1 crab to the fishing system.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.1900"
+    ]
+}

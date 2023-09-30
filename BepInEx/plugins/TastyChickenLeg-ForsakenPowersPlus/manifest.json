@@ -1,0 +1,9 @@
+{
+  "name": "ForsakenPowersPlus",
+  "description": "ServerSync with ability to turn off version check.  Enable all bosses at once. Now with Passive Mode and Power Stacking.  Change the forsaken powers with a button and modify the duration and cooldown",
+  "version_number": "1.3.0",
+  "website_url": "https://github.com/tastychickenlegs",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.1900"
+  ]
+}

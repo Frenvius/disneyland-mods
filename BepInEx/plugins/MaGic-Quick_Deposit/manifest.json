@@ -1,0 +1,9 @@
+{
+    "name": "Quick_Deposit",
+    "version_number": "1.0.1",
+    "website_url": "",
+    "description": "Adds a button for depositing items to a container.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.601"
+    ]
+}
