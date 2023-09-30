@@ -1,9 +1,0 @@
-{
-    "name":  "SimpleRecycling_Fixed",
-    "description":  "Adds a tab to the crafting station that recycles (uncrafts) items from player inventory",
-    "version_number":  "0.0.15",
-    "website_url":  "https://github.com/remmizekim/abearcodes-Valheim",
-    "dependencies":  [
-                         "denikson-BepInExPack_Valheim-5.4.600"
-                     ]
-}

@@ -1164,28 +1164,6 @@
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\ComfyMods-ComfyAddAllFuel\icon.png
 - manifestVersion: 1
-  name: kinghfb-Sleepover
-  authorName: kinghfb
-  websiteUrl: https://valheim.thunderstore.io/package/kinghfb/Sleepover/
-  displayName: Sleepover
-  description: Customize all bed/sleep rules including ignoring restrictions,
-    ownership, and allowing multiple sleepers at once.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2102
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 1
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\kinghfb-Sleepover\icon.png
-- manifestVersion: 1
   name: OdinPlus-BetterLanterns
   authorName: OdinPlus
   websiteUrl: https://valheim.thunderstore.io/package/OdinPlus/BetterLanterns/
@@ -1207,28 +1185,6 @@
     patch: 5
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\OdinPlus-BetterLanterns\icon.png
-- manifestVersion: 1
-  name: remmiz-SimpleRecycling_Fixed
-  authorName: remmiz
-  websiteUrl: https://valheim.thunderstore.io/package/remmiz/SimpleRecycling_Fixed/
-  displayName: SimpleRecycling_Fixed
-  description: Adds a tab to the crafting station that recycles (uncrafts) items
-    from player inventory
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.600
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 0
-    patch: 15
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\remmiz-SimpleRecycling_Fixed\icon.png
 - manifestVersion: 1
   name: TiwoT-SmarterContainers
   authorName: TiwoT
@@ -1491,4 +1447,27 @@
     minor: 2
     patch: 0
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Crystal-FastTools\1.2.0\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Crystal-FastTools\icon.png
+- manifestVersion: 1
+  name: Azumatt-Recycle_N_Reclaim
+  authorName: Azumatt
+  websiteUrl: https://valheim.thunderstore.io/package/Azumatt/Recycle_N_Reclaim/
+  displayName: Recycle_N_Reclaim
+  description: A mod that allows you to recycle items back into resources used to
+    make them. Adds a 'Reclaim' tab/button to the crafting menu. Additionally
+    can be used inside of your inventory directly.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2105
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 8
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-Recycle_N_Reclaim\icon.png
