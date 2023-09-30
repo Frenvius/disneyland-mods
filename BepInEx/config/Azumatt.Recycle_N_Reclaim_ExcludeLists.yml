@@ -1,0 +1,154 @@
+# Below you can find example groups. Groups are used to exclude or includeOverride quickly. They are reusable lists! 
+# Please note that some of these groups & limitations are kinda pointless but are here for example.
+# Make sure to follow the format of the example below. If you have any questions, please ask in my discord.
+
+# Full vanilla prefab name list: https://valheim-modding.github.io/Jotunn/data/prefabs/prefab-list.html
+# Item prefab name list: https://valheim-modding.github.io/Jotunn/data/objects/item-list.html
+
+# There are several predefined groups set up for you that are not listed. You can use these just like you would any group you create yourself.
+# These are the "All", "Food", "Potion", "Fish", "Swords", "Bows", "Crossbows", "Axes", "Clubs", "Knives", "Pickaxes", "Polearms", "Spears", "Equipment", 
+#  "Boss Trophy", "Trophy", "Crops", "Seeds", "Ores", "Metals", "Woods", "Armor", "Helmets", "Ammunition", "Utilities", "Tools", "Miscellaneous", and "Customizations" groups.
+# The criteria for these groups are as follows:
+# groups:
+#   Food:
+#     - Criteria: Both of the following properties must have a value greater than 0.0 on the sharedData property of the ItemDrop script:
+#         - food
+#         - foodStamina
+#   Potion:
+#     - Criteria: The following properties must meet the specified conditions on the sharedData property of the ItemDrop script:
+#         - food > 0.0
+#         - foodStamina == 0.0
+#   Fish:
+#     - itemType: Fish
+#   Swords, Bows, Crossbows, Axes, Clubs, Knives, Pickaxes, Polearms, Spears:
+#     - itemType: OneHandedWeapon, TwoHandedWeapon, TwoHandedWeaponLeft, Bow
+#     - Criteria: Items in these groups have a specific skillType on the sharedData property of the ItemDrop script. Each group corresponds to the skillType as follows:
+#         - Swords: skillType == Skills.SkillType.Swords
+#         - Bows: skillType == Skills.SkillType.Bows
+#         - Crossbows: skillType == Skills.SkillType.Crossbows
+#         - Axes: skillType == Skills.SkillType.Axes
+#         - Clubs: skillType == Skills.SkillType.Clubs
+#         - Knives: skillType == Skills.SkillType.Knives
+#         - Pickaxes: skillType == Skills.SkillType.Pickaxes
+#         - Polearms: skillType == Skills.SkillType.Polearms
+#         - Spears: skillType == Skills.SkillType.Spears
+#            Example:   An item with itemType set to OneHandedWeapon and skillType set to Skills.SkillType.Swords would belong to the Swords group.
+#   Equipment:
+#     - itemType: Torch
+#   Boss Trophy:
+#     - itemType: Trophie
+#     - Criteria: sharedData.m_name ends with any of the following boss names:
+#         - eikthyr, elder, bonemass, dragonqueen, goblinking, SeekerQueen
+#   Trophy:
+#     - itemType: Trophy
+#     - Criteria: sharedData.m_name does not end with any boss names
+#   Crops:
+#     - itemType: Material
+#     - Criteria: Can be cultivated and grown into a pickable object with an amount greater than 1
+#   Seeds:
+#     - itemType: Material
+#     - Criteria: Can be cultivated and grown into a pickable object with an amount equal to 1
+#   Ores:
+#     - itemType: Material
+#     - Criteria: Can be processed by any of the following smelters:
+#         - smelter
+#         - blastfurnace
+#   Metals:
+#     - itemType: Material
+#     - Criteria: Is the result of processing an ore in any of the following smelters:
+#         - smelter
+#         - blastfurnace
+#   Woods:
+#     - itemType: Material
+#     - Criteria: Can be processed by the charcoal_kiln smelter
+#   Armor:
+#     - itemType: Chest, Shoulder, Legs, Hands
+#   Helmets:
+#     - itemType: Helmet
+#   Ammunition:
+#     - itemType: Ammo, AmmoNonEquipable
+#   Utilities:
+#     - itemType: Utility
+#   Tools:
+#     - itemType: Tool
+#   Miscellaneous:
+#     - itemType: Misc
+#   Customizations:
+#     - itemType: Customization
+#   All:
+#     - Criteria: Item has an ItemDrop script and all needed fields are populated. (all items)
+
+
+
+
+groups:
+  Example Group: # Group name
+    - APrefabName # Item prefab name, note that this is case sensitive and must be the prefab name
+  Another Custom Group: # Group name
+    - APrefabName # Item prefab name, note that this is case sensitive and must be the prefab name
+    - AnotherPrefabName
+    - YetAnotherPrefabName
+  Tier 2 Items: # Group name
+    - Bronze # Item prefab name, note that this is case sensitive and must be the prefab name
+    - PickaxeBronze
+    - ArmorBronzeChest
+    - ArmorBronzeLeggings
+
+
+# Inventory section determines which items can be recycled. Remember that recycling from inventory is defaulted to only admins.
+inventory:
+  exclude: # Exclude these items from being recycled
+    - Metals # Exclude all items in the "Metals" group from being recycled in inventory
+  includeOverride:
+    - Metals # Override the setting above, allowing "Metals" group to be recycled in inventory
+
+# Reclaiming section determines which items can be reclaimed via Containers or the Reclaim tab.
+reclaiming:
+  exclude:
+    - Metals # Exclude all items in the "Metals" group from being reclaimed
+    - Armor # Exclude all items in the "Armor" group from being reclaimed
+    - Helmets # Exclude all items in the "Helmets" group from being reclaimed
+    - Hammer # Exclude this specific item from being reclaimed
+  includeOverride:
+    - All # Allow all items to be reclaimed, overrides the exclude rules above for "reclaiming" section
+
+# Containers section determines the rules for specific containers. It follows the limitations of the "reclaiming" section to determine what is actually reclaimed.
+# This section is primarily used for managing the items included or excluded from the "Reclaim All" functionality of containers, allowing you to prevent certain items 
+# from being a part of the reclaim logic.
+containers:
+  piece_chest: # Container prefab name, note that this is case sensitive and must be the prefab name
+    exclude:
+      - Food # Exclude or "skip" all items in the "Food" group from this container. Food will not be deconstructed back into its ingredients.
+      - PickaxeBronze #  Exclude or "skip" this specific item from this container. Excluding it from being reclaimed will prevent it from being deconstructed back into its ingredients.
+    includeOverride:
+      - Foods # Override
+      - PickaxeBronze # Allow this specific item to be included in the reclaiming process. Overrides the exclude rules above.
+      - All # Just here for cleaning up the example, allowing default behavior
+
+  piece_chest_wood:
+    exclude:
+      - Swords # Exclude all items in the "Swords" group from this container
+      - Tier 2 Items # Exclude all items in the "Tier 2 Items" group from this container
+      - Bows # Exclude all items in the "Bows" group from this container
+    includeOverride:
+      - BowFineWood # Allow this specific item to be included in this container
+      - Wood # Allow this specific item to be included in this container
+      - Bronze # Allow this specific item to be included in this container
+      - All # Just here for cleaning up the example, allowing default behavior
+
+  piece_chest_private:
+    exclude:
+      - All # Exclude all items from this container
+    includeOverride:
+      - All # Just here for cleaning up the example, allowing default behavior
+
+  piece_chest_blackmetal:
+    exclude:
+      - Swords # Exclude all items in the "Swords" group from this container
+      - Tier 2 Items # Exclude all items in the "Tier 2 Items" group from this container
+      - Bows # Exclude all items in the "Bows" group from this container
+    includeOverride:
+      - BowFineWood # Allow this specific item to be included in this container
+      - Wood 
+      - Bronze
+      - All # Just here for cleaning up the example, allowing default behavior

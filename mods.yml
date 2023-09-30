@@ -1471,3 +1471,27 @@
     patch: 8
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-Recycle_N_Reclaim\icon.png
+- manifestVersion: 1
+  name: Azumatt-AzuCraftyBoxes
+  authorName: Azumatt
+  websiteUrl: https://valheim.thunderstore.io/package/Azumatt/AzuCraftyBoxes/
+  displayName: AzuCraftyBoxes
+  description: AzuCraftyBoxes is a Valheim mod that allows players to access and
+    use resources from nearby containers when crafting and building, based on a
+    configurable range and item restrictions. Restrictions are controlled by the
+    yaml file Azumatt.AzuCraftyBoxes.yml
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2105
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 3
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Azumatt-AzuCraftyBoxes\1.2.3\icon.png
