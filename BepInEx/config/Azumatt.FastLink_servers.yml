@@ -4,7 +4,7 @@
 
 # You can optionally change the color of your server name. Does not work for the address and port. Also, can show PvP status.
 <color=red>CLICA AQUI PRA ENTRAR LIGERO</color>:
-  address: 26.180.171.200
+  address: 26.232.121.114
   port: 2456
   password: bacom
   ispvp: true
