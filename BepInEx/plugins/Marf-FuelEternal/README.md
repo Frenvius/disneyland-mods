@@ -26,12 +26,14 @@ The mod offers the following fuel sources in the config to enable/disable the et
 - Eitr refinery
 - Support for custom items added by other mods
 
-*(Note: all options are enabled by default except for the smelter and blast furnace)*
+*(Note: all options are enabled by default except for the smelter, blast furnace, and eitr refinery)*
 
 # Custom Item Support
 To enable Fuel Eternal to manage fuel for custom items added by other mods, edit the value named "CustomItems" with a comma-separated list of the instance names (do not use spaces). For example: ***rk_campfire,rk_hearth,rk_brazier*** will enable eternal fuel for the smokeless fires added by [Bone Appetit](https://valheim.thunderstore.io/package/RockerKitten/BoneAppetit/)
 
 # Changelog
+## Version 1.2.1
+- Removed [BepInProcess("valheim.exe")] to be compatible with dedicated servers
 ## Version 1.2.0
 - Added support for Eitr refinery added in Mistlands update
 - Fixed Double ZNetview warning message

@@ -104,3 +104,12 @@ Big shout out to my dude GraveBear for the assistance in getting this all starte
 
 #Version 1.0.2 -
 > Fixed 'same key' errors when running with different mods using the Piece Manager template.
+
+#Version 1.0.3 -
+> Added new build piece: <strong>Grand Pole Lantern</strong>.
+
+#Version 1.0.4 -
+> References updated.
+
+#Version 1.0.5 -
+> References updated.

@@ -29,12 +29,8 @@ Adds progression based upgrade options to the wisp to allow it to clear a larger
 - Use the repo issues tab above.
 
 ### Support Me @ https://www.buymeacoffee.com/digitalroot
-
-
-<hr />
+<br />
 <p align="center">
-<b>Digitalroot can be found in the following Discords</b><br />
-  <a href="https://discord.gg/Xh3UHcDC" target="_blank"><img src="https://digitalroot.net/img/jvldisc.png"></a>
-  <a href="https://discord.gg/randyknappmods" target="_blank"><img src="https://digitalroot.net/img/epiclootdisc.png"></a>
-  <a href="https://discord.gg/BHbTumqG7U" target="_blank"><img src="https://digitalroot.net/img/odinplusdisc.png"></a>
+<b>Digitalroot can be found in the Valhalla Legends Discord</b><br /><br />
+  <a href="https://discord.gg/SsMW3rm67u" target="_blank"><img src="https://digitalroot.net/img/vl/vl_logo_125x154.png"></a>
 </p>

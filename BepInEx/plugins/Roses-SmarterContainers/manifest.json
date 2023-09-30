@@ -1,9 +1,0 @@
-{
-    "name": "SmarterContainers",
-    "version_number": "1.6.4",
-    "website_url": "https://www.nexusmods.com/valheim/mods/332",
-    "description": "Want to quickly drop your loot? Tired of looking for chest with a specific item-stack in order to store some more of it? Teach your containers to arrange items with their neighbors!",
-    "dependencies": [
-        "denikson-BepInExPack_Valheim-5.4.1901"
-    ]
-}

@@ -1,9 +1,9 @@
 {
     "name": "TargetPortal",
-    "version_number": "1.1.6",
+    "version_number": "1.1.12",
     "website_url": "https://github.com/blaxxun-boop/TargetPortal",
     "description": "Lets you target any portal, instead of having to connect two portals via a tag.",
     "dependencies": [
-        "denikson-BepInExPack_Valheim-5.4.1901"
+        "denikson-BepInExPack_Valheim-5.4.2105"
     ]
 }

@@ -11,8 +11,11 @@ You can toggle between different portal modes:
 - Private: Only you can target this portal
 - Group: Only group members can target this portal
 - Admin: Only admins can target this portal
+- Guild: Only guild members can target this portal
 
 The group option requires the [Groups](https://valheim.thunderstore.io/package/Smoothbrain/Groups) mod to be installed.
+
+The guild option requires the [Guilds](https://valheim.thunderstore.io/package/Smoothbrain/Guilds) mod to be installed.
 
 The admin option requires you to be an admin.
 

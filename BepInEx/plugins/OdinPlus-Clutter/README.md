@@ -1,4 +1,4 @@
-﻿## ODINPLUS Mod Team Presents: Clutter
+## ODINPLUS Mod Team Presents: Clutter
 ** Produced by: plumga
 # Questions or Comments about this mod: https://discord.gg/mbkPcvu9ax
 
@@ -22,6 +22,8 @@ Model credits:
 -ArtStation - Ehsan Dabbaghi
 
 ## Changelog
+V0.1.5 - fixed journal text (missed it in the last update)
+V0.1.4 - fixed sign text not displaying after patches 0.214.2 & 0.214.300
 V0.1.3 - same as V0.1.2 - just fixed dependencies
 V0.1.2 - added new stuff! yay couches!
 V0.1.1 - added MMHOOK as a dependency since it may be removed as a dependency of JVL soon.

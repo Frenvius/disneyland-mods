@@ -1,0 +1,9 @@
+{
+  "name": "AzuWorkbenchTweaks",
+  "version_number": "1.0.1",
+  "website_url": "https://discord.gg/pdHgy6Bsng",
+  "description": "A mod that changes some behaviour of workbenches.",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.1901"
+  ]
+}

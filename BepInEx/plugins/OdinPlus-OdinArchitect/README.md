@@ -1,7 +1,10 @@
-# OdinPlus Mod: OdinArchitect
+# OdinArchitect
 **Produced by: Raelaziel#0954**
-## About OdinArchitect
 
+## IMPORTANT INFO!
+**Fundamental and game-braking changes! I am changing chests and storages sizes which will be smaller, just to get rid of "Equipment Glitch" which is critical from very long time. Before updating for 1.2.6 and newer make sure you back-up your world and temporary move all your items from Bronze Storages, Iron Storages, Crates and Barrels. Thanks to that you will avoid item loss!**
+
+## About OdinArchitect
 Odin Architect is just simply mod for more structures. If you're building lover this is definitely mod for you. 
 You will not find plug & play whole castles but single elements which will give you great possibility to make your simple house, village or castle more fancy.
 
@@ -11,21 +14,17 @@ There's about, not 85 anymore, but 🔥**205** new elements to build-in and the 
 
 ## News & Important info.
 
-OdinArchitect, if you are interested in cooperation, create your own objects that you would like to see in the game, have any ideas or questions, please visit my discord channel.
-https://discord.gg/dvRzmeE7Yf
+This mod isn't compatible with Valheim+
+Please navigate to https://github.com/AzumattDev/Valheim-Plus-Replacements to find replacements for its features.
 
-OdinPLUS Mod Team, if you want to chat with our team, find us on:
+**OdinPLUS Mod Team**, if you want to chat with our team, find us on:
 https://discord.gg/mbkPcvu9ax
 
 **Odin Architect now got own hammer with own building menu, to craft this hammer you will need Wood and Stone.
 Recipe will be automatically shown when you will achieve the core materials to craft the hammer.**
 
-For Odin's Hammer you will need the Workbench.
-For Stone Chisel you will need the Stone Cutter.
-
-## You like my mods? ❤️Donate me.
-Your donation will help me alot! Thank you!<br>
-https://www.paypal.com/paypalme/raelaziel<br>
+- For Odin's Hammer you will need the Workbench.
+- For Stone Chisel you will need the Stone Cutter.
 
 ## Custom Pieces and Items
 
@@ -212,7 +211,7 @@ https://www.paypal.com/paypalme/raelaziel<br>
 ## Installation (how-to)
 Place the files to your /BepInEx/plugins/ folder.
 - proper path for translation files is /Valheim/BepInEx/plugins/OdinArchitect/Assets/Translations/English/translations.json
-﻿﻿yes, you can edit this file for your own language.
+﻿﻿**yes, you can edit this file for your own language.**
 - folder OdinArchitect should be placed into /BepInEx/plugins/
 
 for this moment this mod isn't generating any configurables.
@@ -242,72 +241,42 @@ Also i didn't uploaded any mod source because it's mess for this moment and i th
 * Mixone
 * buzz
 
-## Contact
-
-via Discord - Raelaziel#0954
+# You like my mods? ❤️Donate me.
+|☕ Ko-Fi| 🅿️ PayPal|
+|---|---|
+|Ko-fi.com/raelaziel|PayPal.me/raelaziel|
+|Your donation will help me alot! Thank you!||
 
 # Changelog
 
-### 1.1.1
-- Updated manifest for latest BepInEx and Jotunn versions
+### 1.2.7
+- Changed the chests size to don't exceed player inventory slots
+- Reduced Bronze Storages size to 6/4 and 6/3
+- Reduced Iron Storages size to  8/4 and 8/3
+- Reduced Storage Decors sizes to 6/3 (Crates and Barrels)
+- Duplicated StoneMarble column should be fixed now, it's vertical
+- Changed all the "StoneMarble" pieces material type from stone back to marble. This should improve structural integrity and pieces crumbling.
+- Changed the Stone Chisel layer for item which repair auto-pickup of it.
+- Reduced storages costs by half - metals cost.
+- Reduced storages visual size and fixed a bit snappoints, they should fit better for now
+- Added configs for rows and columns of each container. Barrels and Crates are sharing the settings as they're same size. Storages have separated settings.
+- Fixed some NRE problems for LODs of containers and pieces.
 
-### 1.1.0
-- Massive upgrade from latest public release. Please recheck all the pieces as whole readme was updated for most of them.
-- Updated for new Mistlands version
-- Updated Jotunn dependency
-- There are some configurables for Misc. stations
+### 1.2.6
+- Fixed AntiTroll Sharpstakes Wear'n'Tear, again and finally
+- Changed big wooden floors wood type from normal wood to hard wood
 
-### 0.1.2
-- Added Primitive Compost - Fill with Neck Tail and Raw Meat to generate Fishing Bait
-- Added Standing Surtling Lantern
-- Added Alternative H&H Iron Decor
-- Added Alternative H&H Iron Decor - on the side (fence)
-- Added Alternative H&H DarkWood Decor - on the side (fence)
-- Added Alternative H&H DarkWood Arch (upside down)
-- Fixed broken meshes in all Lanterns
-- Nerfed the generators production time - it's intended to build more then one
-- Fixed name duplications
-- Fixed big stone column VFX when attack show pink effects
-- Fixed elevators VFX when destroyed
+### 1.2.5
+- Updated for latest game version
+- Updated for latest Jotunn version
+- Fixed localization issues with some stone pieces
+- Root folder is now `plugins` like before. Should fix installing this mod with ModManagers.
+- Fixed AntiTroll Sharpstakes Wear'n'Tear
+- Fixed Stone Wall Cross 26 Wear'n'Tear
+- Tweaked Stone Marble pieces Wear'n'Tear (i think so)
+- This mod will be not compatible with Valheim+
 
-### 0.1.1
-- Added Elevator
-- Added Transport Elevator
-- Added Bird's House (feathers generator)
-- Added Fish Trap (raw fish generator)
-- Decreased requirements for Odin's Hammer (5 Wood, 5 Stone)
-- Fixed problem with rae_half_woodwall which was undestructible
 
-### 0.1.0
-- Adaptation for Hearth and Home Update
-- Jotunn Library Update
-- Mod core refactoring
-- Added new pieces
-- Crystal beams and poles added
-- Thin Crystal beams and poles added
-- Crystal thin wall added
-- Crystal floor slab added
-- Iron Reven and Wolf decors added
-- Alternative DarkWood doors - Crystal and Iron
-- Fixed some of existing thin poles and beams
-- Fixed some translations
-- Fixed Cooking Station smoke issue (again)
-
-### 0.0.3
-- Updated the mod for latest version of the game - 0.153.2
-- Updated the mod for latest version of Jotun - 2.0.9
-- Updated assets from 2019.4.24f1 Unity (latest update change)
-- Fixed SFX for some wooden pieces which was giving metal sounds
-- Fixed Lanterns - Wear'n'Tear component was added. You can stack them but not for infinite
-- Requirements for Wooden thin poles and beam changed from Wood to Fine Wood
-- other non-major bugfixes
-
-### 0.0.2
-- Fixed cooking station smoke issue
-- Fixed Big Stone Pillar collider
-- Fixed translations for stone beam and poles
-- Added new custom items icons
-- Added new custom beams and poles
-
-### 0.0.1
-- Release
+# ValheimPlus
+This mod isn't compatible with Valheim+
+Please navigate to https://github.com/AzumattDev/Valheim-Plus-Replacements to find replacements for its features.

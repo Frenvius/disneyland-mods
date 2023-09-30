@@ -15,31 +15,9 @@
   versionNumber:
     major: 5
     minor: 4
-    patch: 1901
+    patch: 2105
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\core\icon.png
-- manifestVersion: 1
-  name: ValheimModding-HookGenPatcher
-  authorName: ValheimModding
-  websiteUrl: https://valheim.thunderstore.io/package/ValheimModding/HookGenPatcher/
-  displayName: HookGenPatcher
-  description: Generates MonoMod.RuntimeDetour.HookGen's MMHOOK file during the
-    BepInEx preloader phase.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1502
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 0
-    patch: 3
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\ValheimModding-HookGenPatcher\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\core\icon.png
 - manifestVersion: 1
   name: ValheimModding-Jotunn
   authorName: ValheimModding
@@ -55,15 +33,15 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1901
+    - denikson-BepInExPack_Valheim-5.4.2105
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 2
-    minor: 10
-    patch: 0
+    minor: 14
+    patch: 1
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\ValheimModding-Jotunn\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\ValheimModding-Jotunn\icon.png
 - manifestVersion: 1
   name: OdinPlus-Clutter
   authorName: OdinPlus
@@ -76,38 +54,16 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1900
-    - ValheimModding-Jotunn-2.6.2
+    - ValheimModding-Jotunn-2.11.2
+    - denikson-BepInExPack_Valheim-5.4.2102
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 0
     minor: 1
-    patch: 3
+    patch: 5
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\OdinPlus-Clutter\icon.png
-- manifestVersion: 1
-  name: digitiliad-Compass
-  authorName: digitiliad
-  websiteUrl: https://valheim.thunderstore.io/package/digitiliad/Compass/
-  displayName: Compass
-  description: Adds a customizable compass to the HUD that shows nearby map marker
-    directions.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.901
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 7
-    patch: 0
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\digitiliad-Compass\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\OdinPlus-Clutter\icon.png
 - manifestVersion: 1
   name: Amar1729-BetterLadders
   authorName: Amar1729
@@ -128,72 +84,7 @@
     minor: 2
     patch: 0
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\Amar1729-BetterLadders\icon.png
-- manifestVersion: 1
-  name: exel80-Disabler
-  authorName: exel80
-  websiteUrl: https://valheim.thunderstore.io/package/exel80/Disabler/
-  displayName: Disabler
-  description: Allow you disable "checks" from the game.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.601
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 1
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\exel80-Disabler\icon.png
-- manifestVersion: 1
-  name: Nexus-FarmGrid
-  authorName: Nexus
-  websiteUrl: https://valheim.thunderstore.io/package/Nexus/FarmGrid/
-  displayName: FarmGrid
-  description: Allows for all plants planted with the cultivator to automatically
-    be snapped and placed into a grid in which they will have enough space to
-    grow. Made by Sarcen
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.800
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 2
-    patch: 0
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\Nexus-FarmGrid\icon.png
-- manifestVersion: 1
-  name: ValheimPlus-ValheimPlus
-  authorName: ValheimPlus
-  websiteUrl: https://valheim.thunderstore.io/package/ValheimPlus/ValheimPlus/
-  displayName: ValheimPlus
-  description: Valheim Plus
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1901
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 9
-    minor: 9
-    patch: 9
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\ValheimPlus-ValheimPlus\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Amar1729-BetterLadders\icon.png
 - manifestVersion: 1
   name: LVH-IT-UseEquipmentInWater
   authorName: LVH-IT
@@ -206,36 +97,15 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1901
+    - denikson-BepInExPack_Valheim-5.4.2105
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 0
     minor: 2
-    patch: 3
+    patch: 4
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\LVH-IT-UseEquipmentInWater\icon.png
-- manifestVersion: 1
-  name: tonsit-InteractWhileBuilding
-  authorName: tonsit
-  websiteUrl: https://valheim.thunderstore.io/package/tonsit/InteractWhileBuilding/
-  displayName: InteractWhileBuilding
-  description: Allows you to interact with objects in the world while in build mode.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.600
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 0
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\tonsit-InteractWhileBuilding\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\LVH-IT-UseEquipmentInWater\0.2.4\icon.png
 - manifestVersion: 1
   name: virtuaCode-EquipWheel
   authorName: virtuaCode
@@ -255,30 +125,9 @@
   versionNumber:
     major: 1
     minor: 3
-    patch: 6
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\virtuaCode-EquipWheel\icon.png
-- manifestVersion: 1
-  name: OdinPlus-BasementJVLedition
-  authorName: OdinPlus
-  websiteUrl: https://valheim.thunderstore.io/package/OdinPlus/BasementJVLedition/
-  displayName: BasementJVLedition
-  description: Expand into the earth with this placeable basement
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1900
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
     patch: 9
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\OdinPlus-BasementJVLedition\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\virtuaCode-EquipWheel\icon.png
 - manifestVersion: 1
   name: Advize-PlantEverything
   authorName: Advize
@@ -294,15 +143,15 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1901
+    - denikson-BepInExPack_Valheim-5.4.2105
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 11
+    minor: 13
     patch: 7
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\Advize-PlantEverything\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Advize-PlantEverything\icon.png
 - manifestVersion: 1
   name: OdinPlus-PotionPlus
   authorName: OdinPlus
@@ -316,15 +165,15 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1901
+    - denikson-BepInExPack_Valheim-5.4.2105
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 4
     minor: 1
-    patch: 7
+    patch: 11
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\OdinPlus-PotionPlus\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\OdinPlus-PotionPlus\icon.png
 - manifestVersion: 1
   name: OdinPlus-OdinArchitect
   authorName: OdinPlus
@@ -339,36 +188,16 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1600
-    - ValheimModding-Jotunn-2.3.7
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 1
-    patch: 3
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\OdinPlus-OdinArchitect\icon.png
-- manifestVersion: 1
-  name: LoewiePiewie-Oryxen.Valheim.UI.DisplayDayTime
-  authorName: LoewiePiewie
-  websiteUrl: ""
-  displayName: Oryxen.Valheim.UI.DisplayDayTime
-  description: ""
-  gameVersion: ""
-  networkMode: ""
-  packageType: ""
-  installMode: ""
-  loaders: []
-  dependencies: []
+    - denikson-BepInExPack_Valheim-5.4.1901
+    - ValheimModding-Jotunn-2.10.4
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 1
-    patch: 2
+    minor: 2
+    patch: 7
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\LoewiePiewie-Oryxen.Valheim.UI.DisplayDayTime\1.1.2\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\OdinPlus-OdinArchitect\icon.png
 - manifestVersion: 1
   name: aedenthorn-Simple Sort
   authorName: aedenthorn
@@ -391,26 +220,6 @@
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\aedenthorn-Simple
     Sort\0.7.0\icon.png
 - manifestVersion: 1
-  name: Pfhoenix-ModConfigEnforcer
-  authorName: Pfhoenix
-  websiteUrl: ""
-  displayName: ModConfigEnforcer
-  description: ""
-  gameVersion: ""
-  networkMode: ""
-  packageType: ""
-  installMode: ""
-  loaders: []
-  dependencies: []
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 2
-    minor: 1
-    patch: 1
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Pfhoenix-ModConfigEnforcer\2.1.1\icon.png
-- manifestVersion: 1
   name: MaGic-Quick_Deposit
   authorName: MaGic
   websiteUrl: https://valheim.thunderstore.io/package/MaGic/Quick_Deposit/
@@ -430,112 +239,28 @@
     minor: 0
     patch: 1
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\MaGic-Quick_Deposit\icon.png
-- manifestVersion: 1
-  name: rin_jugatla-Add_All_Fuel_And_Ore_For_Smelter_Charcoalkiln_etc
-  authorName: rin_jugatla
-  websiteUrl: https://valheim.thunderstore.io/package/rin_jugatla/Add_All_Fuel_And_Ore_For_Smelter_Charcoalkiln_etc/
-  displayName: Add_All_Fuel_And_Ore_For_Smelter_Charcoalkiln_etc
-  description: MOD for batch loading of fuel and ore into Smelter, charcoal kiln and etc...
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.602
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 6
-    patch: 2
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\rin_jugatla-Add_All_Fuel_And_Ore_For_Smelter_Charcoalkiln_etc\icon.png
-- manifestVersion: 1
-  name: MaxiMods-MultiCraft
-  authorName: MaxiMods
-  websiteUrl: https://valheim.thunderstore.io/package/MaxiMods/MultiCraft/
-  displayName: MultiCraft
-  description: Easy interface to craft multiple items of the same recipe.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies: []
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 0
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\MaxiMods-MultiCraft\icon.png
-- manifestVersion: 1
-  name: bdew-QuickConnect
-  authorName: bdew
-  websiteUrl: https://valheim.thunderstore.io/package/bdew/QuickConnect/
-  displayName: QuickConnect
-  description: Adds a quick connect window with a configurable list of servers, no
-    more dealing with steam's buggy favorites widow and entering passwords.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1900
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 5
-    patch: 0
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\bdew-QuickConnect\icon.png
-- manifestVersion: 1
-  name: aedenthorn-InstantMonsterLootDrop
-  authorName: aedenthorn
-  websiteUrl: ""
-  displayName: InstantMonsterLootDrop
-  description: Causes monsters to drop their loot and poof immediately. Created byaedenthorn
-  gameVersion: ""
-  networkMode: ""
-  packageType: ""
-  installMode: ""
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.800
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 4
-    patch: 0
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\aedenthorn-InstantMonsterLootDrop\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\MaGic-Quick_Deposit\icon.png
 - manifestVersion: 1
   name: OdinPlus-CraftyCartsRemake
   authorName: OdinPlus
   websiteUrl: https://valheim.thunderstore.io/package/OdinPlus/CraftyCartsRemake/
   displayName: CraftyCartsRemake
-  description: Crafting stations on wheels!
+  description: Crafting stations on wheels! Comes with built in storage and lights
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1900
+    - denikson-BepInExPack_Valheim-5.4.2105
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 3
-    minor: 0
-    patch: 8
+    minor: 1
+    patch: 0
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\OdinPlus-CraftyCartsRemake\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\OdinPlus-CraftyCartsRemake\icon.png
 - manifestVersion: 1
   name: RockerKitten-BoneAppetit
   authorName: RockerKitten
@@ -548,22 +273,23 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1901
-    - ValheimModding-Jotunn-2.7.0
+    - denikson-BepInExPack_Valheim-5.4.2105
+    - ValheimModding-Jotunn-2.12.7
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 3
-    minor: 2
-    patch: 0
+    minor: 3
+    patch: 1
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\RockerKitten-BoneAppetit\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\RockerKitten-BoneAppetit\icon.png
 - manifestVersion: 1
   name: Frenvius-Valharvest
   authorName: Frenvius
   websiteUrl: https://valheim.thunderstore.io/package/Frenvius/Valharvest/
   displayName: Valharvest
-  description: New plants and foods!
+  description: New vegetables to plant and harvest, like potatoes, rice, tomatoes,
+    pumpkins, etc, and new ingredients to prepare new foods!
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -571,16 +297,16 @@
   loaders: []
   dependencies:
     - denikson-BepInExPack_Valheim-5.4.1100
-    - ValheimModding-Jotunn-2.7.0
     - RockerKitten-BoneAppetit-3.0.2
+    - ValheimModding-Jotunn-2.7.0
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
-    major: 2
-    minor: 2
-    patch: 0
+    major: 3
+    minor: 0
+    patch: 7
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\Frenvius-Valharvest\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Frenvius-Valharvest\icon.png
 - manifestVersion: 1
   name: RandyKnapp-EquipmentAndQuickSlots
   authorName: RandyKnapp
@@ -593,168 +319,16 @@
   packageType: other
   installMode: managed
   loaders: []
-  dependencies: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2102
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 2
-    minor: 0
-    patch: 15
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\RandyKnapp-EquipmentAndQuickSlots\icon.png
-- manifestVersion: 1
-  name: Smallo-PlantGrowProgress
-  authorName: Smallo
-  websiteUrl: https://valheim.thunderstore.io/package/Smallo/PlantGrowProgress/
-  displayName: PlantGrowProgress
-  description: This mod shows a plant grow progress when you hover over it. It
-    changes colour depending on the progress.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.901
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 4
-    patch: 0
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\Smallo-PlantGrowProgress\icon.png
-- manifestVersion: 1
-  name: Smoothbrain-Mining
-  authorName: Smoothbrain
-  websiteUrl: https://valheim.thunderstore.io/package/Smoothbrain/Mining/
-  displayName: Mining
-  description: Adds a skill that increases damage dealt while mining and item
-    yield from ore deposits.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1901
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
     minor: 1
-    patch: 3
+    patch: 7
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\Smoothbrain-Mining\icon.png
-- manifestVersion: 1
-  name: OdinPlus-OdinCampsite
-  authorName: OdinPlus
-  websiteUrl: https://valheim.thunderstore.io/package/OdinPlus/OdinCampsite/
-  displayName: OdinCampsite
-  description: Campsite is just simple mod for additional pieces thanks to which
-    you can travel safe and save time to build temporary bases. Become the real
-    adventurer!
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1901
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 3
-    patch: 5
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\OdinPlus-OdinCampsite\icon.png
-- manifestVersion: 1
-  name: OdinPlus-OdinHorse
-  authorName: OdinPlus
-  websiteUrl: https://valheim.thunderstore.io/package/OdinPlus/OdinHorse/
-  displayName: OdinHorse
-  description: Horse mount and new items! You can tame it, You can ride it, You
-    can attach the cart!
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1901
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 5
-    patch: 5
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\OdinPlus-OdinHorse\icon.png
-- manifestVersion: 1
-  name: OdinPlus-OdinShip
-  authorName: OdinPlus
-  websiteUrl: https://valheim.thunderstore.io/package/OdinPlus/OdinShip/
-  displayName: OdinShip
-  description: New boats, oil press, fish extract, cranes and more to help you
-    explore this giant world.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1900
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 1
-    patch: 5
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\OdinPlus-OdinShip\icon.png
-- manifestVersion: 1
-  name: RandyKnapp-ExtendedItemDataFramework
-  authorName: RandyKnapp
-  websiteUrl: https://valheim.thunderstore.io/package/RandyKnapp/ExtendedItemDataFramework/
-  displayName: ExtendedItemDataFramework
-  description: Extends ItemData for modders. Adds Unique ID to items.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies: []
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 8
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\RandyKnapp-ExtendedItemDataFramework\icon.png
-- manifestVersion: 1
-  name: OdinPlus-BackPacks_Remake
-  authorName: OdinPlus
-  websiteUrl: https://valheim.thunderstore.io/package/OdinPlus/BackPacks_Remake/
-  displayName: BackPacks_Remake
-  description: Add Some cool storage options
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1901
-    - RandyKnapp-ExtendedItemDataFramework-1.0.7
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 4
-    patch: 3
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\OdinPlus-BackPacks_Remake\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\RandyKnapp-EquipmentAndQuickSlots\icon.png
 - manifestVersion: 1
   name: ASharpPen-Spawn_That
   authorName: ASharpPen
@@ -768,15 +342,15 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1900
+    - denikson-BepInExPack_Valheim-5.4.2101
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 1
-    patch: 5
+    minor: 2
+    patch: 7
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\ASharpPen-Spawn_That\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\ASharpPen-Spawn_That\icon.png
 - manifestVersion: 1
   name: FixItFelix-RegenerativeNature
   authorName: FixItFelix
@@ -789,16 +363,16 @@
   installMode: managed
   loaders: []
   dependencies:
-    - ASharpPen-Spawn_That-0.11.3
-    - denikson-BepInExPack_Valheim-5.4.1601
+    - ASharpPen-Spawn_That-1.2.4
+    - denikson-BepInExPack_Valheim-5.4.2105
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
-    major: 1
-    minor: 2
-    patch: 3
+    major: 2
+    minor: 0
+    patch: 2
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\FixItFelix-RegenerativeNature\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\FixItFelix-RegenerativeNature\icon.png
 - manifestVersion: 1
   name: GemHunter1-FastTeleport
   authorName: GemHunter1
@@ -817,32 +391,10 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 0
+    minor: 1
     patch: 0
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\GemHunter1-FastTeleport\icon.png
-- manifestVersion: 1
-  name: cjayride-Discard_or_Recycle_Inventory_Items_No_Coins_cjaycraft_fix
-  authorName: cjayride
-  websiteUrl: https://valheim.thunderstore.io/package/cjayride/Discard_or_Recycle_Inventory_Items_No_Coins_cjaycraft_fix/
-  displayName: Discard_or_Recycle_Inventory_Items_No_Coins_cjaycraft_fix
-  description: Recycle items into lesser parts. Drag and press [Delete]. Option to
-    not give Coins back.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1700
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 3
-    patch: 4
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\cjayride-Discard_or_Recycle_Inventory_Items_No_Coins_cjaycraft_fix\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\GemHunter1-FastTeleport\icon.png
 - manifestVersion: 1
   name: BentoG-MissingPieces
   authorName: BentoG
@@ -855,15 +407,15 @@
   installMode: managed
   loaders: []
   dependencies:
-    - ValheimModding-Jotunn-2.6.9
+    - ValheimModding-Jotunn-2.12.4
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 2
     minor: 0
-    patch: 0
+    patch: 2
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\BentoG-MissingPieces\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\BentoG-MissingPieces\2.0.2\icon.png
 - manifestVersion: 1
   name: Chamberland_made_this-Shut_it_Hugins
   authorName: Chamberland_made_this
@@ -884,7 +436,7 @@
     minor: 0
     patch: 10
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\Chamberland_made_this-Shut_it_Hugins\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Chamberland_made_this-Shut_it_Hugins\icon.png
 - manifestVersion: 1
   name: ComfyMods-PotteryBarn
   authorName: ComfyMods
@@ -897,36 +449,16 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1901
-    - ValheimModding-Jotunn-2.8.1
+    - denikson-BepInExPack_Valheim-5.4.2105
+    - ValheimModding-Jotunn-2.13.0
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 4
+    minor: 11
     patch: 0
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\ComfyMods-PotteryBarn\icon.png
-- manifestVersion: 1
-  name: Detalhes-BeltsOfPowah
-  authorName: Detalhes
-  websiteUrl: https://valheim.thunderstore.io/package/Detalhes/BeltsOfPowah/
-  displayName: BeltsOfPowah
-  description: Adds 15 new belts with 15 effects.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies: []
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 3
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\Detalhes-BeltsOfPowah\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\ComfyMods-PotteryBarn\icon.png
 - manifestVersion: 1
   name: Easy_Develope-Pageable_Build_Hud
   authorName: Easy_Develope
@@ -949,52 +481,30 @@
     minor: 0
     patch: 2
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\Easy_Develope-Pageable_Build_Hud\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Easy_Develope-Pageable_Build_Hud\icon.png
 - manifestVersion: 1
   name: Marlthon-SeaAnimals
   authorName: Marlthon
   websiteUrl: https://valheim.thunderstore.io/package/Marlthon/SeaAnimals/
   displayName: SeaAnimals
   description: Marine animals arrived in Valheim (Orca, Dolphin, Sharks,
-    Crocodile, Turtles, Seal and Penguin) and with them new tasty meats.
+    Crocodile, Turtles, Seal, Jellyfish and Penguin) and with them new tasty
+    meats.
   gameVersion: "0"
   networkMode: both
   packageType: other
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1900
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 1
-    patch: 1
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\Marlthon-SeaAnimals\icon.png
-- manifestVersion: 1
-  name: MrSerji-Construction
-  authorName: MrSerji
-  websiteUrl: https://valheim.thunderstore.io/package/MrSerji/Construction/
-  displayName: Construction
-  description: A collection of additional construction pieces.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1900
-    - Easy_Develope-Pageable_Build_Hud-1.0.2
-    - ASharpPen-Spawn_That-1.0.5
+    - denikson-BepInExPack_Valheim-5.4.2105
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 0
     minor: 2
-    patch: 4
+    patch: 0
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\MrSerji-Construction\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Marlthon-SeaAnimals\icon.png
 - manifestVersion: 1
   name: Mydayyy-ServerSideMap
   authorName: Mydayyy
@@ -1007,36 +517,15 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1901
+    - denikson-BepInExPack_Valheim-5.4.2105
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 3
-    patch: 7
+    patch: 9
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\Mydayyy-ServerSideMap\icon.png
-- manifestVersion: 1
-  name: OdinPlus-OdinsQOL
-  authorName: OdinPlus
-  websiteUrl: https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/
-  displayName: OdinsQOL
-  description: A collection of QOL patches and tweaks for your game
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1901
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 9
-    patch: 5
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\OdinPlus-OdinsQOL\0.9.5\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Mydayyy-ServerSideMap\icon.png
 - manifestVersion: 1
   name: Smoothbrain-ServerCharacters
   authorName: Smoothbrain
@@ -1050,15 +539,15 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1901
+    - denikson-BepInExPack_Valheim-5.4.2105
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 3
-    patch: 3
+    minor: 4
+    patch: 9
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\Smoothbrain-ServerCharacters\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Smoothbrain-ServerCharacters\icon.png
 - manifestVersion: 1
   name: Smoothbrain-TargetPortal
   authorName: Smoothbrain
@@ -1072,15 +561,15 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1901
+    - denikson-BepInExPack_Valheim-5.4.2105
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 1
-    patch: 6
+    patch: 12
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\Smoothbrain-TargetPortal\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Smoothbrain-TargetPortal\icon.png
 - manifestVersion: 1
   name: ASharpPen-Drop_That
   authorName: ASharpPen
@@ -1093,15 +582,15 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1900
+    - denikson-BepInExPack_Valheim-5.4.2105
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 2
     minor: 3
-    patch: 3
+    patch: 9
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\ASharpPen-Drop_That\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\ASharpPen-Drop_That\icon.png
 - manifestVersion: 1
   name: Yggdrah-yggdrahsbetterlox
   authorName: Yggdrah
@@ -1115,15 +604,14 @@
   loaders: []
   dependencies:
     - denikson-BepInExPack_Valheim-5.4.1901
-    - ASharpPen-Drop_That-2.3.3
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
-    major: 1
+    major: 2
     minor: 0
-    patch: 5
+    patch: 1
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\Yggdrah-yggdrahsbetterlox\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Yggdrah-yggdrahsbetterlox\icon.png
 - manifestVersion: 1
   name: RaistlinOtherStuff-CraftableChainReuploadFromNexus
   authorName: RaistlinOtherStuff
@@ -1143,13 +631,127 @@
     minor: 0
     patch: 1
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\RaistlinOtherStuff-CraftableChainReuploadFromNexus\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\RaistlinOtherStuff-CraftableChainReuploadFromNexus\icon.png
 - manifestVersion: 1
   name: Smoothbrain-Blacksmithing
   authorName: Smoothbrain
   websiteUrl: https://valheim.thunderstore.io/package/Smoothbrain/Blacksmithing/
   displayName: Blacksmithing
-  description: Adds a skill that increases the durability of armor and weapons.
+  description: Adds a skill that increases the durability of armor and weapons and
+    other perks for blacksmithing.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2105
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 4
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Smoothbrain-Blacksmithing\icon.png
+- manifestVersion: 1
+  name: Azumatt-PerfectPlacement
+  authorName: Azumatt
+  websiteUrl: https://valheim.thunderstore.io/package/Azumatt/PerfectPlacement/
+  displayName: PerfectPlacement
+  description: Modular FreePlacementRotation, AdvancedBuildingMode, and
+    AdvancedEditingMode from ValheimPlus. The author is not affiliated with the
+    ValheimPlus team. See the description for full details and additional
+    information
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2105
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 5
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-PerfectPlacement\icon.png
+- manifestVersion: 1
+  name: Azumatt-AllTheBases
+  authorName: Azumatt
+  websiteUrl: https://valheim.thunderstore.io/package/Azumatt/AllTheBases/
+  displayName: AllTheBases
+  description: A mod that allows editing the base values of the game. From Health,
+    Stamina, Eitr, to build range and more!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 5
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-AllTheBases\icon.png
+- manifestVersion: 1
+  name: Azumatt-AzuMiscPatches
+  authorName: Azumatt
+  websiteUrl: https://valheim.thunderstore.io/package/Azumatt/AzuMiscPatches/
+  displayName: AzuMiscPatches
+  description: Collection of patches from OdinQOL that didn't really have a home
+    in a mod of their own
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2105
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 8
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-AzuMiscPatches\icon.png
+- manifestVersion: 1
+  name: Azumatt-AzuAreaRepair
+  authorName: Azumatt
+  websiteUrl: https://valheim.thunderstore.io/package/Azumatt/AzuAreaRepair/
+  displayName: AzuAreaRepair
+  description: Repair pieces in a specified area around the player when using the
+    hammer to repair. Code pulled from OdinsQOL
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2105
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 2
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-AzuAreaRepair\icon.png
+- manifestVersion: 1
+  name: Azumatt-ProfitablePieces
+  authorName: Azumatt
+  websiteUrl: https://valheim.thunderstore.io/package/Azumatt/ProfitablePieces/
+  displayName: ProfitablePieces
+  description: Always return resources when destroying a building piece.
+    Optionally include those disabled by the Valheim Devs. Limit this to only
+    admin, if you want.
   gameVersion: "0"
   networkMode: both
   packageType: other
@@ -1157,7 +759,601 @@
   loaders: []
   dependencies:
     - denikson-BepInExPack_Valheim-5.4.1901
-    - RandyKnapp-ExtendedItemDataFramework-1.0.7
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-ProfitablePieces\icon.png
+- manifestVersion: 1
+  name: Marf-FuelEternal
+  authorName: Marf
+  websiteUrl: https://valheim.thunderstore.io/package/Marf/FuelEternal/
+  displayName: FuelEternal
+  description: Fuel Eternal is a reimagining of TorchesEternal with updated
+    support for stone ovens and hot tubs, along side an adjustable config to
+    enable/disable options of your choosing.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2102
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 1
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Marf-FuelEternal\icon.png
+- manifestVersion: 1
+  name: Smoothbrain-CreatureLevelAndLootControl
+  authorName: Smoothbrain
+  websiteUrl: https://valheim.thunderstore.io/package/Smoothbrain/CreatureLevelAndLootControl/
+  displayName: CreatureLevelAndLootControl
+  description: Puts YOU in control of creature level and loot!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2105
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 4
+    minor: 5
+    patch: 12
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Smoothbrain-CreatureLevelAndLootControl\icon.png
+- manifestVersion: 1
+  name: Azumatt-AzuExtendedPlayerInventory
+  authorName: Azumatt
+  websiteUrl: https://valheim.thunderstore.io/package/Azumatt/AzuExtendedPlayerInventory/
+  displayName: AzuExtendedPlayerInventory
+  description: AzuEPI is Extended Player Inventory from OdinsQOL pulled out for
+    your modular pleasure. Currently pulled out as is, but soon get a rewrite of
+    sorts!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2105
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 2
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-AzuExtendedPlayerInventory\icon.png
+- manifestVersion: 1
+  name: Azumatt-AzuContainerSizes
+  authorName: Azumatt
+  websiteUrl: https://valheim.thunderstore.io/package/Azumatt/AzuContainerSizes/
+  displayName: AzuContainerSizes
+  description: Standalone mod that allows you to change the size of containers in
+    the game. Supports custom containers.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.1901
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-AzuContainerSizes\icon.png
+- manifestVersion: 1
+  name: Smoothbrain-ConversionSizeAndSpeed
+  authorName: Smoothbrain
+  websiteUrl: https://valheim.thunderstore.io/package/Smoothbrain/ConversionSizeAndSpeed/
+  displayName: ConversionSizeAndSpeed
+  description: Lets you configure the input size and conversion speed of building
+    pieces like the smelter, windmill and charcoal kiln.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2105
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 14
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Smoothbrain-ConversionSizeAndSpeed\icon.png
+- manifestVersion: 1
+  name: Azumatt-AzuWorkbenchTweaks
+  authorName: Azumatt
+  websiteUrl: https://valheim.thunderstore.io/package/Azumatt/AzuWorkbenchTweaks/
+  displayName: AzuWorkbenchTweaks
+  description: A mod that changes some behaviour of workbenches.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.1901
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-AzuWorkbenchTweaks\icon.png
+- manifestVersion: 1
+  name: Azumatt-AzuWearNTearPatches
+  authorName: Azumatt
+  websiteUrl: https://valheim.thunderstore.io/package/Azumatt/AzuWearNTearPatches/
+  displayName: AzuWearNTearPatches
+  description: Patches that alter the wear and tear component of build pieces
+    (Walls, ships, carts & shit). Structural integrity, damage and weather
+    options.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.1901
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-AzuWearNTearPatches\icon.png
+- manifestVersion: 1
+  name: Azumatt-AzuMapDetails
+  authorName: Azumatt
+  websiteUrl: https://valheim.thunderstore.io/package/Azumatt/AzuMapDetails/
+  displayName: AzuMapDetails
+  description: Mod that adds colorized map information to your minimap. Enemies
+    and player buildings are colored based on your configurations. Ship icons on
+    the map.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2105
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-AzuMapDetails\icon.png
+- manifestVersion: 1
+  name: Crystal-GracefulLanding
+  authorName: Crystal
+  websiteUrl: https://valheim.thunderstore.io/package/Crystal/GracefulLanding/
+  displayName: GracefulLanding
+  description: Reduced fall damage, configurable.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2105
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 4
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Crystal-GracefulLanding\icon.png
+- manifestVersion: 1
+  name: Azumatt-ImFRIENDLY_DAMMIT
+  authorName: Azumatt
+  websiteUrl: https://valheim.thunderstore.io/package/Azumatt/ImFRIENDLY_DAMMIT/
+  displayName: ImFRIENDLY_DAMMIT
+  description: Tired of getting hit by your own ballista? Me fuckin too. Protects
+    tames as well. Enjoy.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2105
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 1
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-ImFRIENDLY_DAMMIT\icon.png
+- manifestVersion: 1
+  name: OdinPlus-TeleportEverything
+  authorName: OdinPlus
+  websiteUrl: https://valheim.thunderstore.io/package/OdinPlus/TeleportEverything/
+  displayName: TeleportEverything
+  description: This mod adds extra excitement and functionality to the portal
+    system. Teleport wolves, boars, loxes and other allies. Transport ores,
+    ingots, carts and even take enemies with you, or block players teleporting
+    when enemies are nearby.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2105
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 5
+    patch: 0
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\OdinPlus-TeleportEverything\2.5.0\icon.png
+- manifestVersion: 1
+  name: VegettaPT-MultiCraft
+  authorName: VegettaPT
+  websiteUrl: https://valheim.thunderstore.io/package/VegettaPT/MultiCraft/
+  displayName: MultiCraft
+  description: Easy interface to craft multiple items of the same recipe.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 0
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\VegettaPT-MultiCraft\1.2.0\icon.png
+- manifestVersion: 1
+  name: Digitalroot-Better_Wisps
+  authorName: Digitalroot
+  websiteUrl: https://valheim.thunderstore.io/package/Digitalroot/Better_Wisps/
+  displayName: Better_Wisps
+  description: Make the Wisp do a better job.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2105
+    - ValheimModding-Jotunn-2.11.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 20
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Digitalroot-Better_Wisps\icon.png
+- manifestVersion: 1
+  name: bonesbro-FloorsAreRoofs
+  authorName: bonesbro
+  websiteUrl: https://valheim.thunderstore.io/package/bonesbro/FloorsAreRoofs/
+  displayName: FloorsAreRoofs
+  description: This mod makes the wooden floor pieces provide shelter, just like
+    thatched roofs.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.1901
+    - ValheimModding-Jotunn-2.10.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\bonesbro-FloorsAreRoofs\icon.png
+- manifestVersion: 1
+  name: Marlthon-OdinShip
+  authorName: Marlthon
+  websiteUrl: https://valheim.thunderstore.io/package/Marlthon/OdinShip/
+  displayName: OdinShip
+  description: Add to your game the most beautiful and functional boats, in all
+    there are 9 boats in the cargo, speed, fishing and war categories.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2105
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 3
+    patch: 3
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Marlthon-OdinShip\icon.png
+- manifestVersion: 1
+  name: SyphersGaming-Compass
+  authorName: SyphersGaming
+  websiteUrl: https://valheim.thunderstore.io/package/SyphersGaming/Compass/
+  displayName: Compass
+  description: Adds a customizable compass to the HUD that shows nearby map marker
+    directions. Reupload of aedenthorn's Compass mod.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 217
+    patch: 141
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\SyphersGaming-Compass\icon.png
+- manifestVersion: 1
+  name: Azumatt-FastLink
+  authorName: Azumatt
+  websiteUrl: https://valheim.thunderstore.io/package/Azumatt/FastLink/
+  displayName: FastLink
+  description: Vanilla UI to quickly join servers configured in a YAML file. Live
+    edit using BepInEx Configuration manager or directly to the file.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2105
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
+    patch: 9
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-FastLink\icon.png
+- manifestVersion: 1
+  name: ComfyMods-ComfyAddAllFuel
+  authorName: ComfyMods
+  websiteUrl: https://valheim.thunderstore.io/package/ComfyMods/ComfyAddAllFuel/
+  displayName: ComfyAddAllFuel
+  description: Ability to batch add fuel and ore to appropriate places.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.1901
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 7
+    patch: 1
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\ComfyMods-ComfyAddAllFuel\icon.png
+- manifestVersion: 1
+  name: kinghfb-Sleepover
+  authorName: kinghfb
+  websiteUrl: https://valheim.thunderstore.io/package/kinghfb/Sleepover/
+  displayName: Sleepover
+  description: Customize all bed/sleep rules including ignoring restrictions,
+    ownership, and allowing multiple sleepers at once.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2102
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 1
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\kinghfb-Sleepover\icon.png
+- manifestVersion: 1
+  name: OdinPlus-BetterLanterns
+  authorName: OdinPlus
+  websiteUrl: https://valheim.thunderstore.io/package/OdinPlus/BetterLanterns/
+  displayName: BetterLanterns
+  description: This mod adds an enhanced version of the Dvergr Lanterns as well as
+    Wisp versions.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.1901
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 5
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\OdinPlus-BetterLanterns\icon.png
+- manifestVersion: 1
+  name: remmiz-SimpleRecycling_Fixed
+  authorName: remmiz
+  websiteUrl: https://valheim.thunderstore.io/package/remmiz/SimpleRecycling_Fixed/
+  displayName: SimpleRecycling_Fixed
+  description: Adds a tab to the crafting station that recycles (uncrafts) items
+    from player inventory
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.600
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 0
+    patch: 15
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\remmiz-SimpleRecycling_Fixed\icon.png
+- manifestVersion: 1
+  name: TiwoT-SmarterContainers
+  authorName: TiwoT
+  websiteUrl: https://valheim.thunderstore.io/package/TiwoT/SmarterContainers/
+  displayName: SmarterContainers
+  description: Want to quickly drop your loot? Tired of looking for chest with a
+    specific item-stack in order to store some more of it? Teach your containers
+    to arrange items with their neighbors!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2105
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 6
+    patch: 8
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\TiwoT-SmarterContainers\icon.png
+- manifestVersion: 1
+  name: Smoothbrain-Farming
+  authorName: Smoothbrain
+  websiteUrl: https://valheim.thunderstore.io/package/Smoothbrain/Farming/
+  displayName: Farming
+  description: Adds a skill that makes crops grow faster and increases item yield
+    for harvesting crops.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2105
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 1
+    patch: 9
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Smoothbrain-Farming\icon.png
+- manifestVersion: 1
+  name: TastyChickenLegs-ForsakenPowersPlus
+  authorName: TastyChickenLegs
+  websiteUrl: https://valheim.thunderstore.io/package/TastyChickenLegs/ForsakenPowersPlus/
+  displayName: ForsakenPowersPlus
+  description: Enable all bosses at once. Now with Passive Mode and Power
+    Stacking.  Change the forsaken powers with a button and modify the duration
+    and cooldown
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2101
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
+    patch: 5
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\TastyChickenLegs-ForsakenPowersPlus\icon.png
+- manifestVersion: 1
+  name: Yorimor-ExtendSkeleNames
+  authorName: Yorimor
+  websiteUrl: https://valheim.thunderstore.io/package/Yorimor/ExtendSkeleNames/
+  displayName: ExtendSkeleNames
+  description: Extend or replace the list of names used for summoned skeletons
+    when they spawn!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.1901
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 1
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Yorimor-ExtendSkeleNames\icon.png
+- manifestVersion: 1
+  name: Thordomr-Display_Day_and_Time_in_HUD
+  authorName: Thordomr
+  websiteUrl: https://valheim.thunderstore.io/package/Thordomr/Display_Day_and_Time_in_HUD/
+  displayName: Display_Day_and_Time_in_HUD
+  description: Simple UI mod to display the in-game day & time in the HUD above the minimap.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.1901
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 2
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Thordomr-Display_Day_and_Time_in_HUD\icon.png
+- manifestVersion: 1
+  name: Smoothbrain-Mining
+  authorName: Smoothbrain
+  websiteUrl: https://valheim.thunderstore.io/package/Smoothbrain/Mining/
+  displayName: Mining
+  description: Adds a skill that increases damage dealt while mining and item
+    yield from ore deposits.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2105
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
@@ -1165,4 +1361,134 @@
     minor: 1
     patch: 4
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\disneyland-mods\BepInEx\plugins\Smoothbrain-Blacksmithing\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Smoothbrain-Mining\icon.png
+- manifestVersion: 1
+  name: Smoothbrain-Sailing
+  authorName: Smoothbrain
+  websiteUrl: https://valheim.thunderstore.io/package/Smoothbrain/Sailing/
+  displayName: Sailing
+  description: Adds a skill that increases the health of ships, sailing speed and
+    exploration radius while sailing.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2105
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 6
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Smoothbrain-Sailing\1.1.6\icon.png
+- manifestVersion: 1
+  name: Azumatt-Clutter_Sign_Component_Fix
+  authorName: Azumatt
+  websiteUrl: https://valheim.thunderstore.io/package/Azumatt/Clutter_Sign_Component_Fix/
+  displayName: Clutter_Sign_Component_Fix
+  description: Meant to fix the issue with the Sign Component used on the Diaries
+    used in the Clutter mod. This mod is meant to be used with the Clutter mod,
+    but might also fix other signs that are old.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-Clutter_Sign_Component_Fix\icon.png
+- manifestVersion: 1
+  name: aedenthornNexusMods-InstantMonsterLootDrop
+  authorName: aedenthornNexusMods
+  websiteUrl: https://valheim.thunderstore.io/package/aedenthornNexusMods/InstantMonsterLootDrop/
+  displayName: InstantMonsterLootDrop
+  description: Causes monsters to drop their loot and poof immediately.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2105
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 5
+    patch: 0
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\aedenthornNexusMods-InstantMonsterLootDrop\icon.png
+- manifestVersion: 1
+  name: tonsit-InteractWhileBuilding
+  authorName: tonsit
+  websiteUrl: https://valheim.thunderstore.io/package/tonsit/InteractWhileBuilding/
+  displayName: InteractWhileBuilding
+  description: Allows you to interact with objects in the world while in build mode.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.600
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\tonsit-InteractWhileBuilding\icon.png
+- manifestVersion: 1
+  name: Re_upload-Re_Upload_Equip_Multiple_Utility_Items
+  authorName: Re_upload
+  websiteUrl: https://valheim.thunderstore.io/package/Re_upload/Re_Upload_Equip_Multiple_Utility_Items/
+  displayName: Re_Upload_Equip_Multiple_Utility_Items
+  description: ReUploand do mod Equip Multiple Utility Items do Nexus. Todos os
+    creditos são do autor.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2105
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Re_upload-Re_Upload_Equip_Multiple_Utility_Items\icon.png
+- manifestVersion: 1
+  name: Crystal-FastTools
+  authorName: Crystal
+  websiteUrl: https://valheim.thunderstore.io/package/Crystal/FastTools/
+  displayName: FastTools
+  description: Reduced usage delay for build hammer and other placement tools.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2105
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 0
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Crystal-FastTools\1.2.0\icon.png

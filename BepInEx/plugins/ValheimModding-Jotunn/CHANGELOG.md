@@ -1,4 +1,116 @@
 # Changelog
+
+## Version 2.14.1
+* Fixed some errors when a Jotunn dependent mod has no BepInEx dependency set and loads before Jotunn. A warning will be logged
+* Fixed items were not added to the main menu ObjectDB if added in the OnVanillaPrefabsAvailable event and thus not visually shown on the player
+* Fixed input block did not prevent mouse wheel character zoom
+* Improved module initialisation logging by unifying messages
+
+## Version 2.14.0
+* Fixed the SynchronizationManager wasn't always initialised, resulting in no sync of admin configs
+
+## Version 2.13.0
+* Improved startup time by only initialising accessed managers. This reduces the load time without dependent mods by about 90% (on my machine under 100ms instead of 800ms), making Jötunn almost unnoticeable. When all managers are accessed, the overall startup time is the same as before. Also, if a Valheim update breaks some parts, only loaded managers are affected
+* Added `AssetUtils.LoadTextFromResources` overload without assembly parameter
+* Added CustomCreature constructor with AssetBundle parameter
+* Added `ZoneManager.CreateLocationContainer` with AssetBundle parameter
+* Added `CustomVegetation.IsValid` interface
+* Added `RequirementConfig.IsValid` interface
+* Added recipe RequireOnlyOneIngredient and QualityResultAmountMultiplier
+* Fixed GetOrAddComponent to use TryGetComponent (thx redseiko)
+* Improved error messages of entities loaded directly from AssetBundles: CustomClutter, CustomCreature, CustomItem, CustomPiece, CustomPieceTable, CustomPrefab, CustomVegetation
+* Improved PrefabManager.GetPrefab to search for items in ObjectDB if available
+* Improved startup time of SkillManager
+
+## Version 2.12.7
+* Fixed input block did not prevent the map from opening
+* Improved Kitbash error and warning messages to include the mod name and affected Kitbash settings
+
+## Version 2.12.6
+* Fixed input block did not prevent input from closing the inventory
+* Fixed PrefabManager.Cache to prefer materials with a non-error shader
+
+## Version 2.12.5
+* Fixed NRE using KeyHints
+* Fixed Mouse cursor not visible when blocking Input for UI
+
+## Version 2.12.4
+* Fixed mock resolution to not fail when a member throws an exception on GetValue. This happens in rare cases, for example when mocking a TMP component (thx OrianaVenture)
+
+## Version 2.12.3
+* Fixed an error with the console command for the upcoming 0.217 update (currently in PTB), still compatible with the stable Valheim release (0.216.9). Note that the PTB branch isn't supported and may cause unexpected issues at any time
+* Fixed JotunnBuildTask compile issues for .NET 7.0
+
+## Version 2.12.2
+* Fixed an error when switching tabs with Q/E and no custom categories where added
+* Fixed order of custom tabs with other mods that add custom categories
+
+## Version 2.12.1
+* Fixed compatibility issues with the custom hammer tabs when Auga is installed. There will be some warnings as some visual changes can't be applied but these should not affect the functionality
+
+## Version 2.12.0
+* Compatible with Valheim version 0.216.9, not working with an older version
+* Added prefab name helpers for CookingStations, CraftingStations, Fermenters, Incinerators, PieceCategories, PieceTables and Smelters
+* Added `CustomPiece.Category` helper property to make it easier to set the piece category at runtime.
+* Added `PieceManager.Instance.GetPieceCategoriesMap` to get a complete map of all piece categories
+* Reworked custom piece categories to be compatible with other mods. This changes some internal category ids
+* Changed custom hammer tabs to stack instead of scroll. Tabs also no longer have a dynamic width, instead the text tires to fit the tab
+* Changed `PieceManager.GetPieceCategories` to be obsolete, use `PieceManager.Instance.GetPieceCategoriesMap` instead to get a complete map of all piece categories
+* Changed `PieceManager.PieceCategorySettings` to be obsolete as they are no longer used
+* Changed `PieceManager.RemovePieceCategory` to no longer remove categories where a piece is still assigned to the category. This is to prevent problems with other mods that might still use this category 
+* Changed Manager Init() methods to be private and not callable by mods. They were not intended to be called by mods and could cause issues
+* Changed Mock resolve depth from 3 to 5, this should catch some edge cases where fields are nested deeper
+* Changed empty CustomLocalization constructor to be marked obsolete, LocalizationManager.Instance.GetLocalization() should be used instead
+* Fixed empty translation values where not allowed, thus a valid key can be translated to an empty string
+* Fixed translations not being added to the Localization instance if it was already initialized
+* Slightly improved loading time of big mod packs when creating custom entities (again)
+
+## Version 2.11.7
+* Added Valheim network version check to the disconnect window to better identify the cause of a disconnect. Only visible if both server and client are running Jotunn 2.11.7 or higher
+* Removed the Valheim version string check from the disconnect window, as the network version is used for the version check
+
+## Version 2.11.6
+* Fixed an issue with custom category tabs where the hammer menu wouldn't open when using a controller
+
+## Version 2.11.5
+* Fixed custom category tabs caused errors after relogging
+
+## Version 2.11.4
+* Added the magic string `(HiddenCategory)` to disabled category tab names, so other mods can detect them easier
+* Changed that vanilla tabs are always enabled for vanilla tools and only Jotunn managed and vanilla tabs can be disabled
+
+## Version 2.11.3
+* Compatible with Valheim version 0.214.300 and the upcoming 0.215.1 patch
+* Fixed a client with a different Valheim version will no longer be additionally disconnected by Jötunn. If the player was disconnected, a mismatching Valheim version will still be displayed
+* Fixed side-loaded localisations being loaded too early, causing translations to be added to the internal Jötunn localisation instead of the respective mod
+* Fixed custom hammer tabs had the wrong size when being localised
+* Fixed scroll of last custom hammer tab was not correct
+* Fixed a compatibility issue with Auga because of the changed hammer tabs
+* Slightly improved loading time of big mod packs by caching mod info used when creating custom entities
+
+## Version 2.11.2
+* Compatible with Valheim version 0.214.300
+
+## Version 2.11.1
+* Fixed KeyHints not being correctly destroyed when using inventories with containers
+* Fixed ItemManager.RemoveItem was not removing the item from the active ObjectDB if it already existed
+* Fixed an issue that caused client config values to not reset correctly when a mod used shared ConfigurationManagerAttributes/ConfigDescription with server enforced values
+
+## Version 2.11.0
+* Compatible with Valheim version 0.214.2
+* Added Norse fonts and additional colors to the GUIManger (thx SpikeHimself)
+* Added interface to remove a custom item conversion
+* Added reference to the BepInExPack 5.4.2100
+* Added reference to Unity.TextMeshPro in the NuGet package
+* Updated ConfigurationManagerAttributes to match BepInEx.ConfigurationManager v17.0
+* Updated the localization injection to be easier and removed the need to load vanilla translations a second time. Because the implementation concept changed, debug logs will no longer be printed
+* Fixed dropdown created with GUIManager.CreateDropDown was not in the correct UI layer, causing it to be wrongly rendered in VR (thx SpikeHimself)
+* Fixed calling LocalizationManager/CustomLocalization.TryTranslate() could cause the game localisation to be initialized too early
+* Fixed an error inside the ModQuery if a null prefab is inside ZNetScene or ObjectDB
+* Fixed an error caused by releasing a render texture too early
+* Fixed KeyHints for keyboard, Gamepad hints are still not working a 100%
+* Removed changing the hammer category tab width and removed re-parenting of the tab border for better compatibility
+
 ## Version 2.10.4
 * Fixed that same item conversions could not be added to different stations
 * Fixed custom skills names were not being added to autocomplete in cheat commands
@@ -45,7 +157,7 @@
 * Implemented hotfix for PlayFab connection issues (disables vanilla compression again, but works for now at least)
 
 ## Version 2.8.0
-* Compatible with patch version 0.211.11
+* Compatible with Valheim version 0.211.11
 * Fixed connection issues in Steam multiplayer with the latest Valheim patch. Crossplay (XBox multiplayer) is not working yet due to bigger changes, we are working on solving this issue
 * Marked PatchInit attribute as obsolete
 
@@ -100,7 +212,7 @@
 * Fixed JotunnBuildTask. This has no effect on the actual game but fixes the NuGet package upload, meaning the mod version and NuGet version match again
 
 ## Version 2.6.11
-* Compatible with patch version 0.209.8
+* Compatible with Valheim version 0.209.8
 * Fixed ModQuery has not cleared old prefabs, resulting in null instances
 
 ## Version 2.6.10
@@ -157,7 +269,7 @@
 * Jötunn's PrebuildTask does not generate MMHOOK dlls any more, publicized dlls can still be generated automatically.
 
 ## Version 2.6.0
-* Compatible with patch version 0.207.20
+* Compatible with Valheim version 0.207.20
 * KeyHint performance improvements
 * Fixed custom RPCs not routing to "self"
 * Fixed empty KeyboardShortcut saving (thx Heinermann)

@@ -1,0 +1,84 @@
+﻿# Example ItemConfig.yml
+# Do not forget to turn the YAML file on in the settings.
+
+# Predefined groups:
+# all, ore, metal, food, potions, woods, trophy, boss trophy, valuable, seed, crop, stackable.
+# pants, chest, helmet, cape, armor.
+# axes, clubs, knives, pickaxes, polearms, spears, swords, bows, crossbows, weapon, arrows, bolts, ammo.
+# round shield, tower shield, shield.
+# special (fishing rod and megingjord), tool, equipment.
+
+# Things you can change: amount, weight, weight factor, stack, stack factor, pickup, floating, teleportable, loss.
+# Things you can configure per world level: amount, pickup, teleportable, loss.
+
+# Note: If you are using mods that create custom items / prefabs, you might need to add and configure them
+#       explicitly by creating your own groups for those. Predefined groups only contain Valheim's original
+#       items. 
+
+# Define your own groups here and assign items via display name (or the internal ID) to your groups.
+# Hint: If you want to find the internal ID of an item, you can look it up in the wiki.
+# https://valheim.fandom.com
+# For custom items, please refer to the documentation of the mod that adds them.
+#
+# groups:
+#   My Group:
+#      - Display Name
+#      - InternalID
+
+# Examples:
+# groups:
+#   Huge Wood Gain:
+#     - Wood
+#     - Fine Wood
+#     - Core Wood
+#     - Ancient Bark
+
+# This will increase the default stack size for all items in this group by 50% (multiplied by 1.5).
+# Huge Wood Stacks:
+#   stack factor: 1.5
+
+all:
+  weight factor: 0.7
+
+# This will increase wood gained by 10%, until you reach the first world level.
+woods:
+  amount: 1.2
+
+stone:
+  amount: 1.3
+    
+# This will make dragon eggs teleportable.
+# dragon egg:
+#   teleportable: yes
+  
+# This will make silver ore lighter and increase the stack size.
+silver ore:
+  amount: 1.25
+
+tin ore:
+  amount: 1.3
+
+copper ore:
+  amount: 1.3
+
+iron scrap:
+  amount: 1.25
+
+coins:
+  amount: 1.2
+
+surtling core:
+  amount: 1.2
+  
+# This will make you keep your food in the inventory, if you happen to die.
+# food:
+#   loss: no
+  
+# This will stop your character from picking up Ooze automatically.
+# ooze:
+#   pickup: no
+  
+# This will make metal float in water and teleportable.
+# metal:
+#   floating: yes
+#   teleportable: yes

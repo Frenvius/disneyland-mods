@@ -1,0 +1,341 @@
+﻿creatureGender:
+  default: m
+  Greydwarf_Elite: f # Brute Naingris
+  Leech: f # Sangsue
+  Bonemass: f # Masse-d'Os
+  Neck: f # Nixe
+  BlobTar: f # Excroissance
+
+genderedCreatureTranslations:
+  m: '{name}[ {affix}][ {infusion}][ {effect}]'
+  f: '{name}[ {affix}e][ {infusion}e][ {effect}e]'
+
+genderedTranslations:
+  m:
+    Aggressive: aggressif
+    Curious: curieux
+    Regenerating: régénératif
+    Spirit: spirituel
+    Summoner: Invocateur
+    Elementalist: Elémentalist
+    Mending: Reconstitutif
+
+  f:
+    Aggressive: aggressiv
+    Curious: curieus
+    Regenerating: régénérativ
+    Spirit: spirituell
+    Summoner: Invocatric
+    Elementalist: Élémentalist
+    Mending: Reconstitutiv
+
+translations:
+  Armored: renforcé
+  Quick: rapide
+  Splitting: scindable
+
+  Fire: ardent
+  Frost: gelé
+  Lightning: foudroyant
+  Chaos: chaotique
+  Poison: empoisonné
+
+  Reflective: Réfléchissant
+  Shielded: Blindé
+  Mending: Régénératif
+  Enraged: Enragé
+  Twin: Dédoublé
+
+  CreatureSectorLevelIncrease: Les créatures proches de {player} gagnent en puissance pour venger la mort de leurs proches.
+  MinimapSectorLevel: 'Level du Secteur: {level}'
+  ConfigEditorSave: Appliquer et Sauvegarder
+  ConfigEditorApplyNoSave: Appliquer sans sauvegarder
+  ConfigEditorDiscard: Annuler et fermer
+  Edit Creature YAML config: Editer le config Creature YAML
+  Edit Item YAML config: Editer le config Item YAML
+  SummonerEikthyr: "{boss} Invocateur invoque {number} NainGris pour l'aider"
+  SummonerElder: "{boss} Invocateur invoque une Brute NainGris pour l'aider"
+  SummonerBonemass: "{boss} Invocateur invoque {number} Draugr Elite pour l'aider"
+  SummonerModer: "{boss} Invocateur invoque {number} Drakes pour l'aider"
+  SummonerYagluth: "{boss} Invocateur invoque une Brute Gobelin pour l'aider"
+  SummonerQueen: "{boss} Invocateur invoque {number} Fouineur pour l'aider"
+
+enumTranslations:
+  Toggle:
+    On: On
+    Off: Off
+  Difficulty:
+    Custom: Personnalisé
+    Very_easy: Très facile
+    Easy: Facile
+    Medium: Moyen
+    Hard: Difficile
+    Very_hard: Très difficile
+    Insane: Insane
+  CreatureSectorAnnouncementScope:
+    Local: Local
+    Global: Global
+    Off: Off
+  LootSystem:
+    Vanilla: Vanilla
+    Linear: Linéaire
+    CalculateChance: Chance Calculée
+    CalculateAmount: Montant Calculé
+  VisualLevelIndicator:
+    Off: Off
+    On: On
+    BossesOff: Off pour les Bosses
+    CreaturesOff: Off pour les Créatures
+  AllowedConsoleCommands:
+    CreatureCommands: Commandes de Créature
+    InformationCommands: Commandes d'information
+    None: Rien
+  VisualExtraEffectIndicator:
+    Color: Couleur
+    Text: Texte
+    Both: Couleur and Texte
+  DifficultySecondFactor:
+    None: Rien
+    Age_of_world: Utiliser l'age du monde
+    Distance: Utiliser la distance du spawn
+    BossesKilled: Utiliser le nombre de Boss tués
+  SpawnLevel:
+    None: Aucun
+    One: Un
+    Two: Deux
+    Three: Trois
+    Four: Quatre
+    Five: Cinq
+  CreatureSectorWorldLevel:
+    Disabled: Désactivé
+    None: Aucun
+    One: Un
+    Two: Deux
+    Three: Trois
+    Four: Quatre
+    Five: Cinq
+    Six: Six
+
+settingGroups:
+  General: Général
+  Creatures: Créatures
+  Loot: Loot
+  Bosses: Boss
+  Distance from Spawn: Distance du spawn
+  Age of world: Age du monde
+  Custom level chances: Chances de level personnalisé
+  Creature Affix chances: Chances de pouvoir pour les créatures
+  Creature Infusion chances: Chances d'infusion pour les créatures
+  Boss Affix chances: Chances de pouvoir pour les boss
+  Boss Affix power: Puissance du pouvoir pour les boss
+
+settings:
+  Lock Configuration:
+    display: Verrouillage de configuration
+    desc: La configuration est verrouillée et ne peut pas être modifiée par les clients. Uniquement actif pour les serveurs.
+  Use creature configuration yaml:
+    display: Utiliser le fichier YAML pour la configuration de créatures
+    desc: Lit le fichier CreatureConfig.yml s'il est présent. La configuration effectuée via le fichier YAML remplacera les paramètres du fichier de configuration par défaut. Pour tout ce qui n'est pas configuré dans le fichier YAML, le fichier de configuration par défaut sera toujours utilisé.
+  Use item configuration yaml:
+    display: Utiliser le fichier YAML pour la configuration d'items
+    desc: Lit le fichier ItemConfig.yml s'il est présent. La configuration effectuée via le fichier YAML remplacera les paramètres du fichier de configuration par défaut. Pour tout ce qui n'est pas configuré dans le fichier YAML, le fichier de configuration par défaut sera toujours utilisé.
+  HP increase per player in multiplayer (percentage):
+    display: Augmentation de HP par joueur en multijoueur (en pourcentage)
+    desc: Augmentation de la santé (en pourcentage) par joueur en multijoueurs pour les creatures et les boss.
+  DMG increase per player in multiplayer (percentage):
+    display: Augmentation des dégats en multijoueur (en pourcentage)
+    desc: Augmentation des dégats (en pourcentage) par joueur en multijoueurs pour les creatures et les boss.
+  Minimum player count for multiplayer scaling:
+    display: Nombre minimum de joueurs pour le calibrage multijoueurs
+    desc: Définit le nombre minimum de joueurs pour le calibrages des parties multijoueurs. Peut être plus grand que le nombre réel de joueurs pour augmenter la difficulté.
+  Maximum player count for multiplayer scaling:
+    display: Nombre maximum de joueurs pour le calibrage multijoueurs
+    desc: Définit le nombre maximum de joueurs pour le calibrages des parties multijoueurs. Peut être plus petit que le nombre réel de joueurs pour réduire la difficulté.
+  Player count to be added to the actual player count for multiplayer scaling (0 is disabled):
+    display: Nombre de joueurs supplémentaires pour le calibrage multijoueur
+    desc: Ajoute un nombre de joueurs définis au nombre de joueurs en cours afin d'ajuster le calibrage du multijoueurs. Le nombre de joueurs ne peut pas dépasser le nombre maximum de joueurs.
+  Multiplayer scaling per player range (0 is unlimited):
+    display: Distance maximale pour le calibrage multijoueur (0 est illimitée)
+    desc: Distance dans laquelle les autres joueurs doivent se trouver pour être pris en compte dans le calibrage du multijoueurs.
+  Nameplate display on mouseover range:
+    display: Distance maximale pour l'affichage du nom
+    desc: Distance maximale pour que le nom soit affiché au survol de la souris.
+  Visual indicators for level:
+    display: Affichage du niveau
+    desc: Peut être utilisé pour désactiver les indicateurs visuels pour le level des créature ou des boss, par ex. leurs étoiles ou leur couleur.
+  Console commands allowed to be used by users on a server:
+    display: Commandes de console autorisées
+    desc: Définit les commandes CLLC que les utilisateurs d'un serveur peuvent utiliser. Les administrateurs de serveur peuvent toujours utiliser toutes les commandes. N'a aucun effet si la configuration est déverrouillée (pour des raisons évidentes).
+  Detailed damage log:
+    display: Journal détaillé des dommages
+    desc: Permet l'enregistrement détaillé des dégâts pour chaque coup.
+  Difficulty:
+    display: Niveau de difficulté
+    desc: Définit les chances de level up pour toutes les créatures.
+  Second factor:
+    display: Deuxième facteur de difficulté
+    desc: Détermine le facteur qui augmente la probabilité de base des créatures de monter de niveau au cours du jeu.
+  Display circles on the map for distance from spawn option:
+    display: Afficher les cercles sur la carte pour la distance de l'option de spawn
+    desc: Afficher des cercles sur la carte pour la distance de spawn si celle-ci est utilisée comme deuxième facteur de difficulté..
+  Creatures can spawn with special effects:
+    display: Les créatures peuvent avoir des effets spéciaux
+    desc: Les créatures peuvent spawn avec des effets spéciaux, ce qui les rend beaucoup plus difficiles à tuer.
+  Visual indicator for special effects:
+    display: Indicateur visuel pour les effets spéciaux des créatures
+    desc: Modifie la façon dont l'indicateur visuel des pouvoirs des créatures est affiché.
+  Creatures can spawn with elemental infusions:
+    display: Les créatures peuvent être infusées élémentairement
+    desc: Les créatures peuvent spawn avec des infusions élémentaires, ce qui leur permet d'infliger des dégats élémentaires beaucoup plus élevés.
+  Add the infusion to the creatures name:
+    display: Afficher l'infusion élémentaire dans le nom
+    desc: Les créatures avec des infusions élémentaires ont celles-ci ajoutées à leur nom.
+  Brightness for the elemental infusions visual indicator (percentage):
+    display: Luminosité pour l'effet visuel de l'infusion élémentaire
+    desc: Définit la luminosité de l'effet visuel des flammes des créatures infusées d'éléments.
+  Minimum stars:
+    display: Nombre minimum d'étoiles
+    desc: Définit le nombre minimum d'étoiles pour toutes les créatures. N'affecte pas la difficulté personnalisée.
+  Maximum stars:
+    display: Nombre maximum d'étoiles
+    desc: Définit le nombre maximum d'étoiles pour toutes les créatures. N'affecte pas la difficulté personnalisée.
+  Time until creatures in dungeons respawn in minutes (0 means disabled, 30 is one ingame day):
+    display: Temps de respawn des créatures dans les donjons en minutes (0 = désactivé, 30 = un jour en jeu)
+    desc: Définit le temps de respawn des créatures dans les donjons. Le temps est donné en minutes. 0 signifie désactivé et 30 minutes correspondent à une journée de jeu.
+  Time until creatures in camps respawn in minutes (0 means disabled, 30 is one ingame day):
+    display: Temps de respawn des créatures dans les camps en minutes (0 = désactivé, 30 = un jour en jeu)
+    desc: Définit le temps de respawn des créatures dans les camps. Le temps est donné en minutes. 0 signifie désactivé et 30 minutes correspondent à une journée de jeu.
+  Creature size increase per star (percentage):
+    display: Redimensionnement des créatures par étoile (pourcentage)
+    desc: Augmente la taille des créatures à chaque étoile du pourcentage spécifié.
+  Increase creature size even in dungeons (where they might get stuck):
+    display: Redimensionnement des créatures dans les grottes
+    desc: Détermine si la taille des créatures doit aussi être augmentée dans les grottes. Lorsque les créatures deviennent trop grosses pour les passages étroits, elles peuvent rapidement se coincer.
+  Base health for creatures (percentage):
+    display: Santé de base pour les créatures (en pourcentage)
+    desc: Définit la santé de base pour toutes les créatures. Spécifié en pourcentage.
+  Health gained per star for creatures (percentage):
+    display: Augmentation de santé par étoile pour les créatures (en pourcentage)
+    desc: Détermine l'augmentation de santé par étoile pour toutes les créatures. Spécifié en pourcentage.
+  Base damage for creatures (percentage):
+    display: Dégâts de base pour les créatures (en pourcentage).
+    desc: Définit les dégats de base pour toutes les créatures. Spécifié en pourcentage.
+  Damage gained per star for creatures (percentage):
+    display: Augmentation des dégats par étoile pour les créatures (en pourcentage)
+    desc: Détermine l'augmentation des dégats par étoile pour toutes les créatures. Spécifié en pourcentage.
+  Base movement speed for creatures (percentage):
+    display: Vitesse de déplacement de base des créatures (en pourcentage)
+    desc: Définit la vitesse de déplacement de base pour toutes les créatures. Spécifié en pourcentage.
+  Base attack speed for creatures (percentage):
+    display: Vitesse d'attaque de base pour les créatures (en pourcentage)
+    desc: Définit la vitesse d'attaque de base pour toutes les créatures. Spécifié en pourcentage.
+  World level required to enable creature sectors:
+    display: Niveau minimal du monde requis avant que les secteurs de créatures ne deviennent actifs.
+    desc: Détermine le niveau minimum du monde avant que les secteurs de créature ne deviennent actifs.
+  Time until each creature sector is reset (0 is no reset):
+    display: Temps requit avant que les secteurs de créatures soient reset en minutes (0 = désactivé, 30 = un jour de jeu)
+    desc: Temps jusqu'à ce que les créatures dans les secteurs de créatures soient réinitialisées en minutes (0 est désactivé, 30 sont un jour dans le jeu).
+  Kills required in a sector for each bonus level:
+    display: Morts de créatures requises dans un secteur pour chaque niveau supplémentaire
+    desc: Nombre de créatures tuées dans un même secteur pour que le secteur level up.
+  Sets the scope for creature sector level up announcements:
+    display: Portée des annonces de level up de secteur de créature
+    desc: Définit la portée des annonces de level up de secteur de créature.
+  Duration of the map ping for creature sector level ups in seconds (0 is disabled):
+    display: Durée du ping sur la carte lors du level up d'un secteur de créature (en secondes)
+    desc: Ping la carte pour un level up de secteur créature. Temps en secondes. 0 signifie désactivé.
+  Displays the current creature sector level on the minimap:
+    display: Level du secteur de créature actuel sur la carte
+    desc: Affiche le niveau actuel du secteur de créature actuel sur la carte..
+  Loot system to be used:
+    display: Système de loot
+    desc: |
+      Définit le système de loot à utiliser.
+      Vanilla désactive complètement le système de loot de ce mod.
+      Linéaire: les items lootés sont multipliés par le level de la créature.
+      Chances calculée: Un sanglier a 50% de chances de laisser tomber 2 viandes, il en laissera soit 2, soit aucune.
+      Montant calculé: Un sanglier a 50% de chances de laisser tomber 2 viandes, il en laissera toujours 1.
+  Chance for additional loot per star for creatures:
+    display: Chance de loot supplémentaire par étoile pour les créatures
+    desc: Détermine à quel point les chances de loot supplémentaire par étoile sont élevées pour les créatures.
+  Chance for additional loot per star for bosses:
+    display: Chance de loot supplémentaire par étoile pour les boss
+    desc: Détermine à quel point les chances de loot supplémentaire par étoile sont élevées pour les boss.
+  Multiplier for dropped creature items:
+    display: Multiplicateur d'objets lootés par les créatures
+    desc: Spécifie le multiplicateur des objets lootés par les créatures.
+  Multiplier for dropped boss items:
+    display: Multiplicateur d'objets lootés par les boss
+    desc: Spécifie le multiplicateur des objets lootés par les boss.
+  Creatures can drop multiple trophies:
+    display: Les créatures peuvent looter plusieurs trophées
+    desc: Définit si les créatures peuvent looter plusieurs trophées.
+  Bosses can drop multiple trophies:
+    display: Les boss peuvent looter plusieurs trophées
+    desc: Définit si les boss peuvent looter plusieurs trophées.
+  Drop multiplier for passive creatures (like Seagulls and Crows):
+    display: Multiplicateur d'objets lootés par les créatures passives
+    desc: Spécifie le multiplicateur des objets lootés par les créatures passives comme les corbeaux et les mouettes.
+  Time until items in dungeons respawn in minutes (0 means disabled, 30 is one ingame day):
+    display: Temps pour que les objets des donjons respawn (en minutes) (0 = désactivé, 30 = un jour de jeu)
+    desc: Temps qui doit s'écouler dans le jeu avant que les grottes ne soient régénérées. 0 signifie désactivé et 30 minutes correspondent à une journée de jeu.
+  Bosses can spawn with special effects:
+    display: Boss spawn avec des pouvoirs spéciaux
+    desc: Les boss peuvent spawn avec des pouvoirs spéciaux, ce qui les rend beaucoup plus difficiles à tuer.
+  Use creature level chances for bosses:
+    display: Chances de level de créature pour les boss
+    desc: Détermine si les boss doivent avoir la même chance de niveau que les créatures. Sinon, les chances de level personnalisé pour les boss seront utilisées.
+  Star chances for bosses (percentages):
+    display: Chance de level personnalisé pour les boss
+    desc: Définit les chances de level personnalisé pour les boss. Commence à 1 étoile, de gauche à droite, jusqu'à autant d'étoiles souhaitées. La chance 0 étoile sera automatiquement calculée à partir du reste.
+  Boss size increase per star (percentage):
+    display: Augmentation de la taille des boss par étoile (en pourcentage)
+    desc: Augmente la taille des boss par étoile (en pourcentage).
+  Health gained per star for bosses (percentage):
+    display: Augmentation de santé par étoile pour les boss (en pourcentage)
+    desc: Détermine l'augmentation de santé par étoile pour tous les boss. Spécifié en pourcentage.
+  Damage gained per star for bosses (percentage):
+    display: Augmentation de dégats par étoile pour les boss (en pourcentage)
+    desc: Détermine l'augmentation de dégats par étoile pour tous les boss. Spécifié en pourcentage.
+  World level {level} start (days):
+    display: Le level mondial {level} commence (days)
+    desc: Jours nécessaires avant que votre monde atteigne le level {level}.
+  Distance from spawn for level {level} start:
+    display: Distance du spawn pour que le level {level} commence
+    desc: Définit la distance du spawn pour que le level {level} commence. Le radius d'un monde par défaut est 10500.
+  Chances for stars at world level {level} (percent):
+    display: "Chance de trouver des créatures avec un certain nombre d'étoiles en pourcentage au level mondial {level}"
+    desc: "Chances d'étoiles au niveau mondial {level} en pourcentage. Autant d'étoiles que vous voulez de gauche à droite, séparées par des virgules. Commence à 1 étoile. La chance 0 étoile sera automatiquement calculée en utilisant le reste. Exemple: 30, 5.5, 2.25, 5, 10, 10, 3"
+  Chance for {effect} effect to spawn (percentage):
+    display: Chance de spawn des créatures avec l'effet {effect} (en pourcentage)
+    desc: Détermine la chance de rencontrer une créature {effet}e. Spécifié en pourcentage.
+  Chance for {infusionDescription} infusion to spawn (percentage):
+    display: Chance de spawn des créatures avec l'infusion {infusionDescription} (en pourcentage)
+    desc: Détermine la chance de rencontrer une créature avec l'infusion {infusionDescription}. Spécifié en pourcentage.
+  Multiplier for infusion chances per star:
+    display: Multiplicateur d'infusion élémentaire par étoile
+    desc: Multiplicateur appliqué aux chances de base de spawn des infusions en fonction du nombre d'étoiles de la créature. Chances pour chaque nombre d'étoiles, de gauche à droite, séparées par des virgules. Commence à 0 étoile. La valeur par défaut est 1.
+  Chance for {affix} affix to spawn (percentage):
+    display: Chance de spawn des boss avec pouvoirs {affix} (en pourcentage)
+    desc: Détermine la probabilité qu'un boss soit un boss {affix}. Spécification en pourcentage.
+  Reflective base damage:
+    display: Dégats de base par coup du boss Réfléchissant
+    desc: Spécifie les dégats de base renvoyés par les boss Réfléchissants.
+  Shielded damage reduction (percentage):
+    display: Réduction des dégats des flèches en pourcentage du boss Blindé
+    desc: Spécifie la réduction des dégats des flèches en pourcentage des boss Blindés.
+  Mending healing factor:
+    display: Multiplicateur du boss Réconstitutif
+    desc: Définit le taux de régénération pour la régénération des boss Réconstitutifs.
+  Number of summons for Summoners:
+    display: Nombre d'invocations du boss Invocateur
+    desc: Spécifie la fréquence d'invocations des boss Invocateurs.
+  Elementalist damage increase (percentage):
+    display: Augmentation des dégâts élémentaires du boss Élémentaliste
+    desc: Spécifie l'augmentation des dégâts élémentaires des boss Élémentalistes.
+  Enraged damage increase (percentage):
+    display: Augmentation des dégâts physiques du boss Enragé
+    desc: Spécifie l'augmentation des dégâts physiques des boss Enragés.
+  Twin damage and health (percentage):
+    display: Santé et dégats du boss Dédoublé
+    desc: Spécifie la santé et dégats des boss Dédoublés.

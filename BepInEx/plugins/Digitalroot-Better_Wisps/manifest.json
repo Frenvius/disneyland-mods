@@ -3,10 +3,10 @@
   "name": "Better_Wisps",
   "author": "Digitalroot",
   "description": "Make the Wisp do a better job. ",
-  "version_number": "1.0.0",
+  "version_number": "1.0.20",
   "dependencies": [
-    "denikson-BepInExPack_Valheim-5.4.1901",
-    "ValheimModding-Jotunn-2.10.0"
+    "denikson-BepInExPack_Valheim-5.4.2105",
+    "ValheimModding-Jotunn-2.11.5"
   ],
   "website_url": "https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.BetterWisps"
 }

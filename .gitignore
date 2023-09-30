@@ -1,0 +1,7 @@
+_state/
+BepInEx/LogOutput.log
+BepInEx/cache/
+BepInEx/logs
+BepInEx/patchers
+
+changelog.txt

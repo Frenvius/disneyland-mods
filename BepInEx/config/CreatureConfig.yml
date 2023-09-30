@@ -1,0 +1,300 @@
+# Example yaml file. Feel free to customize this. Everything that is not defined in this file will use the configuration file instead.
+# Find some detailed documentation at the bottom of this file.
+
+# Define your own groups here and assign creatures to your groups. There are default groups for all biomes, which do not have to be created by you, unless you want to assign different creatures to it.
+# Special groups: all, creature, boss
+groups:
+  My Plains Group:
+    - Deathsquito
+    - Fuling Berserker
+    - Lox
+  Strong Enemies:
+    - Troll
+    - Fuling Berserker
+    - Lox
+  My Bosses:
+    - The Elder
+    - Moder
+
+# Set the level up chances for each of your groups here. Start with world level 0 and define the different chances in percent from left to right, starting with 1 star.
+# This will set the level up chances for the Meadows biome und will also disable the Armored effect and the Chaos infusion until you reach world level 2 in this biome.
+Meadows:
+  stars:
+    0: [10, 2]
+    1: [15, 5, 1]
+    2: [18, 8, 2, 0.3]
+    3: [22, 10, 3, 0.5, 0.3]
+    4: [25, 12, 5, 1, 0.5]
+    5: [30, 15, 8, 3, 1]
+  effect:
+    Armored: 0
+  infusion:
+    0:
+      Chaos: 0
+    1:
+      Chaos: 0
+    2:
+      Chaos: default
+
+# Overrides the level chances in Black Forest, to make them more likely to spawn with stars than in Meadows.
+Black Forest:
+  stars:
+    0: [12, 2]
+    1: [17, 5, 1]
+    2: [20, 8, 2, 0.3]
+    3: [24, 10, 3, 0.5, 0.3]
+    4: [27, 12, 5, 1, 0.5]
+    5: [32, 15, 8, 3, 1]
+
+# You can use the 'default' key word to use the configuration from the configuration file for a specific setting. This will use the default configuration for world level 0, but set a custom level up chance for world level 1.
+Mountain:
+  stars:
+    0: default
+    1: [15, 3, 2]
+
+# This will make the Poison infusion more likely in the Swamp biome, the higher your world level and the higher the creatures level.
+Swamp:
+  infusion:
+    0:
+      Poison: [5, 10, 15, 20, 25]
+    1:
+      Poison: [10, 15, 20, 25, 30]
+    2:
+      Poison: [15, 20, 25, 30, 35]
+    3:
+      Poison: [20, 25, 30, 35, 40]
+    4:
+      Poison: [25, 30, 35, 40, 45]
+    5:
+      Poison: [30, 35, 40, 45, 50]
+
+# You can use your own groups just like you can use the default groups. This will limit the level for the strong creatures that I assigned to the 'My Plais Group' at the top.
+My Plains Group:
+  stars:
+    0: [10, 1]
+    1: [11, 2]
+    2: [15, 3]
+
+# You can also set a specific configuration for one creature or boss only. This will limit the level for the serpent and prevent it from spawning with the Armored or Quick effect.
+Serpent:
+  stars:
+    0: [30]
+    1: [30, 10]
+    2: [30, 10, 5]
+  effect:
+    Armored: 0
+    Quick: 0
+
+# This will prevent Deers from having their size increased per level and will double the loot you get from Deers with at least 2 stars, until you reach world level 1.
+Deer:
+  size: 0 # size: 0 means no size increase per star, size: 0.5 would increase the size by 50% per star.
+  loot:
+    0: [1, 1, 2]
+    1: default
+
+# This makes Boars deal 10% increased base damage, but reduces the damage gained per star to 10%.
+Boar:
+  damage: 1.1
+  damage per star: 0.1
+
+# This increases the damage and health for wolves by 30%, if they are tamed. 'damage' is a multiplier for base damage; 'damage per star' adds extra damage for each star. 'health' and 'health per star' work similarly.
+Wolf:
+  tamed:
+    health: 1.3
+    damage: 1.3
+
+# You can use 'movement speed' to adjust the base movement speed for creatures. This will slow down Deathsquitos a little bit.
+Deathsquito:
+  movement speed: 0.9
+
+# This will prevent Eikthyr from spawning with the mending affix, if it has more than 1 star, if the world level is still 0, but enables the Mending affix for higher level Eikthyr, if the world level is at least 1. For higher stars, the last value will always be used.
+Eikthyr:
+  affix:
+    0:
+      Mending: [10, 0]
+    1:
+      Mending: [10]
+
+# Increases bow damage against Moder by 10%, but reduces elemental damage taken by 5%. 'damage taken' can have a lot of keys: All, Fire, Frost, Poison, Lightning, Spirit, Elemental, Blunt, Slash, Pierce, Chop, Physical, Knives, Bows, Swords, Spears, Pickaxes, Axes, Clubs, Polearms, Weapons, Unarmed.
+Moder:
+  damage taken:
+    Bows: 1.1
+    Elemental: 0.95
+
+# Make Fulings, which spawn in the Meadows take 10% increased damage and deal 10% less damage. Also reduces their attack speed by 10%, if they didn't spawn in the Meadows, but resets their attack speed.
+Fuling:
+  attack speed: 0.9
+  Meadows:
+    damage: 0.9
+    damage taken: 1.1
+    attack speed: 1
+
+# If you have the sectors feature active, you can increase how much some enemies count against the sector level up limit with 'sector.count' and define their leveling up thresholds individually with 'sector.stars'. In this example, this will count each enemy of this group like three other enemies were killed and gain their first star if the sector counter reaches 50. Second star upon reaching 100.
+Strong Enemies:
+  sector:
+    count: 3
+    stars: [50, 100]
+    
+    
+# General documentation:
+#
+# When evaluating a config file, first creature names (internal name, English name or name in the current localization) in the game are evaluated, then custom groups, then the internal biome groups (e.g. Meadows, Black Forest, ... with the same localizations), then special groups 'creature' and 'boss', and finally the special group 'all'.
+# Custom groups are evaluated by their degree of nesting, then by order of definition in the config file.
+#
+# Custom groups can be defined via the special top-level key 'groups'. It expects a mapping of group names to a list of creature names.
+#
+# Each top-level definition (i.e. groupname: ... or creaturename: ...) can have all the attributes. Most of these attributes can be used conditionally, so that they only apply if a specific set of conditions is met. These conditions can be nested.
+#
+# The possible conditions are, in order of evaluation:
+#   - Tamed
+#   - Dungeon
+#   - [Any (possibly localized) name of a biome, e.g. 'Meadows', 'Black Forest', ...]
+#   - Day
+#   - Night
+# Additionally there is a special condition named 'Override', which has the highest priority. That condition will be applied unconditionally and can be used to overwrite any conditionally applied values by another group.
+# Attributes defined without condition are evaluated last.
+#
+# These conditions can also be nested. As an example, given a group Easier Meadows At Day which includes Greylings:
+
+Easier Meadows At Day:
+  Meadows:
+    Day:
+      health: 0.5
+      damage: 0.7
+
+Greyling:
+  health: 1.5 # This will not apply during the day in the Meadows, because the conditions of Easier Meadows At Day get evaluated first
+  Override:
+    damage: 0.5 # This will always apply
+
+# 
+# There is a whole lot of attributes; all of the attributes can be distinguished by world level, some of them also by the number of stars the creature or boss has. All attributes which can be defined per star are marked with an asterisk: (*). To define star specific values, use an array of values: the first value of the array means this value at zero stars, the second value at one star and so on.
+# Note that creature effect( power)s do not apply to zero-star creatures, so in this case the first value is used for one star creatures, the second for two star creatures etc.
+#
+# The general structure of attributes looks like:
+# Group or Creature Name:
+#   condition 1:
+#     condition 2:
+#       attribute active if condition 1 and 2 are true: value
+#      attribute active if condition 1 is true: [value 1, value 2, value 3] # 0 stars: value 1; 1 star: value 2, 2 stars and more: value 3 (some exceptions apply, described with the individual attributes)
+#    default Attributes:
+#      0: value for world level 0
+#      1: value for world level 1 to 3
+#      4: value for world level equal or greater than 4
+#
+# All values above can be an array as well.
+#
+# Certain attributes define a set of probabilities, in particular 'stars', 'effect', 'affix' and 'infusion'. The probabilities are specified as values between 0 and 100. The sum of these probabilities (for any given amount of stars and world level) may not exceed 100 (otherwise you will get a warning about this and it will not behave as expected).
+# Except for 'loot per star', all 'per star' attributes extend the highest defined value. As an example with 'damage: [1, 2]' and 'damage per star: 0.5', enemies with 0 stars will have default damage, those with 1 stars double damage, with 2 stars 2.5 times the damage, with 3 stars 3 times the damage and so on.
+# Some attributes expose a set of keys (marked with (°)), there always also is an implicit key 'other' which allows to set a probability split evenly between all not explicitly mentioned keys. E.g. 'infusion: { fire: 10, other: 20 }' will give a 10% chance to have a fire infusion, a 20% chance to have any of the other infusions and a 70% chance to have no infusion at all.
+#
+# The attributes:
+# - stars
+#   Sets a fixed level or probabilities to spawn a creature at a specific number of stars. To specify probabilities use an array of numbers whose sum does not exceed 100. The first number in the array specifies the probability to spawn a creature with 1 star. The second number to spawn a creature with 2 stars and so on. The probability to spawn a creature with zero stars is equal to the remainder of the sum of all other probabilities. E.g. with a probability array [50, 20] there is a 50% chance to spawn an 1 star crearure, a 20% chance to spawn a 2 stars creature and a 100% - 50% - 20% = 30 % chance to spawn a 0 star creature.  
+#
+# - loot (*)
+#   A multiplier on how many items are dopped by an enemy. 0 causes the enemy to never drop anything, 1 is the base drop rate at zero stars. As an example, 2.6 will triple the amount of loot with a 60% probability, otherwise double it.
+#   Overrides any per star loot configuration. This attribute is ignored if the configured Loot system is 'Vanilla'.
+#
+# - loot per star
+#   Overrides the 'Chance for additional loot per star for bosses/creatures' settings. 0 does not increase the loot at all. 1 multiplies the loot by the amount of stars.
+#   This attribute is ignored if the 'loot' attribute is specified (and not 'default') or if the configured Loot system is 'Vanilla'.
+#
+# - size
+#   Defines by how much the size increses per star. 0 does not increase the size at all. 1 would increase the size by 100% with each star. (I recommend chosing a value near 0, the default is 0.1.)
+#
+# - health (*)
+#   Defines a multiplier changing the base health. 1 leaves the health unchanged.
+#
+# - health per star
+#   Defines a value mutiplied by the number of stars, then added to the base health multiplier.
+#
+# - damage (*)
+#   Defines a multiplier changing the base damage. 1 leaves the damage unchanged. Can be configured by attack type, see below for all types.
+#
+# - damage per star
+#   Defines a value mutiplied by the number of stars, then added to the base damage multiplier.
+#
+# - damage taken (*)
+#   Defines a multiplier changing the damage received. 1 leaves the damage unchanged. Can be configured by attack type, see below for all types.
+#
+# - attack speed (*)
+#   Defines a multiplier changing the base attack speed. 1 leaves the attack speed unchanged.
+#
+# - attack speed per star
+#   Defines a value mutiplied by the number of stars, then added to the base attack speed multiplier.
+#
+# - movement speed (*)
+#   Defines a multiplier changing the base movement speed. 1 leaves the movement speed unchanged.
+#
+# - movement speed per star
+#   Defines a value mutiplied by the number of stars, then added to the base movement speed multiplier.
+#
+# - amount (*)
+#   Defines a factor how many creatures to spawn for each creature spawned by the game. Does nothing if equal to 1. Prevents spawning creatures with a certain chance if lower than 1. Allows for multiple creatures spawning if greater than 1.
+#
+# - effect (*) (°)
+#   Can be used to override the default probabilities of the creature extra effects. See below for a list of creature effects.
+#   As zero star creatures cannot have creature effects, when defined as a list of values, the first value describes the effect proability for 1 star creatures, the second for 2 star creatures and so on.
+#   If this attribute is specified without effect name, it is equivalent to defining 'other', i.e. 'effect: 50' is equal to 'effect: {other: 50}'.
+#
+# - effect power (*)
+#   Can be used to modify the default effect powers. See below for details.
+#
+# - affix (*) (°)
+#   Can be used to override the default probabilities of the boss affixes. See below for a list of boss affixes.
+#
+# - affix power (*)
+#   Can be used to modify the default affix powers. See below for details.
+#
+# - infusion (*) (°)
+#   Can be used to override the default probabilities of the creature infusions. Currently available infusions are: Lightning, Fire, Frost, Poison, Chaos, Spirit.
+#
+# - sector
+#   This attribute has sub-attributes:
+#    - count (*)
+#      Sets the increase towards the kill counter in a creature sector upon death. The default is 1.
+#    - stars
+#      If not a list of values (i.e. a simple number), it defines a multiplicator. For example 'sector.stars: 2' would add 2 extra stars at sector level 1, 4 extra stars at sector level 2 etc.. If it is a list of numbers it determines the thresholds at what kill count the creature will gain extra stars. As an example 'sector.stars: [10, 20, 50]' will increase the creature level by 1 above 10 kills, by 2 above 20 kills and by 3 above 50 kills.
+#
+# The 'default' keyword can be used, to apply the default configuration from the cfg file for values.
+# For example, this will make all greylings spawn with 0 stars at world level 0 and will use the level up chances from the cfg file starting at world level 1:
+# Greyling:
+#  stars:
+#     0: 0
+#     1: default
+#
+# If you would leave out the 1: default, the configuration for world level 0 would be active for all world levels equal or greater than 0.
+#
+# The attributes 'damage' and 'damage taken' can be configured by weapon and attack type. When multiple types (e.g. Bows and Fire on a fire arrow) match, their values are multiplied together. 
+# Valid damage types are: All, Fire, Frost, Poison, Lightning, Spirit, Elemental, Blunt, Slash, Pierce, Chop, Physical, Knives, Bows, Crossbows, ElementalMagic, BloodMagic, Swords, Spears, Pickaxes, Axes, Clubs, Polearms, Weapons, Unarmed
+#
+# The attributes 'effect' and 'effect power' can be configured individually per effect:
+# - Aggressive
+#   The default aggressive power is 0.5. 0 is not aggressive at all, 1.5 is extremely aggressive. This value affects attack interval and circling distance, duration and interval differently.
+# - Quick
+#   By default quick creatures movement speed is increased by 0.4. 0 is no movement speed change, 1 is double the movement speed.
+# - Regenerating
+#   By default the regenation rate of creatures is 1.5 times a factor depending on base health and stars. 0 is no regeneration at all.
+# - Curious
+#   Curious creatures always have 360° view. By default the hear and view ranges are increased by a factor of 1 (i.e. doubled). 0 does not modify the range at all.
+# - Splitting
+#   Splitting always spawns at least 2 creatures. The default of 2 means that both spawned creatures have each the splitting effect. A value of 0 means none of the creatures will be splitting (except as randomly determined by the probabilities of the 'effect' attribute). A value of 1.5 would mean one guaranteed splitting creature and with a 50% probability the second spawned creature is also splitting. A value greater than 2 will spawn additional creatures. E.g. a value of 3.4 will spawn 3 splitting creatures and with a probability of 40% a fourth creature.
+# - Armored
+#   This sets the multiplier applied to attacks against armored creatures. By default it is 0.33, i.e. the damage of the attack is only 33%. 0 is no damage received at all, 1 is full damage applied.
+#
+# The attributes 'affix' and 'affix power' can be configured individually per affix:
+# - Reflective
+#   Multiplicator for the reflective damage. 1 leaves the reflective damage unchanged.
+# - Shielded
+#   Reduction of the damage received by shielded bosses. 0 is no damage reduction. 1 ignores any damage. 0.5 would reduce damage by half.
+# - Mending
+#   Multiplier applied to a factor depending on base health and stars determining the creature regeneration per second.
+# - Summoner
+#   How often a boss summons a creature during a fight (in equal intervals). 1 is a single summon. 2 will do a summon on first hit and when falling below 50% health. 
+# - Elementalist
+#   Increase for all elemental damage. 0 leaves the elemental damage unchanged. 1 doubles the damage.
+# - Enraged
+#   Increase for all physical damage. 0 leaves the physical damage unchanged. 1 doubles the damage.
+# - Twin
+#   Multiplicator for health and damage of both twin bosses. 1 retains the default health and damage. 0.5 halves the shared health pool and their damage done.

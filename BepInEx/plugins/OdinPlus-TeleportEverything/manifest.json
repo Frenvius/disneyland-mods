@@ -1,9 +1,0 @@
-﻿{
-  "name": "TeleportEverything",
-  "description": "This mod is intended to add additional excitement and functionality to the portal system. Teleport wolves, boars, loxes and other allies. Transport ores, ingots and even take enemies with you, or block players teleporting when enemies are nearby.",
-  "version_number": "2.2.0",
-  "website_url": "https://www.nexusmods.com/valheim/mods/1806",
-  "dependencies": [
-    "denikson-BepInExPack_Valheim-5.4.1900"
-  ]
-}

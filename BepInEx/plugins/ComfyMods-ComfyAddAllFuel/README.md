@@ -6,6 +6,10 @@
 * When using the facility normally (default: E), fuel is fed one by one.
 * When using the facility, pressing the modifier key (default: Left Shift) will load the fuel, etc. in batches.
 
+## Incompatibility
+
+* Mod is currently incompatible with ColorfulPortals v1.5.0 and below unless the _global IsModEnabled is set to false (disabled).
+
 ## Description
 
 * If there is no fuel in the player's inventory, fuel can be injected in batches from containers.
@@ -62,10 +66,15 @@
 
 ### Comfy Version Update
 
+### 1.7.1
+
+  * Removed unnecessary logging statements.
+
 ### 1.7.0
 
   * Added compatibility for mistlands by updating GetItem(string) to GetItem(string, int, bool)
-  * Added compatibility for mistalnds by updating Smelter.OnAddFuel and Smelter.OnAddore signatures
+  * Added compatibility for mistlands by updating Smelter.OnAddFuel and Smelter.OnAddore signatures
+  * Refactor patches into patch folder and respective Object.cs files
 
 ### 1.6.3
 

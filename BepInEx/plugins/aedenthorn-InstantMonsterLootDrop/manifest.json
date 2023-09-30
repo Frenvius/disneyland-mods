@@ -1,9 +1,0 @@
-{
-    "name": "InstantMonsterLootDrop",
-    "version_number": "0.4.0",
-    "website_url": "https://www.nexusmods.com/valheim/mods/164",
-    "description": "Causes monsters to drop their loot and poof immediately. Created byaedenthorn",
-    "dependencies": [
-        "denikson-BepInExPack_Valheim-5.4.800"
-    ]
-}

@@ -2,10 +2,10 @@
   "name": "PotionPlus",
   "author": "OdinPlus",
   "description": "Adds several potions to the game, now with improved skills, new potions, new config options, and server sync!!",
-  "version_number": "4.1.9",
+  "version_number": "4.1.11",
   "website_url": "https://github.com/blaxxun-boop/PotionsPlus",
   "dependencies": [
-    "denikson-BepInExPack_Valheim-5.4.1901"
+    "denikson-BepInExPack_Valheim-5.4.2105"
    ]
 
 }

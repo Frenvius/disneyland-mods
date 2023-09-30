@@ -1,0 +1,9 @@
+{
+    "name": "CreatureLevelAndLootControl",
+    "version_number": "4.5.12",
+    "website_url": "",
+    "description": "Puts YOU in control of creature level and loot!",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2105"
+    ]
+}

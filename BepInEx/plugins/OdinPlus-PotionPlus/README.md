@@ -4,7 +4,9 @@
 
 <p>
 
-# Fixed ItemManager for Mistlands support, big changes planned for PotionsPlus in the next few weeks.  
+# Important - PotionsPlus is no longer compatible with ValheimPlus, please use <a href="https://github.com/AzumattDev/Valheim-Plus-Replacements">Replacements</a> for the mod. 
+
+# MagicOverhaul potions have been removed.
 
 # Crossplay server sync support added for Gamepass PC players and servers using -crossplay, 
 
