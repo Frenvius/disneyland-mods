@@ -38,6 +38,8 @@
 #   stack factor: 1.5
 
 all:
+  floating: yes
+  teleportable: yes
   weight factor: 0.7
 
 # This will increase wood gained by 10%, until you reach the first world level.
