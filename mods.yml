@@ -1494,4 +1494,26 @@
     minor: 2
     patch: 3
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Azumatt-AzuCraftyBoxes\1.2.3\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-AzuCraftyBoxes\icon.png
+- manifestVersion: 1
+  name: TastyChickenLegs-BedRules
+  authorName: TastyChickenLegs
+  websiteUrl: https://valheim.thunderstore.io/package/TastyChickenLegs/BedRules/
+  displayName: BedRules
+  description: Sleep with a buddy, sleep without spawn, Ignore fire, enemies and
+    wet.  Sleep when you want!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2102
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 4
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\TastyChickenLegs-BedRules\1.0.4\icon.png
