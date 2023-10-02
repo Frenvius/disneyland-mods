@@ -1,0 +1,9 @@
+{
+    "name": "NoAFKEvents",
+    "version_number": "1.0.2",
+    "website_url": "https://www.nexusmods.com/valheim/mods/1860",
+    "description": "Prevent random events/raids from happening around AFK players.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2105"
+    ]
+}
