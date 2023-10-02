@@ -1,0 +1,9 @@
+{
+  "name": "DestroyCartAndBoat",
+  "version_number": "1.0.0",
+  "website_url": "",
+  "description": "You want to destroy the car and the ships fast as if it were a structure. This mod will allow you to destroy them.",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2105"
+  ]
+}

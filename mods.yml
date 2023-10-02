@@ -1582,4 +1582,26 @@
     minor: 0
     patch: 2
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\GemHunter1-NoAFKEvents\1.0.2\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\GemHunter1-NoAFKEvents\icon.png
+- manifestVersion: 1
+  name: HalderModding-DestroyCartAndBoat
+  authorName: HalderModding
+  websiteUrl: https://valheim.thunderstore.io/package/HalderModding/DestroyCartAndBoat/
+  displayName: DestroyCartAndBoat
+  description: You want to destroy the car and the ships fast as if it were a
+    structure. This mod will allow you to destroy them.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2105
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\HalderModding-DestroyCartAndBoat\1.0.0\icon.png
