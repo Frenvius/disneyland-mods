@@ -41,7 +41,7 @@
     minor: 14
     patch: 3
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\ValheimModding-Jotunn\2.14.3\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\ValheimModding-Jotunn\icon.png
 - manifestVersion: 1
   name: OdinPlus-Clutter
   authorName: OdinPlus
@@ -407,15 +407,16 @@
   installMode: managed
   loaders: []
   dependencies:
-    - ValheimModding-Jotunn-2.12.4
+    - ValheimModding-Jotunn-2.14.0
+    - denikson-BepInExPack_Valheim-5.4.2200
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 2
     minor: 0
-    patch: 2
+    patch: 3
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\BentoG-MissingPieces\2.0.2\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\BentoG-MissingPieces\2.0.3\icon.png
 - manifestVersion: 1
   name: Chamberland_made_this-Shut_it_Hugins
   authorName: Chamberland_made_this
