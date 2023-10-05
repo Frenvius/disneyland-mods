@@ -4469,7 +4469,7 @@
                 Translate a <see cref="T:Jotunn.Managers.InputManager.GamepadButton"/> to its <see cref="T:UnityEngine.KeyCode"/> value
             </summary>
         </member>
-        <member name="M:Jotunn.Managers.InputManager.GetGamepadAxis(Jotunn.Managers.InputManager.GamepadButton)">
+        <member name="M:Jotunn.Managers.InputManager.GetGamepadInput(Jotunn.Managers.InputManager.GamepadButton)">
             <summary>
                 Translate a <see cref="T:Jotunn.Managers.InputManager.GamepadButton"/> to its axis string value
             </summary>
@@ -4477,6 +4477,11 @@
         <member name="M:Jotunn.Managers.InputManager.GetGamepadString(Jotunn.Managers.InputManager.GamepadButton)">
             <summary>
                 Translate a <see cref="T:Jotunn.Managers.InputManager.GamepadButton"/> to its printable string value
+            </summary>
+        </member>
+        <member name="M:Jotunn.Managers.InputManager.GetGamepadButton(GamepadInput)">
+            <summary>
+                Translate an axis string to its <see cref="T:Jotunn.Managers.InputManager.GamepadButton"/> value
             </summary>
         </member>
         <member name="M:Jotunn.Managers.InputManager.GetGamepadButton(System.String)">

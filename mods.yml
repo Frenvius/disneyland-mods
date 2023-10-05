@@ -15,7 +15,7 @@
   versionNumber:
     major: 5
     minor: 4
-    patch: 2105
+    patch: 2200
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\core\icon.png
 - manifestVersion: 1
@@ -33,15 +33,15 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2105
+    - denikson-BepInExPack_Valheim-5.4.2200
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 2
     minor: 14
-    patch: 2
+    patch: 3
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\ValheimModding-Jotunn\2.14.2\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\ValheimModding-Jotunn\2.14.3\icon.png
 - manifestVersion: 1
   name: OdinPlus-Clutter
   authorName: OdinPlus
