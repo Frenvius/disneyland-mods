@@ -6,6 +6,16 @@ Marine animals arrived in Valheim (Orca, Dolphins, Sharks, Crocodile, Turtles, S
 Meats can be prepared in any cooking station (Vanilla).</br>
 Only Orca and Dolphin can be tamed, ridden and reproduced. For the reproduction of orcas and dolphins a minimum depth of 5m is required</br>
 
+## Support
+
+Did you like my Mods? If you want to support me click on the image link below:</br>
+
+<a href="https://marlthon.com/spontaneous-donation"><img src="https://i.ibb.co/kJqcqkg/Pay-Pal-Donate.png" /></a>
+
+*Any donation help me to continue creating and updating mods. Thank you very much for your support.**
+
+<p align="center"><a href="https://marlthon.com/custom-mods"><img src="https://i.ibb.co/YTJ91SF/Banner-Custom-Mods.png" /></a></p>
+
 <details>
 <summary><b>Sea Animals PrefabNames</b> (<i>click to expand</i>)</summary>
 <br/>
@@ -66,16 +76,7 @@ Only Orca and Dolphin can be tamed, ridden and reproduced. For the reproduction 
 	
 </details>
 
-## Support
-
-Did you like my Mods? If you want to support me click on the image link below:</br>
-
-<a href="https://marlthon.com/spontaneous-donation"><img src="https://i.ibb.co/kJqcqkg/Pay-Pal-Donate.png" /></a>
-
-*Any donation help me to continue creating and updating mods. Thank you very much for your support.**
-
 <p align="center"><img src="https://i.ibb.co/FDgCkWx/Mosaico-Sea-Animals.jpg"></p>
-
 
 # Thanks
 
@@ -99,8 +100,11 @@ A special thanks to my Professor <i>@GraveBear</i>, without his teachings and hi
 
  # Latest ChangeLog
 
-	v0.2.0
-	- Fixed issues with JellyFish death.
+	v0.2.1
+	- Updated for Valheim 0.217.22.
+	- Updated for BepInEx 5.4.22.
+	- Updated ServerSync to v1.15.
+	- Updated PieceManager to v1.1.4.
  
 <details>
 <summary><b>Previous ChangeLog</b> (<i>click to expand</i>)</summary>
@@ -171,4 +175,7 @@ A special thanks to my Professor <i>@GraveBear</i>, without his teachings and hi
 	v0.1.9
 	- Added Jellyfish
 	- Fixed little bugs.
+	
+	v0.2.0
+	- Fixed issues with JellyFish death.
 </details>

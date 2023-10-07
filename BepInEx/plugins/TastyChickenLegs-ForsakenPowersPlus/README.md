@@ -46,6 +46,11 @@ Config file will be generated in the Bepinex\Config folder.
 
 **Versions**
 
+- 1.3.6
+
+- updated for Valheim 0.271.22
+
+
 - 1.3.5
 
 Updated to work with Hildir's Request

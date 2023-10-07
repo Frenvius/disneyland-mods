@@ -14,6 +14,23 @@ This mod is another in the iteration of me trying to pull more and more things o
 
 ---
 
+> ## Installation Instructions
+***You must have BepInEx installed correctly! I can not stress this enough.***
+
+#### Windows (Steam)
+
+1. Locate your game folder manually or start Steam client and :
+
+* Right click the Valheim game in your steam library
+* "Go to Manage" -> "Browse local files"
+* Steam should open your game folder
+
+2. Extract the contents of the archive into the BepInEx\plugins folder.
+3. Locate Azumatt.AzuContainerSizes.cfg under BepInEx\config and configure the mod to your needs
+
+#### Server
+
+`This mod is not needed on a server. It's client only. Install on each client that you wish to have the mod load.`
 
 `Feel free to reach out to me on discord if you need manual download assistance.`
 
@@ -32,6 +49,8 @@ For Questions or Comments, find me in the Odin Plus Team Discord or in mine:
 ***
 
 > # Update Information (Latest listed first)
+> ### v1.0.2
+> - Update for Valheim's latest update
 > ### v1.0.0/1.0.1
 > - Initial Release
 > - Had to fix a readme error. 1.0.1 is only the version for thunderstore. The mod is still 1.0.0

@@ -1,9 +1,9 @@
 {
   "name": "ImFRIENDLY_DAMMIT",
-  "version_number": "1.1.1",
+  "version_number": "1.1.2",
   "website_url": "https://discord.gg/pdHgy6Bsng",
   "description": "Tired of getting hit by your own ballista? Me fuckin too. Protects tames as well. Enjoy.",
   "dependencies": [
-    "denikson-BepInExPack_Valheim-5.4.2105"
+    "denikson-BepInExPack_Valheim-5.4.2200"
   ]
 }

@@ -127,7 +127,7 @@
     minor: 3
     patch: 9
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\virtuaCode-EquipWheel\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\virtuaCode-EquipWheel\1.3.9\icon.png
 - manifestVersion: 1
   name: Advize-PlantEverything
   authorName: Advize
@@ -143,13 +143,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2105
+    - denikson-BepInExPack_Valheim-5.4.2200
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 13
-    patch: 7
+    minor: 14
+    patch: 0
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Advize-PlantEverything\icon.png
 - manifestVersion: 1
@@ -165,13 +165,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2105
+    - denikson-BepInExPack_Valheim-5.4.2200
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 4
     minor: 1
-    patch: 11
+    patch: 12
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\OdinPlus-PotionPlus\icon.png
 - manifestVersion: 1
@@ -252,13 +252,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2105
+    - denikson-BepInExPack_Valheim-5.4.2200
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 3
     minor: 1
-    patch: 0
+    patch: 1
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\OdinPlus-CraftyCartsRemake\icon.png
 - manifestVersion: 1
@@ -320,13 +320,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2102
+    - denikson-BepInExPack_Valheim-5.4.2200
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 2
     minor: 1
-    patch: 7
+    patch: 9
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\RandyKnapp-EquipmentAndQuickSlots\icon.png
 - manifestVersion: 1
@@ -394,7 +394,7 @@
     minor: 1
     patch: 0
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\GemHunter1-FastTeleport\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\GemHunter1-FastTeleport\1.1.0\icon.png
 - manifestVersion: 1
   name: BentoG-MissingPieces
   authorName: BentoG
@@ -416,7 +416,7 @@
     minor: 0
     patch: 3
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\BentoG-MissingPieces\2.0.3\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\BentoG-MissingPieces\icon.png
 - manifestVersion: 1
   name: Chamberland_made_this-Shut_it_Hugins
   authorName: Chamberland_made_this
@@ -497,13 +497,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2105
+    - denikson-BepInExPack_Valheim-5.4.2200
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 0
     minor: 2
-    patch: 0
+    patch: 1
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Marlthon-SeaAnimals\icon.png
 - manifestVersion: 1
@@ -540,13 +540,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2105
+    - denikson-BepInExPack_Valheim-5.4.2200
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 4
-    patch: 9
+    patch: 10
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Smoothbrain-ServerCharacters\icon.png
 - manifestVersion: 1
@@ -562,13 +562,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2105
+    - denikson-BepInExPack_Valheim-5.4.2200
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 1
-    patch: 12
+    patch: 13
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Smoothbrain-TargetPortal\icon.png
 - manifestVersion: 1
@@ -611,8 +611,8 @@
     major: 2
     minor: 0
     patch: 1
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Yggdrah-yggdrahsbetterlox\icon.png
+  enabled: false
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Yggdrah-yggdrahsbetterlox\2.0.1\icon.png
 - manifestVersion: 1
   name: RaistlinOtherStuff-CraftableChainReuploadFromNexus
   authorName: RaistlinOtherStuff
@@ -646,13 +646,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2105
+    - denikson-BepInExPack_Valheim-5.4.2200
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 2
-    patch: 4
+    patch: 5
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Smoothbrain-Blacksmithing\icon.png
 - manifestVersion: 1
@@ -670,13 +670,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2105
+    - denikson-BepInExPack_Valheim-5.4.2200
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 1
-    patch: 5
+    patch: 6
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-PerfectPlacement\icon.png
 - manifestVersion: 1
@@ -698,7 +698,7 @@
   versionNumber:
     major: 1
     minor: 0
-    patch: 5
+    patch: 6
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-AllTheBases\icon.png
 - manifestVersion: 1
@@ -714,13 +714,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2105
+    - denikson-BepInExPack_Valheim-5.4.2200
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 1
-    patch: 8
+    patch: 10
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-AzuMiscPatches\icon.png
 - manifestVersion: 1
@@ -736,13 +736,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2105
+    - denikson-BepInExPack_Valheim-5.4.2200
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 1
-    patch: 2
+    patch: 3
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-AzuAreaRepair\icon.png
 - manifestVersion: 1
@@ -759,13 +759,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1901
+    - denikson-BepInExPack_Valheim-5.4.2200
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 0
-    patch: 1
+    patch: 2
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-ProfitablePieces\icon.png
 - manifestVersion: 1
@@ -803,13 +803,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2105
+    - denikson-BepInExPack_Valheim-5.4.2200
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 4
     minor: 5
-    patch: 12
+    patch: 13
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Smoothbrain-CreatureLevelAndLootControl\icon.png
 - manifestVersion: 1
@@ -826,13 +826,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2105
+    - denikson-BepInExPack_Valheim-5.4.2200
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 2
-    patch: 2
+    patch: 3
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-AzuExtendedPlayerInventory\icon.png
 - manifestVersion: 1
@@ -848,13 +848,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1901
+    - denikson-BepInExPack_Valheim-5.4.2200
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 0
-    patch: 1
+    patch: 2
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-AzuContainerSizes\icon.png
 - manifestVersion: 1
@@ -870,13 +870,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2105
+    - denikson-BepInExPack_Valheim-5.4.2200
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 0
-    patch: 14
+    patch: 15
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Smoothbrain-ConversionSizeAndSpeed\icon.png
 - manifestVersion: 1
@@ -891,13 +891,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1901
+    - denikson-BepInExPack_Valheim-5.4.2200
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 0
-    patch: 1
+    patch: 2
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-AzuWorkbenchTweaks\icon.png
 - manifestVersion: 1
@@ -914,13 +914,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1901
+    - denikson-BepInExPack_Valheim-5.4.2200
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 0
-    patch: 2
+    patch: 3
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-AzuWearNTearPatches\icon.png
 - manifestVersion: 1
@@ -937,13 +937,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2105
+    - denikson-BepInExPack_Valheim-5.4.2200
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 0
-    patch: 1
+    patch: 2
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-AzuMapDetails\icon.png
 - manifestVersion: 1
@@ -958,13 +958,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2105
+    - denikson-BepInExPack_Valheim-5.4.2200
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 0
-    patch: 4
+    patch: 5
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Crystal-GracefulLanding\icon.png
 - manifestVersion: 1
@@ -980,13 +980,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2105
+    - denikson-BepInExPack_Valheim-5.4.2200
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 1
-    patch: 1
+    patch: 2
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-ImFRIENDLY_DAMMIT\icon.png
 - manifestVersion: 1
@@ -1004,15 +1004,15 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2105
+    - denikson-BepInExPack_Valheim-5.4.2200
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 2
     minor: 5
-    patch: 0
+    patch: 1
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\OdinPlus-TeleportEverything\2.5.0\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\OdinPlus-TeleportEverything\icon.png
 - manifestVersion: 1
   name: VegettaPT-MultiCraft
   authorName: VegettaPT
@@ -1052,7 +1052,7 @@
   versionNumber:
     major: 1
     minor: 0
-    patch: 20
+    patch: 21
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Digitalroot-Better_Wisps\icon.png
 - manifestVersion: 1
@@ -1091,13 +1091,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2105
+    - denikson-BepInExPack_Valheim-5.4.2200
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 0
     minor: 3
-    patch: 3
+    patch: 6
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Marlthon-OdinShip\icon.png
 - manifestVersion: 1
@@ -1120,7 +1120,7 @@
     minor: 217
     patch: 141
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\SyphersGaming-Compass\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\SyphersGaming-Compass\0.217.141\icon.png
 - manifestVersion: 1
   name: Azumatt-FastLink
   authorName: Azumatt
@@ -1134,15 +1134,15 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2105
+    - denikson-BepInExPack_Valheim-5.4.2200
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 3
-    patch: 9
+    minor: 4
+    patch: 0
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-FastLink\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Azumatt-FastLink\1.4.0\icon.png
 - manifestVersion: 1
   name: ComfyMods-ComfyAddAllFuel
   authorName: ComfyMods
@@ -1185,7 +1185,7 @@
     minor: 0
     patch: 5
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\OdinPlus-BetterLanterns\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\OdinPlus-BetterLanterns\1.0.5\icon.png
 - manifestVersion: 1
   name: TiwoT-SmarterContainers
   authorName: TiwoT
@@ -1222,13 +1222,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2105
+    - denikson-BepInExPack_Valheim-5.4.2200
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 2
     minor: 1
-    patch: 9
+    patch: 10
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Smoothbrain-Farming\icon.png
 - manifestVersion: 1
@@ -1251,7 +1251,7 @@
   versionNumber:
     major: 1
     minor: 3
-    patch: 5
+    patch: 6
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\TastyChickenLegs-ForsakenPowersPlus\icon.png
 - manifestVersion: 1
@@ -1275,7 +1275,7 @@
     minor: 1
     patch: 1
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Yorimor-ExtendSkeleNames\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Yorimor-ExtendSkeleNames\1.1.1\icon.png
 - manifestVersion: 1
   name: Thordomr-Display_Day_and_Time_in_HUD
   authorName: Thordomr
@@ -1296,7 +1296,7 @@
     minor: 1
     patch: 2
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Thordomr-Display_Day_and_Time_in_HUD\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Thordomr-Display_Day_and_Time_in_HUD\1.1.2\icon.png
 - manifestVersion: 1
   name: Smoothbrain-Mining
   authorName: Smoothbrain
@@ -1310,13 +1310,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2105
+    - denikson-BepInExPack_Valheim-5.4.2200
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 1
-    patch: 4
+    patch: 5
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Smoothbrain-Mining\icon.png
 - manifestVersion: 1
@@ -1332,15 +1332,15 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2105
+    - denikson-BepInExPack_Valheim-5.4.2200
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 1
-    patch: 6
+    patch: 7
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Smoothbrain-Sailing\1.1.6\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Smoothbrain-Sailing\icon.png
 - manifestVersion: 1
   name: Azumatt-Clutter_Sign_Component_Fix
   authorName: Azumatt
@@ -1440,15 +1440,15 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2105
+    - denikson-BepInExPack_Valheim-5.4.2200
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 2
-    patch: 0
+    patch: 1
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Crystal-FastTools\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Crystal-FastTools\1.2.1\icon.png
 - manifestVersion: 1
   name: Azumatt-Recycle_N_Reclaim
   authorName: Azumatt
@@ -1463,13 +1463,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2105
+    - denikson-BepInExPack_Valheim-5.4.2200
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 1
-    patch: 8
+    minor: 2
+    patch: 0
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-Recycle_N_Reclaim\icon.png
 - manifestVersion: 1
@@ -1487,13 +1487,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2105
+    - denikson-BepInExPack_Valheim-5.4.2200
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 2
-    patch: 3
+    patch: 4
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-AzuCraftyBoxes\icon.png
 - manifestVersion: 1
@@ -1515,7 +1515,7 @@
   versionNumber:
     major: 1
     minor: 0
-    patch: 4
+    patch: 5
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\TastyChickenLegs-BedRules\icon.png
 - manifestVersion: 1

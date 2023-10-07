@@ -17,7 +17,7 @@ In addition to the added plantable resources, a wide range of configurable optio
 
 This mod adds a wide range of features, some of which are not well known (or even forgotten), but all of which are toggleable. I'll do my best to provide as comprehensive a list as I can, and will update it over time. The following is a short list of some of the most significant features.
 
-**Adds 24 recipes to the cultivator**
+**Adds 25 recipes to the cultivator**
 - which are unlocked by obtaining at least 1 of each of the recipe's required materials, as you would any other recipe in the game.
 
 **Provides the option to grow crops in any biome.**
@@ -43,19 +43,22 @@ This mod adds a wide range of features, some of which are not well known (or eve
 
 If you are willing to translate to other languages, I would be more than happy to offer them as optional downloads with the mod.
 
+**New with 1.14.0:**
+- Users / server admins can now add any prefab (even from other mods) to the cultivator build table. When enabled, a file named PlantEverything_ExtraResources.cfg be generated alongside Advize_PlantEverything.dll containing two example entries with different but acceptable formatting. Entries beginning with PE_Fake are ignored so you can safely leave them there. Any entries containing prefab names or resource names that can't be resolved, or containing a resource cost of 0 will be ignored. A FileWatcher will monitor changes to this file, apply them immediately, and synchronize them to connected clients. This feature will be expanded upon in future mod updates.
+
 **Miscellaneous Features:**
 
 - Custom meshes for flowers and mushrooms to indicate picked status. Picked models will not display on clients without the mod or who have ShowPickableSpawners set to false, but the spawner will remain and will display again once matured.
 - Works in multiplayer environments even for users without the mod. Unmodded clients will be able to see and interact with all of the added resources that you plant. However, some settings may only work if the mod is installed on the server as well.
 - Snap points can be seamlessly toggled on/off for vines to help with placement using Configuration Manager.
-- Many pickable resources can be disabled by setting their resource cost to 0. Eligible resources will mention it in the description of their respective config settings.
+- Many pickable resources can be disabled by setting their resource cost to 0. Eligible resources will mention it in the description of their respective config settings. For non-sapling pieces, you can also disable a resource by adding its prefab name to [General]DisabledResourceNames.
 
 The following recipes have been added to the cultivator:
 
 Raspberry Bush, Blueberry Bush, Cloudberry Bush\
 Mushrooms, Yellow Mushrooms, Blue Mushrooms\
 Thistle, Dandelion\
-Ancient Sapling, Ygga Sapling
+Ancient Sapling, Ygga Sapling, Autumn Birch Sapling
 
 With EnableMiscFlora enabled in config:
 
@@ -91,9 +94,6 @@ While there can be overlap between config options, there are no hard conflicts w
 
 ### MassFarming:
 There are no conflicts between this mod and MassFarming, but as far as I know it still does not support the pickable resources added by this mod (berry bushes, flowers, mushrooms).
-
-### EasyFarm:
-There are no conflicts between this mod and EasyFarm, but as far as I know it still does not support the pickable resources added by this mod (berry bushes, flowers, mushrooms).
 
 ### FarmGrid:
 The FarmGrid config file requires a bit of tweaking in order to support the resources added in this mod. See following guide.

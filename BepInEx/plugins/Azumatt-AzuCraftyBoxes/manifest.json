@@ -1,9 +1,9 @@
 {
   "name": "AzuCraftyBoxes",
-  "version_number": "1.2.3",
+  "version_number": "1.2.4",
   "website_url": "https://discord.gg/pdHgy6Bsng",
   "description": "AzuCraftyBoxes is a Valheim mod that allows players to access and use resources from nearby containers when crafting and building, based on a configurable range and item restrictions. Restrictions are controlled by the yaml file Azumatt.AzuCraftyBoxes.yml",
   "dependencies": [
-    "denikson-BepInExPack_Valheim-5.4.2105"
+    "denikson-BepInExPack_Valheim-5.4.2200"
   ]
 }

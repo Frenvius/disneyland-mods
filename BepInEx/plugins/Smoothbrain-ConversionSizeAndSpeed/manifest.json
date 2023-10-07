@@ -1,9 +1,9 @@
 {
     "name": "ConversionSizeAndSpeed",
-    "version_number": "1.0.14",
+    "version_number": "1.0.15",
     "website_url": "https://github.com/blaxxun-boop/ConversionSizeAndSpeed",
     "description": "Lets you configure the input size and conversion speed of building pieces like the smelter, windmill and charcoal kiln.",
     "dependencies": [
-        "denikson-BepInExPack_Valheim-5.4.2105"
+        "denikson-BepInExPack_Valheim-5.4.2200"
     ]
 }

@@ -1,4 +1,8 @@
 > # Update Information (Latest listed first)
+> ### v1.1.10
+> - Fix an issue with the build menu's text causing warning spams in the console
+> ### v1.1.9
+> - Update for latest Valheim changes
 > ### v1.1.8
 > - Update for Hildir's Request
 > ### v1.1.7

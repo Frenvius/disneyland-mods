@@ -1,0 +1,9 @@
+{
+    "name": "ExtendSkeleNames",
+    "version_number": "1.1.1",
+    "website_url": "",
+    "description": "Extend or replace the list of names used for summoned skeletons when they spawn!",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.1901"
+    ]
+}

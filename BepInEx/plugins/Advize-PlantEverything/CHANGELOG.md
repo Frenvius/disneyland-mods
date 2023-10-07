@@ -1,3 +1,14 @@
+### 1.14.0
+- Updated for Valheim 0.217.22.
+- Compiled against BepInEx 5.4.22.
+- Updated ServerSync to v1.15.
+- New feature and config option: [General]EnableExtraResources.
+	- When enabled, users/server admins can define any prefabs (even from other mods) to add to the cultivator build table. This feature will be expanded upon in future updates.
+- New config option [General]DisabledResourceNames.
+	- Specific resources added by the mod can now be modularly disabled.
+- Added autumn birch sapling (plains variant).
+- Misc code improvements.
+
 ### 1.13.7
 - Updated for Valheim v0.217.14 (Hildir's Request).
 

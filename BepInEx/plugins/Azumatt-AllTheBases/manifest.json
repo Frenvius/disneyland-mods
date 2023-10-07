@@ -1,6 +1,6 @@
 {
   "name": "AllTheBases",
-  "version_number": "1.0.5",
+  "version_number": "1.0.6",
   "website_url": "https://discord.gg/pdHgy6Bsng",
   "description": "A mod that allows editing the base values of the game. From Health, Stamina, Eitr, to build range and more!",
   "dependencies": [

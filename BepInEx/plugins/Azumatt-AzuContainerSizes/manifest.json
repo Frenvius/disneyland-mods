@@ -1,9 +1,9 @@
 {
   "name": "AzuContainerSizes",
-  "version_number": "1.0.1",
+  "version_number": "1.0.2",
   "website_url": "https://discord.gg/pdHgy6Bsng",
   "description": "Standalone mod that allows you to change the size of containers in the game. Supports custom containers.",
   "dependencies": [
-    "denikson-BepInExPack_Valheim-5.4.1901"
+    "denikson-BepInExPack_Valheim-5.4.2200"
   ]
 } 

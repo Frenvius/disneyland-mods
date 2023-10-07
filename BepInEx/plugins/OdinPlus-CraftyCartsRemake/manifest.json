@@ -1,9 +1,9 @@
 {
   "name": "CraftyCartsRemake",
-  "version_number": "3.1.0",
+  "version_number": "3.1.1",
   "website_url": "https://discord.gg/KKHujtRGvB",
   "description": "Crafting stations on wheels! Comes with built in storage and lights",
   "dependencies": [
-    "denikson-BepInExPack_Valheim-5.4.2105"
+    "denikson-BepInExPack_Valheim-5.4.2200"
   ]
 }

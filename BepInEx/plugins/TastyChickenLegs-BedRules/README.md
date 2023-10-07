@@ -42,6 +42,11 @@ Start the game.
 
 ### Version Information
 
+1.0.5
+
+- updated for Valheim 0.271.22
+
+
 1.0.4
 
 - Updated for Hildir's Request

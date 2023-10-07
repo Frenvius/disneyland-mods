@@ -1,9 +1,9 @@
 {
     "name": "Mining",
-    "version_number": "1.1.4",
+    "version_number": "1.1.5",
     "website_url": "https://github.com/blaxxun-boop/Mining",
     "description": "Adds a skill that increases damage dealt while mining and item yield from ore deposits.",
     "dependencies": [
-        "denikson-BepInExPack_Valheim-5.4.2105"
+        "denikson-BepInExPack_Valheim-5.4.2200"
     ]
 }

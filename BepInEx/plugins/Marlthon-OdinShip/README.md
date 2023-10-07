@@ -157,9 +157,9 @@ https://sketchfab.com/OpusPoly and https://www.artstation.com/albertofoglia
 
 # Latest ChangeLog
 
-	v0.3.3
-	- Fixed bug in auto-pickup of items.
-	
+	v0.3.6
+	- Fixed carpenter's table recipe.
+		
 <details>
 <summary><b>Previous ChangeLog</b> (<i>click to expand</i>)</summary>
 <br/>
@@ -274,6 +274,18 @@ https://sketchfab.com/OpusPoly and https://www.artstation.com/albertofoglia
 	- Updated to the latest valheim build (217.14) hilders request.
 	- Registered multiplayer effects.
  
+	v0.3.3
+	- Fixed bug in auto-pickup of items.
+	
+	v0.3.4
+	- Updated for Valheim 0.217.22.
+	- Updated for BepInEx 5.4.22.
+	- Updated ServerSync to v1.15.
+	- Updated PieceManager to v1.1.4.
+	- Added OdinShip category in hammer construction tab.
+	
+	v0.3.5
+	- Updated KeyManager.
 </details>
 
 
