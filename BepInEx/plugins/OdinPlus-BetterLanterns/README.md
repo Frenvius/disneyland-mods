@@ -113,3 +113,6 @@ Big shout out to my dude GraveBear for the assistance in getting this all starte
 
 #Version 1.0.5 -
 > References updated.
+
+#Version 1.0.6 -
+> References updated.

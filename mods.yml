@@ -39,7 +39,7 @@
   versionNumber:
     major: 2
     minor: 14
-    patch: 3
+    patch: 4
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\ValheimModding-Jotunn\icon.png
 - manifestVersion: 1
@@ -149,9 +149,9 @@
   versionNumber:
     major: 1
     minor: 14
-    patch: 0
+    patch: 1
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Advize-PlantEverything\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Advize-PlantEverything\1.14.1\icon.png
 - manifestVersion: 1
   name: OdinPlus-PotionPlus
   authorName: OdinPlus
@@ -326,7 +326,7 @@
   versionNumber:
     major: 2
     minor: 1
-    patch: 9
+    patch: 10
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\RandyKnapp-EquipmentAndQuickSlots\icon.png
 - manifestVersion: 1
@@ -518,13 +518,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2105
+    - denikson-BepInExPack_Valheim-5.4.2200
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 3
-    patch: 9
+    patch: 10
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Mydayyy-ServerSideMap\icon.png
 - manifestVersion: 1
@@ -1177,15 +1177,15 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1901
+    - denikson-BepInExPack_Valheim-5.4.2200
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 0
-    patch: 5
+    patch: 6
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\OdinPlus-BetterLanterns\1.0.5\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\OdinPlus-BetterLanterns\icon.png
 - manifestVersion: 1
   name: TiwoT-SmarterContainers
   authorName: TiwoT

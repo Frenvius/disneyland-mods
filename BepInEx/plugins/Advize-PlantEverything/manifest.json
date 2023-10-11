@@ -1,7 +1,7 @@
 {
   "name": "PlantEverything",
   "description": "Allows your cultivator to plant berry bushes, thistle, dandelions, mushrooms, previously unavailable tree types, and other decorative flora. Includes many other miscellaneous features (see description). Highly configurable with localization support.",
-  "version_number": "1.14.0",
+  "version_number": "1.14.1",
   "dependencies": [
     "denikson-BepInExPack_Valheim-5.4.2200"
   ],

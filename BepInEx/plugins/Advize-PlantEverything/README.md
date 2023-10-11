@@ -64,7 +64,7 @@ With EnableMiscFlora enabled in config:
 
 Small Beech Tree, Small Fir Tree, Small Dead Fir Tree\
 Small Plains Bush, Small Fruitless Bush (2 tints), Small Shrub (2 tints)\
-Vines, Glowing Mushroom\
+Small Ygga Shoot, Vines, Glowing Mushroom\
 Branch, Stone, Flint
 
 ## Installing

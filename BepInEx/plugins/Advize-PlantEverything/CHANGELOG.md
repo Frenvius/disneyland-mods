@@ -1,5 +1,8 @@
+### 1.14.1
+- Fixed NRE when a custom ExtraResource has a Pickable component and [General]ShowPickableSpawners is enabled.
+
 ### 1.14.0
-- Updated for Valheim 0.217.22.
+- Updated for Valheim v0.217.22.
 - Compiled against BepInEx 5.4.22.
 - Updated ServerSync to v1.15.
 - New feature and config option: [General]EnableExtraResources.
