@@ -151,7 +151,7 @@
     minor: 14
     patch: 1
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Advize-PlantEverything\1.14.1\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Advize-PlantEverything\icon.png
 - manifestVersion: 1
   name: OdinPlus-PotionPlus
   authorName: OdinPlus
@@ -1101,49 +1101,6 @@
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Marlthon-OdinShip\icon.png
 - manifestVersion: 1
-  name: SyphersGaming-Compass
-  authorName: SyphersGaming
-  websiteUrl: https://valheim.thunderstore.io/package/SyphersGaming/Compass/
-  displayName: Compass
-  description: Adds a customizable compass to the HUD that shows nearby map marker
-    directions. Reupload of aedenthorn's Compass mod.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies: []
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 217
-    patch: 141
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\SyphersGaming-Compass\0.217.141\icon.png
-- manifestVersion: 1
-  name: Azumatt-FastLink
-  authorName: Azumatt
-  websiteUrl: https://valheim.thunderstore.io/package/Azumatt/FastLink/
-  displayName: FastLink
-  description: Vanilla UI to quickly join servers configured in a YAML file. Live
-    edit using BepInEx Configuration manager or directly to the file.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2200
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 4
-    patch: 0
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Azumatt-FastLink\1.4.0\icon.png
-- manifestVersion: 1
   name: ComfyMods-ComfyAddAllFuel
   authorName: ComfyMods
   websiteUrl: https://valheim.thunderstore.io/package/ComfyMods/ComfyAddAllFuel/
@@ -1606,3 +1563,46 @@
     patch: 0
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\HalderModding-DestroyCartAndBoat\icon.png
+- manifestVersion: 1
+  name: Azumatt-FastLink
+  authorName: Azumatt
+  websiteUrl: https://valheim.thunderstore.io/package/Azumatt/FastLink/
+  displayName: FastLink
+  description: Vanilla UI to quickly join servers configured in a YAML file. Live
+    edit using BepInEx Configuration manager or directly to the file.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2200
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 4
+    patch: 0
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-FastLink\icon.png
+- manifestVersion: 1
+  name: SyphersGaming-Compass
+  authorName: SyphersGaming
+  websiteUrl: https://valheim.thunderstore.io/package/SyphersGaming/Compass/
+  displayName: Compass
+  description: Adds a customizable compass to the HUD that shows nearby map marker
+    directions. Reupload of aedenthorn's Compass mod.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 217
+    patch: 141
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\SyphersGaming-Compass\0.217.141\icon.png
