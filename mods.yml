@@ -1014,26 +1014,6 @@
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\OdinPlus-TeleportEverything\icon.png
 - manifestVersion: 1
-  name: VegettaPT-MultiCraft
-  authorName: VegettaPT
-  websiteUrl: https://valheim.thunderstore.io/package/VegettaPT/MultiCraft/
-  displayName: MultiCraft
-  description: Easy interface to craft multiple items of the same recipe.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies: []
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 2
-    patch: 0
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\VegettaPT-MultiCraft\icon.png
-- manifestVersion: 1
   name: Digitalroot-Better_Wisps
   authorName: Digitalroot
   websiteUrl: https://valheim.thunderstore.io/package/Digitalroot/Better_Wisps/

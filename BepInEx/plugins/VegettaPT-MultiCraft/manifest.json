@@ -1,8 +1,0 @@
-{
-    "name": "MultiCraft",
-    "version_number": "1.2.0",
-    "website_url": "",
-    "description": "Easy interface to craft multiple items of the same recipe.",
-    "dependencies": [
-    ]
-}
