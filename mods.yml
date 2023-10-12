@@ -63,7 +63,7 @@
     minor: 1
     patch: 5
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\OdinPlus-Clutter\0.1.5\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\OdinPlus-Clutter\icon.png
 - manifestVersion: 1
   name: Amar1729-BetterLadders
   authorName: Amar1729
