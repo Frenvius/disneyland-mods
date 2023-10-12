@@ -63,7 +63,7 @@
     minor: 1
     patch: 5
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\OdinPlus-Clutter\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\OdinPlus-Clutter\0.1.5\icon.png
 - manifestVersion: 1
   name: Amar1729-BetterLadders
   authorName: Amar1729
@@ -214,11 +214,11 @@
   optionalDependencies: []
   versionNumber:
     major: 0
-    minor: 7
+    minor: 0
     patch: 0
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\aedenthorn-Simple
-    Sort\0.7.0\icon.png
+    Sort\0.0.0\icon.png
 - manifestVersion: 1
   name: MaGic-Quick_Deposit
   authorName: MaGic
@@ -1428,7 +1428,7 @@
     minor: 2
     patch: 0
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Azumatt-Recycle_N_Reclaim\1.2.0\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-Recycle_N_Reclaim\icon.png
 - manifestVersion: 1
   name: Azumatt-AzuCraftyBoxes
   authorName: Azumatt
