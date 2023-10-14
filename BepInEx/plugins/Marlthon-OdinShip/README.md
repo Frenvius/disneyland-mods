@@ -157,8 +157,8 @@ https://sketchfab.com/OpusPoly and https://www.artstation.com/albertofoglia
 
 # Latest ChangeLog
 
-	v0.3.6
-	- Fixed carpenter's table recipe.
+	v0.3.7
+	- Updated KeyManager for servers with world modifications.
 		
 <details>
 <summary><b>Previous ChangeLog</b> (<i>click to expand</i>)</summary>
@@ -286,6 +286,9 @@ https://sketchfab.com/OpusPoly and https://www.artstation.com/albertofoglia
 	
 	v0.3.5
 	- Updated KeyManager.
+	
+	v0.3.6
+	- Fixed carpenter's table recipe.
 </details>
 
 

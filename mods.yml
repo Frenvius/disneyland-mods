@@ -1077,9 +1077,9 @@
   versionNumber:
     major: 0
     minor: 3
-    patch: 6
+    patch: 7
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Marlthon-OdinShip\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Marlthon-OdinShip\0.3.7\icon.png
 - manifestVersion: 1
   name: ComfyMods-ComfyAddAllFuel
   authorName: ComfyMods
