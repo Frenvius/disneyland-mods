@@ -1608,4 +1608,25 @@
     minor: 0
     patch: 9
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Azumatt-Where_You_At\1.0.9\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-Where_You_At\icon.png
+- manifestVersion: 1
+  name: ComfyMods-SearsCatalog
+  authorName: ComfyMods
+  websiteUrl: https://valheim.thunderstore.io/package/ComfyMods/SearsCatalog/
+  displayName: SearsCatalog
+  description: Resize and reposition the build panel in-game.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2105
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
+    patch: 0
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\ComfyMods-SearsCatalog\1.3.0\icon.png
