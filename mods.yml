@@ -126,8 +126,8 @@
     major: 1
     minor: 3
     patch: 9
-  enabled: false
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\virtuaCode-EquipWheel\1.3.9\icon.png
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\virtuaCode-EquipWheel\icon.png
 - manifestVersion: 1
   name: Advize-PlantEverything
   authorName: Advize
@@ -219,27 +219,6 @@
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\aedenthorn-Simple
     Sort\0.0.0\icon.png
-- manifestVersion: 1
-  name: MaGic-Quick_Deposit
-  authorName: MaGic
-  websiteUrl: https://valheim.thunderstore.io/package/MaGic/Quick_Deposit/
-  displayName: Quick_Deposit
-  description: Adds a button for depositing items to a container.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.601
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 1
-  enabled: false
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\MaGic-Quick_Deposit\1.0.1\icon.png
 - manifestVersion: 1
   name: OdinPlus-CraftyCartsRemake
   authorName: OdinPlus
@@ -832,7 +811,7 @@
   versionNumber:
     major: 1
     minor: 2
-    patch: 3
+    patch: 4
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-AzuExtendedPlayerInventory\icon.png
 - manifestVersion: 1
@@ -1079,7 +1058,7 @@
     minor: 3
     patch: 7
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Marlthon-OdinShip\0.3.7\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Marlthon-OdinShip\icon.png
 - manifestVersion: 1
   name: ComfyMods-ComfyAddAllFuel
   authorName: ComfyMods
@@ -1609,3 +1588,24 @@
     patch: 5
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-AzuAutoStore\icon.png
+- manifestVersion: 1
+  name: Azumatt-Where_You_At
+  authorName: Azumatt
+  websiteUrl: https://valheim.thunderstore.io/package/Azumatt/Where_You_At/
+  displayName: Where_You_At
+  description: A server and client side mod to force show position on the map.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2200
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 9
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Azumatt-Where_You_At\1.0.9\icon.png

@@ -1,0 +1,9 @@
+{
+    "name": "Where_You_At",
+    "version_number": "1.0.9",
+    "website_url": "https://discord.gg/Pb6bVMnFb2",
+    "description": "A server and client side mod to force show position on the map.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2200"
+    ]
+}
