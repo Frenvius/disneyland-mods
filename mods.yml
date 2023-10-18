@@ -1011,7 +1011,7 @@
   versionNumber:
     major: 1
     minor: 0
-    patch: 21
+    patch: 22
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Digitalroot-Better_Wisps\icon.png
 - manifestVersion: 1
@@ -1077,9 +1077,9 @@
   versionNumber:
     major: 1
     minor: 7
-    patch: 1
+    patch: 2
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\ComfyMods-ComfyAddAllFuel\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\ComfyMods-ComfyAddAllFuel\1.7.2\icon.png
 - manifestVersion: 1
   name: OdinPlus-BetterLanterns
   authorName: OdinPlus
@@ -1629,4 +1629,4 @@
     minor: 3
     patch: 0
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\ComfyMods-SearsCatalog\1.3.0\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\ComfyMods-SearsCatalog\icon.png

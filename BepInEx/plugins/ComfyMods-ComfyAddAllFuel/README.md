@@ -66,6 +66,10 @@
 
 ### Comfy Version Update
 
+### 1.7.2
+
+  * Removed all logging
+
 ### 1.7.1
 
   * Removed unnecessary logging statements.
