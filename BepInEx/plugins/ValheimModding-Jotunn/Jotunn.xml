@@ -4095,12 +4095,10 @@
             <param name="instructions"></param>
             <returns></returns>
         </member>
-        <member name="M:Jotunn.Managers.GUIManager.InitialLoad(UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)">
+        <member name="M:Jotunn.Managers.GUIManager.InitializeAssets">
             <summary>
                 Load GUI assets on first start
             </summary>
-            <param name="scene"></param>
-            <param name="loadMode"></param>
         </member>
         <member name="M:Jotunn.Managers.GUIManager.CreateCustomGUI(UnityEngine.Transform)">
             <summary>

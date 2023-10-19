@@ -39,9 +39,9 @@
   versionNumber:
     major: 2
     minor: 14
-    patch: 4
+    patch: 5
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\ValheimModding-Jotunn\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\ValheimModding-Jotunn\2.14.5\icon.png
 - manifestVersion: 1
   name: OdinPlus-Clutter
   authorName: OdinPlus
@@ -1079,7 +1079,7 @@
     minor: 7
     patch: 2
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\ComfyMods-ComfyAddAllFuel\1.7.2\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\ComfyMods-ComfyAddAllFuel\icon.png
 - manifestVersion: 1
   name: OdinPlus-BetterLanterns
   authorName: OdinPlus
@@ -1099,7 +1099,7 @@
   versionNumber:
     major: 1
     minor: 0
-    patch: 6
+    patch: 7
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\OdinPlus-BetterLanterns\icon.png
 - manifestVersion: 1
@@ -1475,7 +1475,7 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 1
+    minor: 2
     patch: 0
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\BurroTile-PortalMarker\icon.png

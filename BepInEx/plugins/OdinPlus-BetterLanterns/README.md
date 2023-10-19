@@ -116,3 +116,7 @@ Big shout out to my dude GraveBear for the assistance in getting this all starte
 
 #Version 1.0.6 -
 > References updated.
+
+#Version 1.0.7 -
+> Fixed the Demister on the Wisp Hand Lantern.
+> Fixed the light point on the Hand Lantern.
