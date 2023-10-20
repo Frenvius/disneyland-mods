@@ -41,7 +41,7 @@
     minor: 14
     patch: 5
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\ValheimModding-Jotunn\2.14.5\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\ValheimModding-Jotunn\icon.png
 - manifestVersion: 1
   name: OdinPlus-Clutter
   authorName: OdinPlus
@@ -124,8 +124,8 @@
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 3
-    patch: 9
+    minor: 4
+    patch: 0
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\virtuaCode-EquipWheel\icon.png
 - manifestVersion: 1
@@ -1630,3 +1630,26 @@
     patch: 0
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\ComfyMods-SearsCatalog\icon.png
+- manifestVersion: 1
+  name: blacks7ar-FineWoodPieces
+  authorName: blacks7ar
+  websiteUrl: https://valheim.thunderstore.io/package/blacks7ar/FineWoodPieces/
+  displayName: FineWoodPieces
+  description: Adds finewood variants of the wood build pieces, stone roof
+    shingles, thatch walls, clay build pieces, 16 containers, 23 clutters and 58
+    new furnitures, and 18 buildable plants to decorate your home.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2200
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
+    patch: 2
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\blacks7ar-FineWoodPieces\1.3.2\icon.png

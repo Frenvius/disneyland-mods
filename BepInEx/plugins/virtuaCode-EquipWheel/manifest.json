@@ -1,6 +1,6 @@
 {
     "name": "EquipWheel",
-    "version_number": "1.3.9",
+    "version_number": "1.4.0",
     "website_url": "https://github.com/virtuaCode/valheim-mods",
     "description": "This mod adds an user interface for equipping/using items in an easier and faster way. (With Gamepad Support)",
     "dependencies": [
