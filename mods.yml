@@ -1609,28 +1609,6 @@
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\blacks7ar-FineWoodPieces\icon.png
 - manifestVersion: 1
-  name: Azumatt-AzuAntiCheat
-  authorName: Azumatt
-  websiteUrl: https://valheim.thunderstore.io/package/Azumatt/AzuAntiCheat/
-  displayName: AzuAntiCheat
-  description: A minor anti-dickhead mod. Server files & folders dictate what mods
-    are allowed. Admins/Moderators bypass the check for plugins.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2200
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 4
-    minor: 3
-    patch: 1
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-AzuAntiCheat\icon.png
-- manifestVersion: 1
   name: Azumatt-Clutter_Sign_Component_Fix
   authorName: Azumatt
   websiteUrl: https://valheim.thunderstore.io/package/Azumatt/Clutter_Sign_Component_Fix/
