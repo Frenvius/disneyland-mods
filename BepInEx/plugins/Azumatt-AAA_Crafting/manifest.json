@@ -1,0 +1,9 @@
+{
+  "name": "AAA_Crafting",
+  "version_number": "1.2.0",
+  "website_url": "https://discord.gg/pdHgy6Bsng",
+  "description": "Azu Anti-Arthritic Crafting. Gives you an input field to enter the amount of items you want to craft. Instead of having to click the craft button 100 times or a fancy plus button 5-10 times.",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2200"
+  ]
+}

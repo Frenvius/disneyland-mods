@@ -1,0 +1,8 @@
+# Configure your webhook links for Discord output of detections by the Anticheat.
+# This file live updates your hooks for the mod when changed. Feel free to change at any time.
+# An example webhook is given below. Please replace with your own and remove the # before the text.
+
+# You can change the Example Server text to say whatever you want. It is there just for you to name your hooks for differentiation. The 'Hook' property must remain the same, do not rename.
+
+#Example Server:
+  #Hook: https://discord.com/api/webhooks/869937747840888832/Q4dQ_mfrRuwAzC7sCyY3VCC5tcFykOGOqbSU0fLOA6x8RRAzhiDxM72RBWoZav9-vvQ8
