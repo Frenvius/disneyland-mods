@@ -1,0 +1,9 @@
+{
+    "name": "Building",
+    "version_number": "1.2.5",
+    "website_url": "https://github.com/blaxxun-boop/Building",
+    "description": "Adds a skill that increases the health of pieces built by you.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2200"
+    ]
+}

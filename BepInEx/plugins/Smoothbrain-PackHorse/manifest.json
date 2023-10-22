@@ -1,0 +1,9 @@
+{
+    "name": "PackHorse",
+    "version_number": "1.0.3",
+    "website_url": "https://github.com/blaxxun-boop/PackHorse",
+    "description": "Adds a skill that increases the maximum carry weight.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2200"
+    ]
+}
