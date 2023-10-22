@@ -1,0 +1,7 @@
+{
+  "name": "AnyWood",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/shudnal/AnyWood",
+  "description": "Transmute any wood to wood, use any wood as coal, burn any wood for fuel.",
+  "dependencies": ["denikson-BepInExPack_Valheim-5.4.2200"]
+}

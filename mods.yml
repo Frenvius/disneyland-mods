@@ -570,7 +570,7 @@
     minor: 3
     patch: 10
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\ASharpPen-Drop_That\2.3.10\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\ASharpPen-Drop_That\icon.png
 - manifestVersion: 1
   name: Yggdrah-yggdrahsbetterlox
   authorName: Yggdrah
@@ -1697,3 +1697,24 @@
     patch: 2
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Smoothbrain-SmoothSave\icon.png
+- manifestVersion: 1
+  name: shudnal-AnyWood
+  authorName: shudnal
+  websiteUrl: https://valheim.thunderstore.io/package/shudnal/AnyWood/
+  displayName: AnyWood
+  description: Transmute any wood to wood, use any wood as coal, burn any wood for fuel.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2200
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\shudnal-AnyWood\1.0.0\icon.png
