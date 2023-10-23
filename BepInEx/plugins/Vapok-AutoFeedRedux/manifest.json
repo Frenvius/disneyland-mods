@@ -1,0 +1,9 @@
+{
+  "name": "AutoFeedRedux",
+  "version_number": "1.0.3",
+  "website_url": "https://github.com/Vapok/AutoFeedRedux",
+  "description": "",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2105"
+  ]
+}

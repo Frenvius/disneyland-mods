@@ -19,6 +19,14 @@ Did you like my Mods? If you want to support me click on the image link below:</
 
 <p align="center"><a href="https://marlthon.com/custom-mods"><img src="https://i.ibb.co/YTJ91SF/Banner-Custom-Mods.png" /></a></p>
 
+## Recommendations:
+I recommend the following mods to make your Valheim exploration experience much more interesting:
+
+<b><a href="https://valheim.thunderstore.io/package/ReadyToDie/RtDBiomes/">RtDBiomes</a></b> - Grab your boat and go explore these beautiful new biomes.</br>
+</br>
+<b><a href="https://valheim.thunderstore.io/package/ReadyToDie/RtDOcean/">RtDOcean</a></b> - The deep waters hide beauties that only true explorers can discover.
+
+
 ## Photo Gallery (OS and OSP)
 
 <details>
@@ -46,15 +54,15 @@ Did you like my Mods? If you want to support me click on the image link below:</
 </details>
 
 <details>
-<summary><b>Fishing Boat</b> (<i>click to expand</i>)</summary>
+<summary><b>Double Rowing Canoe</b> (<i>click to expand</i>)</summary>
 <br/>
-<p align="center"><img src="https://i.ibb.co/88xzsz9/Fishing-Boat.jpg"></p>
+<p align="center"><img src="https://i.ibb.co/Z2PxcX5/Double-Rowing-Canoe.jpg"></p>
 </details>
 
 <details>
-<summary><b>Fishing Canoe</b> (<i>click to expand</i>)</summary>
+<summary><b>Rowing Canoe</b> (<i>click to expand</i>)</summary>
 <br/>
-<p align="center"><img src="https://i.ibb.co/vzF83f9/Fishing-Canoe.jpg"></p>
+<p align="center"><img src="https://i.ibb.co/tzZWDCq/Rowing-Canoe.jpg"></p>
 </details>
 
 <details>
@@ -97,6 +105,18 @@ Did you like my Mods? If you want to support me click on the image link below:</
 <summary><b>WarShip</b> (<i>click to expand</i>)</summary>
 <br/>
 <p align="center"><img src="https://i.ibb.co/qJLtJBZ/Warship.jpg"></p>
+</details>
+
+<details>
+<summary><b>Fishing Dock Photo I</b> (<i>click to expand</i>)</summary>
+<br/>
+<p align="center"><img src="https://i.ibb.co/GsNL0ny/Fishingdock01.jpg"></p>
+</details>
+
+<details>
+<summary><b>Fishing Dock Photo II</b> (<i>click to expand</i>)</summary>
+<br/>
+<p align="center"><img src="https://i.ibb.co/tDj5KJ4/Fishingdock02.jpg"></p>
 </details>
 
 <details>
@@ -157,8 +177,10 @@ https://sketchfab.com/OpusPoly and https://www.artstation.com/albertofoglia
 
 # Latest ChangeLog
 
-	v0.3.7
-	- Updated KeyManager for servers with world modifications.
+	v0.3.8
+	- Fishing Canoe renamed to Rowing Canoe.
+	- Fishing Boat renamed to Double Rowing Canoe.
+	- Fixed errors in translations.
 		
 <details>
 <summary><b>Previous ChangeLog</b> (<i>click to expand</i>)</summary>
@@ -289,6 +311,9 @@ https://sketchfab.com/OpusPoly and https://www.artstation.com/albertofoglia
 	
 	v0.3.6
 	- Fixed carpenter's table recipe.
+	
+	v0.3.7
+	- Updated KeyManager for servers with world modifications.
 </details>
 
 

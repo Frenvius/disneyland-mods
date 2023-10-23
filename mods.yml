@@ -589,9 +589,9 @@
   versionNumber:
     major: 2
     minor: 0
-    patch: 1
-  enabled: false
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Yggdrah-yggdrahsbetterlox\2.0.1\icon.png
+    patch: 2
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Yggdrah-yggdrahsbetterlox\icon.png
 - manifestVersion: 1
   name: RaistlinOtherStuff-CraftableChainReuploadFromNexus
   authorName: RaistlinOtherStuff
@@ -1056,7 +1056,7 @@
   versionNumber:
     major: 0
     minor: 3
-    patch: 7
+    patch: 8
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Marlthon-OdinShip\icon.png
 - manifestVersion: 1
@@ -1759,4 +1759,25 @@
     minor: 2
     patch: 5
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Smoothbrain-Building\1.2.5\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Smoothbrain-Building\icon.png
+- manifestVersion: 1
+  name: Vapok-AutoFeedRedux
+  authorName: Vapok
+  websiteUrl: https://valheim.thunderstore.io/package/Vapok/AutoFeedRedux/
+  displayName: AutoFeedRedux
+  description: ""
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2105
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Vapok-AutoFeedRedux\icon.png
