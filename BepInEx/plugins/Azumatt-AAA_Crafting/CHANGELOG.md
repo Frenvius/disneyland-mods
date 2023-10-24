@@ -1,4 +1,6 @@
 > # Update Information (Latest listed first)
+> ### v1.2.1
+> - You can now prefix your searches with an @ to search for recipe requirements. Example: @refined will return all items that require refined eitr. Please note: It's a contains on the string and will also return anything with that in the name. So @wood will return wood, fine wood, core wood, etc.
 > ### v1.2.0
 > - Add ServerSync. Crafting time is now synced with the server by default. All other configs are not as they don't affect gameplay. Added this by request. I personally didn't mind this being client only config. :D
 > - Fix an issue you might encounter with Jewelcrafting mod installed. Where, if a item breaks during socketing and the recipe changes to another, it will now stop crafting.

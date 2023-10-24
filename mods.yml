@@ -305,7 +305,7 @@
   versionNumber:
     major: 2
     minor: 1
-    patch: 10
+    patch: 11
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\RandyKnapp-EquipmentAndQuickSlots\icon.png
 - manifestVersion: 1
@@ -1673,9 +1673,9 @@
   versionNumber:
     major: 1
     minor: 2
-    patch: 0
+    patch: 1
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-AAA_Crafting\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Azumatt-AAA_Crafting\1.2.1\icon.png
 - manifestVersion: 1
   name: Smoothbrain-SmoothSave
   authorName: Smoothbrain
