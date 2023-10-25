@@ -1,6 +1,6 @@
 # Description
 
-## AzuEPI is Extended Player Inventory from OdinsQOL pulled out for your modular pleasure.
+## AzuEPI is Extended Player Inventory
 
 `Version checks with itself. If installed on the server, it will kick clients who do not have it installed.`
 
@@ -11,6 +11,7 @@
 What is the difference in this version of ExtendedPlayerInventory compared to others posted?
     * This version comes with more compatibility in mind, as well as a few more features.
         * One core feature is making it very very hard to lose your items, even when your inventory bugs out.
+        * It also comes with an API for mods/mod authors to add custom slots to the inventory. This is used by Jewelcrafting to add dedicated slots for the utility items.
 
 ---
 
