@@ -177,10 +177,8 @@ https://sketchfab.com/OpusPoly and https://www.artstation.com/albertofoglia
 
 # Latest ChangeLog
 
-	v0.3.8
-	- Fishing Canoe renamed to Rowing Canoe.
-	- Fishing Boat renamed to Double Rowing Canoe.
-	- Fixed errors in translations.
+	v0.3.9
+	- Fixed errors in cargo ship.
 		
 <details>
 <summary><b>Previous ChangeLog</b> (<i>click to expand</i>)</summary>
@@ -314,6 +312,11 @@ https://sketchfab.com/OpusPoly and https://www.artstation.com/albertofoglia
 	
 	v0.3.7
 	- Updated KeyManager for servers with world modifications.
+	
+	v0.3.8
+	- Fishing Canoe renamed to Rowing Canoe.
+	- Fishing Boat renamed to Double Rowing Canoe.
+	- Fixed errors in translations.
 </details>
 
 

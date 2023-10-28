@@ -15,7 +15,7 @@
   versionNumber:
     major: 5
     minor: 4
-    patch: 2200
+    patch: 2201
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\core\icon.png
 - manifestVersion: 1
@@ -42,28 +42,6 @@
     patch: 5
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\ValheimModding-Jotunn\icon.png
-- manifestVersion: 1
-  name: OdinPlus-Clutter
-  authorName: OdinPlus
-  websiteUrl: https://valheim.thunderstore.io/package/OdinPlus/Clutter/
-  displayName: Clutter
-  description: Adds a bunch of clutter and decor items.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - ValheimModding-Jotunn-2.11.2
-    - denikson-BepInExPack_Valheim-5.4.2102
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 1
-    patch: 5
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\OdinPlus-Clutter\icon.png
 - manifestVersion: 1
   name: Amar1729-BetterLadders
   authorName: Amar1729
@@ -1056,7 +1034,7 @@
   versionNumber:
     major: 0
     minor: 3
-    patch: 8
+    patch: 9
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Marlthon-OdinShip\icon.png
 - manifestVersion: 1
@@ -1605,32 +1583,9 @@
   versionNumber:
     major: 1
     minor: 3
-    patch: 2
+    patch: 3
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\blacks7ar-FineWoodPieces\icon.png
-- manifestVersion: 1
-  name: Azumatt-Clutter_Sign_Component_Fix
-  authorName: Azumatt
-  websiteUrl: https://valheim.thunderstore.io/package/Azumatt/Clutter_Sign_Component_Fix/
-  displayName: Clutter_Sign_Component_Fix
-  description: Meant to fix the issue with the Sign Component used on the Diaries
-    used in the Clutter mod. This mod is meant to be used with the Clutter mod,
-    but might also fix other signs that are old.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2100
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 0
-    patch: 0
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-Clutter_Sign_Component_Fix\icon.png
 - manifestVersion: 1
   name: Azumatt-Ship_Stats
   authorName: Azumatt
@@ -1781,3 +1736,181 @@
     patch: 3
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Vapok-AutoFeedRedux\icon.png
+- manifestVersion: 1
+  name: Alpus-BreedingTweaks
+  authorName: Alpus
+  websiteUrl: https://valheim.thunderstore.io/package/Alpus/BreedingTweaks/
+  displayName: BreedingTweaks
+  description: Adjust the maximum number of tamed creatures per cubic space and
+    the chance that a new born will be one level higher than its parent.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2200
+    - ValheimModding-Jotunn-2.14.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Alpus-BreedingTweaks\icon.png
+- manifestVersion: 1
+  name: plumga-Clutter
+  authorName: plumga
+  websiteUrl: https://valheim.thunderstore.io/package/plumga/Clutter/
+  displayName: Clutter
+  description: Adds a bunch of clutter and decor items.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2200
+    - ValheimModding-Jotunn-2.14.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 1
+    patch: 6
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\plumga-Clutter\icon.png
+- manifestVersion: 1
+  name: blacks7ar-SimpleElevators
+  authorName: blacks7ar
+  websiteUrl: https://valheim.thunderstore.io/package/blacks7ar/SimpleElevators/
+  displayName: SimpleElevators
+  description: A simple mod that adds a small and large elevators, also adds
+    vertical and diagonal platforms
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2200
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 1
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\blacks7ar-SimpleElevators\icon.png
+- manifestVersion: 1
+  name: Neobotics-LoxsquitoLove
+  authorName: Neobotics
+  websiteUrl: https://valheim.thunderstore.io/package/Neobotics/LoxsquitoLove/
+  displayName: LoxsquitoLove
+  description: Keep Deathsquitos from hunting tame Lox
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Neobotics-LoxsquitoLove\icon.png
+- manifestVersion: 1
+  name: blacks7ar-Endurance
+  authorName: blacks7ar
+  websiteUrl: https://valheim.thunderstore.io/package/blacks7ar/Endurance/
+  displayName: Endurance
+  description: A simple skill mod that increases your stamina and stamina regen as
+    the skill levels up.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2200
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 5
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\blacks7ar-Endurance\icon.png
+- manifestVersion: 1
+  name: VentureValheim-Meadingful_Icons
+  authorName: VentureValheim
+  websiteUrl: https://valheim.thunderstore.io/package/VentureValheim/Meadingful_Icons/
+  displayName: Meadingful_Icons
+  description: Adds identifiers to the different mead base icons in the game.
+    Increases the maximum stack size of mead bases, configurable.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - ValheimModding-Jotunn-2.14.0
+    - denikson-BepInExPack_Valheim-5.4.2200
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\VentureValheim-Meadingful_Icons\icon.png
+- manifestVersion: 1
+  name: RandyKnapp-MinimalStatusEffects
+  authorName: RandyKnapp
+  websiteUrl: https://valheim.thunderstore.io/package/RandyKnapp/MinimalStatusEffects/
+  displayName: MinimalStatusEffects
+  description: Shrink the status effect list and put it in a vertical list below
+    the minimap. Position and size is customizable.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2200
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 5
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\RandyKnapp-MinimalStatusEffects\icon.png
+- manifestVersion: 1
+  name: MSchmoecker-DynamicStoragePiles
+  authorName: MSchmoecker
+  websiteUrl: https://valheim.thunderstore.io/package/MSchmoecker/DynamicStoragePiles/
+  displayName: DynamicStoragePiles
+  description: Adds stacks and piles as new container pieces. Their appearance
+    changes depending on the fill level.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2200
+    - ValheimModding-Jotunn-2.14.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 4
+    patch: 0
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\MSchmoecker-DynamicStoragePiles\0.4.0\icon.png

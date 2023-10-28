@@ -1,0 +1,408 @@
+[Message:   BepInEx] BepInEx 5.4.22.0 - valheim (30/09/2023 02:10:06)
+[Message:   BepInEx] User is running BepInExPack Valheim version 5.4.2201 from Thunderstore
+[Info   :   BepInEx] Running under Unity v2020.3.45.6687953
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.22.0]
+[Info   :   BepInEx] 1 patcher plugin loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 83 plugins to load
+[Info   :   BepInEx] Loading [PlantEverything 1.14.1]
+[Info   :   BepInEx] Loading [Compass 1.3.0]
+[Info   :   BepInEx] Loading [Instant Monster Drop 0.5.0]
+[Info   :   BepInEx] Loading [Simple Sort 0.7.0]
+[Info   :   BepInEx] Loading [Creature Level & Loot Control 4.5.13]
+[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #0 - 'localization' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #1 - 'localization_extra' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #2 - 'heightmap_message' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #3 - 'localization_hildir' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #4 - 'localization_emotes' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #0 - 'localization' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #1 - 'localization_extra' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #2 - 'heightmap_message' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #3 - 'localization_hildir' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #4 - 'localization_emotes' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   :   BepInEx] Loading [Spawn That! 1.2.7]
+[Info   :   BepInEx] Loading [Drop That! 2.3.10]
+[Message:Drop That!] Loading general configuration from C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\config\drop_that.cfg.
+[Info   :   BepInEx] Loading [AllTheBases 1.0.7]
+[Info   :   BepInEx] Loading [AzuAntiArthriticCrafting 1.2.1]
+[Info   :   BepInEx] Loading [AzuAreaRepair 1.1.3]
+[Info   :   BepInEx] Loading [AzuContainerSizes 1.0.2]
+[Info   :   BepInEx] Loading [AzuCraftyBoxes 1.2.4]
+[Info   :   BepInEx] Loading [AzuExtendedPlayerInventory 1.3.1]
+[Info   :   BepInEx] Loading [AzuMapDetails 1.0.2]
+[Info   :   BepInEx] Loading [AzuMiscPatches 1.1.10]
+[Info   :   BepInEx] Loading [AzuWearNTearPatches 1.0.3]
+[Info   :   BepInEx] Loading [AzuWorkbenchTweaks 1.0.2]
+[Info   :   BepInEx] Loading [CraftyCarts 3.1.1]
+[Info   :   BepInEx] Loading [FastLink 1.4.0]
+[Info   :   BepInEx] Loading [ImFRIENDLYDAMMIT 1.1.2]
+[Info   :   BepInEx] Loading [ProfitablePieces 1.0.2]
+[Info   :   BepInEx] Loading [Recycle_N_Reclaim 1.2.0]
+[Info   :   BepInEx] Loading [ShipStats 1.0.2]
+[Info   :   BepInEx] Loading [WhereYouAt 1.0.9]
+[Info   :   BepInEx] Loading [PerfectPlacement 1.1.6]
+[Info   :   BepInEx] Loading [Jotunn 2.14.5]
+[Info   :Jotunn.Main] Initializing ModCompatibility
+[Info   :Jotunn.Main] Initializing SynchronizationManager
+[Info   :Jotunn.Main] Initializing NetworkManager
+[Info   :   BepInEx] Loading [FarmGrid 0.5.0]
+[Info   :   BepInEx] Loading [kgladder 0.2.0]
+[Info   :   BepInEx] Loading [Endurance 1.0.5]
+[Info   :   BepInEx] Loading [FineWoodPieces 1.3.3]
+[Info   :   BepInEx] Loading [SimpleElevators 1.1.1]
+[Info   :   BepInEx] Loading [Floors Are Roofs 2.0.2]
+[Info   : Unity Log] [floorsareroofs]: Initializing using config settings: PrefabsToChange:[wood_floor,wood_floor_1x1], Hammers:[Hammer], RemoveRainDamage:[True]
+[Info   :Jotunn.Main] Initializing PieceManager
+[Info   :Jotunn.Main] Initializing PrefabManager
+[Info   :   BepInEx] Loading [BreedingTweaks 1.0.0]
+[Info   :   BepInEx] Loading [ComfyAddAllFuel 1.7.2]
+[Info   :   BepInEx] Loading [Pageable Build Hud 1.0.2]
+[Info   : Unity Log] Pageable Build Hud Loaded!
+[Info   :   BepInEx] Loading [Stop Hugins help 0.0.1.0]
+[Info   :   BepInEx] Loading [MissingPieces 2.0.3]
+[Info   :Jotunn.Main] Initializing LocalizationManager
+[Info   :MissingPieces.MissingPiecesPlugin] Missing Pieces landed!
+[Info   :   BepInEx] Loading [BoneAppetit 3.3.0]
+[Message:Boneappetit.BoneAppetit] Prepping Kitchen...
+[Info   :Jotunn.Main] Initializing ItemManager
+[Message:Boneappetit.BoneAppetit] Big thanks to MeatwareMonster!
+[Info   :Jotunn.Main] Initializing SkillManager
+[Info   :   BepInEx] Loading [Valharvest 3.0.7]
+[Info   :Valharvest.Main] Preparing the plants...
+[Info   :Jotunn.Main] Initializing MockManager
+[Info   :Valharvest.Scripts.Loaders] Loaded pieces
+[Info   :   BepInEx] Loading [TeleportEverything 2.5.1]
+[Info   : Unity Log] TeleportEverything Loaded...
+[Info   :   BepInEx] Loading [Use Equipment in Water 0.2.4]
+[Info   :   BepInEx] Loading [PotionsPlus 4.1.12]
+[Info   :   BepInEx] Loading [MeadingfulIcons 0.1.0]
+[Info   :   BepInEx] Loading [Clutter 0.1.6]
+[Info   :   BepInEx] Loading [Fast Tools 1.2.1.0]
+[Info   :   BepInEx] Loading [Graceful Landing 1.0.5.0]
+[Info   :   BepInEx] Loading [Better Wisps 1.0.22]
+[Info   :   BepInEx] Loading [Craftable Chain 1.0.0.0]
+[Info   : Unity Log] Craftable Chain plugin loaded.
+[Info   :   BepInEx] Loading [ServerSideMap 1.3.10.0]
+[Info   :ServerSideMap] Store1: False
+[Info   :ServerSideMap] Store2: False
+[Info   :   BepInEx] Loading [Smart Containers Mod 1.6.7]
+[Info   :   BepInEx] Loading [FastTeleport 1.1.0]
+[Info   :   BepInEx] Loading [NoAFKEvents 1.0.2]
+[Info   :   BepInEx] Loading [DestroyCartAndBoat 1.0.0]
+[Info   :   BepInEx] Loading [FuelEternal 1.2.1]
+[Info   :   BepInEx] Loading [OdinShip 0.3.9]
+[Info   :   BepInEx] Loading [SeaAnimals 0.2.1]
+[Info   :   BepInEx] Loading [LoxsquitoLove 0.1.0]
+[Info   : Unity Log] LoxsquitoLove: Awake
+[Info   :   BepInEx] Loading [Blacksmithing 1.2.5]
+[Info   :   BepInEx] Loading [Building 1.2.5]
+[Info   :   BepInEx] Loading [Conversion Size & Speed 1.0.15]
+[Info   :   BepInEx] Loading [Farming 2.1.11]
+[Info   :   BepInEx] Loading [Mining 1.1.5]
+[Info   :   BepInEx] Loading [PackHorse 1.0.3]
+[Info   :   BepInEx] Loading [Sailing 1.1.7]
+[Info   :   BepInEx] Loading [Server Characters 1.4.10]
+[Info   :   BepInEx] Loading [Smooth Save 1.0.2]
+[Info   :   BepInEx] Loading [TargetPortal 1.1.13]
+[Info   :   BepInEx] Loading [Display BepInEx Info In-Game 2.0.2]
+[Info   :   BepInEx] Loading [InteractWhileBuilding 1.0.0]
+[Info   :InteractWhileBuilding] InteractWhileBuilding loaded.
+[Info   :InteractWhileBuilding] Modified InPlaceMode
+[Info   :   BepInEx] Loading [Display Day & Time in HUD 1.1.2]
+[Info   :   BepInEx] Loading [OdinArchitect 1.2.7]
+[Info   :OdinArchitect.OdinArchitect] All the embedded resources was loaded
+[Info   :OdinArchitect.OdinArchitect] Loaded items and conversions
+[Info   :   BepInEx] Loading [BetterLanterns 1.0.7]
+[Info   :   BepInEx] Loading [Equipment and Quick Slots 2.1.11]
+[Info   :   BepInEx] Loading [PotteryBarn 1.11.0]
+[Info   :   BepInEx] Loading [SearsCatalog 1.3.0]
+[Info   :   BepInEx] Loading [Marks all portals on the minimap when renaming and using them. Removes them on destroy. 1.1.0]
+[Info   :   BepInEx] Loading [Any Wood 1.0.0]
+[Info   :   BepInEx] Loading [BedRules 1.0.5]
+[Info   :   BepInEx] Loading [ForsakenPowersPlus 1.3.6]
+[Info   :   BepInEx] Loading [AutoFeedRedux 1.0.3]
+[Info   :   BepInEx] Loading [Equip Wheel Mod 1.4.0]
+[Info   :EquipWheel] Epicloot Mod installed. Applied compatibility patch.
+[Info   :EquipWheel] EquipWheel Loaded!
+[Info   :   BepInEx] Loading [yggdrahsbetterlox 1.0.10]
+[Info   : Unity Log] Looking for transpiler match
+[Info   : Unity Log] Found Transpiler Patch
+[Info   :   BepInEx] Loading [ExtendSkeleNames 1.1.0]
+[Message:   BepInEx] Chainloader startup complete
+[Warning: Unity Log] 10/28/2023 17:09:37: Fetching PlatformPrefs 'GuiScale' before loading defaults
+
+[Warning: Unity Log] 10/28/2023 17:09:37: Fetching PlatformPrefs 'GuiScale' before loading defaults
+
+[Info   :Smart Containers Mod] parsed PrefixedItemGroups : [trophy,mead,arrow,armor,cape,helmet,atgeir,bow,battleaxe,knife,mace,shield,sledge,spear,sword,tankard,club,mushroom] (18)
+[Info   :Smart Containers Mod] parsed PostfixedItemGroups: [cone,seeds,pelt,hide,berries] (5)
+[Info   :Smart Containers Mod] parsed items group 'berries': [blueberries,raspberries,cloudberries,honey,appleseeds,cornseeds,pepperseeds,pumpkinseeds,watermelonseeds] (9)
+[Info   :Smart Containers Mod] parsed items group 'cookedMeat': [cookedloxmeat,necktailgrilled,meatcooked,fishcooked,serpentmeatcooked] (5)
+[Info   :Smart Containers Mod] parsed items group 'food': [carrotsoup,sausages,queensjam,serpentstew,turnipstew,bloodpudding] (6)
+[Info   :Smart Containers Mod] parsed items group 'ingots': [copper,bronze,flametal,iron,silver,tin,blackmetal,copperore,flametalore,ironore,silverore,tinore,ironscrap,blackmetalscrap] (14)
+[Info   :Smart Containers Mod] parsed items group 'mushrooms': [mushroom,mushroomblue,mushroomyellow,mushroomcommon] (4)
+[Info   :Smart Containers Mod] parsed items group 'rock': [stone] (1)
+[Info   :Smart Containers Mod] parsed items group 'valuables': [ruby,coins,amber,amberpearl,bonemeal,waterbucket,milkbucket,emptybottle] (8)
+[Info   :Smart Containers Mod] parsed items group 'vegetables': [carrot,turnip,apple,corn,garlic,pepper,potato,pumpkin,rawpasta,rice,ricevinegar,salt,spicymeat,tomato,watermelon,milkbottle] (16)
+[Info   :Smart Containers Mod] parsed items group 'wood': [wood,finewood,corewood,elderbark,roundlog] (5)
+[Info   : Unity Log] 10/28/2023 17:09:37: Starting to load scene:start
+
+[Info   : Unity Log] 10/28/2023 17:09:37: Using environment steamid 892970
+
+[Info   : Unity Log] 10/28/2023 17:09:37: Using steam APPID:892970
+
+[Info   : Unity Log] 10/28/2023 17:09:37: Authentication:k_ESteamNetworkingAvailability_Attempting
+
+[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Amb_MainMenu).
+[Info   : Unity Log] 10/28/2023 17:09:45: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:45: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:45: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:45: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:45: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:46: Loaded localization file #0 - 'localization' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:46: Loaded localization file #1 - 'localization_extra' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:46: Loaded localization file #2 - 'heightmap_message' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:46: Loaded localization file #3 - 'localization_hildir' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:46: Loaded localization file #4 - 'localization_emotes' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:46: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:46: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:46: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:46: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:46: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   :Jotunn.Main] Initializing GUIManager
+[Info   : Unity Log] 10/28/2023 17:09:47: Steam initialized, persona:Frenvius
+
+[Info   : Unity Log] 10/28/2023 17:09:47: PlayFab custom ID set to "Steam_76561198079964608"
+
+[Info   : Unity Log] 10/28/2023 17:09:47: Using default prefs
+
+[Info   : Unity Log] 10/28/2023 17:09:47: Valheim version: 0.217.25-ServerCharacters (network version 15)
+
+[Info   : Unity Log] 10/28/2023 17:09:47: Worldgenerator version setup:2
+
+[Info   : Unity Log] 10/28/2023 17:09:47: Render threading mode:MultiThreaded
+
+[Warning: Unity Log] 10/28/2023 17:09:47: Set button "CamZoomIn" to None!
+
+[Warning: Unity Log] 10/28/2023 17:09:47: Set button "CamZoomOut" to None!
+
+[Warning: Unity Log] 10/28/2023 17:09:47: Set button "CamZoomIn" to None!
+
+[Warning: Unity Log] 10/28/2023 17:09:47: Set button "CamZoomOut" to None!
+
+[Info   : Unity Log] 10/28/2023 17:09:47: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:47: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:47: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:47: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:47: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:48: Loaded localization file #0 - 'localization' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:48: Loaded localization file #1 - 'localization_extra' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:48: Loaded localization file #2 - 'heightmap_message' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:48: Loaded localization file #3 - 'localization_hildir' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:48: Loaded localization file #4 - 'localization_emotes' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:48: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:48: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:48: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:48: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:49: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:49: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:49: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:49: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:49: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:49: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:49: Loaded localization file #0 - 'localization' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:49: Loaded localization file #1 - 'localization_extra' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:50: Loaded localization file #2 - 'heightmap_message' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:50: Loaded localization file #3 - 'localization_hildir' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:50: Loaded localization file #4 - 'localization_emotes' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:50: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:50: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:50: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:50: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:50: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Warning: Unity Log] 10/28/2023 17:09:50: Missing audio clip in music respawn
+
+[Info   : Unity Log] 10/28/2023 17:09:51: Checking for installed DLCs
+
+[Info   : Unity Log] 10/28/2023 17:09:51: DLC:beta installed:False
+
+[Info   :CraftableChain] called ObjectDB::Awake()
+[Info   :CraftableChain] recipe not found, creating...
+[Info   :CraftableChain] chain not found, skipping.
+[Info   :CraftableChain] ObjectDB not intitialized, skipping.
+[Message:Boneappetit.BoneAppetit] Loaded Game VFX and SFX
+[Message:Boneappetit.BoneAppetit] Load Complete. Bone Appetit yall.
+[Info   :Jotunn.Main] Initializing ZoneManager
+[Info   :Jotunn.Managers.ItemManager] Adding 97 custom items to the ObjectDB
+[Info   :CraftableChain] called ObjectDB::CopyOtherDB()
+[Info   :CraftableChain] recipe not found, creating...
+[Info   :CraftableChain] found chain!
+[Info   :CraftableChain] found iron!
+[Info   :CraftableChain] found nail recipe!
+[Info   :CraftableChain] added recipe.
+[Info   :Valharvest.Scripts.BoneAppetitBalance] SeagullEgg Loaded.
+[Info   :Valharvest.Main] Load Complete.
+[Info   : Unity Log] 10/28/2023 17:09:52: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:52: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:52: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:52: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:52: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:52: Loaded localization file #0 - 'localization' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:52: Loaded localization file #1 - 'localization_extra' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:52: Loaded localization file #2 - 'heightmap_message' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:52: Loaded localization file #3 - 'localization_hildir' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:52: Loaded localization file #4 - 'localization_emotes' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:53: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:53: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:53: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:53: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:53: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:53: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:53: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:53: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:54: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:54: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:54: Loaded localization file #0 - 'localization' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:54: Loaded localization file #1 - 'localization_extra' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:54: Loaded localization file #2 - 'heightmap_message' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:54: Loaded localization file #3 - 'localization_hildir' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:54: Loaded localization file #4 - 'localization_emotes' language: 'Portuguese_Brazilian'
+
+[Info   : Unity Log] 10/28/2023 17:09:54: Loaded localization file #0 - 'localization' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:54: Loaded localization file #1 - 'localization_extra' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:54: Loaded localization file #2 - 'heightmap_message' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:55: Loaded localization file #3 - 'localization_hildir' language: 'English'
+
+[Info   : Unity Log] 10/28/2023 17:09:55: Loaded localization file #4 - 'localization_emotes' language: 'English'
+
+[Info   :Jotunn.Managers.SkillManager] Registering 1 custom skills
+[Info   : Unity Log] 10/28/2023 17:09:55: Sending PlayFab login request (attempt 1)
+
+[Info   : Unity Log] 10/28/2023 17:09:55: Ticket is System.Byte[] of length 369
+
+[Info   : Unity Log] 10/28/2023 17:09:55: Session auth respons callback
+
+[Info   : Unity Log] 10/28/2023 17:09:55: Starting music menu
+
+[Info   : Unity Log] 10/28/2023 17:09:56: PlayFab logged in as "Steam_76561198079964608"
+
+[Info   : Unity Log] 10/28/2023 17:09:56: PlayFab local entity ID is DDB14617131E4DEE
+

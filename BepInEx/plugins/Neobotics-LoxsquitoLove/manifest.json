@@ -1,0 +1,9 @@
+{
+  "name": "LoxsquitoLove",
+  "description": "Keep Deathsquitos from hunting tame Lox",
+  "version_number": "0.1.0",
+  "website_url": "https://www.nexusmods.com/valheim/mods/2569/",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2100"
+  ]
+}

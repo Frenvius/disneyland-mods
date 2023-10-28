@@ -1,0 +1,7 @@
+﻿{
+  "name": "SimpleElevators",
+  "description": "A simple mod that adds a small and large elevators, also adds vertical and diagonal platforms",
+  "version_number": "1.1.1",
+  "website_url": "https://www.nexusmods.com/valheim/mods/2447?tab=bugs",
+  "dependencies": ["denikson-BepInExPack_Valheim-5.4.2200"]
+}

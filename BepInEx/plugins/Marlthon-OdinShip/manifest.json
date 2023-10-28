@@ -1,6 +1,6 @@
 {
     "name": "OdinShip",
-    "version_number": "0.3.8",
+    "version_number": "0.3.9",
     "website_url": "https://discord.gg/mZNHDwxTgp",
     "description": "Add to your game the most beautiful and functional boats, in all there are 9 boats in the cargo, speed, fishing and war categories.",
     "dependencies": [

@@ -1,0 +1,10 @@
+{
+    "name": "BreedingTweaks",
+    "version_number": "1.0.0",
+    "website_url": "https://discord.gg/gSQHmE3yap",
+    "description": "Adjust the maximum number of tamed creatures per cubic space and the chance that a new born will be one level higher than its parent.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2200",
+		"ValheimModding-Jotunn-2.14.5"
+    ]
+}

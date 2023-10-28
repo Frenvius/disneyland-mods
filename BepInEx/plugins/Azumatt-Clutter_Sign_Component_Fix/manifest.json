@@ -1,9 +1,0 @@
-{
-  "name": "Clutter_Sign_Component_Fix",
-  "version_number": "1.0.0",
-  "website_url": "https://discord.gg/pdHgy6Bsng",
-  "description": "Meant to fix the issue with the Sign Component used on the Diaries used in the Clutter mod. This mod is meant to be used with the Clutter mod, but might also fix other signs that are old.",
-  "dependencies": [
-    "denikson-BepInExPack_Valheim-5.4.2100"
-  ]
-}
