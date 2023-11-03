@@ -768,7 +768,7 @@
     minor: 5
     patch: 15
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Smoothbrain-CreatureLevelAndLootControl\4.5.15\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Smoothbrain-CreatureLevelAndLootControl\icon.png
 - manifestVersion: 1
   name: Azumatt-AzuExtendedPlayerInventory
   authorName: Azumatt
@@ -1782,28 +1782,6 @@
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\plumga-Clutter\icon.png
 - manifestVersion: 1
-  name: blacks7ar-SimpleElevators
-  authorName: blacks7ar
-  websiteUrl: https://valheim.thunderstore.io/package/blacks7ar/SimpleElevators/
-  displayName: SimpleElevators
-  description: A simple mod that adds a small and large elevators, also adds
-    vertical and diagonal platforms
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2200
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 1
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\blacks7ar-SimpleElevators\icon.png
-- manifestVersion: 1
   name: Neobotics-LoxsquitoLove
   authorName: Neobotics
   websiteUrl: https://valheim.thunderstore.io/package/Neobotics/LoxsquitoLove/
@@ -1958,3 +1936,24 @@
     patch: 2
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Frogger-ChunkLoader\icon.png
+- manifestVersion: 1
+  name: blacks7ar-TarCollector
+  authorName: blacks7ar
+  websiteUrl: https://valheim.thunderstore.io/package/blacks7ar/TarCollector/
+  displayName: TarCollector
+  description: Adds a new build piece that collects tar if you build it near a tarpit.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2105
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 9
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\blacks7ar-TarCollector\icon.png
