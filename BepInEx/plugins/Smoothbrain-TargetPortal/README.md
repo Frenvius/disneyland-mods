@@ -26,3 +26,5 @@ Valheim fetches portals every 5 seconds, so it might take a few seconds for new 
 Works with custom portals added by other mods.
 
 For multiplayer games, this is required on the server as well.
+
+There is a hotkey to toggle portal icon display on the normal map. Default is P.

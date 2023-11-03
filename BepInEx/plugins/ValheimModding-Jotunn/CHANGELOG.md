@@ -1,5 +1,13 @@
 # Changelog
 
+## Version 2.14.6
+* Added a soft dependency to the LocalizationCache mod so that it loads a bit earlier. This has no direct impact on Jötunn
+* Changed prebuild references from the unstripped_corlib folder to the game assemblies as Valheim is no longer unstripped and the folder has been removed from the BepInEx package
+* Fixed the debug mode Jötunn ASCII art
+* Fixed AddComponentCopy was setting the name and tag of the Component's GameObject
+* Fixed KeyHints for left hand items
+* Fixed sprite rendering results in mostly empty sprites in Unity 2022, backwards compatible and an existing cached sprite will be recreated
+
 ## Version 2.14.5
 * Fixed GUIManager assets not being properly initialized when later accessed, causing some elements to not show up
 * Fixed an edge case where holding a reference to the ObjectDB causes it not to be destroyed correctly. This fixes some errors on logout with certain mods

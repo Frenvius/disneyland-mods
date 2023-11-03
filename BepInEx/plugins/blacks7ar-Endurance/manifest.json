@@ -1,7 +1,0 @@
-﻿{
-  "name": "Endurance",
-  "description": "A simple skill mod that increases your stamina and stamina regen as the skill levels up.",
-  "version_number": "1.0.5",
-  "website_url": "https://www.nexusmods.com/valheim/mods/2393?tab=bugs",
-  "dependencies": ["denikson-BepInExPack_Valheim-5.4.2200"]
-}

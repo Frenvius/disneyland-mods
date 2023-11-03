@@ -88,27 +88,6 @@ The mod has an option to adjust the HP and DMG increase for creatures per player
 
 And be mindful with the settings. If you spawn an entire Fuling village with 5 stars Fulings, changing the settings or disabling the mod will not revert their level.
 
-## Synchronizing a configuration on a multiplayer server
-You can install the mod on the server just like you would install it on the client as well (requires BepInEx on the server as well). If you do that, the server will automatically synchronize all settings, including the YAML configuration between all clients. There are two different modes that you can use:
-
-**Locked Config** - Once you've started up the server with the mod installed, you will find a setting at the top of the configuration file, which looks like this:
-
-	[0 - Server]
-
-	## The configuration is locked and may not be changed by clients
-	# Setting type: Toggle
-	# Default value: Off
-	# Acceptable values: Off, On
-	Lock Configuration = Off
-
-
-If you set this setting to 'On', the configuration will be locked and cannot be changed by clients. Opening the BepInEx Configuration Manager will display the servers configuration, but clients will be unable to change the configuration.
-
-**Unlocked Config** - If you leave the setting mentioned above set to 'Off', clients can open the BepInEx Configuration Manager to change the configuration. Changing the settings there will synchronize the changes to all clients connected to the server immediately and update the configuration file on the server as well.
-
-Both modes will not change the configuration file on your computer and your own configuration will be used, if you connect to a server that doesn't synchronize the configuration.
-
-
 # I accidentally spawned a level 5000 creature / boss! What now?
 If you have attached '-console' as a launch parameter for Valheim, you can open the console by hitting F5 in the game. The following command can be used, to remove accidentally spawned creatures:
 
@@ -126,4 +105,4 @@ Removes all nearby creatures.
 - (If you are only reading this list for some reason: Yes, you can use this mod to make the game A LOT easier.)
 
 
-Need more stamina to fight tough enemies? Check out [this sweet mod](https://valheim.thunderstore.io/package/Smoothbrain/StaminaRegenerationFromFood)﻿ and make sure you are always [properly rested](https://valheim.thunderstore.io/package/Smoothbrain/ComfortTweaks)!
+Need some nice gems to fight tough enemies? Check out [this sweet mod](https://valheim.thunderstore.io/package/Smoothbrain/Jewelcrafting)!﻿

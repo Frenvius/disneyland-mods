@@ -37,13 +37,19 @@ Adds finewood variants of the wood build pieces, stone roof shingles, thatch wal
 
 <br/>
 
-v1.3.3
-- minor bug fixed.
-- put localization example to a zip package to avoid unnecessary dupblicate.
+v1.3.4
+- fixed clay pieces shader and texture
+- fixed roof shingles shader and texture
+- updated serversync
+- added 2 new windows
 
 <details>
 <summary><b>Changelog History</b> (<i>click to expand</i>)</summary>
 <br/>
+
+v1.3.3
+- minor bug fixed.
+- put localization example to a zip package to avoid unnecessary dupblicate.
 
 v1.3.2
 - added a fence set (1 gate, 4 pillars, 4 fence tiles)

@@ -1,0 +1,10 @@
+{
+    "name": "ChunkLoader",
+    "version_number": "1.4.2",
+    "website_url": "https://discord.gg/WsDuAjPPHn",
+    "description": "Keeps some area active even there are no players nearby. More details on the mod page.",
+    "dependencies": [
+        "denikson-BepInExPack_Valheim-5.4.2202",
+		"Frogger-NoUselessWarnings-1.1.0"
+    ]
+}

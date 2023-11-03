@@ -1,6 +1,6 @@
 {
     "name": "TargetPortal",
-    "version_number": "1.1.13",
+    "version_number": "1.1.16",
     "website_url": "https://github.com/blaxxun-boop/TargetPortal",
     "description": "Lets you target any portal, instead of having to connect two portals via a tag.",
     "dependencies": [

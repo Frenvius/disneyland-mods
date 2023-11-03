@@ -1,0 +1,9 @@
+{
+  "name": "AttackStamina",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/AzumattDev/AttackStamina",
+  "description": "This mod Adds a separate Stamina system that separates running/jumping stamina with attack/bow stamina.",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2201"
+  ]
+}

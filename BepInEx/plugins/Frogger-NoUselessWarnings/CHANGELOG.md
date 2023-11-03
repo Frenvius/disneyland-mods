@@ -1,0 +1,1 @@
+1.1.0 - Added configuration ang many new filters

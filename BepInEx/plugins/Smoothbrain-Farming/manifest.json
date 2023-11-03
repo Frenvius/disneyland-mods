@@ -1,6 +1,6 @@
 {
     "name": "Farming",
-    "version_number": "2.1.11",
+    "version_number": "2.1.12",
     "website_url": "https://github.com/blaxxun-boop/Farming",
     "description": "Adds a skill that makes crops grow faster and increases item yield for harvesting crops.",
     "dependencies": [

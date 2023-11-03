@@ -1,4 +1,6 @@
 > # Update Information (Latest listed first)
+> ### v1.1.11
+> - Seperate out the Prevent Exploits option into a main toggle for all, and three options dependent on the main. You can now enable and disable the individual options. Requested by Majestic in my discord
 > ### v1.1.10
 > - Fix an issue with the build menu's text causing warning spams in the console
 > ### v1.1.9

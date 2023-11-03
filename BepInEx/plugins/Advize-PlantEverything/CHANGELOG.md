@@ -1,3 +1,13 @@
+### 1.15.1
+- Corrected behaviour of [Crops]EnemiesTargetCrops. When disabled, mobs will definitely no longer attack your crops.
+
+### 1.15.0
+- Moved localization & ExtraResources.cfg files to the config folder.
+- Added [Difficulty]EnemiesTargetPieces & [Crops]EnemiesTargetCrops.
+	- When false, mobs won't attack pieces or crops placed with the cultivator.
+- Removed hammer's ability to remove cultivator pieces.
+- Fixed dupe exploit when RecoverResources is enabled.
+
 ### 1.14.1
 - Fixed NRE when a custom ExtraResource has a Pickable component and [General]ShowPickableSpawners is enabled.
 

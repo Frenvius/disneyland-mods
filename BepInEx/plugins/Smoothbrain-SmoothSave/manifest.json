@@ -1,9 +1,9 @@
 {
     "name": "SmoothSave",
-    "version_number": "1.0.2",
+    "version_number": "1.0.3",
     "website_url": "https://github.com/blaxxun-boop/SmoothSave",
     "description": "Removes the freeze that happens if the world is being saved.",
     "dependencies": [
-        "denikson-BepInExPack_Valheim-5.4.2105"
+        "denikson-BepInExPack_Valheim-5.4.2202"
     ]
 }
