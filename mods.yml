@@ -1520,7 +1520,7 @@
     minor: 1
     patch: 4
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Azumatt-AzuAutoStore\2.1.4\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-AzuAutoStore\icon.png
 - manifestVersion: 1
   name: Azumatt-Where_You_At
   authorName: Azumatt
@@ -1650,8 +1650,8 @@
     major: 1
     minor: 0
     patch: 3
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Smoothbrain-SmoothSave\icon.png
+  enabled: false
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Smoothbrain-SmoothSave\1.0.3\icon.png
 - manifestVersion: 1
   name: shudnal-AnyWood
   authorName: shudnal
