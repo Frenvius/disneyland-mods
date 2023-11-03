@@ -1,5 +1,5 @@
 [Message:   BepInEx] BepInEx 5.4.22.0 - valheim (30/09/2023 02:10:06)
-[Message:   BepInEx] User is running BepInExPack Valheim version 5.4.2201 from Thunderstore
+[Message:   BepInEx] User is running BepInExPack Valheim version 5.4.2202 from Thunderstore
 [Info   :   BepInEx] Running under Unity v2020.3.45.6687953
 [Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
 [Info   :   BepInEx] Supports SRE: True
@@ -11,73 +11,74 @@
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 83 plugins to load
-[Info   :   BepInEx] Loading [PlantEverything 1.14.1]
+[Info   :   BepInEx] 87 plugins to load
+[Info   :   BepInEx] Loading [PlantEverything 1.15.1]
 [Info   :   BepInEx] Loading [Compass 1.3.0]
 [Info   :   BepInEx] Loading [Instant Monster Drop 0.5.0]
 [Info   :   BepInEx] Loading [Simple Sort 0.7.0]
-[Info   :   BepInEx] Loading [Creature Level & Loot Control 4.5.13]
-[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #0 - 'localization' language: 'English'
+[Info   :   BepInEx] Loading [Creature Level & Loot Control 4.5.15]
+[Info   : Unity Log] 11/03/2023 17:54:16: Loaded localization file #0 - 'localization' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #1 - 'localization_extra' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:16: Loaded localization file #1 - 'localization_extra' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #2 - 'heightmap_message' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:16: Loaded localization file #2 - 'heightmap_message' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #3 - 'localization_hildir' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:16: Loaded localization file #3 - 'localization_hildir' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #4 - 'localization_emotes' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:16: Loaded localization file #4 - 'localization_emotes' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #0 - 'localization' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:54:16: Loaded localization file #0 - 'localization' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #1 - 'localization_extra' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:54:16: Loaded localization file #1 - 'localization_extra' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #2 - 'heightmap_message' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:54:16: Loaded localization file #2 - 'heightmap_message' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #3 - 'localization_hildir' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:54:16: Loaded localization file #3 - 'localization_hildir' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #4 - 'localization_emotes' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:54:16: Loaded localization file #4 - 'localization_emotes' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #0 - 'localization' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:16: Loaded localization file #0 - 'localization' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #1 - 'localization_extra' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:16: Loaded localization file #1 - 'localization_extra' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #2 - 'heightmap_message' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:16: Loaded localization file #2 - 'heightmap_message' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #3 - 'localization_hildir' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:16: Loaded localization file #3 - 'localization_hildir' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #4 - 'localization_emotes' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:16: Loaded localization file #4 - 'localization_emotes' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #0 - 'localization' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:54:16: Loaded localization file #0 - 'localization' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #1 - 'localization_extra' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:54:16: Loaded localization file #1 - 'localization_extra' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #2 - 'heightmap_message' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:54:16: Loaded localization file #2 - 'heightmap_message' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #3 - 'localization_hildir' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:54:16: Loaded localization file #3 - 'localization_hildir' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #4 - 'localization_emotes' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:54:16: Loaded localization file #4 - 'localization_emotes' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #0 - 'localization' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:16: Loaded localization file #0 - 'localization' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #1 - 'localization_extra' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:16: Loaded localization file #1 - 'localization_extra' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #2 - 'heightmap_message' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:16: Loaded localization file #2 - 'heightmap_message' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #3 - 'localization_hildir' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:16: Loaded localization file #3 - 'localization_hildir' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:11: Loaded localization file #4 - 'localization_emotes' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:16: Loaded localization file #4 - 'localization_emotes' language: 'English'
 
 [Info   :   BepInEx] Loading [Spawn That! 1.2.7]
 [Info   :   BepInEx] Loading [Drop That! 2.3.10]
 [Message:Drop That!] Loading general configuration from C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\config\drop_that.cfg.
 [Info   :   BepInEx] Loading [AllTheBases 1.0.7]
+[Info   :   BepInEx] Loading [AttackStamina 1.0.0]
 [Info   :   BepInEx] Loading [AzuAntiArthriticCrafting 1.2.1]
 [Info   :   BepInEx] Loading [AzuAreaRepair 1.1.3]
 [Info   :   BepInEx] Loading [AzuContainerSizes 1.0.2]
 [Info   :   BepInEx] Loading [AzuCraftyBoxes 1.2.4]
-[Info   :   BepInEx] Loading [AzuExtendedPlayerInventory 1.3.1]
+[Info   :   BepInEx] Loading [AzuExtendedPlayerInventory 1.3.3]
 [Info   :   BepInEx] Loading [AzuMapDetails 1.0.2]
-[Info   :   BepInEx] Loading [AzuMiscPatches 1.1.10]
+[Info   :   BepInEx] Loading [AzuMiscPatches 1.1.11]
 [Info   :   BepInEx] Loading [AzuWearNTearPatches 1.0.3]
 [Info   :   BepInEx] Loading [AzuWorkbenchTweaks 1.0.2]
 [Info   :   BepInEx] Loading [CraftyCarts 3.1.1]
@@ -88,15 +89,14 @@
 [Info   :   BepInEx] Loading [ShipStats 1.0.2]
 [Info   :   BepInEx] Loading [WhereYouAt 1.0.9]
 [Info   :   BepInEx] Loading [PerfectPlacement 1.1.6]
-[Info   :   BepInEx] Loading [Jotunn 2.14.5]
+[Info   :   BepInEx] Loading [Jotunn 2.14.6]
 [Info   :Jotunn.Main] Initializing ModCompatibility
 [Info   :Jotunn.Main] Initializing SynchronizationManager
 [Info   :Jotunn.Main] Initializing NetworkManager
 [Info   :   BepInEx] Loading [FarmGrid 0.5.0]
 [Info   :   BepInEx] Loading [kgladder 0.2.0]
-[Info   :   BepInEx] Loading [Endurance 1.0.5]
-[Info   :   BepInEx] Loading [FineWoodPieces 1.3.3]
-[Info   :   BepInEx] Loading [SimpleElevators 1.1.1]
+[Info   :   BepInEx] Loading [FineWoodPieces 1.3.4]
+[Info   :   BepInEx] Loading [TarCollector 1.0.9]
 [Info   :   BepInEx] Loading [Floors Are Roofs 2.0.2]
 [Info   : Unity Log] [floorsareroofs]: Initializing using config settings: PrefabsToChange:[wood_floor,wood_floor_1x1], Hammers:[Hammer], RemoveRainDamage:[True]
 [Info   :Jotunn.Main] Initializing PieceManager
@@ -118,9 +118,856 @@
 [Info   :Valharvest.Main] Preparing the plants...
 [Info   :Jotunn.Main] Initializing MockManager
 [Info   :Valharvest.Scripts.Loaders] Loaded pieces
+[Info   :   BepInEx] Loading [Frogger.NoUselessWarnings 1.1.0]
+[Info   :   BepInEx] Loading [ChunkLoader 1.4.2]
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Unlit2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Particles/Standard Surface2'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Custom/Piece'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
+[Warning: Unity Log] Failed to find expected binary shader data in 'Lux Lit Particles/ Bumped'.
 [Info   :   BepInEx] Loading [TeleportEverything 2.5.1]
 [Info   : Unity Log] TeleportEverything Loaded...
 [Info   :   BepInEx] Loading [Use Equipment in Water 0.2.4]
+[Info   :   BepInEx] Loading [DynamicStoragePiles 0.4.0]
 [Info   :   BepInEx] Loading [PotionsPlus 4.1.12]
 [Info   :   BepInEx] Loading [MeadingfulIcons 0.1.0]
 [Info   :   BepInEx] Loading [Clutter 0.1.6]
@@ -144,13 +991,13 @@
 [Info   :   BepInEx] Loading [Blacksmithing 1.2.5]
 [Info   :   BepInEx] Loading [Building 1.2.5]
 [Info   :   BepInEx] Loading [Conversion Size & Speed 1.0.15]
-[Info   :   BepInEx] Loading [Farming 2.1.11]
+[Info   :   BepInEx] Loading [Farming 2.1.12]
 [Info   :   BepInEx] Loading [Mining 1.1.5]
 [Info   :   BepInEx] Loading [PackHorse 1.0.3]
 [Info   :   BepInEx] Loading [Sailing 1.1.7]
 [Info   :   BepInEx] Loading [Server Characters 1.4.10]
-[Info   :   BepInEx] Loading [Smooth Save 1.0.2]
-[Info   :   BepInEx] Loading [TargetPortal 1.1.13]
+[Info   :   BepInEx] Loading [Smooth Save 1.0.3]
+[Info   :   BepInEx] Loading [TargetPortal 1.1.16]
 [Info   :   BepInEx] Loading [Display BepInEx Info In-Game 2.0.2]
 [Info   :   BepInEx] Loading [InteractWhileBuilding 1.0.0]
 [Info   :InteractWhileBuilding] InteractWhileBuilding loaded.
@@ -161,6 +1008,7 @@
 [Info   :OdinArchitect.OdinArchitect] Loaded items and conversions
 [Info   :   BepInEx] Loading [BetterLanterns 1.0.7]
 [Info   :   BepInEx] Loading [Equipment and Quick Slots 2.1.11]
+[Info   :   BepInEx] Loading [Minimal Status Effects 1.0.5]
 [Info   :   BepInEx] Loading [PotteryBarn 1.11.0]
 [Info   :   BepInEx] Loading [SearsCatalog 1.3.0]
 [Info   :   BepInEx] Loading [Marks all portals on the minimap when renaming and using them. Removes them on destroy. 1.1.0]
@@ -176,9 +1024,9 @@
 [Info   : Unity Log] Found Transpiler Patch
 [Info   :   BepInEx] Loading [ExtendSkeleNames 1.1.0]
 [Message:   BepInEx] Chainloader startup complete
-[Warning: Unity Log] 10/28/2023 17:09:37: Fetching PlatformPrefs 'GuiScale' before loading defaults
+[Warning: Unity Log] 11/03/2023 17:54:43: Fetching PlatformPrefs 'GuiScale' before loading defaults
 
-[Warning: Unity Log] 10/28/2023 17:09:37: Fetching PlatformPrefs 'GuiScale' before loading defaults
+[Warning: Unity Log] 11/03/2023 17:54:43: Fetching PlatformPrefs 'GuiScale' before loading defaults
 
 [Info   :Smart Containers Mod] parsed PrefixedItemGroups : [trophy,mead,arrow,armor,cape,helmet,atgeir,bow,battleaxe,knife,mace,shield,sledge,spear,sword,tankard,club,mushroom] (18)
 [Info   :Smart Containers Mod] parsed PostfixedItemGroups: [cone,seeds,pelt,hide,berries] (5)
@@ -191,131 +1039,131 @@
 [Info   :Smart Containers Mod] parsed items group 'valuables': [ruby,coins,amber,amberpearl,bonemeal,waterbucket,milkbucket,emptybottle] (8)
 [Info   :Smart Containers Mod] parsed items group 'vegetables': [carrot,turnip,apple,corn,garlic,pepper,potato,pumpkin,rawpasta,rice,ricevinegar,salt,spicymeat,tomato,watermelon,milkbottle] (16)
 [Info   :Smart Containers Mod] parsed items group 'wood': [wood,finewood,corewood,elderbark,roundlog] (5)
-[Info   : Unity Log] 10/28/2023 17:09:37: Starting to load scene:start
+[Info   : Unity Log] 11/03/2023 17:54:44: Starting to load scene:start
 
-[Info   : Unity Log] 10/28/2023 17:09:37: Using environment steamid 892970
+[Info   : Unity Log] 11/03/2023 17:54:44: Using environment steamid 892970
 
-[Info   : Unity Log] 10/28/2023 17:09:37: Using steam APPID:892970
+[Info   : Unity Log] 11/03/2023 17:54:44: Using steam APPID:892970
 
-[Info   : Unity Log] 10/28/2023 17:09:37: Authentication:k_ESteamNetworkingAvailability_Attempting
+[Info   : Unity Log] 11/03/2023 17:54:44: Authentication:k_ESteamNetworkingAvailability_Attempting
 
 [Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Amb_MainMenu).
-[Info   : Unity Log] 10/28/2023 17:09:45: Loaded localization file #0 - 'localization' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:51: Loaded localization file #0 - 'localization' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:45: Loaded localization file #1 - 'localization_extra' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:51: Loaded localization file #1 - 'localization_extra' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:45: Loaded localization file #2 - 'heightmap_message' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:51: Loaded localization file #2 - 'heightmap_message' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:45: Loaded localization file #3 - 'localization_hildir' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:51: Loaded localization file #3 - 'localization_hildir' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:45: Loaded localization file #4 - 'localization_emotes' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:52: Loaded localization file #4 - 'localization_emotes' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:46: Loaded localization file #0 - 'localization' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:54:52: Loaded localization file #0 - 'localization' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:46: Loaded localization file #1 - 'localization_extra' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:54:52: Loaded localization file #1 - 'localization_extra' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:46: Loaded localization file #2 - 'heightmap_message' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:54:52: Loaded localization file #2 - 'heightmap_message' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:46: Loaded localization file #3 - 'localization_hildir' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:54:52: Loaded localization file #3 - 'localization_hildir' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:46: Loaded localization file #4 - 'localization_emotes' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:54:52: Loaded localization file #4 - 'localization_emotes' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:46: Loaded localization file #0 - 'localization' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:52: Loaded localization file #0 - 'localization' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:46: Loaded localization file #1 - 'localization_extra' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:53: Loaded localization file #1 - 'localization_extra' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:46: Loaded localization file #2 - 'heightmap_message' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:53: Loaded localization file #2 - 'heightmap_message' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:46: Loaded localization file #3 - 'localization_hildir' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:53: Loaded localization file #3 - 'localization_hildir' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:46: Loaded localization file #4 - 'localization_emotes' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:53: Loaded localization file #4 - 'localization_emotes' language: 'English'
 
 [Info   :Jotunn.Main] Initializing GUIManager
-[Info   : Unity Log] 10/28/2023 17:09:47: Steam initialized, persona:Frenvius
+[Info   : Unity Log] 11/03/2023 17:54:53: Steam initialized, persona:Frenvius
 
-[Info   : Unity Log] 10/28/2023 17:09:47: PlayFab custom ID set to "Steam_76561198079964608"
+[Info   : Unity Log] 11/03/2023 17:54:53: PlayFab custom ID set to "Steam_76561198079964608"
 
-[Info   : Unity Log] 10/28/2023 17:09:47: Using default prefs
+[Info   : Unity Log] 11/03/2023 17:54:53: Using default prefs
 
-[Info   : Unity Log] 10/28/2023 17:09:47: Valheim version: 0.217.25-ServerCharacters (network version 15)
+[Info   : Unity Log] 11/03/2023 17:54:53: Valheim version: 0.217.25-ServerCharacters (network version 15)
 
-[Info   : Unity Log] 10/28/2023 17:09:47: Worldgenerator version setup:2
+[Info   : Unity Log] 11/03/2023 17:54:53: Worldgenerator version setup:2
 
-[Info   : Unity Log] 10/28/2023 17:09:47: Render threading mode:MultiThreaded
+[Info   : Unity Log] 11/03/2023 17:54:53: Render threading mode:MultiThreaded
 
-[Warning: Unity Log] 10/28/2023 17:09:47: Set button "CamZoomIn" to None!
+[Warning: Unity Log] 11/03/2023 17:54:53: Set button "CamZoomIn" to None!
 
-[Warning: Unity Log] 10/28/2023 17:09:47: Set button "CamZoomOut" to None!
+[Warning: Unity Log] 11/03/2023 17:54:53: Set button "CamZoomOut" to None!
 
-[Warning: Unity Log] 10/28/2023 17:09:47: Set button "CamZoomIn" to None!
+[Warning: Unity Log] 11/03/2023 17:54:53: Set button "CamZoomIn" to None!
 
-[Warning: Unity Log] 10/28/2023 17:09:47: Set button "CamZoomOut" to None!
+[Warning: Unity Log] 11/03/2023 17:54:53: Set button "CamZoomOut" to None!
 
-[Info   : Unity Log] 10/28/2023 17:09:47: Loaded localization file #0 - 'localization' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:54: Loaded localization file #0 - 'localization' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:47: Loaded localization file #1 - 'localization_extra' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:54: Loaded localization file #1 - 'localization_extra' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:47: Loaded localization file #2 - 'heightmap_message' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:54: Loaded localization file #2 - 'heightmap_message' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:47: Loaded localization file #3 - 'localization_hildir' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:54: Loaded localization file #3 - 'localization_hildir' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:47: Loaded localization file #4 - 'localization_emotes' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:54: Loaded localization file #4 - 'localization_emotes' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:48: Loaded localization file #0 - 'localization' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:54:54: Loaded localization file #0 - 'localization' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:48: Loaded localization file #1 - 'localization_extra' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:54:54: Loaded localization file #1 - 'localization_extra' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:48: Loaded localization file #2 - 'heightmap_message' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:54:54: Loaded localization file #2 - 'heightmap_message' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:48: Loaded localization file #3 - 'localization_hildir' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:54:55: Loaded localization file #3 - 'localization_hildir' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:48: Loaded localization file #4 - 'localization_emotes' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:54:55: Loaded localization file #4 - 'localization_emotes' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:48: Loaded localization file #0 - 'localization' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:55: Loaded localization file #0 - 'localization' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:48: Loaded localization file #1 - 'localization_extra' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:55: Loaded localization file #1 - 'localization_extra' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:48: Loaded localization file #2 - 'heightmap_message' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:55: Loaded localization file #2 - 'heightmap_message' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:48: Loaded localization file #3 - 'localization_hildir' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:55: Loaded localization file #3 - 'localization_hildir' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:49: Loaded localization file #4 - 'localization_emotes' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:55: Loaded localization file #4 - 'localization_emotes' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:49: Loaded localization file #0 - 'localization' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:56: Loaded localization file #0 - 'localization' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:49: Loaded localization file #1 - 'localization_extra' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:56: Loaded localization file #1 - 'localization_extra' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:49: Loaded localization file #2 - 'heightmap_message' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:56: Loaded localization file #2 - 'heightmap_message' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:49: Loaded localization file #3 - 'localization_hildir' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:56: Loaded localization file #3 - 'localization_hildir' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:49: Loaded localization file #4 - 'localization_emotes' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:56: Loaded localization file #4 - 'localization_emotes' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:49: Loaded localization file #0 - 'localization' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:54:56: Loaded localization file #0 - 'localization' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:49: Loaded localization file #1 - 'localization_extra' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:54:56: Loaded localization file #1 - 'localization_extra' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:50: Loaded localization file #2 - 'heightmap_message' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:54:56: Loaded localization file #2 - 'heightmap_message' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:50: Loaded localization file #3 - 'localization_hildir' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:54:57: Loaded localization file #3 - 'localization_hildir' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:50: Loaded localization file #4 - 'localization_emotes' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:54:57: Loaded localization file #4 - 'localization_emotes' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:50: Loaded localization file #0 - 'localization' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:57: Loaded localization file #0 - 'localization' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:50: Loaded localization file #1 - 'localization_extra' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:57: Loaded localization file #1 - 'localization_extra' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:50: Loaded localization file #2 - 'heightmap_message' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:57: Loaded localization file #2 - 'heightmap_message' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:50: Loaded localization file #3 - 'localization_hildir' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:57: Loaded localization file #3 - 'localization_hildir' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:50: Loaded localization file #4 - 'localization_emotes' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:57: Loaded localization file #4 - 'localization_emotes' language: 'English'
 
-[Warning: Unity Log] 10/28/2023 17:09:50: Missing audio clip in music respawn
+[Warning: Unity Log] 11/03/2023 17:54:58: Missing audio clip in music respawn
 
-[Info   : Unity Log] 10/28/2023 17:09:51: Checking for installed DLCs
+[Info   : Unity Log] 11/03/2023 17:54:58: Checking for installed DLCs
 
-[Info   : Unity Log] 10/28/2023 17:09:51: DLC:beta installed:False
+[Info   : Unity Log] 11/03/2023 17:54:58: DLC:beta installed:False
 
 [Info   :CraftableChain] called ObjectDB::Awake()
 [Info   :CraftableChain] recipe not found, creating...
@@ -333,76 +1181,76 @@
 [Info   :CraftableChain] added recipe.
 [Info   :Valharvest.Scripts.BoneAppetitBalance] SeagullEgg Loaded.
 [Info   :Valharvest.Main] Load Complete.
-[Info   : Unity Log] 10/28/2023 17:09:52: Loaded localization file #0 - 'localization' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:59: Loaded localization file #0 - 'localization' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:52: Loaded localization file #1 - 'localization_extra' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:59: Loaded localization file #1 - 'localization_extra' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:52: Loaded localization file #2 - 'heightmap_message' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:59: Loaded localization file #2 - 'heightmap_message' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:52: Loaded localization file #3 - 'localization_hildir' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:59: Loaded localization file #3 - 'localization_hildir' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:52: Loaded localization file #4 - 'localization_emotes' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:54:59: Loaded localization file #4 - 'localization_emotes' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:52: Loaded localization file #0 - 'localization' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:54:59: Loaded localization file #0 - 'localization' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:52: Loaded localization file #1 - 'localization_extra' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:54:59: Loaded localization file #1 - 'localization_extra' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:52: Loaded localization file #2 - 'heightmap_message' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:55:00: Loaded localization file #2 - 'heightmap_message' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:52: Loaded localization file #3 - 'localization_hildir' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:55:00: Loaded localization file #3 - 'localization_hildir' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:52: Loaded localization file #4 - 'localization_emotes' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:55:00: Loaded localization file #4 - 'localization_emotes' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:53: Loaded localization file #0 - 'localization' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:55:00: Loaded localization file #0 - 'localization' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:53: Loaded localization file #1 - 'localization_extra' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:55:00: Loaded localization file #1 - 'localization_extra' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:53: Loaded localization file #2 - 'heightmap_message' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:55:00: Loaded localization file #2 - 'heightmap_message' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:53: Loaded localization file #3 - 'localization_hildir' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:55:00: Loaded localization file #3 - 'localization_hildir' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:53: Loaded localization file #4 - 'localization_emotes' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:55:00: Loaded localization file #4 - 'localization_emotes' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:53: Loaded localization file #0 - 'localization' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:55:01: Loaded localization file #0 - 'localization' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:53: Loaded localization file #1 - 'localization_extra' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:55:01: Loaded localization file #1 - 'localization_extra' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:53: Loaded localization file #2 - 'heightmap_message' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:55:01: Loaded localization file #2 - 'heightmap_message' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:54: Loaded localization file #3 - 'localization_hildir' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:55:01: Loaded localization file #3 - 'localization_hildir' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:54: Loaded localization file #4 - 'localization_emotes' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:55:01: Loaded localization file #4 - 'localization_emotes' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:54: Loaded localization file #0 - 'localization' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:55:01: Loaded localization file #0 - 'localization' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:54: Loaded localization file #1 - 'localization_extra' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:55:01: Loaded localization file #1 - 'localization_extra' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:54: Loaded localization file #2 - 'heightmap_message' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:55:01: Loaded localization file #2 - 'heightmap_message' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:54: Loaded localization file #3 - 'localization_hildir' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:55:02: Loaded localization file #3 - 'localization_hildir' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:54: Loaded localization file #4 - 'localization_emotes' language: 'Portuguese_Brazilian'
+[Info   : Unity Log] 11/03/2023 17:55:02: Loaded localization file #4 - 'localization_emotes' language: 'Portuguese_Brazilian'
 
-[Info   : Unity Log] 10/28/2023 17:09:54: Loaded localization file #0 - 'localization' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:55:02: Loaded localization file #0 - 'localization' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:54: Loaded localization file #1 - 'localization_extra' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:55:02: Loaded localization file #1 - 'localization_extra' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:54: Loaded localization file #2 - 'heightmap_message' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:55:02: Loaded localization file #2 - 'heightmap_message' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:55: Loaded localization file #3 - 'localization_hildir' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:55:02: Loaded localization file #3 - 'localization_hildir' language: 'English'
 
-[Info   : Unity Log] 10/28/2023 17:09:55: Loaded localization file #4 - 'localization_emotes' language: 'English'
+[Info   : Unity Log] 11/03/2023 17:55:02: Loaded localization file #4 - 'localization_emotes' language: 'English'
 
 [Info   :Jotunn.Managers.SkillManager] Registering 1 custom skills
-[Info   : Unity Log] 10/28/2023 17:09:55: Sending PlayFab login request (attempt 1)
+[Info   : Unity Log] 11/03/2023 17:55:03: Sending PlayFab login request (attempt 1)
 
-[Info   : Unity Log] 10/28/2023 17:09:55: Ticket is System.Byte[] of length 369
+[Info   : Unity Log] 11/03/2023 17:55:03: Ticket is System.Byte[] of length 369
 
-[Info   : Unity Log] 10/28/2023 17:09:55: Session auth respons callback
+[Info   : Unity Log] 11/03/2023 17:55:03: Session auth respons callback
 
-[Info   : Unity Log] 10/28/2023 17:09:55: Starting music menu
+[Info   : Unity Log] 11/03/2023 17:55:03: Starting music menu
 
-[Info   : Unity Log] 10/28/2023 17:09:56: PlayFab logged in as "Steam_76561198079964608"
+[Info   : Unity Log] 11/03/2023 17:55:04: PlayFab logged in as "Steam_76561198079964608"
 
-[Info   : Unity Log] 10/28/2023 17:09:56: PlayFab local entity ID is DDB14617131E4DEE
+[Info   : Unity Log] 11/03/2023 17:55:04: PlayFab local entity ID is DDB14617131E4DEE
 
