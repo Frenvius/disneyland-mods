@@ -1957,3 +1957,24 @@
     patch: 9
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\blacks7ar-TarCollector\icon.png
+- manifestVersion: 1
+  name: Korppis-SolidHitboxes
+  authorName: Korppis
+  websiteUrl: https://valheim.thunderstore.io/package/Korppis/SolidHitboxes/
+  displayName: SolidHitboxes
+  description: Makes AI attacks collide with their allies. No more shooting through mobs.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2105
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 5
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Korppis-SolidHitboxes\1.0.5\icon.png
