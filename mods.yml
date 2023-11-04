@@ -1101,8 +1101,8 @@
     major: 1
     minor: 6
     patch: 8
-  enabled: false
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\TiwoT-SmarterContainers\1.6.8\icon.png
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\TiwoT-SmarterContainers\icon.png
 - manifestVersion: 1
   name: Smoothbrain-Farming
   authorName: Smoothbrain
@@ -1519,8 +1519,8 @@
     major: 2
     minor: 1
     patch: 4
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-AzuAutoStore\icon.png
+  enabled: false
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Azumatt-AzuAutoStore\2.1.4\icon.png
 - manifestVersion: 1
   name: Azumatt-Where_You_At
   authorName: Azumatt
