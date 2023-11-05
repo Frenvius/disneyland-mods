@@ -766,9 +766,9 @@
   versionNumber:
     major: 4
     minor: 5
-    patch: 15
+    patch: 16
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Smoothbrain-CreatureLevelAndLootControl\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Smoothbrain-CreatureLevelAndLootControl\4.5.16\icon.png
 - manifestVersion: 1
   name: Azumatt-AzuExtendedPlayerInventory
   authorName: Azumatt
@@ -789,7 +789,7 @@
   versionNumber:
     major: 1
     minor: 3
-    patch: 3
+    patch: 4
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-AzuExtendedPlayerInventory\icon.png
 - manifestVersion: 1
@@ -1977,4 +1977,4 @@
     minor: 0
     patch: 5
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Korppis-SolidHitboxes\1.0.5\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Korppis-SolidHitboxes\icon.png
