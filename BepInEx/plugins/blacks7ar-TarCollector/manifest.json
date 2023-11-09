@@ -1,7 +1,7 @@
 ﻿{
   "name": "TarCollector",
   "description": "Adds a new build piece that collects tar if you build it near a tarpit.",
-  "version_number": "1.0.9",
+  "version_number": "1.1.0",
   "website_url": "https://www.nexusmods.com/valheim/mods/2457?tab=bugs",
-  "dependencies": ["denikson-BepInExPack_Valheim-5.4.2105"]
+  "dependencies": ["denikson-BepInExPack_Valheim-5.4.2202"]
 }

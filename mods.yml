@@ -121,15 +121,15 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2200
+    - denikson-BepInExPack_Valheim-5.4.2202
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 15
-    patch: 1
+    patch: 2
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Advize-PlantEverything\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Advize-PlantEverything\1.15.2\icon.png
 - manifestVersion: 1
   name: OdinPlus-PotionPlus
   authorName: OdinPlus
@@ -277,13 +277,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2200
+    - denikson-BepInExPack_Valheim-5.4.2201
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 2
     minor: 1
-    patch: 11
+    patch: 12
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\RandyKnapp-EquipmentAndQuickSlots\icon.png
 - manifestVersion: 1
@@ -454,13 +454,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2200
+    - denikson-BepInExPack_Valheim-5.4.2202
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 0
     minor: 2
-    patch: 1
+    patch: 3
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Marlthon-SeaAnimals\icon.png
 - manifestVersion: 1
@@ -497,13 +497,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2200
+    - denikson-BepInExPack_Valheim-5.4.2202
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 4
-    patch: 10
+    patch: 11
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Smoothbrain-ServerCharacters\icon.png
 - manifestVersion: 1
@@ -549,27 +549,6 @@
     patch: 10
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\ASharpPen-Drop_That\icon.png
-- manifestVersion: 1
-  name: Yggdrah-yggdrahsbetterlox
-  authorName: Yggdrah
-  websiteUrl: https://valheim.thunderstore.io/package/Yggdrah/yggdrahsbetterlox/
-  displayName: yggdrahsbetterlox
-  description: Advanced Saddle, New food, taming food, Duo/Trio mounting and Ancient Lox.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1901
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 2
-    minor: 0
-    patch: 2
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Yggdrah-yggdrahsbetterlox\icon.png
 - manifestVersion: 1
   name: RaistlinOtherStuff-CraftableChainReuploadFromNexus
   authorName: RaistlinOtherStuff
@@ -768,7 +747,7 @@
     minor: 5
     patch: 16
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Smoothbrain-CreatureLevelAndLootControl\4.5.16\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Smoothbrain-CreatureLevelAndLootControl\icon.png
 - manifestVersion: 1
   name: Azumatt-AzuExtendedPlayerInventory
   authorName: Azumatt
@@ -789,7 +768,7 @@
   versionNumber:
     major: 1
     minor: 3
-    patch: 4
+    patch: 5
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-AzuExtendedPlayerInventory\icon.png
 - manifestVersion: 1
@@ -871,13 +850,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2200
+    - denikson-BepInExPack_Valheim-5.4.2202
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 0
-    patch: 3
+    patch: 4
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-AzuWearNTearPatches\icon.png
 - manifestVersion: 1
@@ -1028,13 +1007,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2200
+    - denikson-BepInExPack_Valheim-5.4.2202
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 0
-    minor: 3
-    patch: 9
+    minor: 4
+    patch: 0
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Marlthon-OdinShip\icon.png
 - manifestVersion: 1
@@ -1391,28 +1370,6 @@
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\SarcenNexusMods-FarmGrid\icon.png
 - manifestVersion: 1
-  name: BurroTile-PortalMarker
-  authorName: BurroTile
-  websiteUrl: https://valheim.thunderstore.io/package/BurroTile/PortalMarker/
-  displayName: PortalMarker
-  description: Keep track of your portals! This mod marks all portals on the
-    minimap whenever a portal is renamed or used. This mod is a re-upload from
-    nexus created by sebdei.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies: []
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 2
-    patch: 0
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\BurroTile-PortalMarker\icon.png
-- manifestVersion: 1
   name: GemHunter1-NoAFKEvents
   authorName: GemHunter1
   websiteUrl: https://valheim.thunderstore.io/package/GemHunter1/NoAFKEvents/
@@ -1577,13 +1534,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2200
+    - denikson-BepInExPack_Valheim-5.4.2202
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 3
-    patch: 4
+    patch: 5
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\blacks7ar-FineWoodPieces\icon.png
 - manifestVersion: 1
@@ -1606,8 +1563,8 @@
     major: 1
     minor: 0
     patch: 2
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-Ship_Stats\icon.png
+  enabled: false
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Azumatt-Ship_Stats\1.0.2\icon.png
 - manifestVersion: 1
   name: Azumatt-AAA_Crafting
   authorName: Azumatt
@@ -1622,13 +1579,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2200
+    - denikson-BepInExPack_Valheim-5.4.2202
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 2
-    patch: 1
+    minor: 3
+    patch: 2
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-AAA_Crafting\icon.png
 - manifestVersion: 1
@@ -1838,13 +1795,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2200
+    - denikson-BepInExPack_Valheim-5.4.2201
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 0
-    patch: 5
+    patch: 7
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\RandyKnapp-MinimalStatusEffects\icon.png
 - manifestVersion: 1
@@ -1948,13 +1905,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2105
+    - denikson-BepInExPack_Valheim-5.4.2202
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
-    minor: 0
-    patch: 9
+    minor: 1
+    patch: 0
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\blacks7ar-TarCollector\icon.png
 - manifestVersion: 1

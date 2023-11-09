@@ -1,3 +1,9 @@
+### 1.15.2
+- [General]DisabledResourceNames now correctly applies to custom saplings.
+- Updated ServerSync to v1.17.
+- Refactored and cleaned up code.
+- Compiled against Valheim 0.217.29 & BepInEx 5.4.2202.
+
 ### 1.15.1
 - Corrected behaviour of [Crops]EnemiesTargetCrops. When disabled, mobs will definitely no longer attack your crops.
 

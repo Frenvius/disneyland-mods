@@ -21,12 +21,18 @@ Adds a new build piece that collects tar if you build it near a tarpit.
 >## ## Changelog
 <br/>
 
-v1.0.9
-- as requested removed server enforcement, doesn't need to be installed on the server like before.
+v1.1.0
+- updated to the latest valheim build (217.28)
+- updated serversync and dependencies
+- updated manifests bepinex dependency string
+- put localization example to a zip package to avoid unnecessary duplicates
 
 <details>
 <summary><b>Changelog History</b> (<i>click to expand</i>)</summary>
 <br/>
+
+v1.0.9
+- as requested removed server enforcement, doesn't need to be installed on the server like before.
 
 v1.0.8
 - fixed multiplayer version check issues

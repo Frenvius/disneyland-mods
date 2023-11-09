@@ -1,6 +1,17 @@
 > # Update Information (Latest listed first)
+> ### v1.3.2
+> - Update internal AugaAPI and JewelcraftingAPI
+> - Search box can now search by mod name. Do @modname to search for items from that mod. Example: @jewelcrafting will return all items from Jewelcrafting.
+> ### v1.3.1
+> - Auga's update broke compatibility already. I fixed that yet again.
+> - Note: The UI is still a bit wonky with Auga for various reasons. I'll fix that later with Vapok. It's not game breaking, just annoying.
+> - Also note: Full functionality of this mod is now available with Auga installed.
+> ### v1.3.0
+> - Update ServerSync.dll
+> - Compile against 0.217.28
+> - PARTIAL Auga support. Pushing code early for Valheim's update. I'll finish it up later. Should work okay, but makes the multicrafting part of this not work right yet due to how they do the crafting button.
 > ### v1.2.1
-> - You can now prefix your searches with an @ to search for recipe requirements. Example: @refined will return all items that require refined eitr. Please note: It's a contains on the string and will also return anything with that in the name. So @wood will return wood, fine wood, core wood, etc.
+> - You can now prefix your searches with an ! to search for recipe requirements. Example: !refined will return all items that require refined eitr. Please note: It's a contains on the string and will also return anything with that in the name. So !wood will return wood, fine wood, core wood, etc.
 > ### v1.2.0
 > - Add ServerSync. Crafting time is now synced with the server by default. All other configs are not as they don't affect gameplay. Added this by request. I personally didn't mind this being client only config. :D
 > - Fix an issue you might encounter with Jewelcrafting mod installed. Where, if a item breaks during socketing and the recipe changes to another, it will now stop crafting.

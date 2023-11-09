@@ -18,7 +18,7 @@ In addition to the added plantable resources, a wide range of configurable optio
 This mod adds a wide range of features, some of which are not well known (or even forgotten), but all of which are toggleable. I'll do my best to provide as comprehensive a list as I can, and will update it over time. The following is a short list of some of the most significant features.
 
 **Adds 25 recipes to the cultivator**
-- which are unlocked by obtaining at least 1 of each of the recipe's required materials, as you would any other recipe in the game.
+- which are unlocked by obtaining at least 1 of each of the recipe's required materials, as you would any other recipe in the game. These recipes can be individually disabled, see Misc Features section below.
 
 **Provides the option to grow crops in any biome.**
 - Also allows you to remove other restrictions such as whether crops need cultivated ground, open sky, space to grow, or even whether you can plant your trees indoors.
@@ -43,7 +43,7 @@ This mod adds a wide range of features, some of which are not well known (or eve
 
 If you are willing to translate to other languages, I would be more than happy to offer them as optional downloads with the mod.
 
-**New with 1.14.0:**
+**Make any prefab buildable:**
 - Users / server admins can now add any prefab (even from other mods) to the cultivator build table. When enabled, a file named PlantEverything_ExtraResources.cfg will be generated in the config\PlantEverything directory containing two example entries with different but acceptable formatting. Entries beginning with PE_Fake are ignored so you can safely leave them there. Any entries containing prefab names or resource names that can't be resolved, or containing a resource cost of 0 will be ignored. A FileWatcher will monitor changes to this file, apply them immediately, and synchronize them to connected clients. This feature will be expanded upon in future mod updates.
 
 **Miscellaneous Features:**
@@ -51,7 +51,7 @@ If you are willing to translate to other languages, I would be more than happy t
 - Custom meshes for flowers and mushrooms to indicate picked status. Picked models will not display on clients without the mod or who have ShowPickableSpawners set to false, but the spawner will remain and will display again once matured.
 - Works in multiplayer environments even for users without the mod. Unmodded clients will be able to see and interact with all of the added resources that you plant. However, some settings may only work if the mod is installed on the server as well.
 - Snap points can be seamlessly toggled on/off for vines to help with placement using Configuration Manager.
-- Many pickable resources can be disabled by setting their resource cost to 0. Eligible resources will mention it in the description of their respective config settings. For non-sapling pieces, you can also disable a resource by adding its prefab name to [General]DisabledResourceNames.
+- Many of the added resources can be disabled by setting their resource cost to 0. Eligible resources will mention it in the description of their respective config settings. For all other pieces, you can disable the resource by adding its prefab name to [General]DisabledResourceNames, and separating names with a comma (e.g. Ancient_Sapling,GlowingMushroom). The prefab names used by the mod are included below.
 
 The following recipes have been added to the cultivator:
 
@@ -60,12 +60,43 @@ Mushrooms, Yellow Mushrooms, Blue Mushrooms\
 Thistle, Dandelion\
 Ancient Sapling, Ygga Sapling, Autumn Birch Sapling
 
+- Prefab Names:\
+RaspberryBush, BlueberryBush, CloudberryBush\
+Pickable_Mushroom, Pickable_Mushroom_yellow, Pickable_Mushroom_blue\
+Pickable_Thistle, Pickable_Dandelion\
+Ancient_Sapling, Ygga_Sapling, Autumn_Birch_Sapling
+
 With EnableMiscFlora enabled in config:
 
 Small Beech Tree, Small Fir Tree, Small Dead Fir Tree\
 Small Plains Bush, Small Fruitless Bush (2 tints), Small Shrub (2 tints)\
 Small Ygga Shoot, Vines, Glowing Mushroom\
 Branch, Stone, Flint
+
+- Prefab Names:\
+Beech_small1, FirTree_small, FirTree_small_dead\
+Bush01, Bush01_heath, Bush02_en, shrub_2, shrub_2_heath\
+YggaShoot_small1, vines, GlowingMushroom\
+Pickable_Branch, Pickable_Stone, Pickable_Flint
+
+Below are the names of some interesting prefabs you can add when [General]EnableExtraResources is set to true.\
+For a complete list of vanilla prefabs, see https://valheim-modding.github.io/Jotunn/data/prefabs/prefab-list.html
+
+Pickable_SurtlingCoreStand, Pickable_BlackCoreStand, Pickable_RoyalJelly
+
+Pickable_BogIronOre, Pickable_Tin, Pickable_Obsidian\
+Pickable_MountainCaveCrystal, Pickable_MountainCaveObsidian\
+Pickable_Meteorite, Pickable_Tar, Pickable_TarBig
+
+Pickable_DragonEgg, Pickable_DvergerThing, Pickable_DvergrLantern\
+Pickable_DvergrMineTreasure, Pickable_DvergrStein, Pickable_Fishingrod
+
+Pickable_DolmenTreasure, Pickable_ForestCryptRandom, Pickable_ForestCryptRemains01\
+Pickable_ForestCryptRemains02, Pickable_ForestCryptRemains03, Pickable_ForestCryptRemains04\
+Pickable_SunkenCryptRandom, Pickable_MountainCaveRandom, Pickable_MountainRemains01_buried
+
+Pickable_Hairstrands01, Pickable_Hairstrands02\
+Pickable_Item, Pickable_MeatPile, Pickable_RandomFood
 
 ## Installing
 
@@ -79,7 +110,8 @@ BepInEx ->
         Advize_PlantEverything.dll
 ```
 #### In multiplayer environments:
-It is strongly recommended you install the mod on the server, though it is not required for all settings and features. Other connected clients are encouraged to use the mod as well, but that too is not a requirement.
+In order for all settings to work reliably, install the mod on the server (if dedicated) and every connected client. Even if not installed on the server and all clients, clients with the mod will still be able to place the additional resources added by the mod.
+
 ## Compatibility
 Here you'll find info about known mod conflicts and possible solutions.
 

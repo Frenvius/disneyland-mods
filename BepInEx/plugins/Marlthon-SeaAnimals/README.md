@@ -100,12 +100,9 @@ A special thanks to my Professor <i>@GraveBear</i>, without his teachings and hi
 
  # Latest ChangeLog
 
-	v0.2.1
-	- Updated for Valheim 0.217.22.
-	- Updated for BepInEx 5.4.22.
-	- Updated ServerSync to v1.15.
-	- Updated PieceManager to v1.1.4.
- 
+	v0.2.3
+	- Fixed error in BlackTipShark.
+	
 <details>
 <summary><b>Previous ChangeLog</b> (<i>click to expand</i>)</summary>
 <br/>
@@ -178,4 +175,14 @@ A special thanks to my Professor <i>@GraveBear</i>, without his teachings and hi
 	
 	v0.2.0
 	- Fixed issues with JellyFish death.
+	
+	v0.2.1
+	- Updated for Valheim 0.217.22.
+	- Updated for BepInEx 5.4.22.
+	- Updated ServerSync to v1.15.
+	- Updated PieceManager to v1.1.4.
+	
+	v0.2.2
+	- Updated BepInex dependency version (5.4.2202) in Manifest.
+	- Removed Jellyfish.
 </details>

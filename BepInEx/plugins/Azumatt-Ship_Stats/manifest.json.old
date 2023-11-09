@@ -1,0 +1,9 @@
+{
+  "name": "Ship_Stats",
+  "version_number": "1.0.2",
+  "website_url": "https://discord.gg/pdHgy6Bsng",
+  "description": "A simple mod that I made at request. Shows the stats of the ship that you are currently on.",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2200"
+  ]
+}

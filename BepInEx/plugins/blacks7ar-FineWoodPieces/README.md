@@ -37,15 +37,20 @@ Adds finewood variants of the wood build pieces, stone roof shingles, thatch wal
 
 <br/>
 
+v1.3.5
+- updated to the latest valheim build (217.28)
+- updated dependencies
+- updated manifests bepinex dependency string
+
+<details>
+<summary><b>Changelog History</b> (<i>click to expand</i>)</summary>
+<br/>
+
 v1.3.4
 - fixed clay pieces shader and texture
 - fixed roof shingles shader and texture
 - updated serversync
 - added 2 new windows
-
-<details>
-<summary><b>Changelog History</b> (<i>click to expand</i>)</summary>
-<br/>
 
 v1.3.3
 - minor bug fixed.

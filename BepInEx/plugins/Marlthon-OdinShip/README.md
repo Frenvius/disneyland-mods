@@ -177,8 +177,9 @@ https://sketchfab.com/OpusPoly and https://www.artstation.com/albertofoglia
 
 # Latest ChangeLog
 
-	v0.3.9
-	- Fixed errors in cargo ship.
+	v0.4.0
+	- Updated KeyManager.
+	- Updated BepInex dependency version (5.4.2202) in Manifest.
 		
 <details>
 <summary><b>Previous ChangeLog</b> (<i>click to expand</i>)</summary>
@@ -317,6 +318,9 @@ https://sketchfab.com/OpusPoly and https://www.artstation.com/albertofoglia
 	- Fishing Canoe renamed to Rowing Canoe.
 	- Fishing Boat renamed to Double Rowing Canoe.
 	- Fixed errors in translations.
+	
+	v0.3.9
+	- Fixed errors in cargo ship.
 </details>
 
 

@@ -1,9 +1,9 @@
 {
   "name": "AzuWearNTearPatches",
-  "version_number": "1.0.3",
+  "version_number": "1.0.4",
   "website_url": "https://discord.gg/pdHgy6Bsng",
   "description": "Patches that alter the wear and tear component of build pieces (Walls, ships, carts & shit). Structural integrity, damage and weather options.",
   "dependencies": [
-    "denikson-BepInExPack_Valheim-5.4.2200"
+    "denikson-BepInExPack_Valheim-5.4.2202"
   ]
 }

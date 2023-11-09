@@ -1,7 +1,0 @@
-btc_tarcollector: "Tar Collector"
-btc_tarcollector_description: "Collects tar from nearby tarpits."
-btc_tarcollector_extract: "Extract"
-btc_tarcollector_collecting: "Collecting"
-btc_tarcollector_notconnected: "Not Connected"
-btc_tarcollector_isfull: "Full"
-btc_noaccess: "No Access"
