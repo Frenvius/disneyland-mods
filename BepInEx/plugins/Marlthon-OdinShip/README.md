@@ -177,9 +177,9 @@ https://sketchfab.com/OpusPoly and https://www.artstation.com/albertofoglia
 
 # Latest ChangeLog
 
-	v0.4.0
-	- Updated KeyManager.
-	- Updated BepInex dependency version (5.4.2202) in Manifest.
+	v0.4.1
+	- Keymanager updated to resolve issue with keys expiring quickly.
+	- Fish Basket is now crafted at the Workbench.
 		
 <details>
 <summary><b>Previous ChangeLog</b> (<i>click to expand</i>)</summary>
@@ -321,6 +321,10 @@ https://sketchfab.com/OpusPoly and https://www.artstation.com/albertofoglia
 	
 	v0.3.9
 	- Fixed errors in cargo ship.
+	
+	v0.4.0
+	- Updated KeyManager.
+	- Updated BepInex dependency version (5.4.2202) in Manifest.
 </details>
 
 

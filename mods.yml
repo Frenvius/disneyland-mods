@@ -129,7 +129,7 @@
     minor: 15
     patch: 2
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Advize-PlantEverything\1.15.2\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Advize-PlantEverything\icon.png
 - manifestVersion: 1
   name: OdinPlus-PotionPlus
   authorName: OdinPlus
@@ -305,9 +305,9 @@
   versionNumber:
     major: 1
     minor: 2
-    patch: 7
+    patch: 8
   enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\ASharpPen-Spawn_That\icon.png
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\ASharpPen-Spawn_That\1.2.8\icon.png
 - manifestVersion: 1
   name: FixItFelix-RegenerativeNature
   authorName: FixItFelix
@@ -540,13 +540,13 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2200
+    - denikson-BepInExPack_Valheim-5.4.2202
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 2
     minor: 3
-    patch: 10
+    patch: 11
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\ASharpPen-Drop_That\icon.png
 - manifestVersion: 1
@@ -1013,7 +1013,7 @@
   versionNumber:
     major: 0
     minor: 4
-    patch: 0
+    patch: 1
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Marlthon-OdinShip\icon.png
 - manifestVersion: 1
@@ -1556,15 +1556,15 @@
   installMode: managed
   loaders: []
   dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2200
+    - denikson-BepInExPack_Valheim-5.4.2202
   incompatibilities: []
   optionalDependencies: []
   versionNumber:
     major: 1
     minor: 0
-    patch: 2
-  enabled: false
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\cache\Azumatt-Ship_Stats\1.0.2\icon.png
+    patch: 3
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Azumatt-Ship_Stats\icon.png
 - manifestVersion: 1
   name: Azumatt-AAA_Crafting
   authorName: Azumatt
