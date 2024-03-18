@@ -1,7 +1,0 @@
-﻿{
-  "name": "FineWoodPieces",
-  "description": "Adds finewood variants of the wood build pieces, stone roof shingles, thatch walls, clay build pieces, 16 containers, 23 clutters and 58 new furnitures, 6 windows, 1 trapdoor, and 18 buildable plants to decorate your home.",
-  "version_number": "1.4.6",
-  "website_url": "https://www.nexusmods.com/valheim/mods/2377?tab=bugs",
-  "dependencies": ["denikson-BepInExPack_Valheim-5.4.2202"]
-}

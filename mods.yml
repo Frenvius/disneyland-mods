@@ -419,29 +419,6 @@
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Easy_Develope-Pageable_Build_Hud\icon.png
 - manifestVersion: 1
-  name: Marlthon-SeaAnimals
-  authorName: Marlthon
-  websiteUrl: https://valheim.thunderstore.io/package/Marlthon/SeaAnimals/
-  displayName: SeaAnimals
-  description: Marine animals arrived in Valheim (Orca, Dolphin, Sharks,
-    Crocodile, Turtles, Seal, Jellyfish and Penguin) and with them new tasty
-    meats.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2202
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 0
-    minor: 2
-    patch: 3
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Marlthon-SeaAnimals\icon.png
-- manifestVersion: 1
   name: Mydayyy-ServerSideMap
   authorName: Mydayyy
   websiteUrl: https://valheim.thunderstore.io/package/Mydayyy/ServerSideMap/
@@ -1106,28 +1083,6 @@
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\TastyChickenLegs-ForsakenPowersPlus\icon.png
 - manifestVersion: 1
-  name: Yorimor-ExtendSkeleNames
-  authorName: Yorimor
-  websiteUrl: https://valheim.thunderstore.io/package/Yorimor/ExtendSkeleNames/
-  displayName: ExtendSkeleNames
-  description: Extend or replace the list of names used for summoned skeletons
-    when they spawn!
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.1901
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 1
-    patch: 1
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Yorimor-ExtendSkeleNames\icon.png
-- manifestVersion: 1
   name: Thordomr-Display_Day_and_Time_in_HUD
   authorName: Thordomr
   websiteUrl: https://valheim.thunderstore.io/package/Thordomr/Display_Day_and_Time_in_HUD/
@@ -1498,30 +1453,6 @@
     patch: 0
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\ComfyMods-SearsCatalog\icon.png
-- manifestVersion: 1
-  name: blacks7ar-FineWoodPieces
-  authorName: blacks7ar
-  websiteUrl: https://valheim.thunderstore.io/package/blacks7ar/FineWoodPieces/
-  displayName: FineWoodPieces
-  description: Adds finewood variants of the wood build pieces, stone roof
-    shingles, thatch walls, clay build pieces, 16 containers, 23 clutters and 58
-    new furnitures, 6 windows, 1 trapdoor, and 18 buildable plants to decorate
-    your home.
-  gameVersion: "0"
-  networkMode: both
-  packageType: other
-  installMode: managed
-  loaders: []
-  dependencies:
-    - denikson-BepInExPack_Valheim-5.4.2202
-  incompatibilities: []
-  optionalDependencies: []
-  versionNumber:
-    major: 1
-    minor: 4
-    patch: 6
-  enabled: true
-  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\blacks7ar-FineWoodPieces\icon.png
 - manifestVersion: 1
   name: Azumatt-Ship_Stats
   authorName: Azumatt
@@ -1936,3 +1867,24 @@
     patch: 3
   enabled: true
   icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\Flux-RegenerativeNature\icon.png
+- manifestVersion: 1
+  name: blacks7ar-CoreWoodPieces
+  authorName: blacks7ar
+  websiteUrl: https://thunderstore.io/c/valheim/p/blacks7ar/CoreWoodPieces/
+  displayName: CoreWoodPieces
+  description: Extends vanilla corewood pieces and adds 23 more pieces that you can build.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - denikson-BepInExPack_Valheim-5.4.2202
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 3
+  enabled: true
+  icon: C:\Users\frenv\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\Disneyland\BepInEx\plugins\blacks7ar-CoreWoodPieces\icon.png
