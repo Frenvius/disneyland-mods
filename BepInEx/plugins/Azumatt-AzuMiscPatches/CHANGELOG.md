@@ -1,4 +1,12 @@
 > # Update Information (Latest listed first)
+> ### v1.2.2
+> - Compatibility with PassivePowers mod when guardian power animation is disabled.
+> ### v1.2.1
+> - Add to hover text in build menu to display the comfort level of the building piece.
+> ### v1.2.0
+> - Fix for IsHuman error if the attacker was null for the exploit configuration. Whoops.
+> ### v1.1.12
+> - Some of the exploit options were not working properly. They should be fixed now.
 > ### v1.1.11
 > - Seperate out the Prevent Exploits option into a main toggle for all, and three options dependent on the main. You can now enable and disable the individual options. Requested by Majestic in my discord
 > ### v1.1.10

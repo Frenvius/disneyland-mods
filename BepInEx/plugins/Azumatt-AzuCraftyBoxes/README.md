@@ -58,10 +58,6 @@ PulledMessage [Not Synced with Server]
 
 `3 - Keys`
 
-PullItemsKey [Not Synced with Server]
-* Holding down this key while crafting or building will pull resources into your inventory instead of building. Use https://docs.unity3d.com/Manual/ConventionalGameInput.html
-    * Default Value: LeftControl
-
 FillAllModKey [Not Synced with Server]
 * Modifier key to pull all available fuel or ore when down. Use https://docs.unity3d.com/Manual/ConventionalGameInput.html
     * Default Value: LeftShift

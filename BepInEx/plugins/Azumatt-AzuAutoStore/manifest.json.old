@@ -1,9 +1,9 @@
 {
   "name": "AzuAutoStore",
-  "version_number": "2.1.4",
+  "version_number": "2.1.6",
   "website_url": "https://discord.gg/pdHgy6Bsng",
   "description": "This mod pulls nearby items from the ground into containers. Optionally, use a hotkey to store items in your inventory into containers. Read the mod description for more information.",
   "dependencies": [
-    "denikson-BepInExPack_Valheim-5.4.2201"
+    "denikson-BepInExPack_Valheim-5.4.2202"
   ]
 } 

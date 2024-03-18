@@ -1,7 +1,7 @@
 {
   "name": "BedRules",
-  "description": "Sleep with a buddy, sleep without spawn, Ignore fire, enemies and wet.  Sleep when you want!",
-  "version_number": "1.0.5",
+  "description": "sleep without spawn, sleep in other claimed bed, Ignore fire, enemies and wet.  Sleep when you want!",
+  "version_number": "2.0.0",
   "website_url": "https://valheim.thunderstore.io/package/TastyChickenLegs/",
   "dependencies": [
     "denikson-BepInExPack_Valheim-5.4.2102"

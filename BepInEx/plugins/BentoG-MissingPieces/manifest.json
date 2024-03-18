@@ -1,10 +1,10 @@
 {
     "name": "MissingPieces",
-    "version_number": "2.0.3",
+    "version_number": "2.0.7",
     "website_url": "https://github.com/OrianaVenture/Valheim-MissingPieces",
     "description": "A fix for what impedes your building fix.",
     "dependencies": [
-        "denikson-BepInExPack_Valheim-5.4.2200",
-        "ValheimModding-Jotunn-2.14.0"
+        "denikson-BepInExPack_Valheim-5.4.2202",
+        "ValheimModding-Jotunn-2.15.0"
     ]
 }

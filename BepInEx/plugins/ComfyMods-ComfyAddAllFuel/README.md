@@ -1,58 +1,31 @@
-# Add All Fuel And Ore For Smelter Charcoal kiln etc
+# Comfy Add All Fuel
 
 ## Features
 
-* You no longer need to press the button repeatedly to get to the furnace.
-* When using the facility normally (default: E), fuel is fed one by one.
-* When using the facility, pressing the modifier key (default: Left Shift) will load the fuel, etc. in batches.
-
-## Incompatibility
-
-* Mod is currently incompatible with ColorfulPortals v1.5.0 and below unless the _global IsModEnabled is set to false (disabled).
+* You no longer need to press the button repeatedly to add fuel, food, ore, etc.
+* When using the any smelters, cooking stations, or fireplaces, interact key (default e) will behavior as normal
+* When pressing the modifier key, batch adding will be attempted up to the fuel/food/ore limit.
 
 ## Description
-
-* If there is no fuel in the player's inventory, fuel can be injected in batches from containers.
-* If you want to use this feature, you need to change the settings.
-
-* If a player's inventory and containers do not reveal a valid item when in individual item mode (default E), the other mods will continue to process the item.
-* Note that in batch mode (default: Shift Left + E), other mods will not continue to process if an item is not found.
 
 * The unit of batch injection is done per stack.
   * For example, if you have wood (10/50) and wood (20/50) in your inventory, 10 of them will be consumed from your inventory.
   * If you do it again, 20 of them will be consumed.
   * If the fuel limit is less than the stack, only that amount will be consumed.
 
-## Conflict
-
-## Setting
-
-* The configuration file is "BepInEx/config/rin_jugatla.AddAllFuel.cfg".It will be created automatically when you start the game after installing the mod.
+## Settings
 
 1. Enabled
    * true: MOD enabled
    * false: Mod disabled
-2. NexusID
-   * ID for automatic update notification, no need to change.
-3. ModifierKey
+2. ModifierKey
    * Modifier key used to control batch injection.
-4. IsReverseModifierMode
-   * true: use key (E) for batch input
-   * false: use modifier key (left shift) + use key (E)
-5. ExcludeNames
+3. ExcludeNames
    * Item name to exclude from submission.
    * Example: $item_finewood,$item_roundlog
    * Refer to this document for item names.
-6. AllowAddOneExcludeItem
-   * true: Exclude items from the list if they are submitted individually.
-   * false: Do not allow items to be submitted regardless of whether they are submitted individually or in batches
-7. UseFromContainer
-   * true: If there is no fuel in the player's inventory, it will be replenished from a nearby container.
-   * false: We will not replenish from the container.
-8. UseFromContainerRange
-   * The distance from the player to the container when refilling from the container.
 
-## Supported Facilities
+## Supported Consumers
 
 1. Smelter
 2. Charcoal kiln
@@ -60,11 +33,28 @@
 4. Windmill
 5. Spinning wheel
 6. Campfire
-7. Various torches
+7. Ovens
+8. Cooking Stations
+9. Various torches
 
 ## Changelog
 
 ### Comfy Version Update
+
+### 1.8.1
+
+  * Fixed bug where incorrect number of items removed from inventory.
+
+### 1.8.0
+
+  * Added support for cooking stations
+    * Ovens: fuel and food
+    * Cooking station: food
+    * Iron cooking station: food
+  * Remove all items from cooking station by holding modifier key (provided all slots are full)
+  * Updated references to valheim_data\Managed from unstripped_corlib
+  * Refactored
+  * Updated readme
 
 ### 1.7.2
 

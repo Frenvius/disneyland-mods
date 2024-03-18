@@ -1,4 +1,10 @@
 > # Update Information (Latest listed first)
+> ### v1.3.4
+> - Change the default color and outline of the input text to match vanilla's crafing button text. Should be easier to see now.
+> - Allow changing the input field text color in the config as well as the text.
+> - Update the README.md to reflect the new features.
+> ### v1.3.3
+> - Add ability to use the scrollwheel over the input box to change the amount to craft. This helps those that hate typing. LeftShift will increment by 10 instead of 1.
 > ### v1.3.2
 > - Update internal AugaAPI and JewelcraftingAPI
 > - Search box can now search by mod name. Do @modname to search for items from that mod. Example: @jewelcrafting will return all items from Jewelcrafting.

@@ -1,11 +1,19 @@
 # AzuAntiArthriticCrafting
 
-### Azu Anti-Arthritic Crafting. Gives you an input field to enter the amount of items you want to craft. Instead of having to click the craft button 100 times or a fancy plus button 5-10 times. Meant to replace mods that still make you click like MultiCraft.
+### Azu Anti-Arthritic Crafting. Gives you an input field to enter the amount of items you want to craft (and a search filter feature for recipes). Instead of having to click the craft button 100 times or a fancy plus button 5-10 times. Meant to replace mods that still make you click like MultiCraft.
 
 
 This mod is compatible with [OdinsCraftyBoxes](https://valheim.thunderstore.io/package/OdinPlus/OdinsCraftyBoxes/) and [CraftFromContainers](https://valheim.thunderstore.io/package/KxEdna/aedenthorn_CraftFromContainer/) by Aedenthorn/Adenthorn's Collaborators. `Note: The CraftFromContainers version that was tested was the reupload on thunderstore.`
 
 `This mod uses a file watcher. If the configuration file is not changed with BepInEx Configuration manager, but changed in the file directly, upon file save, it will sync the changes to all clients.`
+
+## Features
+- **Scroll to Change Quantity**: Hover over the input box and use the scroll wheel to adjust the craft amount. Hold LeftShift to increment by 10 instead of 1.
+- **Search by Mod Name**: Use `@modname` in the search box to filter items from specific mods (e.g., `@jewelcrafting`).
+- **Recipe Requirement Search**: Prefix searches with `!` to find items based on their crafting requirements.
+- **ServerSync Integration**: Crafting times are synchronized with the server. (if installed on the server and client)
+- **Improved Compatibility**: Works seamlessly with Auga, Jewelcrafting, and other mods. If you find a mod it's not compatible with, please let me know.
+- **User-Friendly UI**: Enhanced user interface aligned with Valheim's vanilla style.
 
 
 ---

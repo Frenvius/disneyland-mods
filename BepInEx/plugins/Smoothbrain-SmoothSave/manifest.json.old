@@ -1,6 +1,6 @@
 {
     "name": "SmoothSave",
-    "version_number": "1.0.3",
+    "version_number": "1.0.5",
     "website_url": "https://github.com/blaxxun-boop/SmoothSave",
     "description": "Removes the freeze that happens if the world is being saved.",
     "dependencies": [

@@ -12,14 +12,22 @@ It's recommended to Install a [BepInEx Configuration Manager](https://valheim.th
 
 ### **Important**
   1. Install on both server and clients for better use
-  2. ServerSynched settings can only be changed by the server owner
+  2. ServerSynced settings can only be changed by the server owner
 
-> Note: There are some settings that only appear when you enable the advanced options in your configuration manager.
+#### Note: There are some advanced settings that only appear when you enable the `advanced options` in your configuration manager.
 
 ## Want to teleport faster?
 Try using also the [QuickTeleport mod](https://valheim.thunderstore.io/package/OdinPlus/QuickTeleport/). It works perfectly with teleport everything and several other mods.
 
 ## Features
+
+### Transport Carts is officially out!
+
+![transport-carts-gif](https://user-images.githubusercontent.com/101152506/220641406-59b27b02-25e9-4737-8b40-ce802c4b1a39.gif)
+
+Attach your player to a cart and try this out! 
+Watch out!! Taxes can be applied to ores/ingots inside the cart.
+> This config is synced with the server. The server owner can toggle it on/off and set the transport fee.
 
 ### Teleport Modes:
 
@@ -42,7 +50,9 @@ Try using also the [QuickTeleport mod](https://valheim.thunderstore.io/package/O
 * Change display message mode: 
     1. top left
     2. center
-    3. none
+    3. no messages
+
+As alies and enemies display messages are fixed, the deducted items and placed enemies messages will display in another position related to the chosen position, trying to avoid missing these messages.
 
 ### **--- Portal Settings ---**
 * Portal Activation Range (advanced): You can increase or reduce the activation range. The default game value is 5 meters.
@@ -90,14 +100,12 @@ ___
 * Three checkboxes that players can quickly enable/disable teleporting each creature. Default: all allowed.
 
 ___
-### **--- Transport Carts ---** (advanced)
-
-![transport-carts-gif](https://user-images.githubusercontent.com/101152506/220641406-59b27b02-25e9-4737-8b40-ce802c4b1a39.gif)
+### **--- Transport Carts ---**
 
 #### Transport Cart Mode
-Choose between `Enabled`, `Disabled` and `Only Dungeons`. Synched with the server. Your player needs to be attached to the cart to transport it.
+Choose between `Enabled`, `Disabled` and `Only Dungeons`. Default: Enabled. Synced with the server. Your player needs to be attached to the cart to transport it.
 
-#### Transport Cart Tax Items
+#### Transport Cart Tax Items (advanced)
 If Trasport Cart is enabled, switch on/off taking fee from prohibited cart items. It uses the Transport Fee configured on the server.
 
 ___
@@ -120,7 +128,7 @@ ___
 #### Transport Dragon Eggs / Transport Ores
 * If toggled on, players can transport **ores, ingots, and eggs**. 
 
-#### Transport fee (advanced)
+#### Transport fee
 * In order to offset the advantage of transporting ores, players may set a **"transport fee"** that deducts a percentage of the transported ores, ingots. For example, a 10% fee would take 3 out of 30 ores. Default: 0%.
 * Dragon eggs are not taxed by default, but you can change it in the Remove Fee field.
 
@@ -172,31 +180,51 @@ The mod requires two dependencies to work properly:
 
 The mod is compatible with several other mods and we are always improving it.
 
-- ![YES]: [QuickTeleport](https://valheim.thunderstore.io/package/OdinPlus/QuickTeleport/)
+- ![YES]: [QuickTeleport](https://valheim.thunderstore.io/package/OdinPlus/QuickTeleport/) (Recommended to reduce Teleport time)
 - ![YES]: Basement or BasementJVLedition
+- ![YES]: OdinsUndercroft
+- ![YES]: Wayshrine
 - ![YES]: Jewelcrafting
   - If you don't want to tax boss crystals, you can add to the Remove Transport fee field the  following boss crystal regex: `Boss_Crystal_\w+`
   - Separate by comma if you want to remove from other items, e.g.: `Boss_Crystal_\w+,DragonEgg`
-- ![YES]: MapTeleport
-- ![YES]: OdinsUndercroft
-- ![YES]: Skyheim
 - ![YES]: TargetPortal
-- ![YES]: Wayshrine
-- ![YES]: AllTameableHandH
-  - (If your vertical tolerance is low, you may not be able to transport a flying drake)
+- ![PARTIAL]: CreatureLevelAndLootControl (CLLC)
+    - You can use the ItemConfig.yml from CLLC if you disable Teleport Ore & Dragon Eggs checkboxes from the TeleportEverything config.
+    - Tax system won't work if disabled, but you can use the CLLC's amazing world level feature.
+- ![YES]: Skyheim
+- ![YES]: QuickCart
+- ![YES]: XPortal
+- ![YES]: MapTeleport
+- ![YES]: MagicPlugin
+- ![YES]: Fall_Damage_For_Creatures
+  - The creatures will spawn in the ground in front of the player to avoid them falling on teleport.
 - ![PARTIAL]: UnrestrictedPortals
   - You can use the ore configs from UnrestrictedPortals if you disable Teleport Ore or Dragon Eggs checkboxes from TeleportEverything config.
-  - Item Fees don't work if you are using UnrestrictedPortals configs.
+  - Tax system won't work if you are using UnrestrictedPortals configs.
 
 <p>
-  <p align="center"><h2>For Questions or Comments find Elg or KPro in the Odin Plus Team on Discord:</h2></p>
+  <p align="center"><h2>For Questions or Comments find Elg in the Odin Plus Team on Discord:</h2></p>
 
   <p align="center"><a href="https://discord.gg/mbkPcvu9ax"><img src="https://i.imgur.com/Ji3u63C.png" alt="Odin Plus Discord"></a>
 </p>
 
 ## Changelog
+- Version 2.6.1
+  - Fix find floor on transporting allies
+  - Recalculate inventory weight after change
+  - Set message mode centered as default
+- Version 2.6.0
+  - Added compatibility with MagicPlugin, Fall_Damage_For_Creatures, CLLC and QuickCart
+  - Summons can also be teleported
+  - Fixed "take them with you" mode
+  - Improved transporting carts
+  - Improved message modes
+  - Fixed DragonEgg transport when Ores were disabled
+- Version 2.5.2
+  - Updated ServerSync
+  - Added compatibility with Xportal to the docs
 - Version 2.5.1
-  - Valheim update - server sync fix
+  - Valheim update - ServerSync fix
 - Version 2.5.0
   - Valheim Hildir's Request Update
 - Version 2.4.0

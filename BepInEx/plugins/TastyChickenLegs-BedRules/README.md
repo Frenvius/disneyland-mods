@@ -5,9 +5,10 @@
 
 By TastyChickenLegs and TCL-MODS
 
-- Sleep with a Buddy
+- ~~Sleep with a Buddy~~  No longer a feature
 - Sleep without setting spawn
 - Sleep without claiming
+- Sleep in other people's claimed bed
 - Ignore Fire, Enemies and sleep in the great outdoors
 - Sleep when you want... anytime
 - Sleep when wet 
@@ -17,7 +18,7 @@ By TastyChickenLegs and TCL-MODS
 
 
 
-![screenshot](https://i.ibb.co/Wv7LNMH/menubed.png)
+![screenshot](https://i.ibb.co/bsrDC6D/menu.png)
 
 
 ### Configuration:
@@ -41,6 +42,11 @@ Extract DLL from zip file into "<GameDirectory>\Bepinex\plugins"
 Start the game.
 
 ### Version Information
+
+2.0.0
+
+- Completely rewritten to fix bugs and add features.  Removed the buddy sleep feature because it never really worked.
+
 
 1.0.5
 

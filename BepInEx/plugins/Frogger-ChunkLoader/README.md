@@ -6,6 +6,8 @@ It can be useful for breeding animals or farm mobs. You will put a column next t
 
 The column must be charged like a torch. By default, a thunderstone. In the absence of recharge, the column will turn off and stop working. If desired, in the configuration of the mod, you can remove the need for charging or change the necessary item.
 
+### Take a look at the [wiki](https://valheim.thunderstore.io/package/Frogger/ChunkLoader/wiki/)
+
 The configuration is synchronized with the server.<br>
 Config:
 ```

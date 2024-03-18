@@ -21,6 +21,15 @@ This mod needs to be on all clients to work properly. Config Syncing is included
 
 ## Changelog
 
+### 0.1.2
+
+* Fixed issue where patches may have applied before the initial server configuration syncing event. This made some server configurations not apply correctly.
+* Code cleanup to remove null-propagating operators & Improved error handling.
+
+### 0.1.1
+
+* Fixed the exception bubbling up when logging out and back in during the same game session.
+
 ### 0.1.0
 
 * First release.

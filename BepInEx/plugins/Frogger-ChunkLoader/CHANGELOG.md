@@ -6,3 +6,6 @@
 1.4.0 - Added NoUselessWarnings as a dependency <br>
 1.4.1 - Fixed PlacementGhost <br>
 1.4.2 - utils update <br>
+1.5.0 - Some corrections in the work of the columns. It works well now. <br>
+1.5.1 - Subtle localization fixes <br>
+1.5.2 - Fixed NoUselessWarnings dependency. Made it SoftDependency <br>

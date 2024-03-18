@@ -1,5 +1,49 @@
 # Changelog
 
+## Version 2.18.0
+* Added GameObject mocking, i.e. objects in the hierarchy with the JVLmock_ prefix will be swapped with the real object
+* Added non-enforced mods to version check messages, so changed enforcement across mod versions can be detected and applied on the server
+* Added rendering of particle effects to the RenderManager (thx bid)
+* Added RenderManager.RenderRequest.ParticleSimulationTime to control the time of the particle simulation (thx bid)
+* Added events to ZoneManager: OnLocationsRegistered, OnClutterRegistered, OnVanillaVegetationAvailable and OnVegetationRegistered
+
+## Version 2.17.0
+* Added PrefabManager.Cache.Clear to the API
+* Added a PrefabManager.Cache clear before ZoneSystem.SetupLocations to resolve mocked assets that are loaded later than usual
+* Changed the ZoneManager to always initialize the PrefabManager to prevent timing issues
+* Fixed warnings about missing textures from mocks on dedicated servers
+* Fixed category text not being resized automatically
+* Fixed category tokens omitting invalid characters like spaces from the original name, they are now replaced with an underscore
+
+## Version 2.16.2
+* Fixed a bug where newly spawned locations did not spawn their child net objects anymore after a relog without restart was performed
+
+## Version 2.16.1
+* Fixed mocks targeting an asset starting with an underscore were not split correctly and threw exceptions
+* Fixed mocks using the asset path were not cleaned and could fail to resolve
+
+## Version 2.16.0
+* Added mocking of ambiguous assets like meshes. This can be done via a new `JVLmock_PrefabName__ChildName` format where assets can be searched inside a named prefab. Multiple children can be provided for a specific path to a child, otherwise breadth search is used (thx OrianaVenture)
+* Added Weight and StackSize properties to ItemConfig, items are unaffected by default values
+* Added Icon property to ItemConfig for simpler access to Icons for non-variants
+* Added optional `BEPINEX_PATH` environment variable for build process (thx Defee)
+* Improved warnings of unresolvable mocks
+
+## Version 2.15.2
+* Fixed ButtonConfigs with mouse keys were not correctly converted for the input changes in Valheim 0.217.38
+
+## Version 2.15.1
+* Fixed InputManager for Valheim 0.217.38
+
+## Version 2.15.0
+* Added OnSyncingConfiguration event to the SynchronizationManager that is called before configs are synced on the server/client (thx Searica)
+* Added UpdatedPluginGUIDs to arguments of OnConfigurationSynchronized event (thx Searica)
+* Added OnConfigurationWindowClosed event to the SynchronizationManager (thx Searica)
+* Added more helper methods for GameObject, Transform and String (thx Searica)
+* Changed SynchronizationManager OnConfigurationSynchronized event to trigger on both server and client (thx Searica)
+* Fixed a build time warning in ScaleTexture that prevents Jotunn from loading in Unity 2022.3.12 projects
+* Fixed a bug where the GUIManager could be initialized at shutdown with certain calls, resulting in an error
+
 ## Version 2.14.6
 * Added a soft dependency to the LocalizationCache mod so that it loads a bit earlier. This has no direct impact on Jötunn
 * Changed prebuild references from the unstripped_corlib folder to the game assemblies as Valheim is no longer unstripped and the folder has been removed from the BepInEx package

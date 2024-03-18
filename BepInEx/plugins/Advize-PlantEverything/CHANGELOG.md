@@ -1,3 +1,39 @@
+### 1.16.2
+- Decoupled the [Crops]EnableCropOverrides and [Difficulty]EnforceBiomesVanilla settings.
+	- EnableCropOverrides no longer needs to be true for EnforceBiomesVanilla to apply to vanilla crops.
+- EnforceBiomes and EnforceBiomesVanilla setting descriptions updated.
+
+### 1.16.1
+
+Performance:
+- Removed costly and now redundant Harmony patch to Plant.Awake().
+	
+Bug Fixes:
+- Changing [Sapling] settings while in game now correctly re-adds custom saplings to the cultivator.
+- Setting EnforceBiomesVanilla to true while in game now correctly restores vanilla allowed biomes.
+
+### 1.16.0
+
+This update was centered around optimization.
+
+- Load times are down across the board:
+	- In chainloading process.
+	- Config file generation.
+	- Mod initialization.
+	- Mod re-initialization after config synchronization or changes.
+- Config file is no longer written per config option set, but instead writes once after all config settings are initially bound.
+- Cached sprites and fixed texture caching.
+- Missing object references are now fixed once instead of with each mod re-initialization.
+- Piece components are no longer destroyed, improving compatibility with other mods (namely PlanBuild).
+- Compressed the meshes for picked pickables.
+- Picked flowers/mushrooms are no longer rendered while unpicked.
+- Users can now set piece name and description for ExtraResources.
+- Custom saplings can now be placed in all expected biomes when EnforceBiomes is enabled.
+- Changed order of EnemiesTargetCrops setting in configuration manager.
+- Many misc code improvements and optimizations.
+- Probably some other things I forgot to write down.
+- Targets .NET Framework 4.8. Compiled against Valheim 0.217.31.
+
 ### 1.15.2
 - [General]DisabledResourceNames now correctly applies to custom saplings.
 - Updated ServerSync to v1.17.

@@ -1,6 +1,6 @@
 ># <b># FineWoodPieces</b>
 
-Adds finewood variants of the wood build pieces, stone roof shingles, thatch walls, clay build pieces, 16 containers, 23 clutters and 58 new furnitures, and 18 buildable plants to decorate your home.
+Adds finewood variants of the wood build pieces, stone roof shingles, thatch walls, clay build pieces, 16 containers, 23 clutters and 58 new furnitures, 6 windows, 1 trapdoor, and 18 buildable plants to decorate your home.
 
 <br/>
 
@@ -21,106 +21,18 @@ Adds finewood variants of the wood build pieces, stone roof shingles, thatch wal
 
 >## ## Features
 
-- Adds a total of 199 new build pieces (finewood variants of wood pieces, stone roof shingles, thatch walls, clay build pieces, containers, furnitures, plants, armor stands, fences and clutters).
+- Adds a total of 209 new build pieces (finewood variants of wood pieces, stone roof shingles, thatch walls, clay build pieces, containers, furnitures, plants, armor stands, fences, windows, trapdoor and clutters).
 - Adds a new pickable material called Reeds (grows at the edges of meadows and black forest), which gives Straw that you can use to build thatch walls and thatch roofs.
 - Adds a new pickable material called Clay (spawns at the edges of meadows, black forest, swamps, plains and mistlands), you can use it to build clay pieces.
 - (NOTE: If adding to an existing world/old world, reeds/clay will only spawn at unexplored maps.)
+- Configurable resources spawn data.
+- Adds a clay collector which you can build at the new clay pit location. (NOTE: you need to use upgrade world or genloc command in order to spawn the new location on existing world.)
+(NOTE: using genloc command may freeze your game so use at your own risk.)
+- Configurable clay pits location spawn data. (NOTE: you can only change the biome of the location before the world gets created or before the location gets added to the word.)
+- Uses serversync and built-in config watcher.
+- Configurable through config file or [Configuration Manager](https://valheim.thunderstore.io/package/Azumatt/Official_BepInEx_ConfigurationManager/)
 
 <br/>
 
 >## ## Credits
 - GraveBear and CookieMilk (for always helping me and when i have a questions)
-
-<br/>
-
->## ## Changelog
-
-<br/>
-
-v1.3.5
-- updated to the latest valheim build (217.28)
-- updated dependencies
-- updated manifests bepinex dependency string
-
-<details>
-<summary><b>Changelog History</b> (<i>click to expand</i>)</summary>
-<br/>
-
-v1.3.4
-- fixed clay pieces shader and texture
-- fixed roof shingles shader and texture
-- updated serversync
-- added 2 new windows
-
-v1.3.3
-- minor bug fixed.
-- put localization example to a zip package to avoid unnecessary dupblicate.
-
-v1.3.2
-- added a fence set (1 gate, 4 pillars, 4 fence tiles)
-- added 2 new armor stand (clay and wood variant)
-- added 11 more pieces.
-- fixed sfx when destroying finewood pieces.
-- fixed clay damage modifiers.
-
-v1.3.0
-- added 5 new buildable plants.
-- added 2 new flower stand for the buildable plants.
-- added a new bed and 8 lightsource (candle and lanterns)
-- added 36 new clay build pieces and a new pickable clay material.
-- adjusted some recipes to accomodate the new clay material.
-- fixed Repair position
-
-v1.2.6
-- fixed multiplayer version check issues
-
-v1.2.5
-- updated to the latest valheim build (217.22)
-
-v1.2.4
-- changed shelves colliders so you can put things inside them.
-- added 2 new bed and 5 more buildable plants.
-
-v1.2.2
-- added 8 new buildable plants and 5 more furnitures to decorate your home.
-- added german and spanish translations (thanks to @BLUBBSON and @Azathoth).
-
-v1.2.0
-- added new 53 build pieces (chairs, tables, beds, shelves, drawers, cabinets, stepladders, armorstand and crib)
-
-v1.1.2
-- removed item manager and piece manager.
-- removed serversync and config watcher for now.. coz theres no config to sync.. will add them back when its needed.
-- fixed basket, deco wall, stone lightpost shader issues.
-- fixed thatch wall, quarter wall and half wall recipes.
-
-v1.1.1
-- updated to the latest valheim build (217.14) hilders request.
-- added 3 build pieces (thatch walls).
-- added a new pickable plant called reeds (grows at the edges of meadows and black forest), which gives straw that you can use to build thatch roofs and thatch walls.
-
-v1.0.9
-- updated to the latest valheim build (216.9)
-
-v1.0.8
-- fixed icons and changed some textures.
-
-v1.0.7
-- fixed some minor shader issues
-
-v1.0.6
-- fixed finewood chair and finewood stools height so you can sit properly.
-- fixed stone light post comfort buff range
-
-v1.0.5
-- added snappoints to finewood ledge
-- added 15 new build pieces
-- added repair function to the bronze hammer
-
-v1.0.1
-- added custom hammer for finewoodpieces called bronze hammer that you can craft at the forge.
-
-v1.0.0
-- first release
-
-</details>
